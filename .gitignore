@@ -1,0 +1,12 @@
+api.json
+dataset/dataset2/
+fine_tuned_model/
+/dataset/deepseek-r1/api.json
+dataset/dataset1/fine_tuned_model/
+.tmp.driveupload/
+~.docx
+dataset/dataset1/dev.spacy
+dataset/dataset1/train.spacy
+**fine_tuned_model/
+other_model/results
+**/optimizer.pt

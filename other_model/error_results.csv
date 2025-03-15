@@ -1,0 +1,673 @@
+Sentence,Original_Entity,Predicted_Entity
+"Statements Wednesday say the suspects were detained in separate operations north of Baghdad in Kirkuk province , and in the towns of Tarmiyah and Judaidah .","['Wednesday', [11423, 11423], 'DATE']",{}
+"Statements Wednesday say the suspects were detained in separate operations north of Baghdad in Kirkuk province , and in the towns of Tarmiyah and Judaidah .","['Baghdad', [11434, 11434], 'LOC']",{}
+"Statements Wednesday say the suspects were detained in separate operations north of Baghdad in Kirkuk province , and in the towns of Tarmiyah and Judaidah .","['Kirkuk', [11436, 11436], 'LOC']",{}
+"Statements Wednesday say the suspects were detained in separate operations north of Baghdad in Kirkuk province , and in the towns of Tarmiyah and Judaidah .","['Tarmiyah', [11444, 11444], 'LOC']",{}
+"Statements Wednesday say the suspects were detained in separate operations north of Baghdad in Kirkuk province , and in the towns of Tarmiyah and Judaidah .","['Judaidah', [11446, 11446], 'LOC']",{}
+"More than $ 1 billion came from the United States and the large Haitian communities in Boston , Miami , and New~York .","['United States', [16394, 16395], 'LOC']",{}
+"More than $ 1 billion came from the United States and the large Haitian communities in Boston , Miami , and New~York .","['Haitian', [16399, 16399], 'GPE']",{}
+"More than $ 1 billion came from the United States and the large Haitian communities in Boston , Miami , and New~York .","['Boston', [16402, 16402], 'LOC']",{}
+"More than $ 1 billion came from the United States and the large Haitian communities in Boston , Miami , and New~York .","['Miami', [16404, 16404], 'LOC']",{}
+"More than $ 1 billion came from the United States and the large Haitian communities in Boston , Miami , and New~York .","['New~York', [16407, 16407], 'LOC']",{}
+"News-agency reports from Sevastopol say the demonstrators shouted "" NATO out "" and "" Yankee go home "" during their protest Wednesday .","['Sevastopol', [14692, 14692], 'LOC']",{}
+"News-agency reports from Sevastopol say the demonstrators shouted "" NATO out "" and "" Yankee go home "" during their protest Wednesday .","['NATO', [14698, 14698], 'ORG']",{}
+"News-agency reports from Sevastopol say the demonstrators shouted "" NATO out "" and "" Yankee go home "" during their protest Wednesday .","['Wednesday', [14710, 14710], 'DATE']",{}
+The death toll from a coal mining accident in northwestern China rose to 32 Wednesday after searchers recovered the body of the last missing miner .,"['China', [9067, 9067], 'LOC']",{}
+The death toll from a coal mining accident in northwestern China rose to 32 Wednesday after searchers recovered the body of the last missing miner .,"['Wednesday', [9071, 9071], 'DATE']",{}
+Western analysts say Topol missiles were first deployed in Russian silos in the late 1990s .,"['Topol', [15009, 15009], 'WORK_OF_ART']",{}
+Western analysts say Topol missiles were first deployed in Russian silos in the late 1990s .,"['Russian', [15015, 15015], 'GPE']",{}
+Western analysts say Topol missiles were first deployed in Russian silos in the late 1990s .,"['1990s', [15020, 15020], 'DATE']",{}
+"Coalition troops in Iraq have captured a suspected al-Qaida terrorist during a raid on the home of a senior Sunni Arab politician , Adnan al-Dulaymi .","['Iraq', [11261, 11261], 'LOC']",{}
+"Coalition troops in Iraq have captured a suspected al-Qaida terrorist during a raid on the home of a senior Sunni Arab politician , Adnan al-Dulaymi .","['al-Qaida', [11266, 11266], 'ORG']",{}
+"Coalition troops in Iraq have captured a suspected al-Qaida terrorist during a raid on the home of a senior Sunni Arab politician , Adnan al-Dulaymi .","['Sunni Arab', [11277, 11278], 'LOC']",{}
+"Coalition troops in Iraq have captured a suspected al-Qaida terrorist during a raid on the home of a senior Sunni Arab politician , Adnan al-Dulaymi .","['Adnan al-Dulaymi', [11281, 11282], 'PERSON']",{}
+Officials said Sunday that the group named KindHearts has coordinated with Hamas leaders and has ties to two other U.S.-based charities accused of links to terrorism .,"['Sunday', [19059, 19059], 'DATE']",{}
+Officials said Sunday that the group named KindHearts has coordinated with Hamas leaders and has ties to two other U.S.-based charities accused of links to terrorism .,"['KindHearts', [19064, 19064], 'ORG']",{}
+Officials said Sunday that the group named KindHearts has coordinated with Hamas leaders and has ties to two other U.S.-based charities accused of links to terrorism .,"['Hamas', [19068, 19068], 'ORG']",{}
+"But Qureia said Wednesday that reaching a peace agreement with Israel before Mr. Bush leaves office will take a "" miracle . ""","['Qureia', [3048, 3048], 'PERSON']",{}
+"But Qureia said Wednesday that reaching a peace agreement with Israel before Mr. Bush leaves office will take a "" miracle . ""","['Wednesday', [3050, 3050], 'DATE']",{}
+"But Qureia said Wednesday that reaching a peace agreement with Israel before Mr. Bush leaves office will take a "" miracle . ""","['Israel', [3057, 3057], 'LOC']",{}
+"But Qureia said Wednesday that reaching a peace agreement with Israel before Mr. Bush leaves office will take a "" miracle . ""","['Mr. Bush', [3059, 3060], 'PERSON']",{}
+Witnesses say at least 15 others swam to safety after their vessel sank close to the Yemeni coast .,"['Yemeni', [18106, 18106], 'GPE']",{}
+Five bomb attacks were carried out in Baghdad .,"['Baghdad', [14154, 14154], 'LOC']",{}
+"The French news agency quotes a rebel spokesman as saying many civilians have been injured by the bombs , and much livestock has been killed .","['French', [21524, 21524], 'GPE']",{}
+Popular American tennis star Andre Agassi has been knocked out of the quarterfinals at the Delray Beach International in Florida .,"['American', [20795, 20795], 'GPE']",{}
+Popular American tennis star Andre Agassi has been knocked out of the quarterfinals at the Delray Beach International in Florida .,"['Andre Agassi', [20798, 20799], 'PERSON']",{}
+Popular American tennis star Andre Agassi has been knocked out of the quarterfinals at the Delray Beach International in Florida .,"['Delray Beach International', [20809, 20811], 'EVENT']",{}
+Popular American tennis star Andre Agassi has been knocked out of the quarterfinals at the Delray Beach International in Florida .,"['Florida', [20813, 20813], 'LOC']",{}
+"The two officers among the 15 service members detained in Iran for 13 days have said they have chosen not to profit from stories of their captivity , but others in the group have reportedly made lucrative deals with British media .","['Iran', [19923, 19923], 'LOC']",{}
+"The two officers among the 15 service members detained in Iran for 13 days have said they have chosen not to profit from stories of their captivity , but others in the group have reportedly made lucrative deals with British media .","['13', [19925, 19925], 'DATE']",{}
+"The two officers among the 15 service members detained in Iran for 13 days have said they have chosen not to profit from stories of their captivity , but others in the group have reportedly made lucrative deals with British media .","['British', [19952, 19952], 'GPE']",{}
+Venezuelan President Hugo Chavez has denounced Colombia 's defense minister as an obstacle to peace and a pawn of the United States .,"['Venezuelan', [6155, 6155], 'GPE']",{}
+Venezuelan President Hugo Chavez has denounced Colombia 's defense minister as an obstacle to peace and a pawn of the United States .,"['President Hugo Chavez', [6156, 6158], 'PERSON']",{}
+Venezuelan President Hugo Chavez has denounced Colombia 's defense minister as an obstacle to peace and a pawn of the United States .,"['Colombia', [6161, 6161], 'GPE']",{}
+Venezuelan President Hugo Chavez has denounced Colombia 's defense minister as an obstacle to peace and a pawn of the United States .,"['United States', [6175, 6176], 'GPE']",{}
+U.S. officials have said repeatedly that Iraqis must form their own government without American intervention .,"['U.S.', [19562, 19562], 'LOC']",{}
+U.S. officials have said repeatedly that Iraqis must form their own government without American intervention .,"['Iraqis', [19568, 19568], 'GPE']",{}
+U.S. officials have said repeatedly that Iraqis must form their own government without American intervention .,"['American', [19575, 19575], 'GPE']",{}
+"Uganda 's military had detained Dr. Besigye since November , when he returned from self-imposed exile to run against President Yoweri Museveni in next month 's presidential election .","['Uganda', [7004, 7004], 'GPE']",{}
+"Uganda 's military had detained Dr. Besigye since November , when he returned from self-imposed exile to run against President Yoweri Museveni in next month 's presidential election .","['Dr. Besigye', [7009, 7010], 'PERSON']",{}
+"Uganda 's military had detained Dr. Besigye since November , when he returned from self-imposed exile to run against President Yoweri Museveni in next month 's presidential election .","['November', [7012, 7012], 'DATE']",{}
+"Uganda 's military had detained Dr. Besigye since November , when he returned from self-imposed exile to run against President Yoweri Museveni in next month 's presidential election .","['President Yoweri Museveni', [7023, 7025], 'PERSON']",{}
+The house belongs to a Muslim cleric who has been accused of recruiting fighters for a banned militant group .,"['Muslim', [12081, 12081], 'ORG']",{}
+The plaintiff argued Vioxx was responsible .,"['Vioxx', [3896, 3896], 'ORG']",{}
+"Thai Prime Minister Thaksin Shinawatra has said he believes some of the insurgents have been trained in Malaysia , Indonesia and southern Thailand .","['Thai', [4651, 4651], 'GPE']",{}
+"Thai Prime Minister Thaksin Shinawatra has said he believes some of the insurgents have been trained in Malaysia , Indonesia and southern Thailand .","['Prime Minister Thaksin Shinawatra', [4652, 4655], 'PERSON']",{}
+"Thai Prime Minister Thaksin Shinawatra has said he believes some of the insurgents have been trained in Malaysia , Indonesia and southern Thailand .","['Malaysia', [4668, 4668], 'LOC']",{}
+"Thai Prime Minister Thaksin Shinawatra has said he believes some of the insurgents have been trained in Malaysia , Indonesia and southern Thailand .","['Indonesia', [4670, 4670], 'LOC']",{}
+"Thai Prime Minister Thaksin Shinawatra has said he believes some of the insurgents have been trained in Malaysia , Indonesia and southern Thailand .","['Thailand', [4673, 4673], 'LOC']",{}
+"Dharmeratnam Sivaram was a board member of the pro-rebel TamilNet Web site and a columnist for Sri Lanka 's english newspaper , the Daily Mirror .","['Dharmeratnam Sivaram', [5224, 5225], 'PERSON']",{}
+"Dharmeratnam Sivaram was a board member of the pro-rebel TamilNet Web site and a columnist for Sri Lanka 's english newspaper , the Daily Mirror .","['TamilNet', [5233, 5233], 'ORG']",{}
+"Dharmeratnam Sivaram was a board member of the pro-rebel TamilNet Web site and a columnist for Sri Lanka 's english newspaper , the Daily Mirror .","['Web', [5234, 5234], 'WORK_OF_ART']",{}
+"Dharmeratnam Sivaram was a board member of the pro-rebel TamilNet Web site and a columnist for Sri Lanka 's english newspaper , the Daily Mirror .","['Sri Lanka', [5240, 5241], 'GPE']",{}
+"Dharmeratnam Sivaram was a board member of the pro-rebel TamilNet Web site and a columnist for Sri Lanka 's english newspaper , the Daily Mirror .","['english', [5243, 5243], 'WORK_OF_ART']",{}
+"Dharmeratnam Sivaram was a board member of the pro-rebel TamilNet Web site and a columnist for Sri Lanka 's english newspaper , the Daily Mirror .","['Daily Mirror', [5247, 5248], 'WORK_OF_ART']",{}
+"So far , nearly 100 militants have been reported killed in the region since Thursday .","['Thursday', [2334, 2334], 'DATE']",{}
+"The top U.S. military commander in Afghanistan says Taleban insurgents could stage a high-profile attack over the next six to nine months , despite what he called their more limited "" terrorist capabilities . ""","['U.S.', [21755, 21755], 'ORG']",{}
+"The top U.S. military commander in Afghanistan says Taleban insurgents could stage a high-profile attack over the next six to nine months , despite what he called their more limited "" terrorist capabilities . ""","['Afghanistan', [21759, 21759], 'LOC']",{}
+"The top U.S. military commander in Afghanistan says Taleban insurgents could stage a high-profile attack over the next six to nine months , despite what he called their more limited "" terrorist capabilities . ""","['Taleban', [21761, 21761], 'ORG']",{}
+"The top U.S. military commander in Afghanistan says Taleban insurgents could stage a high-profile attack over the next six to nine months , despite what he called their more limited "" terrorist capabilities . ""","['six to nine', [21771, 21773], 'DATE']",{}
+The weather in the western U.S. state of California has helped firefighters gain greater control of a massive wildfire that is burning near the populous city of Santa Barbara .,"['U.S.', [19996, 19996], 'LOC']",{}
+The weather in the western U.S. state of California has helped firefighters gain greater control of a massive wildfire that is burning near the populous city of Santa Barbara .,"['California', [19999, 19999], 'LOC']",{}
+The weather in the western U.S. state of California has helped firefighters gain greater control of a massive wildfire that is burning near the populous city of Santa Barbara .,"['Santa Barbara', [20018, 20019], 'LOC']",{}
+The sources say the suspects arrived in the Austrian capital late Sunday .,"['Austrian', [20971, 20971], 'GPE']",{}
+The sources say the suspects arrived in the Austrian capital late Sunday .,"['Sunday', [20974, 20974], 'DATE']",{}
+"A statement released by Palestinian President Mahmoud Abbas in Ramallah vowed to track down and punish those responsible , saying this was an attempt to sabotage the peace process .","['Palestinian', [7593, 7593], 'GPE']",{}
+"A statement released by Palestinian President Mahmoud Abbas in Ramallah vowed to track down and punish those responsible , saying this was an attempt to sabotage the peace process .","['President Mahmoud Abbas', [7594, 7596], 'PERSON']",{}
+"A statement released by Palestinian President Mahmoud Abbas in Ramallah vowed to track down and punish those responsible , saying this was an attempt to sabotage the peace process .","['Ramallah', [7598, 7598], 'LOC']",{}
+"A military statement Wednesday , said General Adam has asked to leave his post "" as soon as possible , "" and the chief of staff has accepted the request to begin the process of his replacement .","['Wednesday', [3114, 3114], 'DATE']",{}
+"A military statement Wednesday , said General Adam has asked to leave his post "" as soon as possible , "" and the chief of staff has accepted the request to begin the process of his replacement .","['General Adam', [3117, 3118], 'PERSON']",{}
+"France is prosecuting 15 piracy suspects in its own courts , though it has transferred others to Kenya , including 11 who were handed over on Friday .","['France', [13820, 13820], 'LOC']",{}
+"France is prosecuting 15 piracy suspects in its own courts , though it has transferred others to Kenya , including 11 who were handed over on Friday .","['Kenya', [13837, 13837], 'LOC']",{}
+"France is prosecuting 15 piracy suspects in its own courts , though it has transferred others to Kenya , including 11 who were handed over on Friday .","['Friday', [13846, 13846], 'DATE']",{}
+"The FAO 's estimate includes damage to fishing industries in Indonesia , Maldives , Somalia , Sri Lanka and Thailand .","['FAO', [4384, 4384], 'ORG']",{}
+"The FAO 's estimate includes damage to fishing industries in Indonesia , Maldives , Somalia , Sri Lanka and Thailand .","['Indonesia', [4393, 4393], 'LOC']",{}
+"The FAO 's estimate includes damage to fishing industries in Indonesia , Maldives , Somalia , Sri Lanka and Thailand .","['Maldives', [4395, 4395], 'LOC']",{}
+"The FAO 's estimate includes damage to fishing industries in Indonesia , Maldives , Somalia , Sri Lanka and Thailand .","['Somalia', [4397, 4397], 'LOC']",{}
+"The FAO 's estimate includes damage to fishing industries in Indonesia , Maldives , Somalia , Sri Lanka and Thailand .","['Sri Lanka', [4399, 4400], 'LOC']",{}
+"The FAO 's estimate includes damage to fishing industries in Indonesia , Maldives , Somalia , Sri Lanka and Thailand .","['Thailand', [4402, 4402], 'LOC']",{}
+"Members of a violent Central American street gang have been sent to the southwestern U.S. state of Arizona to attack Minuteman Project volunteers , as they begin a month-long campaign to help patrol the southern U.S. border with Mexico .","['American', [15182, 15182], 'GPE']",{}
+"Members of a violent Central American street gang have been sent to the southwestern U.S. state of Arizona to attack Minuteman Project volunteers , as they begin a month-long campaign to help patrol the southern U.S. border with Mexico .","['U.S.', [15191, 15191], 'LOC']",{}
+"Members of a violent Central American street gang have been sent to the southwestern U.S. state of Arizona to attack Minuteman Project volunteers , as they begin a month-long campaign to help patrol the southern U.S. border with Mexico .","['Arizona', [15194, 15194], 'LOC']",{}
+"Members of a violent Central American street gang have been sent to the southwestern U.S. state of Arizona to attack Minuteman Project volunteers , as they begin a month-long campaign to help patrol the southern U.S. border with Mexico .","['Minuteman Project', [15197, 15198], 'ORG']",{}
+"Members of a violent Central American street gang have been sent to the southwestern U.S. state of Arizona to attack Minuteman Project volunteers , as they begin a month-long campaign to help patrol the southern U.S. border with Mexico .","['U.S.', [15212, 15212], 'LOC']",{}
+"Members of a violent Central American street gang have been sent to the southwestern U.S. state of Arizona to attack Minuteman Project volunteers , as they begin a month-long campaign to help patrol the southern U.S. border with Mexico .","['Mexico', [15215, 15215], 'LOC']",{}
+"After higher prices for mining and hydrocarbons exports produced a fiscal surplus in 2008 , the global recession in 2009 slowed growth .","['2008', [12968, 12968], 'DATE']",{}
+"After higher prices for mining and hydrocarbons exports produced a fiscal surplus in 2008 , the global recession in 2009 slowed growth .","['2009', [12974, 12974], 'DATE']",{}
+"However , a video released Monday , by Iran shows the sailors and marines relaxing and socializing during their captivity .","['Monday', [19975, 19975], 'DATE']",{}
+"However , a video released Monday , by Iran shows the sailors and marines relaxing and socializing during their captivity .","['Iran', [19978, 19978], 'LOC']",{}
+Critics of Halliburton include auditors and congressional Democrats .,"['Halliburton', [1396, 1396], 'ORG']",{}
+Mr. Obama has vowed to sign a health care bill into law this year .,"['Mr. Obama', [7184, 7185], 'PERSON']",{}
+Authorities in Mogadishu have not determined a motive for the shooting .,"['Mogadishu', [2208, 2208], 'LOC']",{}
+The European Space Agency says it has received the first images and scientific readings from the surface of Saturn 's moon Titan .,"['European Space Agency', [6841, 6843], 'ORG']",{}
+The European Space Agency says it has received the first images and scientific readings from the surface of Saturn 's moon Titan .,"['Saturn', [6858, 6858], 'LOC']",{}
+The European Space Agency says it has received the first images and scientific readings from the surface of Saturn 's moon Titan .,"['Titan', [6861, 6861], 'LOC']",{}
+He says the bombings continue Friday .,"['Friday', [21554, 21554], 'DATE']",{}
+"White House officials say he made the pardon decisions on a case-by-case basis , and will continue to review clemency requests .","['White House', [6557, 6558], 'ORG']",{}
+"According to the report , American workers earned an average of $ 17.09 an hour in January - a slight increase from the previous month .","['American', [6089, 6089], 'GPE']",{}
+"According to the report , American workers earned an average of $ 17.09 an hour in January - a slight increase from the previous month .","['January', [6100, 6100], 'DATE']",{}
+"At the time , Russian President Vladimir Putin visited the hospital to confer a medal honoring Rostropovich for his extraordinary achievements in music .","['Russian', [20488, 20488], 'GPE']",{}
+"At the time , Russian President Vladimir Putin visited the hospital to confer a medal honoring Rostropovich for his extraordinary achievements in music .","['President Vladimir Putin', [20489, 20491], 'PERSON']",{}
+"At the time , Russian President Vladimir Putin visited the hospital to confer a medal honoring Rostropovich for his extraordinary achievements in music .","['Rostropovich', [20500, 20500], 'PERSON']",{}
+Mr. Mwanawasa was flown to France Tuesday after suffering a stroke Sunday while in Egypt for an African Union summit .,"['Mr. Mwanawasa', [9640, 9641], 'PERSON']",{}
+Mr. Mwanawasa was flown to France Tuesday after suffering a stroke Sunday while in Egypt for an African Union summit .,"['France', [9645, 9645], 'LOC']",{}
+Mr. Mwanawasa was flown to France Tuesday after suffering a stroke Sunday while in Egypt for an African Union summit .,"['Tuesday', [9646, 9646], 'DATE']",{}
+Mr. Mwanawasa was flown to France Tuesday after suffering a stroke Sunday while in Egypt for an African Union summit .,"['Sunday', [9651, 9651], 'DATE']",{}
+Mr. Mwanawasa was flown to France Tuesday after suffering a stroke Sunday while in Egypt for an African Union summit .,"['Egypt', [9654, 9654], 'LOC']",{}
+Mr. Mwanawasa was flown to France Tuesday after suffering a stroke Sunday while in Egypt for an African Union summit .,"['African Union', [9657, 9658], 'ORG']",{}
+"Separately , the United Nations ' nuclear agency is set to inspect Iran 's heavy water nuclear reactor in a matter of days .","['United Nations', [18639, 18640], 'ORG']",{}
+"Separately , the United Nations ' nuclear agency is set to inspect Iran 's heavy water nuclear reactor in a matter of days .","['Iran', [18648, 18648], 'ORG']",{}
+"A senior police official , Saud Aziz , says the four wanted in connection with the slaying of Agha Ziauddin in the town of Gilgit in January were picked up in the city of Rawalpindi .","['Saud Aziz', [12592, 12593], 'PERSON']",{}
+"A senior police official , Saud Aziz , says the four wanted in connection with the slaying of Agha Ziauddin in the town of Gilgit in January were picked up in the city of Rawalpindi .","['Agha Ziauddin', [12605, 12606], 'PERSON']",{}
+"A senior police official , Saud Aziz , says the four wanted in connection with the slaying of Agha Ziauddin in the town of Gilgit in January were picked up in the city of Rawalpindi .","['Gilgit', [12611, 12611], 'LOC']",{}
+"A senior police official , Saud Aziz , says the four wanted in connection with the slaying of Agha Ziauddin in the town of Gilgit in January were picked up in the city of Rawalpindi .","['January', [12613, 12613], 'DATE']",{}
+"A senior police official , Saud Aziz , says the four wanted in connection with the slaying of Agha Ziauddin in the town of Gilgit in January were picked up in the city of Rawalpindi .","['Rawalpindi', [12621, 12621], 'LOC']",{}
+"World Vision Australia 's Iraqi head of operations , Mohammed Hushiar , was killed in late September in the northern city of Mosul .","['Iraqi', [19452, 19452], 'ORG']",{}
+"World Vision Australia 's Iraqi head of operations , Mohammed Hushiar , was killed in late September in the northern city of Mosul .","['Mohammed Hushiar', [19457, 19458], 'PERSON']",{}
+"World Vision Australia 's Iraqi head of operations , Mohammed Hushiar , was killed in late September in the northern city of Mosul .","['September', [19464, 19464], 'DATE']",{}
+"World Vision Australia 's Iraqi head of operations , Mohammed Hushiar , was killed in late September in the northern city of Mosul .","['Mosul', [19470, 19470], 'LOC']",{}
+The United Nations created the oil-for-food program after the first Gulf War to allow Iraq to sell oil and use the profits for the Iraqi people 's humanitarian needs .,"['United Nations', [5754, 5755], 'ORG']",{}
+The United Nations created the oil-for-food program after the first Gulf War to allow Iraq to sell oil and use the profits for the Iraqi people 's humanitarian needs .,"['Gulf War', [5763, 5764], 'EVENT']",{}
+The United Nations created the oil-for-food program after the first Gulf War to allow Iraq to sell oil and use the profits for the Iraqi people 's humanitarian needs .,"['Iraq', [5767, 5767], 'GPE']",{}
+The United Nations created the oil-for-food program after the first Gulf War to allow Iraq to sell oil and use the profits for the Iraqi people 's humanitarian needs .,"['Iraqi', [5777, 5777], 'GPE']",{}
+"Although the last Russian troops left in 1994 , the status of the Russian minority ( some 30 % of the population ) remains of concern to Moscow .","['Russian', [12796, 12796], 'GPE']",{}
+"Although the last Russian troops left in 1994 , the status of the Russian minority ( some 30 % of the population ) remains of concern to Moscow .","['1994', [12800, 12800], 'DATE']",{}
+"Although the last Russian troops left in 1994 , the status of the Russian minority ( some 30 % of the population ) remains of concern to Moscow .","['Russian', [12806, 12806], 'GPE']",{}
+"Although the last Russian troops left in 1994 , the status of the Russian minority ( some 30 % of the population ) remains of concern to Moscow .","['Moscow', [12820, 12820], 'GPE']",{}
+"Officials will not say how many troops have arrived in the Sunni Arab and Kurdish city , where bombings last week killed at least 34 people and wounded more than 200 .","['Sunni Arab', [560, 561], 'LOC']",{}
+"Officials will not say how many troops have arrived in the Sunni Arab and Kurdish city , where bombings last week killed at least 34 people and wounded more than 200 .","['Kurdish', [563, 563], 'LOC']",{}
+A spokesman for the Brotherhood said the arrests are an attempt to cut the Brotherhood off from its supporters and punishment for winning parliamentary seats in earlier elections .,"['Brotherhood', [692, 692], 'ORG']",{}
+A spokesman for the Brotherhood said the arrests are an attempt to cut the Brotherhood off from its supporters and punishment for winning parliamentary seats in earlier elections .,"['Brotherhood', [702, 702], 'ORG']",{}
+The fate of seven suspected Somali pirates who were captured by a Spanish warship is uncertain after Spanish prosecutors reversed plans to bring them to Spain to face trial .,"['Somali', [13723, 13723], 'GPE']",{}
+The fate of seven suspected Somali pirates who were captured by a Spanish warship is uncertain after Spanish prosecutors reversed plans to bring them to Spain to face trial .,"['Spanish', [13730, 13730], 'GPE']",{}
+The fate of seven suspected Somali pirates who were captured by a Spanish warship is uncertain after Spanish prosecutors reversed plans to bring them to Spain to face trial .,"['Spanish', [13735, 13735], 'GPE']",{}
+The fate of seven suspected Somali pirates who were captured by a Spanish warship is uncertain after Spanish prosecutors reversed plans to bring them to Spain to face trial .,"['Spain', [13743, 13743], 'LOC']",{}
+Prime Minister Tony Blair said London is farther ahead in preparations at this stage than any other previous Olympic host city .,"['Prime Minister Tony Blair', [4930, 4933], 'PERSON']",{}
+Prime Minister Tony Blair said London is farther ahead in preparations at this stage than any other previous Olympic host city .,"['London', [4935, 4935], 'GPE']",{}
+The Pakistani official was giving a background briefing to a small group of reporters in Washington .,"['Pakistani', [1281, 1281], 'GPE']",{}
+The Pakistani official was giving a background briefing to a small group of reporters in Washington .,"['Washington', [1295, 1295], 'LOC']",{}
+A comprehensive government report on unemployment is due out Friday .,"['Friday', [11918, 11918], 'DATE']",{}
+"He said if Malaysia wants to see the photos , Bangkok will provide them .","['Malaysia', [4639, 4639], 'GPE']",{}
+"He said if Malaysia wants to see the photos , Bangkok will provide them .","['Bangkok', [4646, 4646], 'GPE']",{}
+"MS-13 runs a major smuggling operation on the U.S.-Mexico border , running drugs , weapons and undocumented aliens from Central and South America into the United States .","['MS-13', [15311, 15311], 'LOC']",{}
+"MS-13 runs a major smuggling operation on the U.S.-Mexico border , running drugs , weapons and undocumented aliens from Central and South America into the United States .","['Central and South America', [15330, 15333], 'ORG']",{}
+"MS-13 runs a major smuggling operation on the U.S.-Mexico border , running drugs , weapons and undocumented aliens from Central and South America into the United States .","['United States', [15336, 15337], 'LOC']",{}
+Sevastopol 's naval base dates back to Soviet times .,"['Sevastopol', [14739, 14739], 'LOC']",{}
+"China 's head of Olympic security , Liu Shaowu , made the announcement Wednesday at a news conference .","['China', [19192, 19192], 'LOC']",{}
+"China 's head of Olympic security , Liu Shaowu , made the announcement Wednesday at a news conference .","['Olympic', [19196, 19196], 'EVENT']",{}
+"China 's head of Olympic security , Liu Shaowu , made the announcement Wednesday at a news conference .","['Liu Shaowu', [19199, 19200], 'PERSON']",{}
+"China 's head of Olympic security , Liu Shaowu , made the announcement Wednesday at a news conference .","['Wednesday', [19205, 19205], 'DATE']",{}
+The military said Saturday 13 guerrillas were killed in two encounters in the central province of Uruzgan .,"['Saturday', [2425, 2425], 'DATE']",{}
+The military said Saturday 13 guerrillas were killed in two encounters in the central province of Uruzgan .,"['Uruzgan', [2438, 2438], 'LOC']",{}
+"The Iraqi army said it captured the Sunni insurgent leader in the Iraqi capital , Baghdad .","['Iraqi', [10807, 10807], 'GPE']",{}
+"The Iraqi army said it captured the Sunni insurgent leader in the Iraqi capital , Baghdad .","['Sunni', [10813, 10813], 'ORG']",{}
+"The Iraqi army said it captured the Sunni insurgent leader in the Iraqi capital , Baghdad .","['Iraqi', [10818, 10818], 'GPE']",{}
+"The Iraqi army said it captured the Sunni insurgent leader in the Iraqi capital , Baghdad .","['Baghdad', [10821, 10821], 'LOC']",{}
+"A constitution came into effect in 2006 , but the legal status of political parties remains unclear .","['2006', [13104, 13104], 'DATE']",{}
+Ukraine 's Prime Minister Yury Yekhanurov says the signing of a controversial natural gas deal with Russia has been postponed again .,"['Ukraine', [16463, 16463], 'LOC']",{}
+Ukraine 's Prime Minister Yury Yekhanurov says the signing of a controversial natural gas deal with Russia has been postponed again .,"['Prime Minister Yury Yekhanurov', [16465, 16468], 'PERSON']",{}
+Ukraine 's Prime Minister Yury Yekhanurov says the signing of a controversial natural gas deal with Russia has been postponed again .,"['Russia', [16479, 16479], 'ORG']",{}
+"China 's communist government allows worship only in state-approved and state-monitored churches , temples and mosques .","['China', [6419, 6419], 'GPE']",{}
+In a statement Saturday Chinese Foreign Ministry spokesman Liu Jianchao accused the U.S. body of attempting to interfere with Chinese internal affairs under the guise of religious freedom .,"['Saturday', [6354, 6354], 'DATE']",{}
+In a statement Saturday Chinese Foreign Ministry spokesman Liu Jianchao accused the U.S. body of attempting to interfere with Chinese internal affairs under the guise of religious freedom .,"['Chinese', [6355, 6355], 'GPE']",{}
+In a statement Saturday Chinese Foreign Ministry spokesman Liu Jianchao accused the U.S. body of attempting to interfere with Chinese internal affairs under the guise of religious freedom .,"['Foreign Ministry', [6356, 6357], 'ORG']",{}
+In a statement Saturday Chinese Foreign Ministry spokesman Liu Jianchao accused the U.S. body of attempting to interfere with Chinese internal affairs under the guise of religious freedom .,"['Liu Jianchao', [6359, 6360], 'PERSON']",{}
+In a statement Saturday Chinese Foreign Ministry spokesman Liu Jianchao accused the U.S. body of attempting to interfere with Chinese internal affairs under the guise of religious freedom .,"['U.S.', [6363, 6363], 'GPE']",{}
+In a statement Saturday Chinese Foreign Ministry spokesman Liu Jianchao accused the U.S. body of attempting to interfere with Chinese internal affairs under the guise of religious freedom .,"['Chinese', [6370, 6370], 'GPE']",{}
+Russia has ordered its fleet of Su-24 bombers grounded after one of the planes crashed during a training mission .,"['Russia', [14536, 14536], 'LOC']",{}
+Russia has ordered its fleet of Su-24 bombers grounded after one of the planes crashed during a training mission .,"['Su-24', [14542, 14542], 'WORK_OF_ART']",{}
+"The opposition has denounced the measure , comparing it to the draconian rule of the former Taleban in neighboring Afghanistan .","['Taleban', [936, 936], 'ORG']",{}
+"The opposition has denounced the measure , comparing it to the draconian rule of the former Taleban in neighboring Afghanistan .","['Afghanistan', [939, 939], 'LOC']",{}
+"Student and labor unrest during the 1990s pressured King MSWATI III , the world 's last absolute monarch , to grudgingly allow political reform and greater democracy , although he has backslid on these promises in recent years .","['1990s', [13065, 13065], 'DATE']",{}
+"Student and labor unrest during the 1990s pressured King MSWATI III , the world 's last absolute monarch , to grudgingly allow political reform and greater democracy , although he has backslid on these promises in recent years .","['King MSWATI III', [13067, 13069], 'PERSON']",{}
+But his warmup for the Australian Open has abruptly ended with a rare loss .,"['Australian Open', [6729, 6730], 'EVENT']",{}
+"Tim Harcourt , the chief economist of the Australian Trade Commission , says ABAC plays an important role by informing governments where there are problems .","['Tim Harcourt', [1532, 1533], 'PERSON']",{}
+"Tim Harcourt , the chief economist of the Australian Trade Commission , says ABAC plays an important role by informing governments where there are problems .","['Australian Trade Commission', [1540, 1542], 'ORG']",{}
+"Tim Harcourt , the chief economist of the Australian Trade Commission , says ABAC plays an important role by informing governments where there are problems .","['ABAC', [1545, 1545], 'ORG']",{}
+"A new government report shows U.S. businesses added a moderate 1,11,000 new jobs in January .","['U.S.', [6046, 6046], 'GPE']",{}
+"A new government report shows U.S. businesses added a moderate 1,11,000 new jobs in January .","['January', [6055, 6055], 'DATE']",{}
+""" The most important thing the business groups can do is to tell the governments where there are logjams , where there are obstacles , where things can improve , "" Harcourt said .","['Harcourt', [1589, 1589], 'PERSON']",{}
+Police fired tear gas to disperse hundreds of Dr. Besigye 's supporters who took to the streets in Kampala after his release Monday .,"['Dr. Besigye', [6988, 6989], 'PERSON']",{}
+Police fired tear gas to disperse hundreds of Dr. Besigye 's supporters who took to the streets in Kampala after his release Monday .,"['Kampala', [6998, 6998], 'LOC']",{}
+Police fired tear gas to disperse hundreds of Dr. Besigye 's supporters who took to the streets in Kampala after his release Monday .,"['Monday', [7002, 7002], 'DATE']",{}
+Hundreds of marchers tried to storm central bank headquarters in Reykjavik .,"['Reykjavik', [22064, 22064], 'LOC']",{}
+And get this - he realized he had won shortly after taking the oath of U.S. citizenship .,"['U.S.', [15828, 15828], 'ORG']",{}
+The central bank said the growth of the broad money supply rose nearly 19 percent on a year-on-year basis to $ 3.9 trillion by the end of March .,"['end of March', [16717, 16719], 'DATE']",{}
+He warned that Tehran has drawn up defensive plans that would make its enemies regret any attack .,"['Tehran', [8409, 8409], 'GPE']",{}
+Authorities in Bosnia-Herzegovina say they have arrested a former Bosnian Serb police officer for his suspected role in the 1995 massacre of Muslims near the eastern Bosnian town of Srebrenica .,"['Bosnia-Herzegovina', [9893, 9893], 'GPE']",{}
+Authorities in Bosnia-Herzegovina say they have arrested a former Bosnian Serb police officer for his suspected role in the 1995 massacre of Muslims near the eastern Bosnian town of Srebrenica .,"['Bosnian Serb', [9900, 9901], 'GPE']",{}
+Authorities in Bosnia-Herzegovina say they have arrested a former Bosnian Serb police officer for his suspected role in the 1995 massacre of Muslims near the eastern Bosnian town of Srebrenica .,"['1995', [9910, 9910], 'DATE']",{}
+Authorities in Bosnia-Herzegovina say they have arrested a former Bosnian Serb police officer for his suspected role in the 1995 massacre of Muslims near the eastern Bosnian town of Srebrenica .,"['Bosnian', [9917, 9917], 'GPE']",{}
+Authorities in Bosnia-Herzegovina say they have arrested a former Bosnian Serb police officer for his suspected role in the 1995 massacre of Muslims near the eastern Bosnian town of Srebrenica .,"['Srebrenica', [9920, 9920], 'LOC']",{}
+The military says U.S. Special Forces advised the Iraqi army in all three operations .,"['U.S. Special Forces', [11451, 11453], 'ORG']",{}
+The military says U.S. Special Forces advised the Iraqi army in all three operations .,"['Iraqi', [11456, 11456], 'GPE']",{}
+"Organizers of the 2012 Summer Olympics in London have promised the "" greenest games "" in history and sought to soothe concerns about the rising cost of the event .","['2012 Summer Olympics', [4853, 4855], 'EVENT']",{}
+"Organizers of the 2012 Summer Olympics in London have promised the "" greenest games "" in history and sought to soothe concerns about the rising cost of the event .","['London', [4857, 4857], 'LOC']",{}
+The quarterly report sent to U.S. Congress based its information on statistics from the U.S. Labor Department compiled from workers ' compensation claims filed by all U.S. government contractors .,"['U.S. Congress', [17479, 17480], 'ORG']",{}
+The quarterly report sent to U.S. Congress based its information on statistics from the U.S. Labor Department compiled from workers ' compensation claims filed by all U.S. government contractors .,"['U.S. Labor Department', [17488, 17490], 'ORG']",{}
+The quarterly report sent to U.S. Congress based its information on statistics from the U.S. Labor Department compiled from workers ' compensation claims filed by all U.S. government contractors .,"['U.S.', [17500, 17500], 'ORG']",{}
+Zambian officials say reports that President Levy Mwanawasa has died are FALSE .,"['Zambian', [9588, 9588], 'GPE']",{}
+Zambian officials say reports that President Levy Mwanawasa has died are FALSE .,"['President Levy Mwanawasa', [9593, 9595], 'PERSON']",{}
+Ohio Representative Bob Ney is the second lawmaker to relinquish a House leadership post in recent months .,"['Ohio', [16966, 16966], 'GPE']",{}
+Ohio Representative Bob Ney is the second lawmaker to relinquish a House leadership post in recent months .,"['Representative', [16967, 16967], 'ORG']",{}
+Ohio Representative Bob Ney is the second lawmaker to relinquish a House leadership post in recent months .,"['Bob Ney', [16968, 16969], 'PERSON']",{}
+Ohio Representative Bob Ney is the second lawmaker to relinquish a House leadership post in recent months .,"['House', [16977, 16977], 'ORG']",{}
+Ohio Representative Bob Ney is the second lawmaker to relinquish a House leadership post in recent months .,"['recent', [16981, 16981], 'DATE']",{}
+Australian and French news agencies say at least one of the men arrested ( Cholily ) was captured during a series of counter-terrorism raids last week in Indonesia .,"['Australian', [2023, 2023], 'GPE']",{}
+Australian and French news agencies say at least one of the men arrested ( Cholily ) was captured during a series of counter-terrorism raids last week in Indonesia .,"['French', [2025, 2025], 'GPE']",{}
+Australian and French news agencies say at least one of the men arrested ( Cholily ) was captured during a series of counter-terrorism raids last week in Indonesia .,"['Cholily', [2037, 2037], 'PERSON']",{}
+Australian and French news agencies say at least one of the men arrested ( Cholily ) was captured during a series of counter-terrorism raids last week in Indonesia .,"['Indonesia', [2050, 2050], 'LOC']",{}
+Representatives from the Asia Pacific Economic Cooperation Business Advisory Council are holding meetings this week to finalize their annual report for APEC leaders who will hold a summit on September 8 and 9 .,"['Asia Pacific Economic Cooperation Business Advisory Council', [1452, 1458], 'ORG']",{}
+Representatives from the Asia Pacific Economic Cooperation Business Advisory Council are holding meetings this week to finalize their annual report for APEC leaders who will hold a summit on September 8 and 9 .,"['APEC', [1470, 1470], 'ORG']",{}
+Representatives from the Asia Pacific Economic Cooperation Business Advisory Council are holding meetings this week to finalize their annual report for APEC leaders who will hold a summit on September 8 and 9 .,"['September 8', [1478, 1479], 'DATE']",{}
+Representatives from the Asia Pacific Economic Cooperation Business Advisory Council are holding meetings this week to finalize their annual report for APEC leaders who will hold a summit on September 8 and 9 .,"['9', [1481, 1481], 'DATE']",{}
+Police say a roadside bomb killed four policemen and wounded nine in Baquba .,"['Baquba', [18402, 18402], 'LOC']",{}
+He added that something like this can only happen in America .,"['America', [15873, 15873], 'LOC']",{}
+The spokesman says a formal agreement on the project will be signed in June when Indonesian President Susilo Bambang Yudhoyono is scheduled to visit Moscow .,"['June', [7737, 7737], 'DATE']",{}
+The spokesman says a formal agreement on the project will be signed in June when Indonesian President Susilo Bambang Yudhoyono is scheduled to visit Moscow .,"['Indonesian', [7739, 7739], 'GPE']",{}
+The spokesman says a formal agreement on the project will be signed in June when Indonesian President Susilo Bambang Yudhoyono is scheduled to visit Moscow .,"['President Susilo Bambang Yudhoyono', [7740, 7743], 'PERSON']",{}
+The spokesman says a formal agreement on the project will be signed in June when Indonesian President Susilo Bambang Yudhoyono is scheduled to visit Moscow .,"['Moscow', [7748, 7748], 'LOC']",{}
+"Meanwhile , Israeli troops raided the West Bank Palestinian town of Jenin today , arresting eight accused members of Islamic Jihad .","['Israeli', [20758, 20758], 'GPE']",{}
+"Meanwhile , Israeli troops raided the West Bank Palestinian town of Jenin today , arresting eight accused members of Islamic Jihad .","['West Bank', [20762, 20763], 'ORG']",{}
+"Meanwhile , Israeli troops raided the West Bank Palestinian town of Jenin today , arresting eight accused members of Islamic Jihad .","['Palestinian', [20764, 20764], 'GPE']",{}
+"Meanwhile , Israeli troops raided the West Bank Palestinian town of Jenin today , arresting eight accused members of Islamic Jihad .","['Jenin', [20767, 20767], 'LOC']",{}
+"Meanwhile , Israeli troops raided the West Bank Palestinian town of Jenin today , arresting eight accused members of Islamic Jihad .","['today', [20768, 20768], 'DATE']",{}
+"Meanwhile , Israeli troops raided the West Bank Palestinian town of Jenin today , arresting eight accused members of Islamic Jihad .","['Islamic Jihad', [20775, 20776], 'LOC']",{}
+Egypt has had the largest number of human bird flu cases outside of Asia .,"['Egypt', [5618, 5618], 'LOC']",{}
+Egypt has had the largest number of human bird flu cases outside of Asia .,"['Asia', [5631, 5631], 'LOC']",{}
+More than two dozen Iraqi civilians and policemen have been killed in a wave of bombings Wednesday in Baghdad and parts of central and northern Iraq meant to intimidate voters less than two weeks ahead of national elections .,"['Iraqi', [14112, 14112], 'GPE']",{}
+More than two dozen Iraqi civilians and policemen have been killed in a wave of bombings Wednesday in Baghdad and parts of central and northern Iraq meant to intimidate voters less than two weeks ahead of national elections .,"['Wednesday', [14124, 14124], 'DATE']",{}
+More than two dozen Iraqi civilians and policemen have been killed in a wave of bombings Wednesday in Baghdad and parts of central and northern Iraq meant to intimidate voters less than two weeks ahead of national elections .,"['Baghdad', [14126, 14126], 'LOC']",{}
+More than two dozen Iraqi civilians and policemen have been killed in a wave of bombings Wednesday in Baghdad and parts of central and northern Iraq meant to intimidate voters less than two weeks ahead of national elections .,"['Iraq', [14133, 14133], 'LOC']",{}
+"Palestinians identified him as Shahdi Mohanna , the Islamic Jihad commander for the northern Gaza Strip .","['Palestinians', [14330, 14330], 'GPE']",{}
+"Palestinians identified him as Shahdi Mohanna , the Islamic Jihad commander for the northern Gaza Strip .","['Shahdi Mohanna', [14334, 14335], 'LOC']",{}
+"Palestinians identified him as Shahdi Mohanna , the Islamic Jihad commander for the northern Gaza Strip .","['Islamic Jihad', [14338, 14339], 'LOC']",{}
+"Palestinians identified him as Shahdi Mohanna , the Islamic Jihad commander for the northern Gaza Strip .","['Gaza Strip', [14344, 14345], 'LOC']",{}
+Posada Carriles is wanted in Venezuela for his alleged role in a 1976 Cuban airliner bombing that killed 73 people .,"['Posada Carriles', [12179, 12180], 'PERSON']",{}
+Posada Carriles is wanted in Venezuela for his alleged role in a 1976 Cuban airliner bombing that killed 73 people .,"['Venezuela', [12184, 12184], 'LOC']",{}
+Posada Carriles is wanted in Venezuela for his alleged role in a 1976 Cuban airliner bombing that killed 73 people .,"['1976', [12191, 12191], 'DATE']",{}
+Posada Carriles is wanted in Venezuela for his alleged role in a 1976 Cuban airliner bombing that killed 73 people .,"['Cuban', [12192, 12192], 'GPE']",{}
+"Aung San Suu Kyi spoke to reporters Saturday at her lakeside home in Rangoon , and praised the talks with Vijay Nambiar , chief of staff for U.N. Secretary-General Ban Ki-moon .","['Aung San Suu Kyi', [21230, 21233], 'PERSON']",{}
+"Aung San Suu Kyi spoke to reporters Saturday at her lakeside home in Rangoon , and praised the talks with Vijay Nambiar , chief of staff for U.N. Secretary-General Ban Ki-moon .","['Saturday', [21237, 21237], 'DATE']",{}
+"Aung San Suu Kyi spoke to reporters Saturday at her lakeside home in Rangoon , and praised the talks with Vijay Nambiar , chief of staff for U.N. Secretary-General Ban Ki-moon .","['Rangoon', [21243, 21243], 'LOC']",{}
+"Aung San Suu Kyi spoke to reporters Saturday at her lakeside home in Rangoon , and praised the talks with Vijay Nambiar , chief of staff for U.N. Secretary-General Ban Ki-moon .","['Vijay Nambiar', [21250, 21251], 'PERSON']",{}
+"Aung San Suu Kyi spoke to reporters Saturday at her lakeside home in Rangoon , and praised the talks with Vijay Nambiar , chief of staff for U.N. Secretary-General Ban Ki-moon .","['U.N.', [21257, 21257], 'PERSON']",{}
+"Aung San Suu Kyi spoke to reporters Saturday at her lakeside home in Rangoon , and praised the talks with Vijay Nambiar , chief of staff for U.N. Secretary-General Ban Ki-moon .","['Secretary-General', [21258, 21258], 'ORG']",{}
+"Aung San Suu Kyi spoke to reporters Saturday at her lakeside home in Rangoon , and praised the talks with Vijay Nambiar , chief of staff for U.N. Secretary-General Ban Ki-moon .","['Ban Ki-moon', [21259, 21260], 'PERSON']",{}
+"During the ceremonial startup of the Saltillo plant Friday , Mexican President Felipe Calderon said Chrysler 's sixth plant in Mexico will create 700 jobs .","['Saltillo', [3769, 3769], 'WORK_OF_ART']",{}
+"During the ceremonial startup of the Saltillo plant Friday , Mexican President Felipe Calderon said Chrysler 's sixth plant in Mexico will create 700 jobs .","['Friday', [3771, 3771], 'DATE']",{}
+"During the ceremonial startup of the Saltillo plant Friday , Mexican President Felipe Calderon said Chrysler 's sixth plant in Mexico will create 700 jobs .","['Mexican', [3773, 3773], 'GPE']",{}
+"During the ceremonial startup of the Saltillo plant Friday , Mexican President Felipe Calderon said Chrysler 's sixth plant in Mexico will create 700 jobs .","['President Felipe Calderon', [3774, 3776], 'PERSON']",{}
+"During the ceremonial startup of the Saltillo plant Friday , Mexican President Felipe Calderon said Chrysler 's sixth plant in Mexico will create 700 jobs .","['Chrysler', [3778, 3778], 'ORG']",{}
+"During the ceremonial startup of the Saltillo plant Friday , Mexican President Felipe Calderon said Chrysler 's sixth plant in Mexico will create 700 jobs .","['Mexico', [3783, 3783], 'LOC']",{}
+"Friday , spokesman Ron Redmond said agency is "" extremely concerned "" about what he called the continued deterioration in Darfur 's security situation .","['Friday', [11574, 11574], 'DATE']",{}
+"Friday , spokesman Ron Redmond said agency is "" extremely concerned "" about what he called the continued deterioration in Darfur 's security situation .","['Ron Redmond', [11577, 11578], 'PERSON']",{}
+"Friday , spokesman Ron Redmond said agency is "" extremely concerned "" about what he called the continued deterioration in Darfur 's security situation .","['Darfur', [11594, 11594], 'LOC']",{}
+"Meanwhile , the British defense ministry says a British soldier serving with the NATO-led coalition in Afghanistan was killed during fighting with militants in the south .","['British', [18334, 18334], 'GPE']",{}
+"Meanwhile , the British defense ministry says a British soldier serving with the NATO-led coalition in Afghanistan was killed during fighting with militants in the south .","['British', [18339, 18339], 'GPE']",{}
+"Meanwhile , the British defense ministry says a British soldier serving with the NATO-led coalition in Afghanistan was killed during fighting with militants in the south .","['Afghanistan', [18347, 18347], 'LOC']",{}
+"Earlier this month , the U.N. High Commissioner for Refugees estimated 20,000 people have made the crossing this year and said at least 439 people have died and another 489 are missing .","['U.N. High Commissioner for Refugees', [18184, 18188], 'ORG']",{}
+Indonesian police have arrested three men in connection with the October 1 Bali bombings that left 23 people dead .,"['Indonesian', [1982, 1982], 'GPE']",{}
+Indonesian police have arrested three men in connection with the October 1 Bali bombings that left 23 people dead .,"['October 1', [1992, 1993], 'DATE']",{}
+Indonesian police have arrested three men in connection with the October 1 Bali bombings that left 23 people dead .,"['Bali', [1994, 1994], 'LOC']",{}
+The final step will be President Mahmoud Ahmadinejad 's signature .,"['President Mahmoud Ahmadinejad', [9519, 9521], 'PERSON']",{}
+Ritchie also spoke about her guilty plea last week to driving under the influence and the resulting four-day jail sentence .,"['Ritchie', [4046, 4046], 'PERSON']",{}
+Pope Benedict XVI has visited the Italian city of L'Aquilla and other central Italian locales devastated earlier this month by a deadly earthquake .,"['Benedict XVI', [21597, 21598], 'PERSON']",{}
+Pope Benedict XVI has visited the Italian city of L'Aquilla and other central Italian locales devastated earlier this month by a deadly earthquake .,"['Italian', [21602, 21602], 'GPE']",{}
+Pope Benedict XVI has visited the Italian city of L'Aquilla and other central Italian locales devastated earlier this month by a deadly earthquake .,"[""L'Aquilla"", [21605, 21605], 'LOC']",{}
+Pope Benedict XVI has visited the Italian city of L'Aquilla and other central Italian locales devastated earlier this month by a deadly earthquake .,"['Italian', [21609, 21609], 'GPE']",{}
+"President Bush has issued 14 pardons to convicted criminals , and has commuted the prison sentences of two others .","['President Bush', [6447, 6448], 'PERSON']",{}
+"Later , a person claiming to be a Taleban spokesman claimed responsibility for the attack .","['Later', [19765, 19765], 'DATE']",{}
+"Later , a person claiming to be a Taleban spokesman claimed responsibility for the attack .","['Taleban', [19773, 19773], 'ORG']",{}
+"Mr. Bittok , who immigrated from Kenya to the United States , learned last week he had a winning ticket worth nearly $ 2 million from an Iowa lottery .","['Mr. Bittok', [15783, 15784], 'PERSON']",{}
+"Mr. Bittok , who immigrated from Kenya to the United States , learned last week he had a winning ticket worth nearly $ 2 million from an Iowa lottery .","['Kenya', [15789, 15789], 'LOC']",{}
+"Mr. Bittok , who immigrated from Kenya to the United States , learned last week he had a winning ticket worth nearly $ 2 million from an Iowa lottery .","['United States', [15792, 15793], 'LOC']",{}
+"Mr. Bittok , who immigrated from Kenya to the United States , learned last week he had a winning ticket worth nearly $ 2 million from an Iowa lottery .","['Iowa', [15810, 15810], 'LOC']",{}
+"Mr. Sivaram , who was also brutally attacked in 2001 , was found near a lake gagged with gunshot wounds to the head .","['Mr. Sivaram', [5278, 5279], 'PERSON']",{}
+"Mr. Sivaram , who was also brutally attacked in 2001 , was found near a lake gagged with gunshot wounds to the head .","['2001', [5287, 5287], 'DATE']",{}
+"He underlined the need of ridding the society of extremism and terrorism , saying they are hurting Pakistan 's image by their actions .","['Pakistan', [12291, 12291], 'GPE']",{}
+"In 2005 , the government passed a controversial hydrocarbons law that imposed significantly higher royalties and required foreign firms then operating under risk-sharing contracts to surrender all production to the state energy company in exchange for a predetermined service fee .","['2005', [12915, 12915], 'DATE']",{}
+Sperling had the same job in President Bill Clinton 's administration .,"['Sperling', [9763, 9763], 'PERSON']",{}
+Sperling had the same job in President Bill Clinton 's administration .,"['President Bill Clinton', [9769, 9771], 'PERSON']",{}
+"A strong earthquake shook Indonesia 's Aceh province just before midnight Saturday ( about 1657 UTC ) , causing residents to flee their homes in panic .","['Indonesia', [17810, 17810], 'LOC']",{}
+"A strong earthquake shook Indonesia 's Aceh province just before midnight Saturday ( about 1657 UTC ) , causing residents to flee their homes in panic .","['Aceh', [17812, 17812], 'LOC']",{}
+"A strong earthquake shook Indonesia 's Aceh province just before midnight Saturday ( about 1657 UTC ) , causing residents to flee their homes in panic .","['midnight Saturday', [17816, 17817], 'DATE']",{}
+"A strong earthquake shook Indonesia 's Aceh province just before midnight Saturday ( about 1657 UTC ) , causing residents to flee their homes in panic .","['1657 UTC', [17820, 17821], 'DATE']",{}
+The country is one of the most prosperous in the Caribbean thanks largely to petroleum and natural gas production and processing .,"['Caribbean', [13258, 13258], 'LOC']",{}
+"He also observed Iraqi police and special forces perform training exercises , before he met with Iraqi interim Prime Minister Iyad Allawi .","['Iraqi', [18868, 18868], 'ORG']",{}
+"He also observed Iraqi police and special forces perform training exercises , before he met with Iraqi interim Prime Minister Iyad Allawi .","['Iraqi', [18881, 18881], 'ORG']",{}
+"He also observed Iraqi police and special forces perform training exercises , before he met with Iraqi interim Prime Minister Iyad Allawi .","['Prime', [18883, 18883], 'PERSON']",{}
+"He also observed Iraqi police and special forces perform training exercises , before he met with Iraqi interim Prime Minister Iyad Allawi .","['Iyad Allawi', [18885, 18886], 'PERSON']",{}
+The wall was built starting in 1961 and came to symbolize the divide between the so-called Iron Curtain and the democratic West .,"['1961', [21995, 21995], 'DATE']",{}
+The wall was built starting in 1961 and came to symbolize the divide between the so-called Iron Curtain and the democratic West .,"['Iron Curtain', [22005, 22006], 'ORG']",{}
+The wall was built starting in 1961 and came to symbolize the divide between the so-called Iron Curtain and the democratic West .,"['democratic West', [22009, 22010], 'LOC']",{}
+"Redmond listed a number of attacks on relief groups over the past week , including one where an aid worker was shot dead in North Darfur .","['Redmond', [11599, 11599], 'PERSON']",{}
+"Redmond listed a number of attacks on relief groups over the past week , including one where an aid worker was shot dead in North Darfur .","['North Darfur', [11623, 11624], 'LOC']",{}
+Khan admitted in 2004 that he operated a worldwide clandestine network to sell nuclear technology in the black market .,"['Khan', [1297, 1297], 'PERSON']",{}
+Khan admitted in 2004 that he operated a worldwide clandestine network to sell nuclear technology in the black market .,"['2004', [1300, 1300], 'DATE']",{}
+Officials say the 27-year old man from Vietnam 's northern Ninh Binh province died late Thursday and tested positive for the H5N1 strain of bird flu .,"['Vietnam', [2709, 2709], 'LOC']",{}
+Officials say the 27-year old man from Vietnam 's northern Ninh Binh province died late Thursday and tested positive for the H5N1 strain of bird flu .,"['Ninh Binh', [2712, 2713], 'GPE']",{}
+Officials say the 27-year old man from Vietnam 's northern Ninh Binh province died late Thursday and tested positive for the H5N1 strain of bird flu .,"['Thursday', [2717, 2717], 'DATE']",{}
+Officials say the 27-year old man from Vietnam 's northern Ninh Binh province died late Thursday and tested positive for the H5N1 strain of bird flu .,"['H5N1', [2723, 2723], 'LOC']",{}
+"In Beijing , police are out in force waiting for protests to begin in the capital .","['Beijing', [4778, 4778], 'LOC']",{}
+Officials say al Qaida in Iraq fighters have fled successful campaigns against them in Anbar province and Baghdad to other northern provinces .,"['al Qaida in Iraq', [597, 600], 'ORG']",{}
+Officials say al Qaida in Iraq fighters have fled successful campaigns against them in Anbar province and Baghdad to other northern provinces .,"['Anbar', [609, 609], 'LOC']",{}
+Officials say al Qaida in Iraq fighters have fled successful campaigns against them in Anbar province and Baghdad to other northern provinces .,"['Baghdad', [612, 612], 'LOC']",{}
+The AP also reports Khayam has been on parole from prison since last year after serving half his six-year sentence for drug dealing .,"['AP', [1052, 1052], 'ORG']",{}
+The AP also reports Khayam has been on parole from prison since last year after serving half his six-year sentence for drug dealing .,"['Khayam', [1055, 1055], 'PERSON']",{}
+The Associated Press quotes a U.S. Defense Department spokeswoman as saying it has not reviewed the report .,"['Associated Press', [5494, 5495], 'ORG']",{}
+The Associated Press quotes a U.S. Defense Department spokeswoman as saying it has not reviewed the report .,"['U.S.', [5498, 5498], 'GPE']",{}
+The Associated Press quotes a U.S. Defense Department spokeswoman as saying it has not reviewed the report .,"['Defense Department', [5499, 5500], 'ORG']",{}
+"U.S. National Security Adviser Stephen Hadley said a nuclear test would be an act of defiance , and prompt Washington and its allies to discuss new steps to punish the North Korean government .","['U.S.', [15970, 15970], 'GPE']",{}
+"U.S. National Security Adviser Stephen Hadley said a nuclear test would be an act of defiance , and prompt Washington and its allies to discuss new steps to punish the North Korean government .","['National Security Adviser', [15971, 15973], 'ORG']",{}
+"U.S. National Security Adviser Stephen Hadley said a nuclear test would be an act of defiance , and prompt Washington and its allies to discuss new steps to punish the North Korean government .","['Stephen Hadley', [15974, 15975], 'PERSON']",{}
+"U.S. National Security Adviser Stephen Hadley said a nuclear test would be an act of defiance , and prompt Washington and its allies to discuss new steps to punish the North Korean government .","['Washington', [15989, 15989], 'GPE']",{}
+"U.S. National Security Adviser Stephen Hadley said a nuclear test would be an act of defiance , and prompt Washington and its allies to discuss new steps to punish the North Korean government .","['North', [16000, 16000], 'LOC']",{}
+"U.S. National Security Adviser Stephen Hadley said a nuclear test would be an act of defiance , and prompt Washington and its allies to discuss new steps to punish the North Korean government .","['Korean', [16001, 16001], 'GPE']",{}
+Mr. Chavez reacted sharply Sunday to the defense minister 's remarks about a meeting between Mr. Chavez and Colombian President Alvaro Uribe .,"['Mr. Chavez', [6178, 6179], 'PERSON']",{}
+Mr. Chavez reacted sharply Sunday to the defense minister 's remarks about a meeting between Mr. Chavez and Colombian President Alvaro Uribe .,"['Sunday', [6182, 6182], 'DATE']",{}
+Mr. Chavez reacted sharply Sunday to the defense minister 's remarks about a meeting between Mr. Chavez and Colombian President Alvaro Uribe .,"['Mr. Chavez', [6193, 6194], 'PERSON']",{}
+Mr. Chavez reacted sharply Sunday to the defense minister 's remarks about a meeting between Mr. Chavez and Colombian President Alvaro Uribe .,"['Colombian', [6196, 6196], 'GPE']",{}
+Mr. Chavez reacted sharply Sunday to the defense minister 's remarks about a meeting between Mr. Chavez and Colombian President Alvaro Uribe .,"['President Alvaro Uribe', [6197, 6199], 'PERSON']",{}
+The U.S. military said 10 Taleban rebels also were killed Thursday during a U.S. helicopter raid in southeastern Khost province after five Afghan soldiers were wounded in an ambush .,"['U.S.', [19782, 19782], 'ORG']",{}
+The U.S. military said 10 Taleban rebels also were killed Thursday during a U.S. helicopter raid in southeastern Khost province after five Afghan soldiers were wounded in an ambush .,"['Taleban', [19786, 19786], 'ORG']",{}
+The U.S. military said 10 Taleban rebels also were killed Thursday during a U.S. helicopter raid in southeastern Khost province after five Afghan soldiers were wounded in an ambush .,"['Thursday', [19791, 19791], 'DATE']",{}
+The U.S. military said 10 Taleban rebels also were killed Thursday during a U.S. helicopter raid in southeastern Khost province after five Afghan soldiers were wounded in an ambush .,"['U.S.', [19794, 19794], 'ORG']",{}
+The U.S. military said 10 Taleban rebels also were killed Thursday during a U.S. helicopter raid in southeastern Khost province after five Afghan soldiers were wounded in an ambush .,"['Khost', [19799, 19799], 'LOC']",{}
+The U.S. military said 10 Taleban rebels also were killed Thursday during a U.S. helicopter raid in southeastern Khost province after five Afghan soldiers were wounded in an ambush .,"['Afghan', [19803, 19803], 'GPE']",{}
+Local officials in Afghanistan 's northeastern Nuristan Province say three Afghans who had been kidnapped earlier in the week have been found unharmed .,"['Afghanistan', [20296, 20296], 'LOC']",{}
+Local officials in Afghanistan 's northeastern Nuristan Province say three Afghans who had been kidnapped earlier in the week have been found unharmed .,"['Nuristan Province', [20299, 20300], 'LOC']",{}
+Local officials in Afghanistan 's northeastern Nuristan Province say three Afghans who had been kidnapped earlier in the week have been found unharmed .,"['Afghans', [20303, 20303], 'GPE']",{}
+Local officials in Afghanistan 's northeastern Nuristan Province say three Afghans who had been kidnapped earlier in the week have been found unharmed .,"['in', [20309, 20309], 'DATE']",{}
+More than 60 African migrants have drowned while crossing the Gulf of Aden on their way to Yemen .,"['African', [18074, 18074], 'GPE']",{}
+More than 60 African migrants have drowned while crossing the Gulf of Aden on their way to Yemen .,"['Gulf of Aden', [18081, 18083], 'LOC']",{}
+More than 60 African migrants have drowned while crossing the Gulf of Aden on their way to Yemen .,"['Yemen', [18088, 18088], 'LOC']",{}
+A human rights group has accused coalition forces in Iraq of failing to secure evidence considered vital to the upcoming war crimes trial of former Iraqi leader Saddam Hussein .,"['Iraq', [5418, 5418], 'LOC']",{}
+A human rights group has accused coalition forces in Iraq of failing to secure evidence considered vital to the upcoming war crimes trial of former Iraqi leader Saddam Hussein .,"['Iraqi', [5434, 5434], 'GPE']",{}
+A human rights group has accused coalition forces in Iraq of failing to secure evidence considered vital to the upcoming war crimes trial of former Iraqi leader Saddam Hussein .,"['Saddam Hussein', [5436, 5437], 'PERSON']",{}
+Taleban militants claimed responsibility for the attack .,"['Taleban', [18323, 18323], 'ORG']",{}
+"But a Ugandan High Court Judge , John Bosco Katutsi , said his detention was illegal because the High Court had suspended the military trial .","['Ugandan', [7049, 7049], 'GPE']",{}
+"But a Ugandan High Court Judge , John Bosco Katutsi , said his detention was illegal because the High Court had suspended the military trial .","['High Court', [7050, 7051], 'ORG']",{}
+"But a Ugandan High Court Judge , John Bosco Katutsi , said his detention was illegal because the High Court had suspended the military trial .","['John Bosco Katutsi', [7054, 7056], 'PERSON']",{}
+"But a Ugandan High Court Judge , John Bosco Katutsi , said his detention was illegal because the High Court had suspended the military trial .","['High Court', [7065, 7066], 'ORG']",{}
+"The Israeli military confirmed the Thursday evening helicopter strike near the Jabaliya refugee camp , saying it targeted an Islamic Jihad militant .","['Israeli', [14308, 14308], 'GPE']",{}
+"The Israeli military confirmed the Thursday evening helicopter strike near the Jabaliya refugee camp , saying it targeted an Islamic Jihad militant .","['Thursday', [14312, 14312], 'DATE']",{}
+"The Israeli military confirmed the Thursday evening helicopter strike near the Jabaliya refugee camp , saying it targeted an Islamic Jihad militant .","['Jabaliya', [14318, 14318], 'LOC']",{}
+"The Israeli military confirmed the Thursday evening helicopter strike near the Jabaliya refugee camp , saying it targeted an Islamic Jihad militant .","['Islamic Jihad', [14326, 14327], 'LOC']",{}
+They were convicted of plotting to kill Mr. Castro during the 2000 Ibero-American summit in Panama City .,"['Mr. Castro', [3587, 3588], 'PERSON']",{}
+They were convicted of plotting to kill Mr. Castro during the 2000 Ibero-American summit in Panama City .,"['2000', [3591, 3591], 'DATE']",{}
+They were convicted of plotting to kill Mr. Castro during the 2000 Ibero-American summit in Panama City .,"['Panama City', [3595, 3596], 'LOC']",{}
+Two Sudanese rebel factions joined forces in February to form the Eastern Front .,"['Sudanese', [21583, 21583], 'GPE']",{}
+Two Sudanese rebel factions joined forces in February to form the Eastern Front .,"['February', [21589, 21589], 'DATE']",{}
+Two Sudanese rebel factions joined forces in February to form the Eastern Front .,"['Eastern Front', [21593, 21594], 'ORG']",{}
+Iran 's hard-line Guardian Council has approved a bill that would block United Nations inspections of its nuclear facilities and allow it to resume uranium enrichment if it is referred to the U.N. Security Council .,"['Iran', [9446, 9446], 'LOC']",{}
+Iran 's hard-line Guardian Council has approved a bill that would block United Nations inspections of its nuclear facilities and allow it to resume uranium enrichment if it is referred to the U.N. Security Council .,"['Guardian Council', [9449, 9450], 'ORG']",{}
+Iran 's hard-line Guardian Council has approved a bill that would block United Nations inspections of its nuclear facilities and allow it to resume uranium enrichment if it is referred to the U.N. Security Council .,"['United Nations', [9458, 9459], 'ORG']",{}
+Iran 's hard-line Guardian Council has approved a bill that would block United Nations inspections of its nuclear facilities and allow it to resume uranium enrichment if it is referred to the U.N. Security Council .,"['U.N. Security Council', [9478, 9480], 'ORG']",{}
+"The third-seeded Malisse rallied after dropping the first set to eliminate sixth-seeded Florian Mayer of Germany 06-Jul , 06-Feb , 06-Mar .","['Malisse', [20855, 20855], 'PERSON']",{}
+"The third-seeded Malisse rallied after dropping the first set to eliminate sixth-seeded Florian Mayer of Germany 06-Jul , 06-Feb , 06-Mar .","['Florian Mayer', [20865, 20866], 'PERSON']",{}
+"The third-seeded Malisse rallied after dropping the first set to eliminate sixth-seeded Florian Mayer of Germany 06-Jul , 06-Feb , 06-Mar .","['Germany', [20868, 20868], 'GPE']",{}
+"Because he was playing in exhibition tournament , the loss will not count on his Association of Tennis Professionals Tour record .","['Association of Tennis Professionals Tour', [6775, 6779], 'WORK_OF_ART']",{}
+Italian opposition politicians are demanding Prime Minister Silvio Berlusconi apologize for using an obscenity to refer to anyone who would vote against him in Sunday 's election .,"['Italian', [15476, 15476], 'GPE']",{}
+Italian opposition politicians are demanding Prime Minister Silvio Berlusconi apologize for using an obscenity to refer to anyone who would vote against him in Sunday 's election .,"['Prime', [15481, 15481], 'PERSON']",{}
+Italian opposition politicians are demanding Prime Minister Silvio Berlusconi apologize for using an obscenity to refer to anyone who would vote against him in Sunday 's election .,"['Silvio Berlusconi', [15483, 15484], 'PERSON']",{}
+Italian opposition politicians are demanding Prime Minister Silvio Berlusconi apologize for using an obscenity to refer to anyone who would vote against him in Sunday 's election .,"['Sunday', [15500, 15500], 'DATE']",{}
+"But efforts to name a new cabinet in Baghdad have failed , although nearly three months have passed since the Iraqi elections .","['Baghdad', [19586, 19586], 'LOC']",{}
+"But efforts to name a new cabinet in Baghdad have failed , although nearly three months have passed since the Iraqi elections .","['Iraqi', [19598, 19598], 'ORG']",{}
+The islands ' sugar industry was hurt by the emancipation of the slaves in 1834 .,"['1834', [13200, 13200], 'DATE']",{}
+Abramoff has pleaded guilty to fraud and tax evasion .,"['Abramoff', [17041, 17041], 'PERSON']",{}
+"The draft plan , seen by reporters for British news organizations Reuters and the Guardian newspaper , also calls for "" de-radicalization "" classes for insurgents and thousands of new jobs to be created for militants who renounce violence .","['British', [14447, 14447], 'GPE']",{}
+"The draft plan , seen by reporters for British news organizations Reuters and the Guardian newspaper , also calls for "" de-radicalization "" classes for insurgents and thousands of new jobs to be created for militants who renounce violence .","['Reuters', [14450, 14450], 'ORG']",{}
+"The draft plan , seen by reporters for British news organizations Reuters and the Guardian newspaper , also calls for "" de-radicalization "" classes for insurgents and thousands of new jobs to be created for militants who renounce violence .","['Guardian', [14453, 14453], 'ORG']",{}
+"The proposal comes weeks before a grand council of Afghans , known as a jirga , meets in Kabul on May 29 to discuss how to make peace with the insurgents .","['Afghans', [14488, 14488], 'GPE']",{}
+"The proposal comes weeks before a grand council of Afghans , known as a jirga , meets in Kabul on May 29 to discuss how to make peace with the insurgents .","['Kabul', [14497, 14497], 'LOC']",{}
+"The proposal comes weeks before a grand council of Afghans , known as a jirga , meets in Kabul on May 29 to discuss how to make peace with the insurgents .","['May 29', [14499, 14500], 'DATE']",{}
+China says it has designated three parks in outlying parts of Beijing to be used for public protests during the Olympic Games next month .,"['China', [19167, 19167], 'LOC']",{}
+China says it has designated three parks in outlying parts of Beijing to be used for public protests during the Olympic Games next month .,"['Beijing', [19178, 19178], 'LOC']",{}
+China says it has designated three parks in outlying parts of Beijing to be used for public protests during the Olympic Games next month .,"['Olympic Games', [19187, 19188], 'EVENT']",{}
+"More than 1,000 civilian volunteers are expected to converge on the city of Tombstone Friday to begin a 30-day border patrol .","['Tombstone Friday', [15271, 15272], 'DATE']",{}
+"The 41st ranked Haas fended off three break points while serving for the match and closed a 03-Jun , 06-Apr , 06-Apr win with an ace .","['Haas', [6785, 6785], 'PERSON']",{}
+The United Nations says Sudanese refugees have begun returning from the Central African Republic under a new deal between the countries and the U.N. refugee agency .,"['United Nations', [7911, 7912], 'ORG']",{}
+The United Nations says Sudanese refugees have begun returning from the Central African Republic under a new deal between the countries and the U.N. refugee agency .,"['Sudanese', [7914, 7914], 'GPE']",{}
+The United Nations says Sudanese refugees have begun returning from the Central African Republic under a new deal between the countries and the U.N. refugee agency .,"['Central African Republic', [7921, 7923], 'GPE']",{}
+The United Nations says Sudanese refugees have begun returning from the Central African Republic under a new deal between the countries and the U.N. refugee agency .,"['U.N.', [7933, 7933], 'ORG']",{}
+Major General Timothy Ghormley says officials are concerned that instability and weak governments in east Africa could draw international terrorist groups seeking to establish a base of operations .,"['Major General Timothy Ghormley', [10476, 10479], 'PERSON']",{}
+Major General Timothy Ghormley says officials are concerned that instability and weak governments in east Africa could draw international terrorist groups seeking to establish a base of operations .,"['Africa', [10491, 10491], 'LOC']",{}
+"Separately , officials say four British soldiers from the NATO-led peacekeeping mission were wounded early Saturday in an attack in the northern city of Mazar-e-Sharif .","['British', [2477, 2477], 'GPE']",{}
+"Separately , officials say four British soldiers from the NATO-led peacekeeping mission were wounded early Saturday in an attack in the northern city of Mazar-e-Sharif .","['Saturday', [2487, 2487], 'DATE']",{}
+"Separately , officials say four British soldiers from the NATO-led peacekeeping mission were wounded early Saturday in an attack in the northern city of Mazar-e-Sharif .","['Mazar-e-Sharif', [2496, 2496], 'LOC']",{}
+"Afghanistan is scheduled to hold parliamentary elections on September 18 , a little less than one year after the country 's first direct and democratic presidential elections .","['Afghanistan', [21838, 21838], 'GPE']",{}
+"Afghanistan is scheduled to hold parliamentary elections on September 18 , a little less than one year after the country 's first direct and democratic presidential elections .","['September 18', [21846, 21847], 'DATE']",{}
+"Afghanistan is scheduled to hold parliamentary elections on September 18 , a little less than one year after the country 's first direct and democratic presidential elections .","['one', [21853, 21853], 'DATE']",{}
+LRA fighters are accused of killing and mutilating thousands of civilians during the conflict .,"['LRA', [10675, 10675], 'ORG']",{}
+It says the first group of refugees was scheduled to fly home Thursday .,"['Thursday', [7975, 7975], 'DATE']",{}
+Thirty two Egyptians have contracted the H5N1 form of avian flu .,"['Egyptians', [5602, 5602], 'GPE']",{}
+Thirty two Egyptians have contracted the H5N1 form of avian flu .,"['H5N1', [5606, 5606], 'LOC']",{}
+"In an interview with the U.S. government-funded alHurra television station , Mr. Volcker said there is a lot of confusion about how much money Saddam obtained from the oil-for-food program itself .","['U.S.', [5696, 5696], 'GPE']",{}
+"In an interview with the U.S. government-funded alHurra television station , Mr. Volcker said there is a lot of confusion about how much money Saddam obtained from the oil-for-food program itself .","['government-funded', [5697, 5697], 'ORG']",{}
+"In an interview with the U.S. government-funded alHurra television station , Mr. Volcker said there is a lot of confusion about how much money Saddam obtained from the oil-for-food program itself .","['alHurra', [5698, 5698], 'WORK_OF_ART']",{}
+"In an interview with the U.S. government-funded alHurra television station , Mr. Volcker said there is a lot of confusion about how much money Saddam obtained from the oil-for-food program itself .","['Mr. Volcker', [5702, 5703], 'PERSON']",{}
+"In an interview with the U.S. government-funded alHurra television station , Mr. Volcker said there is a lot of confusion about how much money Saddam obtained from the oil-for-food program itself .","['Saddam', [5715, 5715], 'PERSON']",{}
+He called them a new generation of the stationary Topol system already in service .,"['Topol', [15000, 15000], 'WORK_OF_ART']",{}
+The United States did not confirm the report .,"['United States', [10824, 10825], 'GPE']",{}
+Smaller protests took place at two other Cairo locations .,"['Cairo', [14877, 14877], 'LOC']",{}
+"In the France 3 interview , Mr. Bakri says the backgrounds of the four suicide bombers in the London attacks prove the message of al-Qaida chief Osama bin Laden has reached moderate communities .","['France 3', [8282, 8283], 'WORK_OF_ART']",{}
+"In the France 3 interview , Mr. Bakri says the backgrounds of the four suicide bombers in the London attacks prove the message of al-Qaida chief Osama bin Laden has reached moderate communities .","['Mr. Bakri', [8286, 8287], 'PERSON']",{}
+"In the France 3 interview , Mr. Bakri says the backgrounds of the four suicide bombers in the London attacks prove the message of al-Qaida chief Osama bin Laden has reached moderate communities .","['London', [8298, 8298], 'LOC']",{}
+"In the France 3 interview , Mr. Bakri says the backgrounds of the four suicide bombers in the London attacks prove the message of al-Qaida chief Osama bin Laden has reached moderate communities .","['al-Qaida', [8304, 8304], 'ORG']",{}
+"In the France 3 interview , Mr. Bakri says the backgrounds of the four suicide bombers in the London attacks prove the message of al-Qaida chief Osama bin Laden has reached moderate communities .","['Osama bin Laden', [8306, 8308], 'PERSON']",{}
+The U.N. refugee agency says international groups suspended their activities in the camps after a mob killed three water workers on Thursday .,"['U.N.', [11544, 11544], 'ORG']",{}
+The U.N. refugee agency says international groups suspended their activities in the camps after a mob killed three water workers on Thursday .,"['Thursday', [11564, 11564], 'DATE']",{}
+"A short time later , a car bomb exploded outside a Shi'ite mosque in the town of Balad Ruz , northeast of Baghdad .","[""Shi'ite"", [18806, 18806], 'ORG']",{}
+"A short time later , a car bomb exploded outside a Shi'ite mosque in the town of Balad Ruz , northeast of Baghdad .","['Balad Ruz', [18812, 18813], 'LOC']",{}
+"A short time later , a car bomb exploded outside a Shi'ite mosque in the town of Balad Ruz , northeast of Baghdad .","['Baghdad', [18817, 18817], 'LOC']",{}
+He told reporters in the West Bank that there is still room for progress in Israeli-Palestinian negotiations .,"['West Bank', [3075, 3076], 'LOC']",{}
+The 38-year-old is already serving a 10-year sentence in France after he was convicted last year on terrorism charges .,"['France', [7805, 7805], 'LOC']",{}
+"Meanwhile , fourth-seeded Tommy Haas of Germany beat Luxembourg 's Gilles Muller in straight sets ( 06-Mar , 06-Feb ) .","['Tommy Haas', [20878, 20879], 'PERSON']",{}
+"Meanwhile , fourth-seeded Tommy Haas of Germany beat Luxembourg 's Gilles Muller in straight sets ( 06-Mar , 06-Feb ) .","['Germany', [20881, 20881], 'GPE']",{}
+"Meanwhile , fourth-seeded Tommy Haas of Germany beat Luxembourg 's Gilles Muller in straight sets ( 06-Mar , 06-Feb ) .","['Luxembourg', [20883, 20883], 'GPE']",{}
+"Meanwhile , fourth-seeded Tommy Haas of Germany beat Luxembourg 's Gilles Muller in straight sets ( 06-Mar , 06-Feb ) .","['Gilles Muller', [20885, 20886], 'PERSON']",{}
+The official Xinhua news agency reports the State Council moved on Friday to tighten controls on fixed asset investments and money supply after concluding they increased excessively in the first quarter .,"['Xinhua', [16600, 16600], 'ORG']",{}
+The official Xinhua news agency reports the State Council moved on Friday to tighten controls on fixed asset investments and money supply after concluding they increased excessively in the first quarter .,"['State Council', [16605, 16606], 'ORG']",{}
+The official Xinhua news agency reports the State Council moved on Friday to tighten controls on fixed asset investments and money supply after concluding they increased excessively in the first quarter .,"['Friday', [16609, 16609], 'DATE']",{}
+The official Xinhua news agency reports the State Council moved on Friday to tighten controls on fixed asset investments and money supply after concluding they increased excessively in the first quarter .,"['first quarter', [16627, 16628], 'DATE']",{}
+Damascus recently agreed to allow its officials to be questioned outside Syria .,"['Damascus', [20976, 20976], 'ORG']",{}
+Damascus recently agreed to allow its officials to be questioned outside Syria .,"['Syria', [20987, 20987], 'LOC']",{}
+"In northern Iraq , police say the bodies of an elderly tribal leader , Ibrahim Ali al-Nuimei , and his son were found near the town of Kirkuk .","['Iraq', [18454, 18454], 'LOC']",{}
+"In northern Iraq , police say the bodies of an elderly tribal leader , Ibrahim Ali al-Nuimei , and his son were found near the town of Kirkuk .","['Ibrahim Ali al-Nuimei', [18466, 18468], 'PERSON']",{}
+"In northern Iraq , police say the bodies of an elderly tribal leader , Ibrahim Ali al-Nuimei , and his son were found near the town of Kirkuk .","['Kirkuk', [18479, 18479], 'LOC']",{}
+"Anti-Japanese protests in the western Chinese city of Shanghai turned violent Saturday , with protesters pelting the Japanese consulate with rocks , bottles and eggs .","['Chinese', [4716, 4716], 'GPE']",{}
+"Anti-Japanese protests in the western Chinese city of Shanghai turned violent Saturday , with protesters pelting the Japanese consulate with rocks , bottles and eggs .","['Shanghai', [4719, 4719], 'LOC']",{}
+"Anti-Japanese protests in the western Chinese city of Shanghai turned violent Saturday , with protesters pelting the Japanese consulate with rocks , bottles and eggs .","['Saturday', [4722, 4722], 'DATE']",{}
+"Anti-Japanese protests in the western Chinese city of Shanghai turned violent Saturday , with protesters pelting the Japanese consulate with rocks , bottles and eggs .","['Japanese', [4728, 4728], 'GPE']",{}
+"Muslims also demonstrated Friday in cities across the Middle East as well as in India , Pakistan , Afghanistan , Bangladesh , Malaysia , and Venezuela .","['Friday', [8958, 8958], 'DATE']",{}
+"Muslims also demonstrated Friday in cities across the Middle East as well as in India , Pakistan , Afghanistan , Bangladesh , Malaysia , and Venezuela .","['Middle East', [8963, 8964], 'LOC']",{}
+"Muslims also demonstrated Friday in cities across the Middle East as well as in India , Pakistan , Afghanistan , Bangladesh , Malaysia , and Venezuela .","['India', [8969, 8969], 'LOC']",{}
+"Muslims also demonstrated Friday in cities across the Middle East as well as in India , Pakistan , Afghanistan , Bangladesh , Malaysia , and Venezuela .","['Pakistan', [8971, 8971], 'LOC']",{}
+"Muslims also demonstrated Friday in cities across the Middle East as well as in India , Pakistan , Afghanistan , Bangladesh , Malaysia , and Venezuela .","['Afghanistan', [8973, 8973], 'LOC']",{}
+"Muslims also demonstrated Friday in cities across the Middle East as well as in India , Pakistan , Afghanistan , Bangladesh , Malaysia , and Venezuela .","['Bangladesh', [8975, 8975], 'LOC']",{}
+"Muslims also demonstrated Friday in cities across the Middle East as well as in India , Pakistan , Afghanistan , Bangladesh , Malaysia , and Venezuela .","['Malaysia', [8977, 8977], 'LOC']",{}
+"Muslims also demonstrated Friday in cities across the Middle East as well as in India , Pakistan , Afghanistan , Bangladesh , Malaysia , and Venezuela .","['Venezuela', [8980, 8980], 'LOC']",{}
+World Bank member nations meeting in Washington have approved a debt relief plan for 17 African and Latin American countries that could total $ 37 billion over 40 years .,"['World Bank', [7246, 7247], 'ORG']",{}
+World Bank member nations meeting in Washington have approved a debt relief plan for 17 African and Latin American countries that could total $ 37 billion over 40 years .,"['Washington', [7252, 7252], 'LOC']",{}
+World Bank member nations meeting in Washington have approved a debt relief plan for 17 African and Latin American countries that could total $ 37 billion over 40 years .,"['African', [7261, 7261], 'GPE']",{}
+World Bank member nations meeting in Washington have approved a debt relief plan for 17 African and Latin American countries that could total $ 37 billion over 40 years .,"['Latin American', [7263, 7264], 'GPE']",{}
+"Thai Deputy Interior Minister Sutham Saengprathum says the photos show the militants training in Malaysia 's northern Kelantan state , which borders southern Thailand .","['Thai', [4611, 4611], 'GPE']",{}
+"Thai Deputy Interior Minister Sutham Saengprathum says the photos show the militants training in Malaysia 's northern Kelantan state , which borders southern Thailand .","['Deputy Interior Minister Sutham Saengprathum', [4612, 4616], 'PERSON']",{}
+"Thai Deputy Interior Minister Sutham Saengprathum says the photos show the militants training in Malaysia 's northern Kelantan state , which borders southern Thailand .","['Malaysia', [4625, 4625], 'LOC']",{}
+"Thai Deputy Interior Minister Sutham Saengprathum says the photos show the militants training in Malaysia 's northern Kelantan state , which borders southern Thailand .","['Kelantan', [4628, 4628], 'LOC']",{}
+"Thai Deputy Interior Minister Sutham Saengprathum says the photos show the militants training in Malaysia 's northern Kelantan state , which borders southern Thailand .","['Thailand', [4634, 4634], 'LOC']",{}
+It will present its annual report at the APEC leaders meeting on Saturday .,"['APEC', [1831, 1831], 'ORG']",{}
+It will present its annual report at the APEC leaders meeting on Saturday .,"['Saturday', [1835, 1835], 'DATE']",{}
+The arrests occurred Friday in Alexandria .,"['Friday', [684, 684], 'DATE']",{}
+The arrests occurred Friday in Alexandria .,"['Alexandria', [686, 686], 'LOC']",{}
+"A Sunni Arab , Saadoun al-Dulaimi , has been approved as defense minister , and a Shi'ite ( Ibrahim Bahr al-Uloum ) will head the all-important oil ministry .","['Sunni Arab', [11737, 11738], 'GPE']",{}
+"A Sunni Arab , Saadoun al-Dulaimi , has been approved as defense minister , and a Shi'ite ( Ibrahim Bahr al-Uloum ) will head the all-important oil ministry .","['Saadoun al-Dulaimi', [11740, 11741], 'PERSON']",{}
+"A Sunni Arab , Saadoun al-Dulaimi , has been approved as defense minister , and a Shi'ite ( Ibrahim Bahr al-Uloum ) will head the all-important oil ministry .","['Ibrahim Bahr al-Uloum', [11754, 11756], 'PERSON']",{}
+"The Bank allocated another $ 7 million to Colombia for a sustainable development project , aimed at reducing air and water pollution , improve hygiene and urban environmental management .","['Bank', [15409, 15409], 'ORG']",{}
+"The Bank allocated another $ 7 million to Colombia for a sustainable development project , aimed at reducing air and water pollution , improve hygiene and urban environmental management .","['Colombia', [15416, 15416], 'ORG']",{}
+"In May , U.S. officials rejected a Venezuelan request for his arrest , citing a lack of evidence against the Cuban exile who holds Venezuelan citizenship .","['May', [12229, 12229], 'DATE']",{}
+"In May , U.S. officials rejected a Venezuelan request for his arrest , citing a lack of evidence against the Cuban exile who holds Venezuelan citizenship .","['U.S.', [12231, 12231], 'GPE']",{}
+"In May , U.S. officials rejected a Venezuelan request for his arrest , citing a lack of evidence against the Cuban exile who holds Venezuelan citizenship .","['Venezuelan', [12235, 12235], 'GPE']",{}
+"In May , U.S. officials rejected a Venezuelan request for his arrest , citing a lack of evidence against the Cuban exile who holds Venezuelan citizenship .","['Cuban', [12248, 12248], 'GPE']",{}
+"In May , U.S. officials rejected a Venezuelan request for his arrest , citing a lack of evidence against the Cuban exile who holds Venezuelan citizenship .","['Venezuelan', [12252, 12252], 'GPE']",{}
+News reports Saturday quote an unnamed Iranian official as saying a delegation will visit on August 6 to discuss technical issues and regulations .,"['Saturday', [18614, 18614], 'DATE']",{}
+News reports Saturday quote an unnamed Iranian official as saying a delegation will visit on August 6 to discuss technical issues and regulations .,"['Iranian', [18618, 18618], 'GPE']",{}
+News reports Saturday quote an unnamed Iranian official as saying a delegation will visit on August 6 to discuss technical issues and regulations .,"['August 6', [18627, 18628], 'DATE']",{}
+"Manpower was replaced with the importation of contract laborers from India between 1845 and 1917 , which boosted sugar production as well as the cocoa industry .","['India', [13212, 13212], 'LOC']",{}
+"Manpower was replaced with the importation of contract laborers from India between 1845 and 1917 , which boosted sugar production as well as the cocoa industry .","['1845', [13214, 13214], 'DATE']",{}
+"Manpower was replaced with the importation of contract laborers from India between 1845 and 1917 , which boosted sugar production as well as the cocoa industry .","['1917', [13216, 13216], 'DATE']",{}
+He said an Arab peace plan for the region is problematic because it requires Palestinians to recognize Israel in exchange for an Israeli pullout from Palestinian territories .,"['Arab', [3702, 3702], 'GPE']",{}
+He said an Arab peace plan for the region is problematic because it requires Palestinians to recognize Israel in exchange for an Israeli pullout from Palestinian territories .,"['Palestinians', [3713, 3713], 'GPE']",{}
+He said an Arab peace plan for the region is problematic because it requires Palestinians to recognize Israel in exchange for an Israeli pullout from Palestinian territories .,"['Israel', [3716, 3716], 'GPE']",{}
+He said an Arab peace plan for the region is problematic because it requires Palestinians to recognize Israel in exchange for an Israeli pullout from Palestinian territories .,"['Israeli', [3721, 3721], 'GPE']",{}
+He said an Arab peace plan for the region is problematic because it requires Palestinians to recognize Israel in exchange for an Israeli pullout from Palestinian territories .,"['Palestinian', [3724, 3724], 'GPE']",{}
+"More than three years after a U.S.-led coalition ousted the Taleban regime , loyalists are waging an escalating guerrilla campaign ahead of Afghanistan 's September parliamentary vote .","['More than three', [20352, 20354], 'DATE']",{}
+"More than three years after a U.S.-led coalition ousted the Taleban regime , loyalists are waging an escalating guerrilla campaign ahead of Afghanistan 's September parliamentary vote .","['U.S.-led coalition', [20358, 20359], 'DATE']",{}
+"More than three years after a U.S.-led coalition ousted the Taleban regime , loyalists are waging an escalating guerrilla campaign ahead of Afghanistan 's September parliamentary vote .","['Taleban', [20362, 20362], 'ORG']",{}
+"More than three years after a U.S.-led coalition ousted the Taleban regime , loyalists are waging an escalating guerrilla campaign ahead of Afghanistan 's September parliamentary vote .","['Afghanistan', [20374, 20374], 'ORG']",{}
+"More than three years after a U.S.-led coalition ousted the Taleban regime , loyalists are waging an escalating guerrilla campaign ahead of Afghanistan 's September parliamentary vote .","['September parliamentary vote', [20376, 20378], 'DATE']",{}
+"Iraqi authorities in the past have announced the arrest or killing of major insurgent leaders , to only later say the reports were FALSE .","['Iraqi', [10832, 10832], 'GPE']",{}
+NATO has launched large-scale military operations in the region recently to pre-empt an expected Taleban offensive .,"['NATO', [18358, 18358], 'ORG']",{}
+NATO has launched large-scale military operations in the region recently to pre-empt an expected Taleban offensive .,"['Taleban', [18372, 18372], 'ORG']",{}
+"Energy , security , climate change , the World Trade Organization 's stalled negotiations , and investment are all expected to be among the major topics in the annual report of the APEC Business Advisory Council , known as ABAC .","['World Trade Organization', [1499, 1501], 'ORG']",{}
+"Energy , security , climate change , the World Trade Organization 's stalled negotiations , and investment are all expected to be among the major topics in the annual report of the APEC Business Advisory Council , known as ABAC .","['APEC Business Advisory Council', [1523, 1526], 'ORG']",{}
+"Energy , security , climate change , the World Trade Organization 's stalled negotiations , and investment are all expected to be among the major topics in the annual report of the APEC Business Advisory Council , known as ABAC .","['ABAC', [1530, 1530], 'ORG']",{}
+"He was replaced by another general as "" coordinator of operations in Lebanon . ""","['Lebanon', [3187, 3187], 'LOC']",{}
+"Rostropovich and his wife , soprano Galina Vishnevskaya , left the Soviet Union in 1974 in response to political persecution .","['Rostropovich', [20508, 20508], 'PERSON']",{}
+"Rostropovich and his wife , soprano Galina Vishnevskaya , left the Soviet Union in 1974 in response to political persecution .","['Galina Vishnevskaya', [20514, 20515], 'PERSON']",{}
+"Rostropovich and his wife , soprano Galina Vishnevskaya , left the Soviet Union in 1974 in response to political persecution .","['Soviet Union', [20519, 20520], 'LOC']",{}
+"Rostropovich and his wife , soprano Galina Vishnevskaya , left the Soviet Union in 1974 in response to political persecution .","['1974', [20522, 20522], 'DATE']",{}
+"In another town , Balad Ruz , police say a rocket attack on a policeman 's house killed the man 's brother and four children .","['Balad Ruz', [18408, 18409], 'PERSON']",{}
+Russian news media say rescue helicopters found the wreckage more than a 100 kilometers away from the airfield .,"['Russian', [14594, 14594], 'GPE']",{}
+"Ukraine 's campaign to win NATO membership has been strongly opposed by Moscow , which says it will not accept any further expansion of the western alliance on Russia 's borders .","['Ukraine', [14764, 14764], 'LOC']",{}
+"Ukraine 's campaign to win NATO membership has been strongly opposed by Moscow , which says it will not accept any further expansion of the western alliance on Russia 's borders .","['NATO', [14769, 14769], 'ORG']",{}
+"Ukraine 's campaign to win NATO membership has been strongly opposed by Moscow , which says it will not accept any further expansion of the western alliance on Russia 's borders .","['Moscow', [14776, 14776], 'ORG']",{}
+"Ukraine 's campaign to win NATO membership has been strongly opposed by Moscow , which says it will not accept any further expansion of the western alliance on Russia 's borders .","['Russia', [14792, 14792], 'LOC']",{}
+LRA fighters are accused of murdering thousands of civilians and raping and mutilating others during the long insurgency in northern Uganda .,"['LRA', [6684, 6684], 'ORG']",{}
+LRA fighters are accused of murdering thousands of civilians and raping and mutilating others during the long insurgency in northern Uganda .,"['Uganda', [6704, 6704], 'LOC']",{}
+"A World Health Organization official , Margaret Chan , told the meeting there is a great risk of an epidemic , although the timing and severity is uncertain .","['World Health Organization', [16310, 16312], 'ORG']",{}
+"A World Health Organization official , Margaret Chan , told the meeting there is a great risk of an epidemic , although the timing and severity is uncertain .","['Margaret Chan', [16315, 16316], 'PERSON']",{}
+The ambush came a day after a commander of Pakistani troops said the army has almost completely eliminated militants in South Waziristan .,"['Pakistani', [1153, 1153], 'GPE']",{}
+The ambush came a day after a commander of Pakistani troops said the army has almost completely eliminated militants in South Waziristan .,"['South Waziristan', [1164, 1165], 'LOC']",{}
+"On Sunday , the ministry said that huge public interest made the circumstances exceptional .","['Sunday', [19869, 19869], 'DATE']",{}
+They marched from the Houses of Parliament to a rally in Hyde Park .,"['Hyde Park', [65, 66], 'LOC']",{}
+"Despite the rising claims for unemployment insurance , U.S. companies are squeezing more productivity out of their shrinking workforces .","['U.S.', [11949, 11949], 'GPE']",{}
+"They say the island is well-suited for the project because of its proximity to the equator , which makes it easier to launch satellites into some Earth orbits .","['Earth', [7721, 7721], 'LOC']",{}
+"At the close of World War II , Germany was divided into two separate countries governed under separate ideologies of democracy and communism .","['II', [21971, 21971], 'EVENT']",{}
+"At the close of World War II , Germany was divided into two separate countries governed under separate ideologies of democracy and communism .","['Germany', [21973, 21973], 'LOC']",{}
+"However , U.S. forces have yet to enter Somalia , which has been without a functioning central government for more than 10 years .","['U.S.', [10533, 10533], 'GPE']",{}
+"However , U.S. forces have yet to enter Somalia , which has been without a functioning central government for more than 10 years .","['Somalia', [10539, 10539], 'LOC']",{}
+"The region subsequently came under the control of Germans , Poles , Swedes , and finally , Russians .","['Germans', [12737, 12737], 'GPE']",{}
+"The region subsequently came under the control of Germans , Poles , Swedes , and finally , Russians .","['Poles', [12739, 12739], 'GPE']",{}
+"The region subsequently came under the control of Germans , Poles , Swedes , and finally , Russians .","['Swedes', [12741, 12741], 'GPE']",{}
+"The region subsequently came under the control of Germans , Poles , Swedes , and finally , Russians .","['Russians', [12746, 12746], 'GPE']",{}
+"The Muslim Brotherhood is banned as a political party , but it endorses so-called independent candidates whose allegiance to the party is known to voters .","['Muslim Brotherhood', [765, 766], 'ORG']",{}
+"The Muslim Brotherhood has tripled its strength in parliament in recent elections , raising the party 's total to 47 seats .","['Muslim Brotherhood', [718, 719], 'ORG']",{}
+"Officials say the aircraft was supporting a NATO mission in the country 's south , but there is no indication of enemy action causing the crash .","['NATO', [5130, 5130], 'ORG']",{}
+His retirement will leave open what would have been a relatively safe seat for Republicans in the fight for Senate control in the elections .,"['Senate', [4269, 4269], 'ORG']",{}
+"World Bank President Paul Wolfowitz said two-thirds of the bank members have now approved the plan , meaning the bank could start forgiving debts in July .","['World Bank', [7276, 7277], 'ORG']",{}
+"World Bank President Paul Wolfowitz said two-thirds of the bank members have now approved the plan , meaning the bank could start forgiving debts in July .","['President Paul Wolfowitz', [7278, 7280], 'PERSON']",{}
+"World Bank President Paul Wolfowitz said two-thirds of the bank members have now approved the plan , meaning the bank could start forgiving debts in July .","['July', [7301, 7301], 'DATE']",{}
+"U.S. officials say they believe the man was involved in planning car bomb attacks on Baghdad 's Green Zone , which houses government , diplomatic and military offices .","['U.S.', [11284, 11284], 'LOC']",{}
+"U.S. officials say they believe the man was involved in planning car bomb attacks on Baghdad 's Green Zone , which houses government , diplomatic and military offices .","['Baghdad', [11299, 11299], 'LOC']",{}
+"U.S. officials say they believe the man was involved in planning car bomb attacks on Baghdad 's Green Zone , which houses government , diplomatic and military offices .","['Green Zone', [11301, 11302], 'LOC']",{}
+"Meanwhile , Paraguay 's President Nicanor Duarte has threatened to abandon the group because of alleged protectionist trade policies by Brazil and Argentina .","['Paraguay', [17784, 17784], 'ORG']",{}
+"Meanwhile , Paraguay 's President Nicanor Duarte has threatened to abandon the group because of alleged protectionist trade policies by Brazil and Argentina .","['President Nicanor Duarte', [17786, 17788], 'PERSON']",{}
+"Meanwhile , Paraguay 's President Nicanor Duarte has threatened to abandon the group because of alleged protectionist trade policies by Brazil and Argentina .","['Brazil', [17802, 17802], 'ORG']",{}
+"Meanwhile , Paraguay 's President Nicanor Duarte has threatened to abandon the group because of alleged protectionist trade policies by Brazil and Argentina .","['Argentina', [17804, 17804], 'ORG']",{}
+World number one men 's tennis player Roger Federer has been nearly unbeatable in the past year .,"['Roger Federer', [6713, 6714], 'PERSON']",{}
+Another militant was killed by U.S. troops in eastern Paktika province .,"['U.S.', [2465, 2465], 'GPE']",{}
+Another militant was killed by U.S. troops in eastern Paktika province .,"['Paktika', [2469, 2469], 'LOC']",{}
+State media report Saturday that the 12-member council approved the measure after deciding it does not contradict the constitution or Islamic law .,"['Saturday', [9485, 9485], 'DATE']",{}
+ABAC is the only non-governmental body that has an official role and formal dialogue with the leaders of the APEC economies .,"['ABAC', [1801, 1801], 'ORG']",{}
+ABAC is the only non-governmental body that has an official role and formal dialogue with the leaders of the APEC economies .,"['APEC', [1820, 1820], 'ORG']",{}
+Khartoum says troops were defending their positions from rebel attacks .,"['Khartoum', [1954, 1954], 'GPE']",{}
+Venezuela responded by sending troops to the Colombian border .,"['Venezuela', [6277, 6277], 'GPE']",{}
+Venezuela responded by sending troops to the Colombian border .,"['Colombian', [6284, 6284], 'GPE']",{}
+"In recent weeks , AU officials say Sudanese troops and rebels have repeatedly violated the April truce .","['AU', [1915, 1915], 'ORG']",{}
+"In recent weeks , AU officials say Sudanese troops and rebels have repeatedly violated the April truce .","['Sudanese', [1918, 1918], 'GPE']",{}
+"In recent weeks , AU officials say Sudanese troops and rebels have repeatedly violated the April truce .","['April', [1926, 1926], 'DATE']",{}
+"Germany 's ex-chancellor Helmut Kohl , former U.S. president George Herbert Walker Bush , and former Soviet leader Mikhail Gorbachev were honored at a gathering in Berlin for their efforts in reunifying Germany .","['Germany', [21892, 21892], 'LOC']",{}
+"Germany 's ex-chancellor Helmut Kohl , former U.S. president George Herbert Walker Bush , and former Soviet leader Mikhail Gorbachev were honored at a gathering in Berlin for their efforts in reunifying Germany .","['Helmut Kohl', [21895, 21896], 'PERSON']",{}
+"Germany 's ex-chancellor Helmut Kohl , former U.S. president George Herbert Walker Bush , and former Soviet leader Mikhail Gorbachev were honored at a gathering in Berlin for their efforts in reunifying Germany .","['U.S.', [21899, 21899], 'LOC']",{}
+"Germany 's ex-chancellor Helmut Kohl , former U.S. president George Herbert Walker Bush , and former Soviet leader Mikhail Gorbachev were honored at a gathering in Berlin for their efforts in reunifying Germany .","['George Herbert Walker Bush', [21901, 21904], 'PERSON']",{}
+"Germany 's ex-chancellor Helmut Kohl , former U.S. president George Herbert Walker Bush , and former Soviet leader Mikhail Gorbachev were honored at a gathering in Berlin for their efforts in reunifying Germany .","['Mikhail Gorbachev', [21910, 21911], 'PERSON']",{}
+"Germany 's ex-chancellor Helmut Kohl , former U.S. president George Herbert Walker Bush , and former Soviet leader Mikhail Gorbachev were honored at a gathering in Berlin for their efforts in reunifying Germany .","['Berlin', [21918, 21918], 'LOC']",{}
+"Germany 's ex-chancellor Helmut Kohl , former U.S. president George Herbert Walker Bush , and former Soviet leader Mikhail Gorbachev were honored at a gathering in Berlin for their efforts in reunifying Germany .","['Germany', [21924, 21924], 'LOC']",{}
+Judge Victor Montiglio charged General Pinochet in connection with the kidnapping and disappearance of seven people in the early years of his 1973 to 1990 rule .,"['Victor Montiglio', [17523, 17524], 'PERSON']",{}
+Judge Victor Montiglio charged General Pinochet in connection with the kidnapping and disappearance of seven people in the early years of his 1973 to 1990 rule .,"['General Pinochet', [17526, 17527], 'ORG']",{}
+Judge Victor Montiglio charged General Pinochet in connection with the kidnapping and disappearance of seven people in the early years of his 1973 to 1990 rule .,"['of his 1973 to 1990', [17542, 17546], 'DATE']",{}
+"Taleban activity has eased during the harshest Afghan winter in decades , but officials believe upcoming warmer weather will result in a renewed surge of violence .","['Taleban', [19811, 19811], 'ORG']",{}
+"Taleban activity has eased during the harshest Afghan winter in decades , but officials believe upcoming warmer weather will result in a renewed surge of violence .","['Afghan', [19818, 19818], 'GPE']",{}
+"Mr. Fujimori , Peru 's hard-line ruler from 1990 to 2000 , has denied the charges , calling them politically motivated .","['Mr. Fujimori', [8751, 8752], 'PERSON']",{}
+"Mr. Fujimori , Peru 's hard-line ruler from 1990 to 2000 , has denied the charges , calling them politically motivated .","['Peru', [8754, 8754], 'LOC']",{}
+"Mr. Fujimori , Peru 's hard-line ruler from 1990 to 2000 , has denied the charges , calling them politically motivated .","['1990', [8759, 8759], 'DATE']",{}
+"Mr. Fujimori , Peru 's hard-line ruler from 1990 to 2000 , has denied the charges , calling them politically motivated .","['2000', [8761, 8761], 'DATE']",{}
+"In the northern city of Tal Afar , a car bomb exploded Saturday , killing two people and wounding 30 others .","['Tal Afar', [11384, 11385], 'LOC']",{}
+"In the northern city of Tal Afar , a car bomb exploded Saturday , killing two people and wounding 30 others .","['Saturday', [11391, 11391], 'DATE']",{}
+At least two of the three Afghans were election workers .,"['Afghans', [20340, 20340], 'GPE']",{}
+A spokesman for the cellist said Thursday he is undergoing routine treatment .,"['Thursday', [20458, 20458], 'DATE']",{}
+"The party is divided over Britain 's participation in the Iraq conflict and the continued deployment of 8,500 British troops in that country .","['Britain', [113, 113], 'GPE']",{}
+"The party is divided over Britain 's participation in the Iraq conflict and the continued deployment of 8,500 British troops in that country .","['Iraq', [118, 118], 'LOC']",{}
+"The party is divided over Britain 's participation in the Iraq conflict and the continued deployment of 8,500 British troops in that country .","['British', [126, 126], 'GPE']",{}
+The World Bank and World Health Organization are hoping to raise $ 1.5 billion from rich countries to help poorer nations fight bird flu and prevent a global pandemic .,"['World Bank and World Health Organization', [16236, 16241], 'ORG']",{}
+Philip Alston said he is deeply concerned by the October 25 incident .,"['Philip Alston', [10202, 10203], 'PERSON']",{}
+Philip Alston said he is deeply concerned by the October 25 incident .,"['October 25', [10211, 10212], 'DATE']",{}
+The pope has said he meant no offense to Muslims when he quoted a 14 century Byzantine emperor as saying some teachings of the Prophet Muhammed brought evil to the world .,"['Byzantine', [2234, 2234], 'PERSON']",{}
+The pope has said he meant no offense to Muslims when he quoted a 14 century Byzantine emperor as saying some teachings of the Prophet Muhammed brought evil to the world .,"['Prophet Muhammed', [2242, 2243], 'PERSON']",{}
+Mr. Akmatbayev was involved in negotiations on Wednesday at another Kyrgyz prison where a riot over poor living conditions forced the staff to evacuate earlier this week .,"['Mr. Akmatbayev', [5844, 5845], 'PERSON']",{}
+Mr. Akmatbayev was involved in negotiations on Wednesday at another Kyrgyz prison where a riot over poor living conditions forced the staff to evacuate earlier this week .,"['Wednesday', [5851, 5851], 'DATE']",{}
+Mr. Akmatbayev was involved in negotiations on Wednesday at another Kyrgyz prison where a riot over poor living conditions forced the staff to evacuate earlier this week .,"['Kyrgyz', [5854, 5854], 'GPE']",{}
+He is accused of helping fund attacks carried out by an Algerian militant organization the Armed Islamic Group .,"['Algerian', [7846, 7846], 'GPE']",{}
+He is accused of helping fund attacks carried out by an Algerian militant organization the Armed Islamic Group .,"['Armed Islamic Group', [7850, 7852], 'ORG']",{}
+"Bolivia is an associate member of Mercosur , formed in 1991 .","['Bolivia', [17770, 17770], 'LOC']",{}
+"Bolivia is an associate member of Mercosur , formed in 1991 .","['Mercosur', [17776, 17776], 'LOC']",{}
+"Bolivia is an associate member of Mercosur , formed in 1991 .","['1991', [17780, 17780], 'DATE']",{}
+But Admiral Mullen said he hopes the military option is not needed .,"['Admiral Mullen', [8369, 8370], 'PERSON']",{}
+"Iran 's defense minister , Brigadier General Ahmad Vahidi , said Tuesday that U.S. threats to attack his country violate the United Nations charter .","['Iran', [8381, 8381], 'GPE']",{}
+"Iran 's defense minister , Brigadier General Ahmad Vahidi , said Tuesday that U.S. threats to attack his country violate the United Nations charter .","['Brigadier General Ahmad Vahidi', [8386, 8389], 'PERSON']",{}
+"Iran 's defense minister , Brigadier General Ahmad Vahidi , said Tuesday that U.S. threats to attack his country violate the United Nations charter .","['Tuesday', [8392, 8392], 'DATE']",{}
+"Iran 's defense minister , Brigadier General Ahmad Vahidi , said Tuesday that U.S. threats to attack his country violate the United Nations charter .","['U.S.', [8394, 8394], 'GPE']",{}
+"Iran 's defense minister , Brigadier General Ahmad Vahidi , said Tuesday that U.S. threats to attack his country violate the United Nations charter .","['United Nations', [8402, 8403], 'ORG']",{}
+A group linked to al-Qaida in Iraq is denying Iraqi government reports that its leader was recently arrested .,"['al-Qaida', [10745, 10745], 'ORG']",{}
+A group linked to al-Qaida in Iraq is denying Iraqi government reports that its leader was recently arrested .,"['Iraq', [10747, 10747], 'LOC']",{}
+A group linked to al-Qaida in Iraq is denying Iraqi government reports that its leader was recently arrested .,"['Iraqi', [10750, 10750], 'GPE']",{}
+Emergency power rationing has been put into effect around Moscow .,"['Moscow', [2666, 2666], 'LOC']",{}
+Egypt 's government and the World Health Organization say three Egyptian children have been hospitalized with the deadly form of avian flu .,"['Egypt', [5541, 5541], 'GPE']",{}
+Egypt 's government and the World Health Organization say three Egyptian children have been hospitalized with the deadly form of avian flu .,"['World Health Organization', [5546, 5548], 'ORG']",{}
+Egypt 's government and the World Health Organization say three Egyptian children have been hospitalized with the deadly form of avian flu .,"['Egyptian', [5551, 5551], 'GPE']",{}
+"The U.S. military also says Iraqi special operations forces detained seven suspected criminals in and around Baghdad 's Sadr City district , a stronghold of radical Shi'ite cleric Moqtada al-Sadr .","['U.S.', [11464, 11464], 'GPE']",{}
+"The U.S. military also says Iraqi special operations forces detained seven suspected criminals in and around Baghdad 's Sadr City district , a stronghold of radical Shi'ite cleric Moqtada al-Sadr .","['Iraqi', [11468, 11468], 'GPE']",{}
+"The U.S. military also says Iraqi special operations forces detained seven suspected criminals in and around Baghdad 's Sadr City district , a stronghold of radical Shi'ite cleric Moqtada al-Sadr .","['Baghdad', [11479, 11479], 'LOC']",{}
+"The U.S. military also says Iraqi special operations forces detained seven suspected criminals in and around Baghdad 's Sadr City district , a stronghold of radical Shi'ite cleric Moqtada al-Sadr .","['Sadr City', [11481, 11482], 'LOC']",{}
+"The U.S. military also says Iraqi special operations forces detained seven suspected criminals in and around Baghdad 's Sadr City district , a stronghold of radical Shi'ite cleric Moqtada al-Sadr .","[""Shi'ite"", [11489, 11489], 'ORG']",{}
+"The U.S. military also says Iraqi special operations forces detained seven suspected criminals in and around Baghdad 's Sadr City district , a stronghold of radical Shi'ite cleric Moqtada al-Sadr .","['Moqtada al-Sadr', [11491, 11492], 'PERSON']",{}
+"Iranian officials say they expect to get access to sealed sensitive parts of the plant Wednesday , after an IAEA surveillance system begins functioning .","['Iranian', [196, 196], 'GPE']",{}
+"Iranian officials say they expect to get access to sealed sensitive parts of the plant Wednesday , after an IAEA surveillance system begins functioning .","['Wednesday', [211, 211], 'DATE']",{}
+"Iranian officials say they expect to get access to sealed sensitive parts of the plant Wednesday , after an IAEA surveillance system begins functioning .","['IAEA', [215, 215], 'ORG']",{}
+"The U.N. 's Food and Agricultural Organization ( FAO ) said the tsunami destroyed or damaged more than 1,11,000 fishing vessels in the region .","['U.N.', [4341, 4341], 'ORG']",{}
+"The U.N. 's Food and Agricultural Organization ( FAO ) said the tsunami destroyed or damaged more than 1,11,000 fishing vessels in the region .","['Food and Agricultural Organization', [4343, 4346], 'ORG']",{}
+"The U.N. 's Food and Agricultural Organization ( FAO ) said the tsunami destroyed or damaged more than 1,11,000 fishing vessels in the region .","['FAO', [4348, 4348], 'ORG']",{}
+Mr. Ismail announced the decision after meeting with officials from the United Nations and African Union in Khartoum Sunday .,"['Mr. Ismail', [1891, 1892], 'PERSON']",{}
+Mr. Ismail announced the decision after meeting with officials from the United Nations and African Union in Khartoum Sunday .,"['United Nations', [1902, 1903], 'ORG']",{}
+Mr. Ismail announced the decision after meeting with officials from the United Nations and African Union in Khartoum Sunday .,"['African Union', [1905, 1906], 'ORG']",{}
+Mr. Ismail announced the decision after meeting with officials from the United Nations and African Union in Khartoum Sunday .,"['Khartoum', [1908, 1908], 'LOC']",{}
+Mr. Ismail announced the decision after meeting with officials from the United Nations and African Union in Khartoum Sunday .,"['Sunday', [1909, 1909], 'DATE']",{}
+A U.S. government audit shows that at least 232 civilians have been killed while working on U.S. reconstruction projects in Iraq .,"['U.S.', [17376, 17376], 'LOC']",{}
+A U.S. government audit shows that at least 232 civilians have been killed while working on U.S. reconstruction projects in Iraq .,"['U.S.', [17391, 17391], 'ORG']",{}
+A U.S. government audit shows that at least 232 civilians have been killed while working on U.S. reconstruction projects in Iraq .,"['Iraq', [17395, 17395], 'LOC']",{}
+"However , a lack of foreign investment in the key sectors of mining and hydrocarbons and higher food prices pose challenges for the Bolivian economy .","['Bolivian', [13032, 13032], 'GPE']",{}
+Bolivian President Evo Morales also is to attend the summit for talks with his Brazilian counterpart Luiz Inacio Lula da Silva to discuss the price of gas exports to Brazil .,"['Bolivian', [17739, 17739], 'GPE']",{}
+Bolivian President Evo Morales also is to attend the summit for talks with his Brazilian counterpart Luiz Inacio Lula da Silva to discuss the price of gas exports to Brazil .,"['President Evo Morales', [17740, 17742], 'PERSON']",{}
+Bolivian President Evo Morales also is to attend the summit for talks with his Brazilian counterpart Luiz Inacio Lula da Silva to discuss the price of gas exports to Brazil .,"['Brazilian', [17753, 17753], 'GPE']",{}
+Bolivian President Evo Morales also is to attend the summit for talks with his Brazilian counterpart Luiz Inacio Lula da Silva to discuss the price of gas exports to Brazil .,"['Luiz Inacio Lula da Silva', [17755, 17759], 'PERSON']",{}
+Bolivian President Evo Morales also is to attend the summit for talks with his Brazilian counterpart Luiz Inacio Lula da Silva to discuss the price of gas exports to Brazil .,"['Brazil', [17768, 17768], 'LOC']",{}
+Japan and North Korea say they are considering a resumption of bilateral talks as part of efforts to normalize relations .,"['Japan', [5310, 5310], 'GPE']",{}
+Japan and North Korea say they are considering a resumption of bilateral talks as part of efforts to normalize relations .,"['North Korea', [5312, 5313], 'GPE']",{}
+He said such criticism runs counter to the good development of U.S - China relations .,"['U.S', [6391, 6391], 'GPE']",{}
+He said such criticism runs counter to the good development of U.S - China relations .,"['China', [6393, 6393], 'GPE']",{}
+Malaysia and Indonesia have demanded proof of Bangkok 's allegations .,"['Malaysia', [4675, 4675], 'GPE']",{}
+Malaysia and Indonesia have demanded proof of Bangkok 's allegations .,"['Indonesia', [4677, 4677], 'GPE']",{}
+Malaysia and Indonesia have demanded proof of Bangkok 's allegations .,"['Bangkok', [4682, 4682], 'GPE']",{}
+A top Japanese official is calling for U.N. economic sanctions against North Korea if Pyongyang tests a nuclear device .,"['Japanese', [15877, 15877], 'GPE']",{}
+A top Japanese official is calling for U.N. economic sanctions against North Korea if Pyongyang tests a nuclear device .,"['U.N.', [15882, 15882], 'ORG']",{}
+A top Japanese official is calling for U.N. economic sanctions against North Korea if Pyongyang tests a nuclear device .,"['North', [15886, 15886], 'LOC']",{}
+A top Japanese official is calling for U.N. economic sanctions against North Korea if Pyongyang tests a nuclear device .,"['Korea', [15887, 15887], 'GPE']",{}
+A top Japanese official is calling for U.N. economic sanctions against North Korea if Pyongyang tests a nuclear device .,"['Pyongyang', [15889, 15889], 'GPE']",{}
+He fought extradition to France for 10 years .,"['France', [7865, 7865], 'LOC']",{}
+"Sperling 's appointment is the latest major staff change for the Obama administration as it begins dealing with a new Republican majority in the House of Representatives , and planning for the president 's likely re-election campaign in 2012 .","['Sperling', [9827, 9827], 'PERSON']",{}
+"Sperling 's appointment is the latest major staff change for the Obama administration as it begins dealing with a new Republican majority in the House of Representatives , and planning for the president 's likely re-election campaign in 2012 .","['Obama', [9838, 9838], 'PERSON']",{}
+"Sperling 's appointment is the latest major staff change for the Obama administration as it begins dealing with a new Republican majority in the House of Representatives , and planning for the president 's likely re-election campaign in 2012 .","['House of Representatives', [9851, 9853], 'ORG']",{}
+"Sperling 's appointment is the latest major staff change for the Obama administration as it begins dealing with a new Republican majority in the House of Representatives , and planning for the president 's likely re-election campaign in 2012 .","['2012', [9865, 9865], 'DATE']",{}
+Conservationists hope she will help draw attention to the threats facing the giant panda -- one of China 's national symbols .,"['China', [5064, 5064], 'GPE']",{}
+"However , a report by a U.N. commission in October implicated top Syrian and Lebanese officials .","['U.N.', [21015, 21015], 'ORG']",{}
+"However , a report by a U.N. commission in October implicated top Syrian and Lebanese officials .","['October', [21018, 21018], 'DATE']",{}
+"However , a report by a U.N. commission in October implicated top Syrian and Lebanese officials .","['Syrian', [21021, 21021], 'GPE']",{}
+"However , a report by a U.N. commission in October implicated top Syrian and Lebanese officials .","['Lebanese', [21023, 21023], 'GPE']",{}
+The interviews are expected to continue until Wednesday .,"['Wednesday', [20961, 20961], 'DATE']",{}
+"U.S. military officials have filed charges against four detainees at Guantanamo , where more than 500 terror suspects are being held .","['U.S.', [11002, 11002], 'GPE']",{}
+"U.S. military officials have filed charges against four detainees at Guantanamo , where more than 500 terror suspects are being held .","['Guantanamo', [11012, 11012], 'LOC']",{}
+A United Nations expert on extrajudicial killings says he would like to visit Thailand to investigate last month 's deaths of 87 Muslim protesters .,"['United Nations', [10178, 10179], 'ORG']",{}
+A United Nations expert on extrajudicial killings says he would like to visit Thailand to investigate last month 's deaths of 87 Muslim protesters .,"['Thailand', [10190, 10190], 'LOC']",{}
+A United Nations expert on extrajudicial killings says he would like to visit Thailand to investigate last month 's deaths of 87 Muslim protesters .,"['Muslim', [10199, 10199], 'ORG']",{}
+"The U.N. says the deal , which was signed Wednesday , will allow some 16,000 Sudanese refugees living in the CAR to voluntarily return home .","['U.N.', [7938, 7938], 'ORG']",{}
+"The U.N. says the deal , which was signed Wednesday , will allow some 16,000 Sudanese refugees living in the CAR to voluntarily return home .","['Wednesday', [7946, 7946], 'DATE']",{}
+"The U.N. says the deal , which was signed Wednesday , will allow some 16,000 Sudanese refugees living in the CAR to voluntarily return home .","['Sudanese', [7952, 7952], 'GPE']",{}
+"The U.N. says the deal , which was signed Wednesday , will allow some 16,000 Sudanese refugees living in the CAR to voluntarily return home .","['CAR', [7957, 7957], 'GPE']",{}
+"Meanwhile , Thailand 's revered King Bhumibol Adulyadej warned that the country could fall into ruin if the violence in the south does not end .","['Thailand', [10254, 10254], 'GPE']",{}
+"Meanwhile , Thailand 's revered King Bhumibol Adulyadej warned that the country could fall into ruin if the violence in the south does not end .","['King Bhumibol Adulyadej', [10257, 10259], 'PERSON']",{}
+A referendum would have delayed the withdrawal for months from its July starting date .,"['July starting date', [20752, 20754], 'DATE']",{}
+"Also Monday , an al-Qaida-linked group claimed responsibility for gunning down a top Iraqi security official ( Wael al-Rubaei ) and his driver in Baghdad .","['Monday', [9421, 9421], 'DATE']",{}
+"Also Monday , an al-Qaida-linked group claimed responsibility for gunning down a top Iraqi security official ( Wael al-Rubaei ) and his driver in Baghdad .","['Iraqi', [9433, 9433], 'GPE']",{}
+"Also Monday , an al-Qaida-linked group claimed responsibility for gunning down a top Iraqi security official ( Wael al-Rubaei ) and his driver in Baghdad .","['Wael al-Rubaei', [9437, 9438], 'PERSON']",{}
+"Also Monday , an al-Qaida-linked group claimed responsibility for gunning down a top Iraqi security official ( Wael al-Rubaei ) and his driver in Baghdad .","['Baghdad', [9444, 9444], 'LOC']",{}
+The International Atomic Energy Agency is to hold second day of talks in Vienna Wednesday on how to respond to Iran 's resumption of low-level uranium conversion .,"['International Atomic Energy Agency', [154, 157], 'ORG']",{}
+The International Atomic Energy Agency is to hold second day of talks in Vienna Wednesday on how to respond to Iran 's resumption of low-level uranium conversion .,"['Vienna', [166, 166], 'LOC']",{}
+The International Atomic Energy Agency is to hold second day of talks in Vienna Wednesday on how to respond to Iran 's resumption of low-level uranium conversion .,"['Wednesday', [167, 167], 'DATE']",{}
+The International Atomic Energy Agency is to hold second day of talks in Vienna Wednesday on how to respond to Iran 's resumption of low-level uranium conversion .,"['Iran', [173, 173], 'GPE']",{}
+"The countries agreed to reopen their consulates , following a meeting Friday between Panamanian President Martin Torrijos and Cuban Vice President Carlos Lage .","['Friday', [3495, 3495], 'DATE']",{}
+"The countries agreed to reopen their consulates , following a meeting Friday between Panamanian President Martin Torrijos and Cuban Vice President Carlos Lage .","['Panamanian', [3497, 3497], 'GPE']",{}
+"The countries agreed to reopen their consulates , following a meeting Friday between Panamanian President Martin Torrijos and Cuban Vice President Carlos Lage .","['President Martin Torrijos', [3498, 3500], 'PERSON']",{}
+"The countries agreed to reopen their consulates , following a meeting Friday between Panamanian President Martin Torrijos and Cuban Vice President Carlos Lage .","['Cuban', [3502, 3502], 'GPE']",{}
+"The countries agreed to reopen their consulates , following a meeting Friday between Panamanian President Martin Torrijos and Cuban Vice President Carlos Lage .","['Vice President Carlos Lage', [3503, 3506], 'PERSON']",{}

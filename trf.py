@@ -1,0 +1,161 @@
+import spacy
+import os
+import pandas as pd
+from spacy.tokens import DocBin
+from spacy.training import Example
+from spacy.util import minibatch, compounding
+from sklearn.model_selection import train_test_split
+import torch
+import torch.backends.cudnn as cudnn
+
+def dataset_to_spacy(label):
+    mapping = {
+        'per': 'PERSON',
+        'org': 'ORG',
+        'gpe': 'GPE',
+        'geo': 'LOC',
+        'tim': 'DATE',
+        'art': 'WORK_OF_ART',
+        'eve': 'EVENT'
+    }
+    return mapping.get(label, label)
+
+def filter_overlapping_spans_keep_first(spans):
+    kept = []
+    for span in spans:
+        overlap = False
+        for kept_span in kept:
+            if not (span.start_char >= kept_span.end_char or span.end_char <= kept_span.start_char):
+                overlap = True
+                break
+        if not overlap:
+            kept.append(span)
+    return kept
+
+def create_doc(nlp, text, entities):
+    doc = nlp(text)
+    ents = []
+    try:
+        entity_list = eval(entities)
+    except Exception as e:
+        entity_list = []
+    for entity in entity_list:
+        annotated_text = entity[0]
+        start = entity[1][0]
+        end = entity[1][1] + 1
+        label = dataset_to_spacy(entity[2])
+        span = doc.char_span(start, end, label=label, alignment_mode="expand")
+        if span is None:
+            span = doc.char_span(start, end, label=label, alignment_mode="contract")
+        if span is None:
+            idx = doc.text.find(annotated_text)
+            if idx != -1:
+                span = doc.char_span(idx, idx + len(annotated_text), label=label, alignment_mode="contract")
+        if span is not None:
+            ents.append(span)
+    doc.ents = filter_overlapping_spans_keep_first(ents)
+    return doc
+
+def process_data(df):
+    texts = []
+    labels = []
+    for index, row in df.iterrows():
+        text = row['sentence']
+        texts.append(text)
+        entities = row['entities']
+        entity_labels = []
+        for entity in eval(entities):
+            entity_labels.append([entity[0], entity[1], dataset_to_spacy(entity[2])])
+        labels.append(entity_labels)
+    return texts, labels
+
+def evaluate_model(nlp, texts, labels):
+    docs = list(nlp.pipe(texts))
+    results = []
+    error_results = []
+    correct_label_count = 0
+    total_label_count = 0
+    for doc, true_label in zip(docs, labels):
+        pred_labels = [[ent.text, ent.start_char, ent.label_] for ent in doc.ents]
+        matching_entities = []
+        sentence_correct_label_count = 0
+        sentence_total_label_count = 0
+        for true_entity in true_label:
+            if true_entity[2] == 'O':
+                continue
+            matched_pred_entity = next((ent for ent in pred_labels if ent[0] == true_entity[0]), None)
+            if matched_pred_entity:
+                matching_entities.append({
+                    'Entity': matched_pred_entity[0],
+                    'Start': matched_pred_entity[1],
+                    'Predicted_Label': matched_pred_entity[2],
+                    'True_Label': true_entity[2]
+                })
+                sentence_total_label_count += 1
+                if matched_pred_entity[2] == true_entity[2]:
+                    sentence_correct_label_count += 1
+                else:
+                    error_results.append({
+                        'Sentence': doc.text,
+                        'Original_Entity': true_entity,
+                        'Predicted_Entity': matched_pred_entity
+                    })
+        sentence_accuracy = sentence_correct_label_count / sentence_total_label_count if sentence_total_label_count > 0 else 0
+        correct_label_count += sentence_correct_label_count
+        total_label_count += sentence_total_label_count
+        results.append({
+            'Sentence': doc.text,
+            'Matching_Entities': matching_entities,
+            'Label_Accuracy': sentence_accuracy
+        })
+    results_df = pd.DataFrame(results)
+    print(results_df.head())
+    overall_label_accuracy = correct_label_count / total_label_count if total_label_count > 0 else 0
+    print(f"Overall Label Accuracy: {overall_label_accuracy * 100:.2f}%")
+    error_df = pd.DataFrame(error_results)
+    return error_df
+
+if __name__ == '__main__':
+    import multiprocessing
+    multiprocessing.freeze_support()
+    nlp = spacy.load("en_core_web_trf")
+    df = pd.read_csv('./dataset/dataset0/abhinavwalia95.csv', encoding='latin1').ffill().head(10000)
+    path = './'
+    from sklearn.model_selection import train_test_split
+    train_df, test_df = train_test_split(df, test_size=0.3, random_state=42)
+    
+    train_doc_bin = DocBin()
+    for index, row in train_df.iterrows():
+        doc = create_doc(nlp, row['sentence'], row['entities'])
+        train_doc_bin.add(doc)
+    train_doc_bin.to_disk(os.path.join(path, 'train.spacy'))
+    
+    dev_doc_bin = DocBin()
+    for index, row in test_df.iterrows():
+        doc = create_doc(nlp, row['sentence'], row['entities'])
+        dev_doc_bin.add(doc)
+    dev_doc_bin.to_disk(os.path.join(path, 'dev.spacy'))
+    
+    train_examples = []
+    for index, row in train_df.iterrows():
+        doc = create_doc(nlp, row['sentence'], row['entities'])
+        gold_entities = [(ent.start_char, ent.end_char, ent.label_) for ent in doc.ents]
+        example = Example.from_dict(doc, {"entities": gold_entities})
+        train_examples.append(example)
+    
+    optimizer = nlp.resume_training()
+    cudnn.benchmark = True
+    
+    n_iter = 2
+    for epoch in range(n_iter):
+        losses = {}
+        batches = list(minibatch(train_examples, size=compounding(128.0, 512.0, 1.001)))
+        for batch in batches:
+            nlp.update(batch, drop=0.5, sgd=optimizer, losses=losses)
+        print(f"Epoch {epoch+1}/{n_iter}, Losses: {losses}")
+    
+    nlp.to_disk(os.path.join(path, "fine_tuned_model"))
+    texts, labels = process_data(test_df)
+    error_df = evaluate_model(nlp, texts, labels)
+    error_csv_path = os.path.join(path, 'error_results.csv')
+    error_df.to_csv(error_csv_path, index=False)
