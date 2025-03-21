@@ -80,7 +80,7 @@ for index, row in train_df.iterrows():
     example = Example.from_dict(doc, {"entities": gold_entities})
     train_examples.append(example)
 optimizer = nlp.resume_training()
-n_iter = 50
+n_iter = 1
 for epoch in range(n_iter):
     losses = {}
     batches = minibatch(train_examples, size=compounding(4.0, 32.0, 1.001))

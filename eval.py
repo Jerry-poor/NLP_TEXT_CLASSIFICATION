@@ -21,9 +21,9 @@ def evaluate_model(nlp, texts, labels, path, model_name):
         pred_entities = [(ent.start_char, ent.end_char, ent.label_) for ent in doc.ents]
         true_entities = []
         for entity in true_label:
-            if entity[2] == 'O':
+            if entity[3] == 'O':
                 continue
-            true_entities.append((entity[1][0], entity[1][1] + 1, entity[2]))
+            true_entities.append((entity[1], entity[2], entity[3]))
         if set(pred_entities) == set(true_entities):
             sentence_correct += 1
             true_sentences.append(doc_text)
