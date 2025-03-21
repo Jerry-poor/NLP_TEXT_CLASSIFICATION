@@ -1,4 +1,3 @@
-#sm，其他pipe在colab中处理
 import spacy
 import os
 import pandas as pd
@@ -6,10 +5,12 @@ from spacy.tokens import DocBin
 from spacy.training import Example
 from spacy.util import minibatch, compounding
 from sklearn.model_selection import train_test_split
+from eval import evaluate_model
 
 train_df = pd.read_csv("./dataset/dataset1/dataset1_train.csv", encoding='latin1').ffill()
 test_df = pd.read_csv("./dataset/dataset1/dataset1_test.csv", encoding='latin1').ffill()
-path='./dataset/dataset1/'
+path = './dataset/dataset1/'
+model_name = "fine_tuned_model"
 nlp = spacy.load("en_core_web_sm")
 #建立一个映射，将原始数据集转换成spacy标签，不在表中的说明与spacy标签无法建立映射，后续当none处理
 def dataset_to_spacy(label):
@@ -98,44 +99,6 @@ for epoch in range(n_iter):
         nlp.update(batch, drop=0.5, sgd=optimizer, losses=losses)
     print(f"Epoch {epoch+1}/{n_iter}, Losses: {losses}")
 
-nlp.to_disk(os.path.join(path, "fine_tuned_model"))
+nlp.to_disk(os.path.join(path, model_name))
 texts, labels = process_data(test_df)
-
-def evaluate_model(nlp, texts, labels):
-    results = []
-    error_results = []
-    correct_label_count = 0
-    total_label_count = 0
-    for doc_text, true_label in zip(texts, labels):
-        doc = nlp(doc_text)
-        pred_labels = [[ent.text, ent.start_char, ent.label_] for ent in doc.ents]
-        matching_entities = []
-        sentence_correct_label_count = 0
-        sentence_total_label_count = 0
-        for true_entity in true_label:
-            if true_entity[2] == 'O':
-                continue
-            matched_pred_entity = next((ent for ent in pred_labels if ent[0] == true_entity[0]), None)
-            if matched_pred_entity:
-                matching_entities.append({'Entity': matched_pred_entity[0],
-                                          'Start': matched_pred_entity[1],
-                                          'Predicted_Label': matched_pred_entity[2],
-                                          'True_Label': true_entity[2]})
-                sentence_total_label_count += 1
-                if matched_pred_entity[2] == true_entity[2]:
-                    sentence_correct_label_count += 1
-                else:
-                    error_results.append({'Sentence': doc_text, 'Original_Entity': true_entity, 'Predicted_Entity': matched_pred_entity})
-        sentence_accuracy = sentence_correct_label_count / sentence_total_label_count if sentence_total_label_count > 0 else 0
-        correct_label_count += sentence_correct_label_count
-        total_label_count += sentence_total_label_count
-        results.append({'Sentence': doc_text, 'Matching_Entities': matching_entities, 'Label_Accuracy': sentence_accuracy})
-    results_df = pd.DataFrame(results)
-    overall_label_accuracy = correct_label_count / total_label_count if total_label_count > 0 else 0
-    print(f"Overall Label Accuracy: {overall_label_accuracy * 100:.2f}%")
-    error_df = pd.DataFrame(error_results)
-    return error_df
-
-error_df = evaluate_model(nlp, texts, labels)
-error_csv_path = os.path.join('./dataset/dataset1', 'error_results.csv')
-error_df.to_csv(error_csv_path, index=False)
+evaluate_model(nlp, texts, labels, path, model_name)

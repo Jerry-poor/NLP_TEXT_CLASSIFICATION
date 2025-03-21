@@ -1,0 +1,8 @@
+dataset0:https://www.kaggle.com/datasets/abhinavwalia95/entity-annotated-corpus/data
+dataset1:https://github.com/Babelscape/wikineural/blob/master/data/wikiann/en/val.conllu
+dataset2:https://github.com/stanfordnlp/en-worldwide-newswire?utm_source=chatgpt.com
+dataset3:https://huggingface.co/datasets/mach-12/ecommerce-ner-conll-2003-data
+dataset4:https://huggingface.co/datasets/unimelb-nlp/wikiann
+dataset5:https://huggingface.co/datasets/Babelscape/multinerd
+dataset6:https://huggingface.co/datasets/unimelb-nlp/wikiann
+dataset7:https://github.com/leondz/emerging_entities_17
