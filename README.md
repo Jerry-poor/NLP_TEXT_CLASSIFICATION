@@ -4,6 +4,8 @@
 选择语言 / Choose Language:
 - [中文 README](./Readme/README_zh.md)
 - [English README](./Readme/README_en.md)
+目前的进度：
+NER(Named Entity Recognition)
 github上的日志会比实际进度慢，实验具体数据比较杂乱，未整理后暂时不上传
 
 需要注意的改动
