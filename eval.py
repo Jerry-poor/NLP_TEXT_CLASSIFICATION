@@ -64,7 +64,7 @@ def evaluate_model(nlp, texts, labels, path, model_name):
     print("Sentence-level Precision: {:.2f}%, Recall: {:.2f}%, F1: {:.2f}%".format(sentence_precision*100, sentence_recall*100, sentence_f1*100))
     print("Entity-level Precision: {:.2f}%, Recall: {:.2f}%, F1: {:.2f}%".format(entity_precision*100, entity_recall*100, entity_f1*100))
     print("Token-level Precision: {:.2f}%, Recall: {:.2f}%, F1: {:.2f}%".format(token_precision*100, token_recall*100, token_f1*100))
-    true_df = pd.DataFrame({'sentence': true_sentences})
+    true_df = pd.DataFrame({'sentence': true_sentences, 'entities': [str(e) for e in true_entities_list]})
     true_df.to_csv(os.path.join(path, 'True_df.csv'), index=False)
     # 添加日志到 path 文件夹的 log 子目录中
     log_dir = os.path.join(path, "log")
