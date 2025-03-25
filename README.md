@@ -8,6 +8,8 @@
 目前的进度：  
 
 NER(Named Entity Recognition)  
+对o3-mini 4o进行few-shot
+在hpc集群对ds蒸馏版进行lora微调和全量微调实验
 
 github上的日志会比实际进度慢，实验具体数据比较杂乱，未整理后暂时不上传  
 
