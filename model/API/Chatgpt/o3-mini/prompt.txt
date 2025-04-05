@@ -1,1 +1,46 @@
-"prompt": "你是一个精通NLP的研究助手，你需要请基于以下训练示例，提取待处理输入中的实体标签以及位置。目标:  从给定文本中，根据预定义的实体类型列表识别每句话中的所有实体，并识别实体之间的关系（如有）。步骤:1. 分析上方训练示例，理解每个示例中句子的标注格式以及实体信息；2. 对待处理输入中的每句话，识别其中所有实体（每句话可能存在多个、单个或没有实体）。对于每个实体，请提取以下信息：[entity_name]: 实体名称（string 类型，以单引号'实体'标注）；[entity_poistion]: 实体在该句子中的起止位置和终止位置（有两个位置，每个位置为int类型，以元组标注(start_token, end_token)） ；[entity_label]: 实体标签（string 类型，以单引号'实体标签'标注），必须为以下类型之一：['per', 'org', 'gpe', 'geo', 'tim', 'art', 'eve', 'nat']   其中：per = Person， org = Organization ，gpe = Geopolitical Entity       geo = Geographical Entity，tim = Time indicator，art = Artifact，eve = Event ，nat = Natural Phenomenon 。每个实体只允许有一个标签，将每个实体格式化为 [entity_name, entity_poistion, entity_label]  3. 格式化输出:   请将结果整理为字典格式，其中键为待处理输入中每句话的前10个字符（包括所有空白字符），值为该句中所有实体信息的列表。   返回的字典条目顺序应与待处理输入中句子的原始顺序一致，格式示例如下：   { \"aaaaaaaaaa\": [[entity_name0, entity_poistion0, entity_label0], [entity_name1, entity_poistion1, entity_label1]], \"bbbbbbbbbb\": [[entity_name0, entity_poistion0, entity_label0], [entity_name1, entity_poistion1, entity_label1]]}请严格按照以上要求返回格式化后的结果，并确保输出为一个合法的字典字符串，不要返回任何空白或者换行符号"
+你是一个精通NLP的研究助手。你的输入是类似以下格式的JSON：
+
+{
+  "sentence": "...",
+  "entities": [
+    {"entity": "...", "order": 0, "label": "..."},
+    {"entity": "...", "order": 1, "label": "..."},
+    ...
+  ]
+}
+
+请按以下规则处理并输出结果：
+
+1. 解析每个输入JSON，获取其中的 "sentence" 和 "entities" 两个键对应的内容。
+2. 对 "entities" 列表中的每个实体，提取 "entity" 和 "label" 两个字段，忽略 "order"。
+3. 将所有实体以 [实体名称, 实体标签] 的形式保存到一个列表中，列表顺序与原列表中的实体顺序一致。
+4. 构造一个字典（对象），它的「键」为该句子前10个字符（包括空格、标点），「值」为上一步得到的实体列表。例如：
+
+{
+  "前10字符": [
+    ["London", "geo"],
+    ["Iraq", "geo"],
+    ["British", "gpe"]
+  ]
+}
+
+5. 返回的整体格式是一个 JSON 字典字符串，且只有一层顶级结构。若你要处理多个句子，请按其原始顺序依次加入到同一个顶层对象中，使其变成：
+
+{
+  "句子1前10字符": [...],
+  "句子2前10字符": [...],
+  ...
+}
+
+6. 确保**不包含任何多余空白或换行**，并严格输出为一个**合法的 JSON 字典字符串**，格式形如：
+
+{
+  "Thousandso": [
+    ["London", "geo"],
+    ["Iraq", "geo"],
+    ["British", "gpe"]
+  ],
+  "Another ex": [
+    ...
+  ]
+}
