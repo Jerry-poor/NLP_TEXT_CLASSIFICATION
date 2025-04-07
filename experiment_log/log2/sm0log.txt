@@ -1,0 +1,54 @@
+Epoch 1/50, Losses: {'tok2vec': 0.0, 'tagger': 0.0, 'parser': 0.0, 'ner': np.float32(107933.625)}
+Epoch 2/50, Losses: {'tok2vec': 0.0, 'tagger': 0.0, 'parser': 0.0, 'ner': np.float32(88387.17)}
+Epoch 3/50, Losses: {'tok2vec': 0.0, 'tagger': 0.0, 'parser': 0.0, 'ner': np.float32(82285.07)}
+Epoch 4/50, Losses: {'tok2vec': 0.0, 'tagger': 0.0, 'parser': 0.0, 'ner': np.float32(78983.4)}
+Epoch 5/50, Losses: {'tok2vec': 0.0, 'tagger': 0.0, 'parser': 0.0, 'ner': np.float32(77002.75)}
+Epoch 6/50, Losses: {'tok2vec': 0.0, 'tagger': 0.0, 'parser': 0.0, 'ner': np.float32(75406.9)}
+Epoch 7/50, Losses: {'tok2vec': 0.0, 'tagger': 0.0, 'parser': 0.0, 'ner': np.float32(74055.68)}
+Epoch 8/50, Losses: {'tok2vec': 0.0, 'tagger': 0.0, 'parser': 0.0, 'ner': np.float32(73096.4)}
+Epoch 9/50, Losses: {'tok2vec': 0.0, 'tagger': 0.0, 'parser': 0.0, 'ner': np.float32(72003.234)}
+Epoch 10/50, Losses: {'tok2vec': 0.0, 'tagger': 0.0, 'parser': 0.0, 'ner': np.float32(71377.51)}
+Epoch 11/50, Losses: {'tok2vec': 0.0, 'tagger': 0.0, 'parser': 0.0, 'ner': np.float32(70583.125)}
+Epoch 12/50, Losses: {'tok2vec': 0.0, 'tagger': 0.0, 'parser': 0.0, 'ner': np.float32(70134.46)}
+Epoch 13/50, Losses: {'tok2vec': 0.0, 'tagger': 0.0, 'parser': 0.0, 'ner': np.float32(69589.72)}
+Epoch 14/50, Losses: {'tok2vec': 0.0, 'tagger': 0.0, 'parser': 0.0, 'ner': np.float32(68900.38)}
+Epoch 15/50, Losses: {'tok2vec': 0.0, 'tagger': 0.0, 'parser': 0.0, 'ner': np.float32(68775.586)}
+Epoch 16/50, Losses: {'tok2vec': 0.0, 'tagger': 0.0, 'parser': 0.0, 'ner': np.float32(68190.52)}
+Epoch 17/50, Losses: {'tok2vec': 0.0, 'tagger': 0.0, 'parser': 0.0, 'ner': np.float32(67996.05)}
+Epoch 18/50, Losses: {'tok2vec': 0.0, 'tagger': 0.0, 'parser': 0.0, 'ner': np.float32(67671.96)}
+Epoch 19/50, Losses: {'tok2vec': 0.0, 'tagger': 0.0, 'parser': 0.0, 'ner': np.float32(67092.92)}
+Epoch 20/50, Losses: {'tok2vec': 0.0, 'tagger': 0.0, 'parser': 0.0, 'ner': np.float32(66906.28)}
+Epoch 21/50, Losses: {'tok2vec': 0.0, 'tagger': 0.0, 'parser': 0.0, 'ner': np.float32(66580.11)}
+Epoch 22/50, Losses: {'tok2vec': 0.0, 'tagger': 0.0, 'parser': 0.0, 'ner': np.float32(66213.72)}
+Epoch 23/50, Losses: {'tok2vec': 0.0, 'tagger': 0.0, 'parser': 0.0, 'ner': np.float32(66015.64)}
+Epoch 24/50, Losses: {'tok2vec': 0.0, 'tagger': 0.0, 'parser': 0.0, 'ner': np.float32(65745.2)}
+Epoch 25/50, Losses: {'tok2vec': 0.0, 'tagger': 0.0, 'parser': 0.0, 'ner': np.float32(65507.207)}
+Epoch 26/50, Losses: {'tok2vec': 0.0, 'tagger': 0.0, 'parser': 0.0, 'ner': np.float32(65206.434)}
+Epoch 27/50, Losses: {'tok2vec': 0.0, 'tagger': 0.0, 'parser': 0.0, 'ner': np.float32(65205.676)}
+Epoch 28/50, Losses: {'tok2vec': 0.0, 'tagger': 0.0, 'parser': 0.0, 'ner': np.float32(64807.887)}
+Epoch 29/50, Losses: {'tok2vec': 0.0, 'tagger': 0.0, 'parser': 0.0, 'ner': np.float32(64526.293)}
+Epoch 30/50, Losses: {'tok2vec': 0.0, 'tagger': 0.0, 'parser': 0.0, 'ner': np.float32(64399.906)}
+Epoch 31/50, Losses: {'tok2vec': 0.0, 'tagger': 0.0, 'parser': 0.0, 'ner': np.float32(64194.395)}
+Epoch 32/50, Losses: {'tok2vec': 0.0, 'tagger': 0.0, 'parser': 0.0, 'ner': np.float32(64046.58)}
+Epoch 33/50, Losses: {'tok2vec': 0.0, 'tagger': 0.0, 'parser': 0.0, 'ner': np.float32(63982.188)}
+Epoch 34/50, Losses: {'tok2vec': 0.0, 'tagger': 0.0, 'parser': 0.0, 'ner': np.float32(63774.78)}
+Epoch 35/50, Losses: {'tok2vec': 0.0, 'tagger': 0.0, 'parser': 0.0, 'ner': np.float32(63576.598)}
+Epoch 36/50, Losses: {'tok2vec': 0.0, 'tagger': 0.0, 'parser': 0.0, 'ner': np.float32(63389.664)}
+Epoch 37/50, Losses: {'tok2vec': 0.0, 'tagger': 0.0, 'parser': 0.0, 'ner': np.float32(63228.45)}
+Epoch 38/50, Losses: {'tok2vec': 0.0, 'tagger': 0.0, 'parser': 0.0, 'ner': np.float32(63203.88)}
+Epoch 39/50, Losses: {'tok2vec': 0.0, 'tagger': 0.0, 'parser': 0.0, 'ner': np.float32(62988.164)}
+Epoch 40/50, Losses: {'tok2vec': 0.0, 'tagger': 0.0, 'parser': 0.0, 'ner': np.float32(62751.875)}
+Epoch 41/50, Losses: {'tok2vec': 0.0, 'tagger': 0.0, 'parser': 0.0, 'ner': np.float32(62794.08)}
+Epoch 42/50, Losses: {'tok2vec': 0.0, 'tagger': 0.0, 'parser': 0.0, 'ner': np.float32(62631.277)}
+Epoch 43/50, Losses: {'tok2vec': 0.0, 'tagger': 0.0, 'parser': 0.0, 'ner': np.float32(62402.703)}
+Epoch 44/50, Losses: {'tok2vec': 0.0, 'tagger': 0.0, 'parser': 0.0, 'ner': np.float32(62222.016)}
+Epoch 45/50, Losses: {'tok2vec': 0.0, 'tagger': 0.0, 'parser': 0.0, 'ner': np.float32(62147.133)}
+Epoch 46/50, Losses: {'tok2vec': 0.0, 'tagger': 0.0, 'parser': 0.0, 'ner': np.float32(62110.445)}
+Epoch 47/50, Losses: {'tok2vec': 0.0, 'tagger': 0.0, 'parser': 0.0, 'ner': np.float32(61978.645)}
+Epoch 48/50, Losses: {'tok2vec': 0.0, 'tagger': 0.0, 'parser': 0.0, 'ner': np.float32(62037.016)}
+Epoch 49/50, Losses: {'tok2vec': 0.0, 'tagger': 0.0, 'parser': 0.0, 'ner': np.float32(61683.027)}
+Epoch 50/50, Losses: {'tok2vec': 0.0, 'tagger': 0.0, 'parser': 0.0, 'ner': np.float32(61481.246)}
+wandb: Adding directory to artifact (c:\Users\UIC\Desktop\NLP\NLP_TEXT_CLASSIFICATION\model\Spacy\sm0_doc_bin\sm_model)... Done. 0.0s
+Sentence-level Precision: 14.39%, Recall: 14.39%, F1: 14.39%
+Entity-level Precision: 0.97%, Recall: 0.29%, F1: 0.44%
+Token-level Precision: 1.41%, Recall: 15.57%, F1: 2.58%

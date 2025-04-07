@@ -1,0 +1,1162 @@
+Processing Sentence: Philip Alston said he is deeply concerned by the October 25 incident .
+True Entities: [(0, 2, 'PERSON'), (9, 11, 'DATE')]
+Predicted Entities: [(0, 6, 'PERSON')]
+Sentence Correct: 0, Sentence Total: 1
+Entity TP: 0, Entity FP: 1, Entity FN: 2
+Token Correct: 0, Token Pred Total: 1, Token True Total: 0
+
+Processing Sentence: Dutch GDP contracted 3.9 % in 2009 , while exports declined nearly 25 % due to a sharp contraction in world demand .
+True Entities: [(0, 1, 'GPE'), (6, 7, 'DATE')]
+Predicted Entities: [(0, 5, 'GPE'), (10, 20, 'DATE')]
+Sentence Correct: 0, Sentence Total: 2
+Entity TP: 0, Entity FP: 3, Entity FN: 4
+Token Correct: 0, Token Pred Total: 3, Token True Total: 0
+
+Processing Sentence: But the job market 's problems may be easing , as the number of people signing up for first time jobless aid declined by 53,000 to a total of 6,10,000 .
+True Entities: []
+Predicted Entities: []
+Sentence Correct: 1, Sentence Total: 3
+Entity TP: 0, Entity FP: 3, Entity FN: 4
+Token Correct: 0, Token Pred Total: 3, Token True Total: 0
+
+Processing Sentence: Iraqi police say insurgents have carried out at least four more car bomb attacks in Baghdad and the northern city of Mosul , killing nine people and wounding nearly 30 others .
+True Entities: [(0, 1, 'GPE'), (15, 16, 'LOC'), (21, 22, 'LOC')]
+Predicted Entities: [(0, 5, 'GPE')]
+Sentence Correct: 1, Sentence Total: 4
+Entity TP: 0, Entity FP: 4, Entity FN: 7
+Token Correct: 0, Token Pred Total: 4, Token True Total: 0
+
+Processing Sentence: His case has attracted international attention because Williams is the author of a series of children 's books warning young people about the dangers of gangs .
+True Entities: [(7, 8, 'PERSON')]
+Predicted Entities: []
+Sentence Correct: 1, Sentence Total: 5
+Entity TP: 0, Entity FP: 4, Entity FN: 8
+Token Correct: 0, Token Pred Total: 4, Token True Total: 0
+
+Processing Sentence: The Vatican says Pope Benedict respects Islam and did not intend to offend anyone .
+True Entities: [(1, 2, 'ORG'), (3, 5, 'PERSON'), (6, 7, 'LOC')]
+Predicted Entities: [(0, 3, 'ORG'), (4, 11, 'PERSON')]
+Sentence Correct: 1, Sentence Total: 6
+Entity TP: 0, Entity FP: 6, Entity FN: 11
+Token Correct: 0, Token Pred Total: 6, Token True Total: 0
+
+Processing Sentence: Bolt was slow out of the starting blocks , but nearly caught up and finished just one-100th of one second back .
+True Entities: [(0, 1, 'PERSON')]
+Predicted Entities: [(0, 4, 'PERSON')]
+Sentence Correct: 1, Sentence Total: 7
+Entity TP: 0, Entity FP: 7, Entity FN: 12
+Token Correct: 0, Token Pred Total: 7, Token True Total: 0
+
+Processing Sentence: Mr. Rhee says Seoul plans to increase subsidies for job training for the defectors in an effort to help them adjust .
+True Entities: [(0, 2, 'PERSON'), (3, 4, 'PERSON')]
+Predicted Entities: [(0, 3, 'PERSON')]
+Sentence Correct: 1, Sentence Total: 8
+Entity TP: 0, Entity FP: 8, Entity FN: 14
+Token Correct: 0, Token Pred Total: 8, Token True Total: 0
+
+Processing Sentence: Authorities did not say when the Egyptian-sponsored talks would be held .
+True Entities: []
+Predicted Entities: []
+Sentence Correct: 2, Sentence Total: 9
+Entity TP: 0, Entity FP: 8, Entity FN: 14
+Token Correct: 0, Token Pred Total: 8, Token True Total: 0
+
+Processing Sentence: On the political front , Palestinian President Mahmoud Abbas of the Fatah movement and the ruling group Hamas have agreed to resume talks on forming a unity government .
+True Entities: [(5, 6, 'GPE'), (6, 9, 'PERSON'), (11, 12, 'LOC'), (17, 18, 'ORG')]
+Predicted Entities: [(3, 6, 'GPE')]
+Sentence Correct: 2, Sentence Total: 10
+Entity TP: 0, Entity FP: 9, Entity FN: 18
+Token Correct: 0, Token Pred Total: 9, Token True Total: 0
+
+Processing Sentence: Tehran denies the allegation .
+True Entities: [(0, 1, 'ORG')]
+Predicted Entities: [(0, 6, 'LOC')]
+Sentence Correct: 2, Sentence Total: 11
+Entity TP: 0, Entity FP: 10, Entity FN: 19
+Token Correct: 0, Token Pred Total: 10, Token True Total: 0
+
+Processing Sentence: The remains were found near the Basilica of the Annunciation , which was built on the site where Christians believe an angel told the virgin Mary that she was going to give birth to Jesus .
+True Entities: [(6, 7, 'LOC'), (25, 26, 'PERSON'), (34, 35, 'PERSON')]
+Predicted Entities: []
+Sentence Correct: 2, Sentence Total: 12
+Entity TP: 0, Entity FP: 10, Entity FN: 22
+Token Correct: 0, Token Pred Total: 10, Token True Total: 0
+
+Processing Sentence: Earthquakes are common in Turkey .
+True Entities: [(4, 5, 'LOC')]
+Predicted Entities: [(0, 11, 'LOC')]
+Sentence Correct: 2, Sentence Total: 13
+Entity TP: 0, Entity FP: 11, Entity FN: 23
+Token Correct: 0, Token Pred Total: 11, Token True Total: 0
+
+Processing Sentence: It says defectors report many prisoners have died from torture , starvation , disease or exposure .
+True Entities: []
+Predicted Entities: []
+Sentence Correct: 3, Sentence Total: 14
+Entity TP: 0, Entity FP: 11, Entity FN: 23
+Token Correct: 0, Token Pred Total: 11, Token True Total: 0
+
+Processing Sentence: Pope Benedict XVI said the current global financial crisis is the result of individuals seeking short-term monetary gains at the expense of the common good .
+True Entities: [(1, 3, 'PERSON')]
+Predicted Entities: [(0, 4, 'PERSON')]
+Sentence Correct: 3, Sentence Total: 15
+Entity TP: 0, Entity FP: 12, Entity FN: 24
+Token Correct: 0, Token Pred Total: 12, Token True Total: 0
+
+Processing Sentence: But Taleban officials have vowed that attacks will intensify when the weather improves .
+True Entities: [(1, 2, 'ORG')]
+Predicted Entities: [(0, 3, 'ORG')]
+Sentence Correct: 3, Sentence Total: 16
+Entity TP: 0, Entity FP: 13, Entity FN: 25
+Token Correct: 0, Token Pred Total: 13, Token True Total: 0
+
+Processing Sentence: Al-Qaida 's deputy leader has criticized the West for publishing cartoons depicting the Prophet Muhammad as a terrorist .
+True Entities: [(0, 1, 'ORG'), (7, 8, 'LOC'), (13, 15, 'PERSON')]
+Predicted Entities: [(0, 2, 'ORG')]
+Sentence Correct: 3, Sentence Total: 17
+Entity TP: 0, Entity FP: 14, Entity FN: 28
+Token Correct: 0, Token Pred Total: 14, Token True Total: 0
+
+Processing Sentence: Brazilian leader Luiz Inacio Lula da Silva and Evo Morales of Bolivia met Saturday in Vienna on the sidelines of the European Union-Latin America summit .
+True Entities: [(0, 1, 'GPE'), (2, 7, 'PERSON'), (8, 10, 'PERSON'), (11, 12, 'LOC'), (13, 14, 'DATE'), (15, 16, 'LOC'), (21, 24, 'ORG')]
+Predicted Entities: [(0, 9, 'GPE')]
+Sentence Correct: 3, Sentence Total: 18
+Entity TP: 0, Entity FP: 15, Entity FN: 35
+Token Correct: 0, Token Pred Total: 15, Token True Total: 0
+
+Processing Sentence: Iraqi security officials say unidentified gunmen have shot and killed the imam of a Sunni mosque and three other people in Baghdad .
+True Entities: [(0, 1, 'GPE'), (21, 22, 'LOC')]
+Predicted Entities: [(0, 5, 'GPE')]
+Sentence Correct: 3, Sentence Total: 19
+Entity TP: 0, Entity FP: 16, Entity FN: 37
+Token Correct: 0, Token Pred Total: 16, Token True Total: 0
+
+Processing Sentence: Mr. Musharraf declared a state of emergency last November and purged the Supreme Court , in order to halt any legal challenges to his presidency .
+True Entities: [(0, 1, 'PERSON'), (1, 2, 'LOC'), (8, 9, 'DATE'), (12, 14, 'ORG')]
+Predicted Entities: [(0, 3, 'PERSON')]
+Sentence Correct: 3, Sentence Total: 20
+Entity TP: 0, Entity FP: 17, Entity FN: 41
+Token Correct: 0, Token Pred Total: 17, Token True Total: 0
+
+Processing Sentence: Officials said Monday the hardest hit area is the northern province of Uige where 184 people have died from the disease that first appeared last October .
+True Entities: [(2, 3, 'DATE'), (12, 13, 'LOC'), (25, 26, 'DATE')]
+Predicted Entities: [(0, 9, 'DATE')]
+Sentence Correct: 3, Sentence Total: 21
+Entity TP: 0, Entity FP: 18, Entity FN: 44
+Token Correct: 0, Token Pred Total: 18, Token True Total: 0
+
+Processing Sentence: Police in Afghanistan say Afghan and NATO forces have killed 18 Taleban rebels in clashes in the country 's volatile southern region .
+True Entities: [(2, 3, 'LOC'), (4, 5, 'GPE'), (6, 7, 'ORG'), (11, 12, 'ORG')]
+Predicted Entities: [(0, 6, 'LOC')]
+Sentence Correct: 3, Sentence Total: 22
+Entity TP: 0, Entity FP: 19, Entity FN: 48
+Token Correct: 0, Token Pred Total: 19, Token True Total: 0
+
+Processing Sentence: South Africa has led mediation efforts on Zimbabwe 's political crisis , and has been slammed repeatedly by the opposition for its approach of so-called " quiet diplomacy " towards the Mugabe government .
+True Entities: [(0, 2, 'LOC'), (7, 8, 'LOC'), (31, 32, 'PERSON')]
+Predicted Entities: [(0, 5, 'LOC')]
+Sentence Correct: 3, Sentence Total: 23
+Entity TP: 0, Entity FP: 20, Entity FN: 51
+Token Correct: 0, Token Pred Total: 20, Token True Total: 0
+
+Processing Sentence: They were set to expire next week .
+True Entities: []
+Predicted Entities: []
+Sentence Correct: 4, Sentence Total: 24
+Entity TP: 0, Entity FP: 20, Entity FN: 51
+Token Correct: 0, Token Pred Total: 20, Token True Total: 0
+
+Processing Sentence: Doctors at Jerusalem 's Hadassah Hospital have inserted a feeding tube into the stomach of Israeli Prime Minister Ariel Sharon .
+True Entities: [(2, 6, 'ORG'), (15, 16, 'GPE'), (16, 17, 'PERSON'), (18, 20, 'PERSON')]
+Predicted Entities: [(0, 7, 'LOC')]
+Sentence Correct: 4, Sentence Total: 25
+Entity TP: 0, Entity FP: 21, Entity FN: 55
+Token Correct: 0, Token Pred Total: 21, Token True Total: 0
+
+Processing Sentence: Iran is the world 's fourth-largest oil exporter .
+True Entities: [(0, 1, 'LOC')]
+Predicted Entities: [(0, 4, 'LOC')]
+Sentence Correct: 4, Sentence Total: 26
+Entity TP: 0, Entity FP: 22, Entity FN: 56
+Token Correct: 0, Token Pred Total: 22, Token True Total: 0
+
+Processing Sentence: The commission chief ( Kissem Tchangai-Walla ) says Mr. Gnassingbe , son of the late longtime leader Gnassingbe Eyadema , won with just over 60 percent of votes cast .
+True Entities: [(4, 6, 'ORG'), (8, 10, 'PERSON'), (17, 19, 'PERSON')]
+Predicted Entities: [(4, 14, 'ORG')]
+Sentence Correct: 4, Sentence Total: 27
+Entity TP: 0, Entity FP: 23, Entity FN: 59
+Token Correct: 0, Token Pred Total: 23, Token True Total: 0
+
+Processing Sentence: North Korea 's main state-run newspaper said Tuesday that six-nation talks could resume if the United States changed what it called a " hostile policy " against Pyongyang .
+True Entities: [(0, 2, 'LOC'), (7, 8, 'DATE'), (15, 17, 'LOC'), (27, 28, 'LOC')]
+Predicted Entities: [(0, 5, 'LOC')]
+Sentence Correct: 4, Sentence Total: 28
+Entity TP: 0, Entity FP: 24, Entity FN: 63
+Token Correct: 0, Token Pred Total: 24, Token True Total: 0
+
+Processing Sentence: However , U.S. Deputy Secretary of State Robert Zoellick said Tuesday the aid is dependent on Sudan ending a separate conflict in its western Darfur region .
+True Entities: [(2, 4, 'ORG'), (7, 9, 'PERSON'), (10, 11, 'DATE'), (16, 17, 'LOC'), (24, 25, 'LOC')]
+Predicted Entities: [(0, 7, 'ORG')]
+Sentence Correct: 4, Sentence Total: 29
+Entity TP: 0, Entity FP: 25, Entity FN: 68
+Token Correct: 0, Token Pred Total: 25, Token True Total: 1
+
+Processing Sentence: The court says some family members were forced to watch their relatives being killed .
+True Entities: []
+Predicted Entities: []
+Sentence Correct: 5, Sentence Total: 30
+Entity TP: 0, Entity FP: 25, Entity FN: 68
+Token Correct: 0, Token Pred Total: 25, Token True Total: 1
+
+Processing Sentence: The army imposed a curfew in the town after re-taking the buildings .
+True Entities: []
+Predicted Entities: []
+Sentence Correct: 6, Sentence Total: 31
+Entity TP: 0, Entity FP: 25, Entity FN: 68
+Token Correct: 0, Token Pred Total: 25, Token True Total: 1
+
+Processing Sentence: It is the largest single order Airbus has ever gotten from China .
+True Entities: [(6, 7, 'ORG'), (11, 12, 'LOC')]
+Predicted Entities: [(6, 9, 'ORG')]
+Sentence Correct: 6, Sentence Total: 32
+Entity TP: 0, Entity FP: 26, Entity FN: 70
+Token Correct: 0, Token Pred Total: 26, Token True Total: 1
+
+Processing Sentence: Mr. Abe reiterated Japan 's stance that normalizing relations with North Korea will not be possible until the abduction issue is resolved .
+True Entities: [(0, 2, 'PERSON'), (3, 4, 'LOC'), (10, 12, 'LOC')]
+Predicted Entities: [(0, 3, 'PERSON')]
+Sentence Correct: 6, Sentence Total: 33
+Entity TP: 0, Entity FP: 27, Entity FN: 73
+Token Correct: 0, Token Pred Total: 27, Token True Total: 1
+
+Processing Sentence: Shortly after the vote , security forces opened fire on anti-government protesters , killing at least 36 people .
+True Entities: []
+Predicted Entities: []
+Sentence Correct: 7, Sentence Total: 34
+Entity TP: 0, Entity FP: 27, Entity FN: 73
+Token Correct: 0, Token Pred Total: 27, Token True Total: 1
+
+Processing Sentence: The United States and 46 other countries have recognized Kosovo independence .
+True Entities: [(1, 3, 'LOC'), (9, 10, 'ORG')]
+Predicted Entities: [(0, 3, 'LOC')]
+Sentence Correct: 7, Sentence Total: 35
+Entity TP: 0, Entity FP: 28, Entity FN: 75
+Token Correct: 0, Token Pred Total: 28, Token True Total: 1
+
+Processing Sentence: The White House said President Bush has approved duty-free treatment for imports of certain types of watches that are n't produced in " significant quantities " in the U.S. , the Virgin Islands and other U.S. possessions .
+True Entities: [(1, 3, 'ORG'), (4, 6, 'PERSON'), (28, 29, 'LOC'), (31, 33, 'ORG'), (35, 36, 'LOC')]
+Predicted Entities: [(0, 3, 'ORG'), (4, 9, 'PERSON')]
+Sentence Correct: 7, Sentence Total: 36
+Entity TP: 0, Entity FP: 30, Entity FN: 80
+Token Correct: 0, Token Pred Total: 30, Token True Total: 1
+
+Processing Sentence: The president says the crackdown is intended to stop the " extremist minority " harming Pakistan 's interests and tarnishing the image of Islam .
+True Entities: [(23, 24, 'LOC')]
+Predicted Entities: []
+Sentence Correct: 7, Sentence Total: 37
+Entity TP: 0, Entity FP: 30, Entity FN: 81
+Token Correct: 0, Token Pred Total: 30, Token True Total: 1
+
+Processing Sentence: An earthquake of that magnitude can cause damage in populated areas within a radius of about 160 kilometers .
+True Entities: []
+Predicted Entities: []
+Sentence Correct: 8, Sentence Total: 38
+Entity TP: 0, Entity FP: 30, Entity FN: 81
+Token Correct: 0, Token Pred Total: 30, Token True Total: 1
+
+Processing Sentence: That constitution was nullified by a military coup in 1962 and replaced by another constitution in 1974 .
+True Entities: [(9, 10, 'DATE'), (16, 17, 'DATE')]
+Predicted Entities: []
+Sentence Correct: 8, Sentence Total: 39
+Entity TP: 0, Entity FP: 30, Entity FN: 83
+Token Correct: 0, Token Pred Total: 30, Token True Total: 1
+
+Processing Sentence: The commander of NATO forces in Afghanistan says the international community has underestimated the resurgence of the Taleban , partly because the war in Iraq diverted attention and resources .
+True Entities: [(3, 4, 'ORG'), (6, 7, 'LOC'), (17, 18, 'ORG'), (24, 25, 'LOC')]
+Predicted Entities: [(4, 13, 'ORG')]
+Sentence Correct: 8, Sentence Total: 40
+Entity TP: 0, Entity FP: 31, Entity FN: 87
+Token Correct: 0, Token Pred Total: 31, Token True Total: 1
+
+Processing Sentence: A service of hymns , Bible readings and prayers followed .
+True Entities: [(5, 6, 'PERSON')]
+Predicted Entities: [(2, 9, 'ORG')]
+Sentence Correct: 8, Sentence Total: 41
+Entity TP: 0, Entity FP: 32, Entity FN: 88
+Token Correct: 0, Token Pred Total: 32, Token True Total: 1
+
+Processing Sentence: Syrian officials say they are willing to cooperate with a U.N. investigation into the assassination of former Lebanese Prime Minister Rafik Hariri .
+True Entities: [(0, 1, 'GPE'), (10, 11, 'ORG'), (17, 18, 'GPE'), (18, 19, 'PERSON'), (20, 22, 'PERSON')]
+Predicted Entities: [(0, 6, 'GPE')]
+Sentence Correct: 8, Sentence Total: 42
+Entity TP: 0, Entity FP: 33, Entity FN: 93
+Token Correct: 0, Token Pred Total: 33, Token True Total: 1
+
+Processing Sentence: The building was constructed in 1890 as a synagogue .
+True Entities: [(5, 6, 'DATE')]
+Predicted Entities: [(4, 12, 'DATE')]
+Sentence Correct: 8, Sentence Total: 43
+Entity TP: 0, Entity FP: 34, Entity FN: 94
+Token Correct: 0, Token Pred Total: 34, Token True Total: 1
+
+Processing Sentence: The two-day APEC summit will also focus on global trade and terrorism .
+True Entities: []
+Predicted Entities: [(4, 7, 'ORG')]
+Sentence Correct: 8, Sentence Total: 44
+Entity TP: 0, Entity FP: 35, Entity FN: 94
+Token Correct: 0, Token Pred Total: 35, Token True Total: 1
+
+Processing Sentence: President Bush acknowledged Thursday that hard work still needs to be done to gain the necessary approval in Congress .
+True Entities: [(0, 2, 'PERSON'), (3, 4, 'DATE'), (18, 19, 'ORG')]
+Predicted Entities: [(0, 9, 'PERSON')]
+Sentence Correct: 8, Sentence Total: 45
+Entity TP: 0, Entity FP: 36, Entity FN: 97
+Token Correct: 0, Token Pred Total: 36, Token True Total: 1
+
+Processing Sentence: A FOX invited a Crane to supper and provided nothing for his entertainment but some soup made of pulse , which was poured out into a broad flat stone dish .
+True Entities: []
+Predicted Entities: []
+Sentence Correct: 9, Sentence Total: 46
+Entity TP: 0, Entity FP: 36, Entity FN: 97
+Token Correct: 0, Token Pred Total: 36, Token True Total: 1
+
+Processing Sentence: Forecasters say the heavy rains could trigger flash flooding and mudslides in the region , especially in mountainous parts of Nicaragua and Honduras .
+True Entities: [(20, 21, 'LOC'), (22, 23, 'LOC')]
+Predicted Entities: []
+Sentence Correct: 9, Sentence Total: 47
+Entity TP: 0, Entity FP: 36, Entity FN: 99
+Token Correct: 0, Token Pred Total: 36, Token True Total: 1
+
+Processing Sentence: Pakistan 's Foreign Ministry spokeswoman Tasnim Aslam declined to say whether a new reactor is being constructed , but she said the presence of a nuclear weapons program and facilities at Khushab are well known .
+True Entities: [(0, 1, 'LOC'), (2, 4, 'ORG'), (5, 7, 'PERSON'), (31, 32, 'LOC')]
+Predicted Entities: [(0, 8, 'LOC')]
+Sentence Correct: 9, Sentence Total: 48
+Entity TP: 0, Entity FP: 37, Entity FN: 103
+Token Correct: 0, Token Pred Total: 37, Token True Total: 1
+
+Processing Sentence: The top aide to Pope Benedict sparked a furor Monday when he said that homosexuality and not the priestly vow of celibacy is the cause of widespread sex abuse of children by the Catholic clergy .
+True Entities: [(4, 6, 'PERSON'), (9, 10, 'DATE'), (33, 34, 'LOC')]
+Predicted Entities: [(4, 7, 'PERSON')]
+Sentence Correct: 9, Sentence Total: 49
+Entity TP: 0, Entity FP: 38, Entity FN: 106
+Token Correct: 0, Token Pred Total: 38, Token True Total: 1
+
+Processing Sentence: The lower house has fast tracked the measure , which was announced by President Dmitri Medvedev last week .
+True Entities: [(13, 16, 'PERSON')]
+Predicted Entities: []
+Sentence Correct: 9, Sentence Total: 50
+Entity TP: 0, Entity FP: 38, Entity FN: 107
+Token Correct: 0, Token Pred Total: 38, Token True Total: 1
+
+Processing Sentence: The storm was just off Hachijo Island , 300 kilometers south of Tokyo , Saturday afternoon , and heading north .
+True Entities: [(5, 7, 'LOC'), (12, 13, 'LOC'), (14, 16, 'DATE')]
+Predicted Entities: [(4, 9, 'LOC')]
+Sentence Correct: 9, Sentence Total: 51
+Entity TP: 0, Entity FP: 39, Entity FN: 110
+Token Correct: 0, Token Pred Total: 39, Token True Total: 1
+
+Processing Sentence: CNN does not have a permanent correspondent in Iran .
+True Entities: [(0, 1, 'ORG'), (8, 9, 'LOC')]
+Predicted Entities: [(0, 3, 'ORG')]
+Sentence Correct: 9, Sentence Total: 52
+Entity TP: 0, Entity FP: 40, Entity FN: 112
+Token Correct: 0, Token Pred Total: 40, Token True Total: 1
+
+Processing Sentence: The Republican-controlled Senate is expected to confirm Alito , perhaps by the end of this week .
+True Entities: [(2, 3, 'ORG'), (7, 8, 'ORG'), (12, 14, 'DATE')]
+Predicted Entities: [(4, 14, 'ORG')]
+Sentence Correct: 9, Sentence Total: 53
+Entity TP: 0, Entity FP: 41, Entity FN: 115
+Token Correct: 0, Token Pred Total: 41, Token True Total: 1
+
+Processing Sentence: Meanwhile , Israeli Prime Minister Ariel Sharon said today he will not rule out the possibility of allowing Palestinians living in disputed east Jerusalem to vote in the upcoming election .
+True Entities: [(2, 3, 'GPE'), (3, 4, 'PERSON'), (5, 7, 'PERSON'), (8, 9, 'DATE'), (18, 19, 'GPE'), (22, 24, 'LOC')]
+Predicted Entities: [(0, 9, 'GPE')]
+Sentence Correct: 9, Sentence Total: 54
+Entity TP: 0, Entity FP: 42, Entity FN: 121
+Token Correct: 0, Token Pred Total: 42, Token True Total: 1
+
+Processing Sentence: Such disputes have become more common as Chinese developers turn residential and farm land into shopping malls , apartment buildings and other projects .
+True Entities: [(7, 8, 'GPE')]
+Predicted Entities: []
+Sentence Correct: 9, Sentence Total: 55
+Entity TP: 0, Entity FP: 42, Entity FN: 122
+Token Correct: 0, Token Pred Total: 42, Token True Total: 1
+
+Processing Sentence: Dushevina , ranked 46th in the world , next meets Australian Open champion Amelie Mauresmo of France in the second round Wednesday .
+True Entities: [(0, 1, 'PERSON'), (3, 4, 'DATE'), (10, 12, 'EVENT'), (13, 15, 'PERSON'), (16, 17, 'LOC'), (21, 22, 'DATE')]
+Predicted Entities: [(0, 9, 'PERSON')]
+Sentence Correct: 9, Sentence Total: 56
+Entity TP: 0, Entity FP: 43, Entity FN: 128
+Token Correct: 0, Token Pred Total: 43, Token True Total: 2
+
+Processing Sentence: Terrorist mastermind Abu Musab al-Zarqawi has apparently surfaced in an audiotape on the Internet , seeking to further divide Iraq 's Sunnis and Shi'ites 10 days before national elections .
+True Entities: [(2, 5, 'PERSON'), (19, 20, 'LOC')]
+Predicted Entities: [(0, 9, 'PERSON')]
+Sentence Correct: 9, Sentence Total: 57
+Entity TP: 0, Entity FP: 44, Entity FN: 130
+Token Correct: 0, Token Pred Total: 44, Token True Total: 2
+
+Processing Sentence: Afghan officials say that land mines or unexploded bombs still kill or disable hundreds of Afghans every year .
+True Entities: [(0, 1, 'GPE'), (15, 16, 'GPE')]
+Predicted Entities: [(0, 6, 'GPE')]
+Sentence Correct: 9, Sentence Total: 58
+Entity TP: 0, Entity FP: 45, Entity FN: 132
+Token Correct: 0, Token Pred Total: 45, Token True Total: 2
+
+Processing Sentence: Romanian President Traian Basescu says authorities are working at home and abroad to free three Romanian journalists who were apparently kidnapped in Iraq .
+True Entities: [(0, 1, 'GPE'), (1, 4, 'PERSON'), (15, 16, 'GPE'), (22, 23, 'LOC')]
+Predicted Entities: [(0, 8, 'GPE')]
+Sentence Correct: 9, Sentence Total: 59
+Entity TP: 0, Entity FP: 46, Entity FN: 136
+Token Correct: 0, Token Pred Total: 46, Token True Total: 2
+
+Processing Sentence: A Taliban spokesman , Yusuf Ahmadi said the Kandahar operation killed only four insurgents , and left many civilians dead .
+True Entities: [(1, 2, 'ORG'), (4, 6, 'PERSON'), (8, 9, 'LOC')]
+Predicted Entities: [(2, 9, 'PERSON')]
+Sentence Correct: 9, Sentence Total: 60
+Entity TP: 0, Entity FP: 47, Entity FN: 139
+Token Correct: 0, Token Pred Total: 47, Token True Total: 2
+
+Processing Sentence: The French sports daily L'Equipe has named Swiss tennis star Roger Federer its " Champion of Champions " for 2005 .
+True Entities: [(1, 2, 'GPE'), (4, 5, 'LOC'), (7, 8, 'GPE'), (10, 12, 'PERSON'), (19, 20, 'DATE')]
+Predicted Entities: [(0, 3, 'GPE'), (4, 10, 'ORG')]
+Sentence Correct: 9, Sentence Total: 61
+Entity TP: 0, Entity FP: 49, Entity FN: 144
+Token Correct: 0, Token Pred Total: 49, Token True Total: 2
+
+Processing Sentence: Meanwhile , Israeli Prime Minister Ariel Sharon said today he will not rule out the possibility of allowing Palestinians living in disputed east Jerusalem to vote in the upcoming election .
+True Entities: [(2, 3, 'GPE'), (3, 4, 'PERSON'), (5, 7, 'PERSON'), (8, 9, 'DATE'), (18, 19, 'GPE'), (22, 24, 'LOC')]
+Predicted Entities: [(0, 9, 'GPE')]
+Sentence Correct: 9, Sentence Total: 62
+Entity TP: 0, Entity FP: 50, Entity FN: 150
+Token Correct: 0, Token Pred Total: 50, Token True Total: 2
+
+Processing Sentence: Tourism is also a mainstay , accounting for about 70 % of GDP and 75 % of foreign currency earnings .
+True Entities: []
+Predicted Entities: []
+Sentence Correct: 10, Sentence Total: 63
+Entity TP: 0, Entity FP: 50, Entity FN: 150
+Token Correct: 0, Token Pred Total: 50, Token True Total: 2
+
+Processing Sentence: Azarov said Monday that such a system close to the Ukrainian border would be a target of attack and threaten to suck Ukraine into a conflict .
+True Entities: [(0, 1, 'PERSON'), (2, 3, 'DATE'), (10, 11, 'GPE'), (22, 23, 'LOC')]
+Predicted Entities: [(0, 6, 'PERSON')]
+Sentence Correct: 10, Sentence Total: 64
+Entity TP: 0, Entity FP: 51, Entity FN: 154
+Token Correct: 0, Token Pred Total: 51, Token True Total: 2
+
+Processing Sentence: Former Haitian president Rene Preval has been declared the winner of the Caribbean nation 's presidential election .
+True Entities: [(1, 2, 'GPE'), (3, 5, 'PERSON'), (12, 13, 'LOC')]
+Predicted Entities: [(0, 6, 'GPE')]
+Sentence Correct: 10, Sentence Total: 65
+Entity TP: 0, Entity FP: 52, Entity FN: 157
+Token Correct: 0, Token Pred Total: 52, Token True Total: 2
+
+Processing Sentence: And radical Shi'ite cleric Moqtada al-Sadr arrived in Jordan today for talks with King Abdullah and other officials in coming days .
+True Entities: [(4, 6, 'PERSON'), (8, 9, 'GPE'), (9, 10, 'DATE'), (13, 15, 'PERSON')]
+Predicted Entities: [(4, 11, 'PERSON')]
+Sentence Correct: 10, Sentence Total: 66
+Entity TP: 0, Entity FP: 53, Entity FN: 161
+Token Correct: 0, Token Pred Total: 53, Token True Total: 2
+
+Processing Sentence: Violence has been increasing in Afghanistan as NATO prepares to expand its peacekeeping force into the volatile south .
+True Entities: [(5, 6, 'LOC'), (7, 8, 'ORG')]
+Predicted Entities: []
+Sentence Correct: 10, Sentence Total: 67
+Entity TP: 0, Entity FP: 53, Entity FN: 163
+Token Correct: 0, Token Pred Total: 53, Token True Total: 2
+
+Processing Sentence: The 11th named storm of this year 's Atlantic hurricane season came ashore Thursday between Hallandale Beach and North Miami Beach , packing 130 kilometer-per-hour winds .
+True Entities: [(8, 9, 'LOC'), (13, 14, 'DATE'), (15, 17, 'LOC'), (18, 21, 'LOC')]
+Predicted Entities: [(0, 3, 'DATE')]
+Sentence Correct: 10, Sentence Total: 68
+Entity TP: 0, Entity FP: 54, Entity FN: 167
+Token Correct: 0, Token Pred Total: 54, Token True Total: 2
+
+Processing Sentence: In Paris , French Prime Minister Jean-Pierre Raffarin announced the release to parliament Tuesday , a short while after the al-Jazeera television network first reported it .
+True Entities: [(1, 2, 'LOC'), (3, 4, 'GPE'), (4, 5, 'PERSON'), (6, 8, 'PERSON'), (13, 14, 'DATE')]
+Predicted Entities: [(0, 2, 'LOC'), (3, 8, 'GPE')]
+Sentence Correct: 10, Sentence Total: 69
+Entity TP: 0, Entity FP: 56, Entity FN: 172
+Token Correct: 0, Token Pred Total: 56, Token True Total: 2
+
+Processing Sentence: Hundreds of Islamist students in Egypt have marched at three of the country 's universities to call for democratic reforms .
+True Entities: [(5, 6, 'LOC')]
+Predicted Entities: []
+Sentence Correct: 10, Sentence Total: 70
+Entity TP: 0, Entity FP: 56, Entity FN: 173
+Token Correct: 0, Token Pred Total: 56, Token True Total: 2
+
+Processing Sentence: Agricultural production is limited - only 2 % of the land is arable - and most food has to be imported .
+True Entities: []
+Predicted Entities: []
+Sentence Correct: 11, Sentence Total: 71
+Entity TP: 0, Entity FP: 56, Entity FN: 173
+Token Correct: 0, Token Pred Total: 56, Token True Total: 2
+
+Processing Sentence: German and French authorities have deployed about 25,000 police to maintain security around the two towns .
+True Entities: [(0, 1, 'GPE'), (2, 3, 'GPE')]
+Predicted Entities: [(0, 6, 'GPE')]
+Sentence Correct: 11, Sentence Total: 72
+Entity TP: 0, Entity FP: 57, Entity FN: 175
+Token Correct: 0, Token Pred Total: 57, Token True Total: 2
+
+Processing Sentence: They chanted religious slogans , and carried signs , including one saying they were ready to die to defend traditional religion .
+True Entities: []
+Predicted Entities: []
+Sentence Correct: 12, Sentence Total: 73
+Entity TP: 0, Entity FP: 57, Entity FN: 175
+Token Correct: 0, Token Pred Total: 57, Token True Total: 2
+
+Processing Sentence: Burma 's detained democracy leader Aung San Suu Kyi has appealed to the ruling military against her home confinement .
+True Entities: [(0, 1, 'LOC'), (5, 9, 'LOC')]
+Predicted Entities: [(0, 5, 'LOC')]
+Sentence Correct: 12, Sentence Total: 74
+Entity TP: 0, Entity FP: 58, Entity FN: 177
+Token Correct: 0, Token Pred Total: 58, Token True Total: 3
+
+Processing Sentence: A Republican senator says U.S. cargo security measures now suffer from " a massive blind spot . "
+True Entities: [(4, 5, 'LOC')]
+Predicted Entities: [(2, 12, 'LOC')]
+Sentence Correct: 12, Sentence Total: 75
+Entity TP: 0, Entity FP: 59, Entity FN: 178
+Token Correct: 0, Token Pred Total: 59, Token True Total: 3
+
+Processing Sentence: Four Western aid workers , including an American , a Briton and two Canadians , were abducted Saturday in Baghdad .
+True Entities: [(1, 2, 'ORG'), (7, 8, 'GPE'), (10, 11, 'GPE'), (13, 14, 'GPE'), (17, 18, 'DATE'), (19, 20, 'LOC')]
+Predicted Entities: [(0, 4, 'ORG')]
+Sentence Correct: 12, Sentence Total: 76
+Entity TP: 0, Entity FP: 60, Entity FN: 184
+Token Correct: 0, Token Pred Total: 60, Token True Total: 3
+
+Processing Sentence: The report released Monday said the depletion of ice caps could also contribute to global warming because the ice sheets reflect the sun 's heat away from the Earth 's surface .
+True Entities: [(3, 4, 'DATE'), (28, 29, 'LOC')]
+Predicted Entities: []
+Sentence Correct: 12, Sentence Total: 77
+Entity TP: 0, Entity FP: 60, Entity FN: 186
+Token Correct: 0, Token Pred Total: 60, Token True Total: 3
+
+Processing Sentence: Former Ukrainian Prime Minister Yulija Tymoshenko says she is breaking with President Viktor Yushchenko following his decision to dismiss her government .
+True Entities: [(1, 2, 'GPE'), (2, 6, 'PERSON'), (11, 14, 'PERSON')]
+Predicted Entities: [(0, 6, 'GPE')]
+Sentence Correct: 12, Sentence Total: 78
+Entity TP: 0, Entity FP: 61, Entity FN: 189
+Token Correct: 0, Token Pred Total: 61, Token True Total: 3
+
+Processing Sentence: The girl was first stricken in January .
+True Entities: [(6, 7, 'DATE')]
+Predicted Entities: []
+Sentence Correct: 12, Sentence Total: 79
+Entity TP: 0, Entity FP: 61, Entity FN: 190
+Token Correct: 0, Token Pred Total: 61, Token True Total: 3
+
+Processing Sentence: A member of the main Nepali Congress party told reporters the parties will set up a team for talks with the rebels .
+True Entities: [(5, 7, 'ORG')]
+Predicted Entities: [(2, 8, 'GPE')]
+Sentence Correct: 12, Sentence Total: 80
+Entity TP: 0, Entity FP: 62, Entity FN: 191
+Token Correct: 0, Token Pred Total: 62, Token True Total: 3
+
+Processing Sentence: As president , Mr. Zardari is still immune from prosecution , but members of the opposition party are calling for his resignation .
+True Entities: [(3, 4, 'PERSON'), (4, 5, 'LOC')]
+Predicted Entities: [(3, 12, 'PERSON')]
+Sentence Correct: 12, Sentence Total: 81
+Entity TP: 0, Entity FP: 63, Entity FN: 193
+Token Correct: 0, Token Pred Total: 63, Token True Total: 3
+
+Processing Sentence: Arson attacks in the same area on Sunday destroyed a home for teachers and damaged a school .
+True Entities: [(7, 8, 'DATE')]
+Predicted Entities: []
+Sentence Correct: 12, Sentence Total: 82
+Entity TP: 0, Entity FP: 63, Entity FN: 194
+Token Correct: 0, Token Pred Total: 63, Token True Total: 3
+
+Processing Sentence: U.S. space researchers revealed the results of their first " wet " chemical analysis of Martian dirt Thursday and said it is not as acidic as expected , appearing to have the requirements and nutrients to support life .
+True Entities: [(0, 1, 'LOC'), (15, 16, 'LOC'), (17, 18, 'DATE')]
+Predicted Entities: [(0, 4, 'LOC')]
+Sentence Correct: 12, Sentence Total: 83
+Entity TP: 0, Entity FP: 64, Entity FN: 197
+Token Correct: 0, Token Pred Total: 64, Token True Total: 3
+
+Processing Sentence: In the agreement , India and Saudi Arabia also pledged to cooperate in the fight against terrorism .
+True Entities: [(4, 5, 'LOC'), (6, 8, 'LOC')]
+Predicted Entities: [(3, 6, 'LOC')]
+Sentence Correct: 12, Sentence Total: 84
+Entity TP: 0, Entity FP: 65, Entity FN: 199
+Token Correct: 0, Token Pred Total: 65, Token True Total: 3
+
+Processing Sentence: The pro-Syrian Mr. Karami first resigned on February 28 , in the face of growing anti-Syrian protests sparked by the assassination of former Prime Minister Rafik Hariri .
+True Entities: [(2, 4, 'PERSON'), (7, 9, 'DATE'), (23, 27, 'PERSON')]
+Predicted Entities: []
+Sentence Correct: 12, Sentence Total: 85
+Entity TP: 0, Entity FP: 65, Entity FN: 202
+Token Correct: 0, Token Pred Total: 65, Token True Total: 4
+
+Processing Sentence: Britain says the soldiers were freed from a nearby house where they had been taken before the military action on the prison .
+True Entities: [(0, 1, 'LOC')]
+Predicted Entities: [(0, 7, 'LOC')]
+Sentence Correct: 12, Sentence Total: 86
+Entity TP: 0, Entity FP: 66, Entity FN: 203
+Token Correct: 0, Token Pred Total: 66, Token True Total: 4
+
+Processing Sentence: They include a 2006 bombing of a Madrid airport that killed two people .
+True Entities: [(3, 4, 'DATE'), (7, 8, 'LOC')]
+Predicted Entities: []
+Sentence Correct: 12, Sentence Total: 87
+Entity TP: 0, Entity FP: 66, Entity FN: 205
+Token Correct: 0, Token Pred Total: 66, Token True Total: 4
+
+Processing Sentence: It added that his condition is stable and he is receiving full medical care .
+True Entities: []
+Predicted Entities: []
+Sentence Correct: 13, Sentence Total: 88
+Entity TP: 0, Entity FP: 66, Entity FN: 205
+Token Correct: 0, Token Pred Total: 66, Token True Total: 4
+
+Processing Sentence: The state-run Korean Central News Service Tuesday quotes an unnamed North Korean Foreign Ministry spokesman as saying the United States should seek cooperation with North Korea rather than pressing it to abandon its nuclear program .
+True Entities: [(2, 3, 'GPE'), (3, 6, 'ORG'), (6, 7, 'DATE'), (11, 12, 'GPE'), (12, 14, 'ORG'), (18, 20, 'LOC'), (24, 26, 'LOC')]
+Predicted Entities: [(4, 9, 'GPE')]
+Sentence Correct: 13, Sentence Total: 89
+Entity TP: 0, Entity FP: 67, Entity FN: 212
+Token Correct: 0, Token Pred Total: 67, Token True Total: 4
+
+Processing Sentence: The United States is sending an FBI agent to Azerbaijan to help find those responsible for the killing of magazine editor Elmar Husseinov , whose work was critical of the Azeri government .
+True Entities: [(1, 3, 'LOC'), (6, 7, 'ORG'), (9, 10, 'LOC'), (21, 23, 'PERSON'), (30, 31, 'GPE')]
+Predicted Entities: [(0, 3, 'LOC')]
+Sentence Correct: 13, Sentence Total: 90
+Entity TP: 0, Entity FP: 68, Entity FN: 217
+Token Correct: 0, Token Pred Total: 68, Token True Total: 4
+
+Processing Sentence: The blast instantly killed the former prime minister .
+True Entities: [(6, 7, 'PERSON')]
+Predicted Entities: []
+Sentence Correct: 13, Sentence Total: 91
+Entity TP: 0, Entity FP: 68, Entity FN: 218
+Token Correct: 0, Token Pred Total: 68, Token True Total: 4
+
+Processing Sentence: To the west of the capital , in Al Anbar province , two U.S. Marines were killed while conducting security operations .
+True Entities: [(8, 10, 'ORG'), (13, 15, 'ORG')]
+Predicted Entities: []
+Sentence Correct: 13, Sentence Total: 92
+Entity TP: 0, Entity FP: 68, Entity FN: 220
+Token Correct: 0, Token Pred Total: 68, Token True Total: 4
+
+Processing Sentence: Former President RAVALOMANANA worked aggressively to revive the economy following the 2002 political crisis , which triggered a 12 % drop in GDP that year .
+True Entities: [(1, 3, 'PERSON'), (11, 12, 'DATE'), (23, 24, 'DATE')]
+Predicted Entities: [(0, 6, 'PERSON')]
+Sentence Correct: 13, Sentence Total: 93
+Entity TP: 0, Entity FP: 69, Entity FN: 223
+Token Correct: 0, Token Pred Total: 69, Token True Total: 4
+
+Processing Sentence: Egypt has been trying to get the two groups to form a unity government , but tensions between the rival factions have been rising , with recent deadly clashes in the West Bank .
+True Entities: [(0, 1, 'LOC'), (31, 33, 'ORG')]
+Predicted Entities: [(0, 5, 'LOC')]
+Sentence Correct: 13, Sentence Total: 94
+Entity TP: 0, Entity FP: 70, Entity FN: 225
+Token Correct: 0, Token Pred Total: 70, Token True Total: 4
+
+Processing Sentence: A senior police official , Saud Aziz , says the four wanted in connection with the slaying of Agha Ziauddin in the town of Gilgit in January were picked up in the city of Rawalpindi .
+True Entities: [(5, 7, 'PERSON'), (18, 20, 'PERSON'), (24, 25, 'LOC'), (26, 27, 'DATE'), (34, 35, 'LOC')]
+Predicted Entities: [(2, 8, 'PERSON')]
+Sentence Correct: 13, Sentence Total: 95
+Entity TP: 0, Entity FP: 71, Entity FN: 230
+Token Correct: 0, Token Pred Total: 71, Token True Total: 4
+
+Processing Sentence: Mr. Roberts appears to have more than enough votes to be confirmed in the Republican-controlled Senate .
+True Entities: [(0, 2, 'PERSON'), (15, 16, 'ORG')]
+Predicted Entities: [(0, 3, 'PERSON')]
+Sentence Correct: 13, Sentence Total: 96
+Entity TP: 0, Entity FP: 72, Entity FN: 232
+Token Correct: 0, Token Pred Total: 72, Token True Total: 4
+
+Processing Sentence: The governor was arrested prior to last year 's tsunami .
+True Entities: []
+Predicted Entities: []
+Sentence Correct: 14, Sentence Total: 97
+Entity TP: 0, Entity FP: 72, Entity FN: 232
+Token Correct: 0, Token Pred Total: 72, Token True Total: 4
+
+Processing Sentence: Tonga has a small , open , South Pacific island economy .
+True Entities: [(0, 1, 'ORG'), (7, 9, 'LOC')]
+Predicted Entities: [(0, 5, 'ORG')]
+Sentence Correct: 14, Sentence Total: 98
+Entity TP: 0, Entity FP: 73, Entity FN: 234
+Token Correct: 0, Token Pred Total: 73, Token True Total: 4
+
+Processing Sentence: The protest in Pakistan began Monday morning when students marched to different universities in the city of Peshawar , urging people to join the demonstration .
+True Entities: [(3, 4, 'LOC'), (5, 7, 'DATE'), (17, 18, 'LOC')]
+Predicted Entities: [(4, 11, 'LOC')]
+Sentence Correct: 14, Sentence Total: 99
+Entity TP: 0, Entity FP: 74, Entity FN: 237
+Token Correct: 0, Token Pred Total: 74, Token True Total: 4
+
+Processing Sentence: He spoke during the swearing-in ceremony of John Danilovich , the corporation 's new chief executive officer .
+True Entities: [(7, 9, 'LOC')]
+Predicted Entities: []
+Sentence Correct: 14, Sentence Total: 100
+Entity TP: 0, Entity FP: 74, Entity FN: 238
+Token Correct: 0, Token Pred Total: 74, Token True Total: 4
+
+Processing Sentence: Pakistan 's military carried out a major offensive against the Taliban in Lower Dir and neighboring Swat Valley last year .
+True Entities: [(0, 1, 'LOC'), (10, 11, 'ORG'), (12, 14, 'LOC'), (16, 18, 'PERSON')]
+Predicted Entities: [(0, 8, 'LOC')]
+Sentence Correct: 14, Sentence Total: 101
+Entity TP: 0, Entity FP: 75, Entity FN: 242
+Token Correct: 0, Token Pred Total: 75, Token True Total: 4
+
+Processing Sentence: Thursday 's testimony came after the judge threatened to jail Mr. Jackson and revoke his bail when he arrived more than one hour late for court .
+True Entities: [(0, 1, 'DATE'), (10, 12, 'PERSON')]
+Predicted Entities: [(0, 8, 'DATE')]
+Sentence Correct: 14, Sentence Total: 102
+Entity TP: 0, Entity FP: 76, Entity FN: 244
+Token Correct: 0, Token Pred Total: 76, Token True Total: 4
+
+Processing Sentence: The paper said the pachyderm is estimated to be 18 years old and is the fifth white elephant captured since 2001 .
+True Entities: [(19, 21, 'DATE')]
+Predicted Entities: []
+Sentence Correct: 14, Sentence Total: 103
+Entity TP: 0, Entity FP: 76, Entity FN: 245
+Token Correct: 0, Token Pred Total: 76, Token True Total: 4
+
+Processing Sentence: But the Bush administration has found a way around the restrictions .
+True Entities: [(2, 3, 'PERSON')]
+Predicted Entities: [(0, 3, 'PERSON')]
+Sentence Correct: 14, Sentence Total: 104
+Entity TP: 0, Entity FP: 77, Entity FN: 246
+Token Correct: 0, Token Pred Total: 77, Token True Total: 4
+
+Processing Sentence: Rwanda held its first local elections in 1999 and its first post-genocide presidential and legislative elections in 2003 .
+True Entities: [(0, 1, 'GPE'), (7, 8, 'DATE'), (17, 18, 'DATE')]
+Predicted Entities: [(0, 6, 'ORG')]
+Sentence Correct: 14, Sentence Total: 105
+Entity TP: 0, Entity FP: 78, Entity FN: 249
+Token Correct: 0, Token Pred Total: 78, Token True Total: 4
+
+Processing Sentence: The protest comes on the eve of the annual conference of Britain 's ruling Labor Party in the southern English seaside resort of Brighton .
+True Entities: [(11, 12, 'LOC'), (14, 16, 'ORG'), (19, 20, 'GPE'), (23, 24, 'LOC')]
+Predicted Entities: []
+Sentence Correct: 14, Sentence Total: 106
+Entity TP: 0, Entity FP: 78, Entity FN: 253
+Token Correct: 0, Token Pred Total: 78, Token True Total: 4
+
+Processing Sentence: Worker remittances and external trade routes for the landlocked country have been jeopardized by continued unrest in neighboring Cote d'Ivoire .
+True Entities: [(18, 20, 'PERSON')]
+Predicted Entities: []
+Sentence Correct: 14, Sentence Total: 107
+Entity TP: 0, Entity FP: 78, Entity FN: 254
+Token Correct: 0, Token Pred Total: 78, Token True Total: 4
+
+Processing Sentence: An Indonesian Health Ministry official said Saturday the deaths in West Java province raise the country 's toll from bird flu to 14 confirmed cases .
+True Entities: [(1, 2, 'GPE'), (2, 4, 'ORG'), (6, 7, 'DATE'), (10, 12, 'LOC')]
+Predicted Entities: [(0, 2, 'GPE')]
+Sentence Correct: 14, Sentence Total: 108
+Entity TP: 0, Entity FP: 79, Entity FN: 258
+Token Correct: 0, Token Pred Total: 79, Token True Total: 4
+
+Processing Sentence: Separately Tuesday , police in the town of L'Aquila seized clubs from five French protesters close to where the summit is being held .
+True Entities: [(1, 2, 'DATE'), (8, 9, 'LOC'), (13, 14, 'GPE')]
+Predicted Entities: [(0, 10, 'DATE')]
+Sentence Correct: 14, Sentence Total: 109
+Entity TP: 0, Entity FP: 80, Entity FN: 261
+Token Correct: 0, Token Pred Total: 80, Token True Total: 4
+
+Processing Sentence: Previous inductees include Bob Dylan , Elton John , and Paul Simon .
+True Entities: [(3, 5, 'PERSON'), (6, 8, 'PERSON'), (10, 12, 'PERSON')]
+Predicted Entities: [(0, 8, 'PERSON')]
+Sentence Correct: 14, Sentence Total: 110
+Entity TP: 0, Entity FP: 81, Entity FN: 264
+Token Correct: 0, Token Pred Total: 81, Token True Total: 4
+
+Processing Sentence: President Bush is expected to nominate one of his closest friends , Karen Hughes , to lead a State Department effort to improve the reputation of the United States among Muslims in the Arab world .
+True Entities: [(0, 2, 'PERSON'), (12, 14, 'PERSON'), (18, 20, 'ORG'), (27, 29, 'LOC'), (30, 31, 'LOC'), (33, 34, 'GPE')]
+Predicted Entities: [(0, 9, 'PERSON')]
+Sentence Correct: 14, Sentence Total: 111
+Entity TP: 0, Entity FP: 82, Entity FN: 270
+Token Correct: 0, Token Pred Total: 82, Token True Total: 5
+
+Processing Sentence: Georgian President Mikhail Saakashvili has accused Russia of deliberately damaging key gas and electric lines that service the former Soviet republic .
+True Entities: [(0, 1, 'GPE'), (1, 4, 'PERSON'), (6, 7, 'LOC')]
+Predicted Entities: [(0, 8, 'GPE')]
+Sentence Correct: 14, Sentence Total: 112
+Entity TP: 0, Entity FP: 83, Entity FN: 273
+Token Correct: 0, Token Pred Total: 83, Token True Total: 5
+
+Processing Sentence: Boucher is meeting with Foreign Minister Khurshid Kasuri , President Pervez Musharraf and other key members of government .
+True Entities: [(0, 1, 'PERSON'), (5, 8, 'PERSON'), (9, 12, 'PERSON')]
+Predicted Entities: [(0, 7, 'PERSON')]
+Sentence Correct: 14, Sentence Total: 113
+Entity TP: 0, Entity FP: 84, Entity FN: 276
+Token Correct: 0, Token Pred Total: 84, Token True Total: 5
+
+Processing Sentence: And the U.S. military says an American soldier was killed in a Baghdad operation Wednesday .
+True Entities: [(2, 3, 'LOC'), (6, 7, 'GPE'), (12, 13, 'LOC'), (14, 15, 'DATE')]
+Predicted Entities: [(0, 3, 'LOC')]
+Sentence Correct: 14, Sentence Total: 114
+Entity TP: 0, Entity FP: 85, Entity FN: 280
+Token Correct: 0, Token Pred Total: 85, Token True Total: 5
+
+Processing Sentence: Funerals were held Tuesday for 17 people killed by a drunken tractor driver in Yuanshi county , a rural part of China 's northern Hebei province .
+True Entities: [(3, 4, 'DATE'), (14, 15, 'LOC'), (21, 22, 'LOC'), (24, 25, 'LOC')]
+Predicted Entities: [(0, 8, 'DATE')]
+Sentence Correct: 14, Sentence Total: 115
+Entity TP: 0, Entity FP: 86, Entity FN: 284
+Token Correct: 0, Token Pred Total: 86, Token True Total: 5
+
+Processing Sentence: The name " Latvia " originates from the ancient Latgalians , one of four eastern Baltic tribes that formed the ethnic core of the Latvian people ( ca. 8th - 12th centuries A.D. ) .
+True Entities: [(3, 4, 'WORK_OF_ART'), (9, 10, 'ORG'), (15, 16, 'LOC'), (24, 25, 'GPE'), (32, 33, 'DATE')]
+Predicted Entities: []
+Sentence Correct: 14, Sentence Total: 116
+Entity TP: 0, Entity FP: 86, Entity FN: 289
+Token Correct: 0, Token Pred Total: 86, Token True Total: 6
+
+Processing Sentence: An Iraqi election commission spokesman , Farid Ayar , who spoke to reporters Sunday did not give a reason for the election date change , which postpones by three days an earlier voting plan drawn up by the interim government in Baghdad .
+True Entities: [(1, 2, 'GPE'), (6, 8, 'PERSON'), (13, 14, 'DATE'), (41, 42, 'LOC')]
+Predicted Entities: [(0, 2, 'GPE')]
+Sentence Correct: 14, Sentence Total: 117
+Entity TP: 0, Entity FP: 87, Entity FN: 293
+Token Correct: 0, Token Pred Total: 87, Token True Total: 6
+
+Processing Sentence: Adult stem cell therapy has successfully treated leukemia and other cancers for years , in the form of bone marrow transplants .
+True Entities: []
+Predicted Entities: []
+Sentence Correct: 15, Sentence Total: 118
+Entity TP: 0, Entity FP: 87, Entity FN: 293
+Token Correct: 0, Token Pred Total: 87, Token True Total: 6
+
+Processing Sentence: The Lioness came up , and bitterly lamented the death of her whelp .
+True Entities: []
+Predicted Entities: [(0, 3, 'ORG')]
+Sentence Correct: 15, Sentence Total: 119
+Entity TP: 0, Entity FP: 88, Entity FN: 293
+Token Correct: 0, Token Pred Total: 88, Token True Total: 6
+
+Processing Sentence: Local officials believe the bomb was planted by Maoist rebels who had called for a boycott of Saturday 's state legislative elections .
+True Entities: [(8, 9, 'ORG'), (17, 18, 'DATE')]
+Predicted Entities: []
+Sentence Correct: 15, Sentence Total: 120
+Entity TP: 0, Entity FP: 88, Entity FN: 295
+Token Correct: 0, Token Pred Total: 88, Token True Total: 6
+
+Processing Sentence: Former Colombian hostage Ingrid Betancourt has met with Venezuelan President Hugo Chavez to discuss Venezuelan support for freeing other hostages held by rebels in Colombia .
+True Entities: [(1, 2, 'GPE'), (3, 5, 'PERSON'), (8, 9, 'GPE'), (9, 12, 'PERSON'), (14, 15, 'GPE'), (24, 25, 'LOC')]
+Predicted Entities: [(0, 6, 'GPE')]
+Sentence Correct: 15, Sentence Total: 121
+Entity TP: 0, Entity FP: 89, Entity FN: 301
+Token Correct: 0, Token Pred Total: 89, Token True Total: 6
+
+Processing Sentence: India 's economy is growing at an unprecedented rate , prompting far-reaching changes that are rapidly transforming the country .
+True Entities: [(0, 1, 'LOC')]
+Predicted Entities: [(0, 5, 'LOC')]
+Sentence Correct: 15, Sentence Total: 122
+Entity TP: 0, Entity FP: 90, Entity FN: 302
+Token Correct: 0, Token Pred Total: 90, Token True Total: 6
+
+Processing Sentence: The G8 leaders will convene at a nearby luxury resort on Monday for a three-day summit .
+True Entities: [(11, 12, 'DATE'), (14, 15, 'DATE')]
+Predicted Entities: []
+Sentence Correct: 15, Sentence Total: 123
+Entity TP: 0, Entity FP: 90, Entity FN: 304
+Token Correct: 0, Token Pred Total: 90, Token True Total: 6
+
+Processing Sentence: Yemen has executed an Islamic militant convicted of killing three American medical workers in 2002 .
+True Entities: [(0, 1, 'ORG'), (10, 11, 'GPE'), (14, 15, 'DATE')]
+Predicted Entities: [(0, 5, 'ORG')]
+Sentence Correct: 15, Sentence Total: 124
+Entity TP: 0, Entity FP: 91, Entity FN: 307
+Token Correct: 0, Token Pred Total: 91, Token True Total: 6
+
+Processing Sentence: The WTO ruled in March the subsidies must be changed to comply with global trade rules .
+True Entities: [(1, 2, 'ORG'), (4, 5, 'DATE')]
+Predicted Entities: [(0, 3, 'ORG'), (4, 7, 'DATE')]
+Sentence Correct: 15, Sentence Total: 125
+Entity TP: 0, Entity FP: 93, Entity FN: 309
+Token Correct: 0, Token Pred Total: 93, Token True Total: 6
+
+Processing Sentence: Iranian Foreign Ministry spokesman Hamid Reza Asefi made that assertion Sunday at his weekly news conference in Tehran .
+True Entities: [(0, 1, 'GPE'), (1, 3, 'ORG'), (4, 7, 'PERSON'), (10, 11, 'DATE'), (17, 18, 'LOC')]
+Predicted Entities: [(0, 7, 'GPE')]
+Sentence Correct: 15, Sentence Total: 126
+Entity TP: 0, Entity FP: 94, Entity FN: 314
+Token Correct: 0, Token Pred Total: 94, Token True Total: 6
+
+Processing Sentence: Monday , Togo 's parliament ordered new presidential elections in 60 days , while allowing Mr. Gnassingbe to remain in office .
+True Entities: [(0, 1, 'DATE'), (2, 3, 'LOC'), (15, 16, 'PERSON'), (16, 17, 'ORG')]
+Predicted Entities: [(0, 6, 'DATE')]
+Sentence Correct: 15, Sentence Total: 127
+Entity TP: 0, Entity FP: 95, Entity FN: 318
+Token Correct: 0, Token Pred Total: 95, Token True Total: 6
+
+Processing Sentence: The bombing was the second in recent days .
+True Entities: [(6, 7, 'DATE')]
+Predicted Entities: []
+Sentence Correct: 15, Sentence Total: 128
+Entity TP: 0, Entity FP: 95, Entity FN: 319
+Token Correct: 0, Token Pred Total: 95, Token True Total: 6
+
+Processing Sentence: In 2005 , the government passed a controversial hydrocarbons law that imposed significantly higher royalties and required foreign firms then operating under risk-sharing contracts to surrender all production to the state energy company in exchange for a predetermined service fee .
+True Entities: [(1, 2, 'DATE')]
+Predicted Entities: [(0, 2, 'DATE')]
+Sentence Correct: 15, Sentence Total: 129
+Entity TP: 0, Entity FP: 96, Entity FN: 320
+Token Correct: 0, Token Pred Total: 96, Token True Total: 6
+
+Processing Sentence: The government has continued an IMF-recommended structural adjustment program that has helped the economy grow , diversify , and attract foreign investment .
+True Entities: []
+Predicted Entities: [(4, 14, 'ORG')]
+Sentence Correct: 15, Sentence Total: 130
+Entity TP: 0, Entity FP: 97, Entity FN: 320
+Token Correct: 0, Token Pred Total: 97, Token True Total: 6
+
+Processing Sentence: Vanuatu is an archipelago of some 80 islands located about 2,200 kilometers off the northeast coast of Australia .
+True Entities: [(0, 1, 'LOC'), (17, 18, 'LOC')]
+Predicted Entities: [(0, 7, 'LOC')]
+Sentence Correct: 15, Sentence Total: 131
+Entity TP: 0, Entity FP: 98, Entity FN: 322
+Token Correct: 0, Token Pred Total: 98, Token True Total: 6
+
+Processing Sentence: Video footage of the incident taken by his crew , show him waving a white flag and identifying himself as a journalist as he approached an Israeli armored vehicle in the dark , just before shots rang out .
+True Entities: [(26, 27, 'GPE')]
+Predicted Entities: []
+Sentence Correct: 15, Sentence Total: 132
+Entity TP: 0, Entity FP: 98, Entity FN: 323
+Token Correct: 0, Token Pred Total: 98, Token True Total: 6
+
+Processing Sentence: New Delhi accused Pakistan 's spy agency of involvement in the attack , but Islamabad denied any involvement and demanded evidence .
+True Entities: [(0, 2, 'LOC'), (3, 4, 'LOC'), (14, 15, 'LOC')]
+Predicted Entities: [(0, 3, 'LOC')]
+Sentence Correct: 15, Sentence Total: 133
+Entity TP: 0, Entity FP: 99, Entity FN: 326
+Token Correct: 0, Token Pred Total: 99, Token True Total: 6
+
+Processing Sentence: Ethiopia has denied the report .
+True Entities: [(0, 1, 'LOC')]
+Predicted Entities: [(0, 8, 'ORG')]
+Sentence Correct: 15, Sentence Total: 134
+Entity TP: 0, Entity FP: 100, Entity FN: 327
+Token Correct: 0, Token Pred Total: 100, Token True Total: 6
+
+Processing Sentence: The Caymanians enjoy a standard of living roughly equal to that of Switzerland .
+True Entities: [(12, 13, 'LOC')]
+Predicted Entities: []
+Sentence Correct: 15, Sentence Total: 135
+Entity TP: 0, Entity FP: 100, Entity FN: 328
+Token Correct: 0, Token Pred Total: 100, Token True Total: 6
+
+Processing Sentence: Kenyan police say thieves tried to break into the home of Sarah Obama , the grandmother of U.S. presidential hopeful Barack Obama .
+True Entities: [(0, 1, 'GPE'), (11, 13, 'PERSON'), (17, 18, 'LOC'), (20, 22, 'PERSON')]
+Predicted Entities: [(0, 6, 'GPE')]
+Sentence Correct: 15, Sentence Total: 136
+Entity TP: 0, Entity FP: 101, Entity FN: 332
+Token Correct: 0, Token Pred Total: 101, Token True Total: 6
+
+Processing Sentence: The former congressman won a surprise majority in a single round of voting on December 18 .
+True Entities: [(14, 16, 'DATE')]
+Predicted Entities: []
+Sentence Correct: 15, Sentence Total: 137
+Entity TP: 0, Entity FP: 101, Entity FN: 333
+Token Correct: 0, Token Pred Total: 101, Token True Total: 6
+
+Processing Sentence: Sudan 's Attorney General Mohamed Farid says Mr. Foreman should have submitted the report to the government before publishing it .
+True Entities: [(0, 1, 'LOC'), (3, 6, 'PERSON'), (7, 9, 'PERSON')]
+Predicted Entities: [(0, 5, 'GPE')]
+Sentence Correct: 15, Sentence Total: 138
+Entity TP: 0, Entity FP: 102, Entity FN: 336
+Token Correct: 0, Token Pred Total: 102, Token True Total: 6
+
+Processing Sentence: Critics accuse him of helping Mr. Chavez defeat a recall in August .
+True Entities: [(5, 7, 'PERSON'), (11, 12, 'DATE')]
+Predicted Entities: []
+Sentence Correct: 15, Sentence Total: 139
+Entity TP: 0, Entity FP: 102, Entity FN: 338
+Token Correct: 0, Token Pred Total: 102, Token True Total: 6
+
+Processing Sentence: A Sunni Muslim group , Jundollah , claimed responsibility for that attack .
+True Entities: [(1, 3, 'PERSON'), (5, 6, 'ORG')]
+Predicted Entities: [(2, 7, 'PERSON')]
+Sentence Correct: 15, Sentence Total: 140
+Entity TP: 0, Entity FP: 103, Entity FN: 340
+Token Correct: 0, Token Pred Total: 103, Token True Total: 6
+
+Processing Sentence: More than 165 people across the U.S. have become ill with salmonella poisoning since April .
+True Entities: [(6, 7, 'LOC'), (13, 15, 'DATE')]
+Predicted Entities: []
+Sentence Correct: 15, Sentence Total: 141
+Entity TP: 0, Entity FP: 103, Entity FN: 342
+Token Correct: 0, Token Pred Total: 103, Token True Total: 6
+
+Processing Sentence: When NASA first started sending up astronauts , they quickly discovered that ball-point pens would not work in zero gravity .
+True Entities: [(1, 2, 'ORG')]
+Predicted Entities: [(0, 4, 'ORG')]
+Sentence Correct: 15, Sentence Total: 142
+Entity TP: 0, Entity FP: 104, Entity FN: 343
+Token Correct: 0, Token Pred Total: 104, Token True Total: 6
+
+Processing Sentence: The titanosaurs were among the largest and heaviest prehistoric animals ever to roam the Earth , with extremely long necks and tails .
+True Entities: [(14, 15, 'LOC')]
+Predicted Entities: []
+Sentence Correct: 15, Sentence Total: 143
+Entity TP: 0, Entity FP: 104, Entity FN: 344
+Token Correct: 0, Token Pred Total: 104, Token True Total: 6
+
+Processing Sentence: An ISAF statement says the unidentified sub-commander was involved in kidnappings , weapons purchases and spying on coalition forces .
+True Entities: [(1, 2, 'ORG')]
+Predicted Entities: [(0, 2, 'ORG')]
+Sentence Correct: 15, Sentence Total: 144
+Entity TP: 0, Entity FP: 105, Entity FN: 345
+Token Correct: 0, Token Pred Total: 105, Token True Total: 6
+
+Processing Sentence: But the commission says there is no risk of a gas shortage in the short term .
+True Entities: []
+Predicted Entities: []
+Sentence Correct: 16, Sentence Total: 145
+Entity TP: 0, Entity FP: 105, Entity FN: 345
+Token Correct: 0, Token Pred Total: 105, Token True Total: 6
+
+Processing Sentence: Beatrice Mtetwa told the court in the northern town of Norton Friday that prosecutors are seeking " to prolong the accused 's agony . "
+True Entities: [(0, 2, 'PERSON'), (10, 11, 'LOC'), (11, 12, 'DATE')]
+Predicted Entities: [(0, 8, 'PERSON')]
+Sentence Correct: 16, Sentence Total: 146
+Entity TP: 0, Entity FP: 106, Entity FN: 348
+Token Correct: 0, Token Pred Total: 106, Token True Total: 6
+
+Processing Sentence: Experts blame falling consumer confidence on problems in the credit and stock markets that have hurt the investments that many people had hoped would pay for their retirements .
+True Entities: []
+Predicted Entities: []
+Sentence Correct: 17, Sentence Total: 147
+Entity TP: 0, Entity FP: 106, Entity FN: 348
+Token Correct: 0, Token Pred Total: 106, Token True Total: 6
+
+Processing Sentence: United Nations Secretary-General Kofi Annan is expected to ask for manpower and equipment for a peacekeeping force for Sudan when he meets with President Bush later Monday .
+True Entities: [(0, 3, 'ORG'), (3, 5, 'PERSON'), (18, 19, 'GPE'), (23, 24, 'PERSON'), (24, 27, 'DATE')]
+Predicted Entities: [(0, 6, 'ORG')]
+Sentence Correct: 17, Sentence Total: 148
+Entity TP: 0, Entity FP: 107, Entity FN: 353
+Token Correct: 0, Token Pred Total: 107, Token True Total: 7
+
+Processing Sentence: About 500 people from across Europe were in a large exhibition hall in the Katowice area when the building 's snow-covered roof caved in .
+True Entities: [(5, 6, 'LOC'), (14, 15, 'LOC')]
+Predicted Entities: []
+Sentence Correct: 17, Sentence Total: 149
+Entity TP: 0, Entity FP: 107, Entity FN: 355
+Token Correct: 0, Token Pred Total: 107, Token True Total: 7
+
+Processing Sentence: The White House does not comment about threats or the president 's security .
+True Entities: [(1, 3, 'ORG')]
+Predicted Entities: [(0, 3, 'ORG')]
+Sentence Correct: 17, Sentence Total: 150
+Entity TP: 0, Entity FP: 108, Entity FN: 356
+Token Correct: 0, Token Pred Total: 108, Token True Total: 7
+
+Processing Sentence: India and Saudi Arabia have said they intend to form an energy partnership to increase the amount of crude oil supplied to India .
+True Entities: [(0, 4, 'ORG'), (22, 23, 'LOC')]
+Predicted Entities: [(0, 5, 'LOC')]
+Sentence Correct: 17, Sentence Total: 151
+Entity TP: 0, Entity FP: 109, Entity FN: 358
+Token Correct: 0, Token Pred Total: 109, Token True Total: 7
+
+Processing Sentence: The protesters , who rallied late Thursday , also voiced support for a letter signed by dozens of Israeli rabbis this month that would forbid the rental of homes to non-Jews .
+True Entities: [(6, 7, 'DATE'), (18, 19, 'GPE')]
+Predicted Entities: []
+Sentence Correct: 17, Sentence Total: 152
+Entity TP: 0, Entity FP: 109, Entity FN: 360
+Token Correct: 0, Token Pred Total: 109, Token True Total: 7
+
+Processing Sentence: China 's official news agency says 96 miners are missing following an explosion at a coal mine in the country 's northern province of Hebei .
+True Entities: [(0, 1, 'LOC'), (24, 25, 'LOC')]
+Predicted Entities: [(0, 5, 'LOC')]
+Sentence Correct: 17, Sentence Total: 153
+Entity TP: 0, Entity FP: 110, Entity FN: 362
+Token Correct: 0, Token Pred Total: 110, Token True Total: 7
+
+Processing Sentence: Saddam 's head defense lawyer Khalil al-Dulaimi said he would appeal the decision and asked for a halt in the court 's proceedings .
+True Entities: [(0, 1, 'LOC'), (5, 7, 'PERSON')]
+Predicted Entities: [(0, 6, 'PERSON')]
+Sentence Correct: 17, Sentence Total: 154
+Entity TP: 0, Entity FP: 111, Entity FN: 364
+Token Correct: 0, Token Pred Total: 111, Token True Total: 7
+
+Processing Sentence: The U.N. group fled , but a translator was later killed by the angry mob .
+True Entities: [(1, 2, 'LOC')]
+Predicted Entities: [(0, 3, 'ORG')]
+Sentence Correct: 17, Sentence Total: 155
+Entity TP: 0, Entity FP: 112, Entity FN: 365
+Token Correct: 0, Token Pred Total: 112, Token True Total: 7
+
+Processing Sentence: Media reports say the tribunal may soon indict members of the Shi'ite militant group Hezbollah in the killing of Rafiq Hariri and 22 other people in a 2005 blast in downtown Beirut .
+True Entities: [(11, 15, 'ORG'), (19, 21, 'PERSON'), (27, 28, 'DATE'), (31, 32, 'LOC')]
+Predicted Entities: []
+Sentence Correct: 17, Sentence Total: 156
+Entity TP: 0, Entity FP: 112, Entity FN: 369
+Token Correct: 0, Token Pred Total: 112, Token True Total: 7
+
+Processing Sentence: The price of U.S. crude for November delivery settled up $ 1.48 at a record $ 87.61 per barrel .
+True Entities: [(3, 4, 'LOC'), (6, 7, 'DATE')]
+Predicted Entities: []
+Sentence Correct: 17, Sentence Total: 157
+Entity TP: 0, Entity FP: 112, Entity FN: 371
+Token Correct: 0, Token Pred Total: 112, Token True Total: 7
+
+Processing Sentence: CIA Director Porter Goss sent out an e-mail message Monday , a few hours after two top CIA officials resigned .
+True Entities: [(0, 4, 'ORG'), (9, 10, 'DATE'), (17, 18, 'ORG')]
+Predicted Entities: [(0, 3, 'ORG')]
+Sentence Correct: 17, Sentence Total: 158
+Entity TP: 0, Entity FP: 113, Entity FN: 374
+Token Correct: 1, Token Pred Total: 113, Token True Total: 8
+
+Processing Sentence: Another incident details the shooting death of an apparently unarmed Palestinian man , whose remains were then strapped to the hood of a jeep and driven back to base .
+True Entities: [(10, 11, 'GPE')]
+Predicted Entities: []
+Sentence Correct: 17, Sentence Total: 159
+Entity TP: 0, Entity FP: 113, Entity FN: 375
+Token Correct: 1, Token Pred Total: 113, Token True Total: 8
+
+Processing Sentence: Shi'ite leaders have not responded to the demands .
+True Entities: [(0, 1, 'ORG')]
+Predicted Entities: []
+Sentence Correct: 17, Sentence Total: 160
+Entity TP: 0, Entity FP: 113, Entity FN: 376
+Token Correct: 1, Token Pred Total: 113, Token True Total: 8
+
+Processing Sentence: Outside Catalonia and the Separatist Basque region to the west , Juan Carlos remains extremely popular .
+True Entities: [(1, 2, 'GPE'), (4, 6, 'ORG'), (11, 13, 'PERSON')]
+Predicted Entities: [(0, 7, 'ORG'), (8, 17, 'PERSON')]
+Sentence Correct: 17, Sentence Total: 161
+Entity TP: 0, Entity FP: 115, Entity FN: 379
+Token Correct: 1, Token Pred Total: 115, Token True Total: 8
+
+Processing Sentence: Rio celebrates Carnival with parades featuring the sensual Brazilian dance known as the samba .
+True Entities: [(0, 1, 'ORG'), (2, 3, 'EVENT'), (8, 9, 'GPE')]
+Predicted Entities: [(0, 3, 'LOC')]
+Sentence Correct: 17, Sentence Total: 162
+Entity TP: 0, Entity FP: 116, Entity FN: 382
+Token Correct: 1, Token Pred Total: 116, Token True Total: 8
+
+Processing Sentence: When I asked why , she explained that it was necessary to compare the signature I had just signed on the receipt .
+True Entities: []
+Predicted Entities: []
+Sentence Correct: 18, Sentence Total: 163
+Entity TP: 0, Entity FP: 116, Entity FN: 382
+Token Correct: 1, Token Pred Total: 116, Token True Total: 8
+
+Processing Sentence: British Prime Minister Tony Blair , whose country holds the rotating EU presidency , wants leaders to reach consensus on how the block will deal with such issues as free trade .
+True Entities: [(0, 1, 'GPE'), (1, 2, 'PERSON'), (3, 5, 'PERSON'), (11, 12, 'ORG')]
+Predicted Entities: [(0, 7, 'GPE')]
+Sentence Correct: 18, Sentence Total: 164
+Entity TP: 0, Entity FP: 117, Enti
+ty FN: 386
+Token Correct: 1, Token Pred Total: 117, Token True Total: 8
+
+Processing Sentence: The Cabinet Maliki unveiled Tuesday allocated two posts for women .
+True Entities: [(1, 3, 'ORG'), (4, 5, 'DATE')]
+Predicted Entities: [(0, 3, 'PERSON'), (4, 11, 'DATE')]
+Sentence Correct: 18, Sentence Total: 165
+Entity TP: 0, Entity FP: 119, Entity FN: 388
+Token Correct: 1, Token Pred Total: 119, Token True Total: 8
+
+Processing Sentence: No one was injured in the July 21 attacks , and officials say the four would-be bombers are most likely hiding in Britain .
+True Entities: [(6, 8, 'DATE'), (22, 23, 'LOC')]
+Predicted Entities: []
+Sentence Correct: 18, Sentence Total: 166
+Entity TP: 0, Entity FP: 119, Entity FN: 390
+Token Correct: 1, Token Pred Total: 119, Token True Total: 8

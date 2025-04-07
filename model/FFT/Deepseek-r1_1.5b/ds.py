@@ -111,7 +111,7 @@ def tokenize_function(examples):
         a_with_tokens = start_token + a + end_token
         full_text = q_with_tokens + "\n" + a_with_tokens
         texts.append(full_text)
-    encoded = tokenizer(texts, truncation=True, max_length=128, padding="max_length")
+    encoded = tokenizer(texts, truncation=True, max_length=256, padding="max_length")
     encoded["labels"] = encoded["input_ids"].copy()
     return encoded
 
@@ -128,11 +128,11 @@ train_dataset = tokenized_dataset  # 每个示例独立
 # -------------------------
 training_args = TrainingArguments(
     output_dir="./results",
-    num_train_epochs=10,
-    per_device_train_batch_size=args.train_batch_size,
-    per_device_eval_batch_size=args.train_batch_size,
+    num_train_epochs=20,
+    per_device_train_batch_size=4,
+    per_device_eval_batch_size=4,
     gradient_accumulation_steps=8,  # 全局 batch size = num_gpus * 8 * per_device_train_batch_size
-    fp16=True,
+    fp16=False,
     deepspeed=args.deepspeed,
     remove_unused_columns=False,
     logging_steps=10,
@@ -201,10 +201,10 @@ def evaluate(model, tokenizer, df_subset, fixed_prompt):
         question_with_tokens = start_token + question + end_token
         gold_output = row["output"]
 
-        inputs = tokenizer(question_with_tokens, return_tensors="pt", truncation=True, max_length=128, padding="max_length")
+        inputs = tokenizer(question_with_tokens, return_tensors="pt", truncation=True, max_length=256, padding="max_length")
         inputs = {k: v.to(model.device) for k, v in inputs.items()}
         with torch.no_grad():
-            gen_ids = model.generate(**inputs, max_length=128, temperature=0.0)
+            gen_ids = model.generate(**inputs, max_length=256, temperature=0.0)
         full_generated = tokenizer.decode(gen_ids[0], skip_special_tokens=False).strip()
 
         # 期望格式：BOS + question + EOS + "\n" + BOS + target + EOS
