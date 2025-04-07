@@ -1,0 +1,1200 @@
+Sample 466:
+Sentence (Input): "Philip Alston said he is deeply concerned by the October 25 incident ."
+True Entities (Gold Output): {"entities": [{"entity": "Philip Alston", "order": 0, "label": "per"}, {"entity": "October 25", "order": 0, "label": "tim"}]}
+Model Output: Sentence: "Philip Alston said he is deeply concerned by the October 25 incident ."<｜end▁of▁sentence｜>
+<｜begin▁of▁sentence｜>{"entities": [{"entity": "Philip Alston", "order": 0, "label": "per"}, {"entity": "October 25", "order": 0, "label": "tim"}]}
+------------------------
+Sample 45466:
+Sentence (Input): "Dutch GDP contracted 3.9 % in 2009 , while exports declined nearly 25 % due to a sharp contraction in world demand ."
+True Entities (Gold Output): {"entities": [{"entity": "Dutch", "order": 0, "label": "gpe"}, {"entity": "2009", "order": 0, "label": "tim"}]}
+Model Output: Sentence: "Dutch GDP contracted 3.9 % in 2009 , while exports declined nearly 25 % due to a sharp contraction in world demand ."<｜end▁of▁sentence｜>
+<｜begin▁of▁sentence｜>{"entities": [{"entity": "Dutch", "order": 0, "label": "gpe"}, {"entity": "2009", "order": 0, "label": "tim"}]}
+------------------------
+Sample 47661:
+Sentence (Input): "But the job market 's problems may be easing , as the number of people signing up for first time jobless aid declined by 53,000 to a total of 6,10,000 ."
+True Entities (Gold Output): {"entities": []}
+Model Output: Sentence: "But the job market 's problems may be easing , as the number of people signing up for first time jobless aid declined by 53,000 to a total of 6,10,000 ."<｜end▁of▁sentence｜>
+<｜begin▁of▁sentence｜>{"entities": []}
+------------------------
+Sample 32954:
+Sentence (Input): "Iraqi police say insurgents have carried out at least four more car bomb attacks in Baghdad and the northern city of Mosul , killing nine people and wounding nearly 30 others ."
+True Entities (Gold Output): {"entities": [{"entity": "Iraqi", "order": 0, "label": "gpe"}, {"entity": "Baghdad", "order": 0, "label": "geo"}, {"entity": "Mosul", "order": 0, "label": "geo"}]}
+Model Output: Sentence: "Iraqi police say insurgents have carried out at least four more car bomb attacks in Baghdad and the northern city of Mosul , killing nine people and wounding nearly 30 others ."<｜end▁of▁sentence｜>
+<｜begin▁of▁sentence｜>{"entities": [{"entity": "Iraqi", "order": 0, "label": "gpe"}, {"entity": "Baghdad", "order": 0, "label": "geo"}, {"entity": "Mosul", "order": 0, "label": "geo"}
+------------------------
+Sample 2876:
+Sentence (Input): "His case has attracted international attention because Williams is the author of a series of children 's books warning young people about the dangers of gangs ."
+True Entities (Gold Output): {"entities": [{"entity": "Williams", "order": 0, "label": "per"}]}
+Model Output: Sentence: "His case has attracted international attention because Williams is the author of a series of children 's books warning young people about the dangers of gangs ."<｜end▁of▁sentence｜>
+<｜begin▁of▁sentence｜>{"entities": [{"entity": "Williams", "order": 0, "label": "per"}]}
+------------------------
+Sample 47422:
+Sentence (Input): "The Vatican says Pope Benedict respects Islam and did not intend to offend anyone ."
+True Entities (Gold Output): {"entities": [{"entity": "Vatican", "order": 0, "label": "org"}, {"entity": "Pope Benedict", "order": 0, "label": "per"}, {"entity": "Islam", "order": 0, "label": "geo"}]}
+Model Output: Sentence: "The Vatican says Pope Benedict respects Islam and did not intend to offend anyone ."<｜end▁of▁sentence｜>
+<｜begin▁of▁sentence｜>{"entities": [{"entity": "Vatican", "order": 0, "label": "org"}, {"entity": "Benedict", "order": 0, "label": "per"}, {"entity": "Islam", "order": 0, "label": "geo"}]}
+------------------------
+Sample 3987:
+Sentence (Input): "Bolt was slow out of the starting blocks , but nearly caught up and finished just one-100th of one second back ."
+True Entities (Gold Output): {"entities": [{"entity": "Bolt", "order": 0, "label": "per"}]}
+Model Output: Sentence: "Bolt was slow out of the starting blocks , but nearly caught up and finished just one-100th of one second back ."<｜end▁of▁sentence｜>
+<｜begin▁of▁sentence｜>{"entities": [{"entity": "Bolt", "order": 0, "label": "per"}]}
+------------------------
+Sample 8845:
+Sentence (Input): "Mr. Rhee says Seoul plans to increase subsidies for job training for the defectors in an effort to help them adjust ."
+True Entities (Gold Output): {"entities": [{"entity": "Mr. Rhee", "order": 0, "label": "per"}, {"entity": "Seoul", "order": 0, "label": "per"}]}
+Model Output: Sentence: "Mr. Rhee says Seoul plans to increase subsidies for job training for the defectors in an effort to help them adjust ."<｜end▁of▁sentence｜>
+<｜begin▁of▁sentence｜>{"entities": [{"entity": "Mr. Rhee", "order": 0, "label": "per"}, {"entity": "Seoul", "order": 0, "label": "per"}]}
+------------------------
+Sample 10990:
+Sentence (Input): "Authorities did not say when the Egyptian-sponsored talks would be held ."
+True Entities (Gold Output): {"entities": []}
+Model Output: Sentence: "Authorities did not say when the Egyptian-sponsored talks would be held ."<｜end▁of▁sentence｜>
+<｜begin▁of▁sentence｜>{"entities": []}
+------------------------
+Sample 25375:
+Sentence (Input): "On the political front , Palestinian President Mahmoud Abbas of the Fatah movement and the ruling group Hamas have agreed to resume talks on forming a unity government ."
+True Entities (Gold Output): {"entities": [{"entity": "Palestinian", "order": 0, "label": "gpe"}, {"entity": "President Mahmoud Abbas", "order": 0, "label": "per"}, {"entity": "Fatah", "order": 0, "label": "geo"}, {"entity": "Hamas", "order": 0, "label": "org"}]}
+Model Output: Sentence: "On the political front , Palestinian President Mahmoud Abbas of the Fatah movement and the ruling group Hamas have agreed to resume talks on forming a unity government ."<｜end▁of▁sentence｜>
+<｜begin▁of▁sentence｜>{"entities": [{"entity": "Palestinian", "order": 0, "label": "gpe"}, {"entity": "President Mahmoud Abbas", "order": 0, "label": "per"}, {"entity": "Fatah", "order": 0, "label": "geo
+------------------------
+Sample 36124:
+Sentence (Input): "Tehran denies the allegation ."
+True Entities (Gold Output): {"entities": [{"entity": "Tehran", "order": 0, "label": "org"}]}
+Model Output: Sentence: "Tehran denies the allegation ."<｜end▁of▁sentence｜>
+<｜begin▁of▁sentence｜>{"entities": [{"entity": "Tehran", "order": 0, "label": "org"}]}
+------------------------
+Sample 45128:
+Sentence (Input): "The remains were found near the Basilica of the Annunciation , which was built on the site where Christians believe an angel told the virgin Mary that she was going to give birth to Jesus ."
+True Entities (Gold Output): {"entities": [{"entity": "Basilica", "order": 0, "label": "geo"}, {"entity": "Mary", "order": 0, "label": "per"}, {"entity": "Jesus", "order": 0, "label": "per"}]}
+Model Output: Sentence: "The remains were found near the Basilica of the Annunciation , which was built on the site where Christians believe an angel told the virgin Mary that she was going to give birth to Jesus ."<｜end▁of▁sentence｜>
+<｜begin▁of▁sentence｜>{"entities": [{"entity": "Basilica", "order": 0, "label": "geo"}, {"entity": "Annunciation", "order": 0, "label": "geo"}, {"entity": "Mary", "order": 0, "label": "geo"}, {"entity
+------------------------
+Sample 43074:
+Sentence (Input): "Earthquakes are common in Turkey ."
+True Entities (Gold Output): {"entities": [{"entity": "Turkey", "order": 0, "label": "geo"}]}
+Model Output: Sentence: "Earthquakes are common in Turkey ."<｜end▁of▁sentence｜>
+<｜begin▁of▁sentence｜>{"entities": [{"entity": "Turkey", "order": 0, "label": "geo"}]}
+------------------------
+Sample 29717:
+Sentence (Input): "It says defectors report many prisoners have died from torture , starvation , disease or exposure ."
+True Entities (Gold Output): {"entities": []}
+Model Output: Sentence: "It says defectors report many prisoners have died from torture , starvation , disease or exposure ."<｜end▁of▁sentence｜>
+<｜begin▁of▁sentence｜>{"entities": []}
+------------------------
+Sample 8762:
+Sentence (Input): "Pope Benedict XVI said the current global financial crisis is the result of individuals seeking short-term monetary gains at the expense of the common good ."
+True Entities (Gold Output): {"entities": [{"entity": "Benedict XVI", "order": 0, "label": "per"}]}
+Model Output: Sentence: "Pope Benedict XVI said the current global financial crisis is the result of individuals seeking short-term monetary gains at the expense of the common good ."<｜end▁of▁sentence｜>
+<｜begin▁of▁sentence｜>{"entities": [{"entity": "Pope Benedict XVI", "order": 0, "label": "per"}]}
+------------------------
+Sample 9254:
+Sentence (Input): "But Taleban officials have vowed that attacks will intensify when the weather improves ."
+True Entities (Gold Output): {"entities": [{"entity": "Taleban", "order": 0, "label": "org"}]}
+Model Output: Sentence: "But Taleban officials have vowed that attacks will intensify when the weather improves ."<｜end▁of▁sentence｜>
+<｜begin▁of▁sentence｜>{"entities": [{"entity": "Taleban", "order": 0, "label": "org"}]}
+------------------------
+Sample 22531:
+Sentence (Input): "Al-Qaida 's deputy leader has criticized the West for publishing cartoons depicting the Prophet Muhammad as a terrorist ."
+True Entities (Gold Output): {"entities": [{"entity": "Al-Qaida", "order": 0, "label": "org"}, {"entity": "West", "order": 0, "label": "geo"}, {"entity": "Prophet Muhammad", "order": 0, "label": "per"}]}
+Model Output: Sentence: "Al-Qaida 's deputy leader has criticized the West for publishing cartoons depicting the Prophet Muhammad as a terrorist ."<｜end▁of▁sentence｜>
+<｜begin▁of▁sentence｜>{"entities": [{"entity": "Al-Qaida", "order": 0, "label": "org"}, {"entity": "West", "order": 0, "label": "geo"}, {"entity": "Prophet Muhammad", "order": 0, "label": "org"}]}
+------------------------
+Sample 46585:
+Sentence (Input): "Brazilian leader Luiz Inacio Lula da Silva and Evo Morales of Bolivia met Saturday in Vienna on the sidelines of the European Union-Latin America summit ."
+True Entities (Gold Output): {"entities": [{"entity": "Brazilian", "order": 0, "label": "gpe"}, {"entity": "Luiz Inacio Lula da Silva", "order": 0, "label": "per"}, {"entity": "Evo Morales", "order": 0, "label": "per"}, {"entity": "Bolivia", "order": 0, "label": "geo"}, {"entity": "Saturday", "order": 0, "label": "tim"}, {"entity": "Vienna", "order": 0, "label": "geo"}, {"entity": "European Union-Latin America", "order": 0, "label": "org"}]}
+Model Output: Sentence: "Brazilian leader Luiz Inacio Lula da Silva and Evo Morales of Bolivia met Saturday in Vienna on the sidelines of the European Union-Latin America summit ."<｜end▁of▁sentence｜>
+<｜begin▁of▁sentence｜>{"entities": [{"entity": "Brazilian", "order": 0, "label": "gpe"}, {"entity": "Luiz Inacio Lula da Silva", "order": 0, "label": "per"}, {"entity": "Evo Morales", "order": 0,
+------------------------
+Sample 19461:
+Sentence (Input): "Iraqi security officials say unidentified gunmen have shot and killed the imam of a Sunni mosque and three other people in Baghdad ."
+True Entities (Gold Output): {"entities": [{"entity": "Iraqi", "order": 0, "label": "gpe"}, {"entity": "Baghdad", "order": 0, "label": "geo"}]}
+Model Output: Sentence: "Iraqi security officials say unidentified gunmen have shot and killed the imam of a Sunni mosque and three other people in Baghdad ."<｜end▁of▁sentence｜>
+<｜begin▁of▁sentence｜>{"entities": [{"entity": "Iraqi", "order": 0, "label": "gpe"}, {"entity": "Baghdad", "order": 0, "label": "geo"}]}
+------------------------
+Sample 37687:
+Sentence (Input): "Mr. Musharraf declared a state of emergency last November and purged the Supreme Court , in order to halt any legal challenges to his presidency ."
+True Entities (Gold Output): {"entities": [{"entity": "Mr.", "order": 0, "label": "per"}, {"entity": "Musharraf", "order": 0, "label": "geo"}, {"entity": "November", "order": 0, "label": "tim"}, {"entity": "Supreme Court", "order": 0, "label": "org"}]}
+Model Output: Sentence: "Mr. Musharraf declared a state of emergency last November and purged the Supreme Court , in order to halt any legal challenges to his presidency ."<｜end▁of▁sentence｜>
+<｜begin▁of▁sentence｜>{"entities": [{"entity": "Mr. Musharraf", "order": 0, "label": "per"}, {"entity": "Supreme Court", "order": 0, "label": "org"}, {"entity": "November", "order": 0, "label": "tim
+------------------------
+Sample 8920:
+Sentence (Input): "Officials said Monday the hardest hit area is the northern province of Uige where 184 people have died from the disease that first appeared last October ."
+True Entities (Gold Output): {"entities": [{"entity": "Monday", "order": 0, "label": "tim"}, {"entity": "Uige", "order": 0, "label": "geo"}, {"entity": "October", "order": 0, "label": "tim"}]}
+Model Output: Sentence: "Officials said Monday the hardest hit area is the northern province of Uige where 184 people have died from the disease that first appeared last October ."<｜end▁of▁sentence｜>
+<｜begin▁of▁sentence｜>{"entities": [{"entity": "Monday", "order": 0, "label": "tim"}, {"entity": "Uige", "order": 0, "label": "geo"}, {"entity": "October", "order": 0, "label": "tim"}]}
+------------------------
+Sample 14726:
+Sentence (Input): "Police in Afghanistan say Afghan and NATO forces have killed 18 Taleban rebels in clashes in the country 's volatile southern region ."
+True Entities (Gold Output): {"entities": [{"entity": "Afghanistan", "order": 0, "label": "geo"}, {"entity": "Afghan", "order": 0, "label": "gpe"}, {"entity": "NATO", "order": 0, "label": "org"}, {"entity": "Taleban", "order": 0, "label": "org"}]}
+Model Output: Sentence: "Police in Afghanistan say Afghan and NATO forces have killed 18 Taleban rebels in clashes in the country 's volatile southern region ."<｜end▁of▁sentence｜>
+<｜begin▁of▁sentence｜>{"entities": [{"entity": "Afghanistan", "order": 0, "label": "geo"}, {"entity": "Afghan", "order": 0, "label": "gpe"}, {"entity": "NATO", "order": 0, "label": "org"},
+------------------------
+Sample 43148:
+Sentence (Input): "South Africa has led mediation efforts on Zimbabwe 's political crisis , and has been slammed repeatedly by the opposition for its approach of so-called \" quiet diplomacy \" towards the Mugabe government ."
+True Entities (Gold Output): {"entities": [{"entity": "South Africa", "order": 0, "label": "geo"}, {"entity": "Zimbabwe", "order": 0, "label": "geo"}, {"entity": "Mugabe", "order": 0, "label": "per"}]}
+Model Output: Sentence: "South Africa has led mediation efforts on Zimbabwe 's political crisis , and has been slammed repeatedly by the opposition for its approach of so-called \" quiet diplomacy \" towards the Mugabe government ."<｜end▁of▁sentence｜>
+<｜begin▁of▁sentence｜>{"entities": [{"entity": "South Africa", "order": 0, "label": "geo"}, {"entity": "Zimbabwe", "order": 0, "label": "geo"}, {"entity": "Mugabe", "order": 0, "label": "per"}]}
+------------------------
+Sample 23314:
+Sentence (Input): "They were set to expire next week ."
+True Entities (Gold Output): {"entities": []}
+Model Output: Sentence: "They were set to expire next week ."<｜end▁of▁sentence｜>
+<｜begin▁of▁sentence｜>{"entities": []}
+------------------------
+Sample 5370:
+Sentence (Input): "Doctors at Jerusalem 's Hadassah Hospital have inserted a feeding tube into the stomach of Israeli Prime Minister Ariel Sharon ."
+True Entities (Gold Output): {"entities": [{"entity": "Jerusalem 's Hadassah Hospital", "order": 0, "label": "org"}, {"entity": "Israeli", "order": 0, "label": "gpe"}, {"entity": "Prime", "order": 0, "label": "per"}, {"entity": "Ariel Sharon", "order": 0, "label": "per"}]}
+Model Output: Sentence: "Doctors at Jerusalem 's Hadassah Hospital have inserted a feeding tube into the stomach of Israeli Prime Minister Ariel Sharon ."<｜end▁of▁sentence｜>
+<｜begin▁of▁sentence｜>{"entities": [{"entity": "Jerusalem", "order": 0, "label": "geo"}, {"entity": "Hadassah Hospital", "order": 0, "label": "org"}, {"entity": "Israeli", "order": 0, "label": "gpe"},
+------------------------
+Sample 32621:
+Sentence (Input): "Iran is the world 's fourth-largest oil exporter ."
+True Entities (Gold Output): {"entities": [{"entity": "Iran", "order": 0, "label": "geo"}]}
+Model Output: Sentence: "Iran is the world 's fourth-largest oil exporter ."<｜end▁of▁sentence｜>
+<｜begin▁of▁sentence｜>{"entities": [{"entity": "Iran", "order": 0, "label": "geo"}]}
+------------------------
+Sample 5492:
+Sentence (Input): "The commission chief ( Kissem Tchangai-Walla ) says Mr. Gnassingbe , son of the late longtime leader Gnassingbe Eyadema , won with just over 60 percent of votes cast ."
+True Entities (Gold Output): {"entities": [{"entity": "Kissem Tchangai-Walla", "order": 0, "label": "org"}, {"entity": "Mr. Gnassingbe", "order": 0, "label": "per"}, {"entity": "Gnassingbe Eyadema", "order": 0, "label": "per"}]}
+Model Output: Sentence: "The commission chief ( Kissem Tchangai-Walla ) says Mr. Gnassingbe , son of the late longtime leader Gnassingbe Eyadema , won with just over 60 percent of votes cast ."<｜end▁of▁sentence｜>
+<｜begin▁of▁sentence｜>{"entities": [{"entity": "Kissem Tchangai-Walla", "order": 0, "label": "org"}, {"entity": "Mr.", "order": 0, "label": "per"}, {"entity": "Gnassingbe Eyadema", "order":
+------------------------
+Sample 44218:
+Sentence (Input): "North Korea 's main state-run newspaper said Tuesday that six-nation talks could resume if the United States changed what it called a \" hostile policy \" against Pyongyang ."
+True Entities (Gold Output): {"entities": [{"entity": "North Korea", "order": 0, "label": "geo"}, {"entity": "Tuesday", "order": 0, "label": "tim"}, {"entity": "United States", "order": 0, "label": "geo"}, {"entity": "Pyongyang", "order": 0, "label": "geo"}]}
+Model Output: Sentence: "North Korea 's main state-run newspaper said Tuesday that six-nation talks could resume if the United States changed what it called a \" hostile policy \" against Pyongyang ."<｜end▁of▁sentence｜>
+<｜begin▁of▁sentence｜>{"entities": [{"entity": "North Korea", "order": 0, "label": "geo"}, {"entity": "Tuesday", "order": 0, "label": "tim"}, {"entity": "United States", "order": 0, "label": "geo"}, {"entity":
+------------------------
+Sample 47118:
+Sentence (Input): "However , U.S. Deputy Secretary of State Robert Zoellick said Tuesday the aid is dependent on Sudan ending a separate conflict in its western Darfur region ."
+True Entities (Gold Output): {"entities": [{"entity": "U.S. Deputy", "order": 0, "label": "org"}, {"entity": "Robert Zoellick", "order": 0, "label": "per"}, {"entity": "Tuesday", "order": 0, "label": "tim"}, {"entity": "Sudan", "order": 0, "label": "geo"}, {"entity": "Darfur", "order": 0, "label": "geo"}]}
+Model Output: Sentence: "However , U.S. Deputy Secretary of State Robert Zoellick said Tuesday the aid is dependent on Sudan ending a separate conflict in its western Darfur region ."<｜end▁of▁sentence｜>
+<｜begin▁of▁sentence｜>{"entities": [{"entity": "U.S.", "order": 0, "label": "org"}, {"entity": "State Robert Zoellick", "order": 0, "label": "org"}, {"entity": "Tuesday", "order": 0, "label": "tim"},
+------------------------
+Sample 15559:
+Sentence (Input): "The court says some family members were forced to watch their relatives being killed ."
+True Entities (Gold Output): {"entities": []}
+Model Output: Sentence: "The court says some family members were forced to watch their relatives being killed ."<｜end▁of▁sentence｜>
+<｜begin▁of▁sentence｜>{"entities": []}
+------------------------
+Sample 8781:
+Sentence (Input): "The army imposed a curfew in the town after re-taking the buildings ."
+True Entities (Gold Output): {"entities": []}
+Model Output: Sentence: "The army imposed a curfew in the town after re-taking the buildings ."<｜end▁of▁sentence｜>
+<｜begin▁of▁sentence｜>{"entities": []}
+------------------------
+Sample 35748:
+Sentence (Input): "It is the largest single order Airbus has ever gotten from China ."
+True Entities (Gold Output): {"entities": [{"entity": "Airbus", "order": 0, "label": "org"}, {"entity": "China", "order": 0, "label": "geo"}]}
+Model Output: Sentence: "It is the largest single order Airbus has ever gotten from China ."<｜end▁of▁sentence｜>
+<｜begin▁of▁sentence｜>{"entities": [{"entity": "Airbus", "order": 0, "label": "org"}, {"entity": "China", "order": 0, "label": "geo"}]}
+------------------------
+Sample 42632:
+Sentence (Input): "Mr. Abe reiterated Japan 's stance that normalizing relations with North Korea will not be possible until the abduction issue is resolved ."
+True Entities (Gold Output): {"entities": [{"entity": "Mr. Abe", "order": 0, "label": "per"}, {"entity": "Japan", "order": 0, "label": "geo"}, {"entity": "North Korea", "order": 0, "label": "geo"}]}
+Model Output: Sentence: "Mr. Abe reiterated Japan 's stance that normalizing relations with North Korea will not be possible until the abduction issue is resolved ."<｜end▁of▁sentence｜>
+<｜begin▁of▁sentence｜>{"entities": [{"entity": "Mr. Abe", "order": 0, "label": "per"}, {"entity": "Japan", "order": 0, "label": "geo"}, {"entity": "North Korea", "order": 0, "label": "geo"}]}
+------------------------
+Sample 39374:
+Sentence (Input): "Shortly after the vote , security forces opened fire on anti-government protesters , killing at least 36 people ."
+True Entities (Gold Output): {"entities": []}
+Model Output: Sentence: "Shortly after the vote , security forces opened fire on anti-government protesters , killing at least 36 people ."<｜end▁of▁sentence｜>
+<｜begin▁of▁sentence｜>{"entities": []}
+------------------------
+Sample 47471:
+Sentence (Input): "The United States and 46 other countries have recognized Kosovo independence ."
+True Entities (Gold Output): {"entities": [{"entity": "United States", "order": 0, "label": "geo"}, {"entity": "Kosovo", "order": 0, "label": "org"}]}
+Model Output: Sentence: "The United States and 46 other countries have recognized Kosovo independence ."<｜end▁of▁sentence｜>
+<｜begin▁of▁sentence｜>{"entities": [{"entity": "United States", "order": 0, "label": "geo"}, {"entity": "46", "order": 0, "label": "tim"}, {"entity": "Kosovo", "order": 0, "label": "geo"}]}
+------------------------
+Sample 24168:
+Sentence (Input): "The White House said President Bush has approved duty-free treatment for imports of certain types of watches that are n't produced in \" significant quantities \" in the U.S. , the Virgin Islands and other U.S. possessions ."
+True Entities (Gold Output): {"entities": [{"entity": "White House", "order": 0, "label": "org"}, {"entity": "President Bush", "order": 0, "label": "per"}, {"entity": "U.S.", "order": 0, "label": "geo"}, {"entity": "Virgin Islands", "order": 0, "label": "org"}, {"entity": "U.S.", "order": 1, "label": "geo"}]}
+Model Output: Sentence: "The White House said President Bush has approved duty-free treatment for imports of certain types of watches that are n't produced in \" significant quantities \" in the U.S. , the Virgin Islands and other U.S. possessions ."<｜end▁of▁sentence｜>
+<｜begin▁of▁sentence｜>{"entities": [{"entity": "White House", "order": 0, "label": "org"}, {"entity": "President Bush", "order": 0, "label": "per"}, {"entity": "U.S.", "order": 0, "label": "geo"}, {"entity
+------------------------
+Sample 5865:
+Sentence (Input): "The president says the crackdown is intended to stop the \" extremist minority \" harming Pakistan 's interests and tarnishing the image of Islam ."
+True Entities (Gold Output): {"entities": [{"entity": "Islam", "order": 0, "label": "geo"}]}
+Model Output: Sentence: "The president says the crackdown is intended to stop the \" extremist minority \" harming Pakistan 's interests and tarnishing the image of Islam ."<｜end▁of▁sentence｜>
+<｜begin▁of▁sentence｜>{"entities": [{"entity": "Islam", "order": 0, "label": "geo"}]}
+------------------------
+Sample 41160:
+Sentence (Input): "An earthquake of that magnitude can cause damage in populated areas within a radius of about 160 kilometers ."
+True Entities (Gold Output): {"entities": []}
+Model Output: Sentence: "An earthquake of that magnitude can cause damage in populated areas within a radius of about 160 kilometers ."<｜end▁of▁sentence｜>
+<｜begin▁of▁sentence｜>{"entities": []}
+------------------------
+Sample 20425:
+Sentence (Input): "That constitution was nullified by a military coup in 1962 and replaced by another constitution in 1974 ."
+True Entities (Gold Output): {"entities": [{"entity": "1962", "order": 0, "label": "tim"}, {"entity": "1974", "order": 0, "label": "tim"}]}
+Model Output: Sentence: "That constitution was nullified by a military coup in 1962 and replaced by another constitution in 1974 ."<｜end▁of▁sentence｜>
+<｜begin▁of▁sentence｜>{"entities": [{"entity": "1962", "order": 0, "label": "tim"}, {"entity": "1974", "order": 0, "label": "tim"}]}
+------------------------
+Sample 25392:
+Sentence (Input): "The commander of NATO forces in Afghanistan says the international community has underestimated the resurgence of the Taleban , partly because the war in Iraq diverted attention and resources ."
+True Entities (Gold Output): {"entities": [{"entity": "NATO", "order": 0, "label": "org"}, {"entity": "Afghanistan", "order": 0, "label": "geo"}, {"entity": "Taleban", "order": 0, "label": "org"}, {"entity": "Iraq", "order": 0, "label": "geo"}]}
+Model Output: Sentence: "The commander of NATO forces in Afghanistan says the international community has underestimated the resurgence of the Taleban , partly because the war in Iraq diverted attention and resources ."<｜end▁of▁sentence｜>
+<｜begin▁of▁sentence｜>{"entities": [{"entity": "NATO", "order": 0, "label": "org"}, {"entity": "Afghanistan", "order": 0, "label": "geo"}, {"entity": "Taleban", "order": 0, "label": "org"},
+------------------------
+Sample 47369:
+Sentence (Input): "A service of hymns , Bible readings and prayers followed ."
+True Entities (Gold Output): {"entities": [{"entity": "Bible", "order": 0, "label": "per"}]}
+Model Output: Sentence: "A service of hymns , Bible readings and prayers followed ."<｜end▁of▁sentence｜>
+<｜begin▁of▁sentence｜>{"entities": []}
+------------------------
+Sample 43535:
+Sentence (Input): "Syrian officials say they are willing to cooperate with a U.N. investigation into the assassination of former Lebanese Prime Minister Rafik Hariri ."
+True Entities (Gold Output): {"entities": [{"entity": "Syrian", "order": 0, "label": "gpe"}, {"entity": "U.N.", "order": 0, "label": "org"}, {"entity": "Lebanese", "order": 0, "label": "gpe"}, {"entity": "Prime", "order": 0, "label": "per"}, {"entity": "Rafik Hariri", "order": 0, "label": "per"}]}
+Model Output: Sentence: "Syrian officials say they are willing to cooperate with a U.N. investigation into the assassination of former Lebanese Prime Minister Rafik Hariri ."<｜end▁of▁sentence｜>
+<｜begin▁of▁sentence｜>{"entities": [{"entity": "Syrian", "order": 0, "label": "gpe"}, {"entity": "U.N.", "order": 0, "label": "org"}, {"entity": "Lebanese", "order": 0, "label": "gpe
+------------------------
+Sample 9648:
+Sentence (Input): "The building was constructed in 1890 as a synagogue ."
+True Entities (Gold Output): {"entities": [{"entity": "1890", "order": 0, "label": "tim"}]}
+Model Output: Sentence: "The building was constructed in 1890 as a synagogue ."<｜end▁of▁sentence｜>
+<｜begin▁of▁sentence｜>{"entities": [{"entity": "1890", "order": 0, "label": "tim"}]}
+------------------------
+Sample 44949:
+Sentence (Input): "The two-day APEC summit will also focus on global trade and terrorism ."
+True Entities (Gold Output): {"entities": []}
+Model Output: Sentence: "The two-day APEC summit will also focus on global trade and terrorism ."<｜end▁of▁sentence｜>
+<｜begin▁of▁sentence｜>{"entities": [{"entity": "two-day APEC", "order": 0, "label": "tim"}]}
+------------------------
+Sample 11236:
+Sentence (Input): "President Bush acknowledged Thursday that hard work still needs to be done to gain the necessary approval in Congress ."
+True Entities (Gold Output): {"entities": [{"entity": "President Bush", "order": 0, "label": "per"}, {"entity": "Thursday", "order": 0, "label": "tim"}, {"entity": "Congress", "order": 0, "label": "org"}]}
+Model Output: Sentence: "President Bush acknowledged Thursday that hard work still needs to be done to gain the necessary approval in Congress ."<｜end▁of▁sentence｜>
+<｜begin▁of▁sentence｜>{"entities": [{"entity": "President Bush", "order": 0, "label": "per"}, {"entity": "Thursday", "order": 0, "label": "tim"}]}
+------------------------
+Sample 46679:
+Sentence (Input): "A FOX invited a Crane to supper and provided nothing for his entertainment but some soup made of pulse , which was poured out into a broad flat stone dish ."
+True Entities (Gold Output): {"entities": []}
+Model Output: Sentence: "A FOX invited a Crane to supper and provided nothing for his entertainment but some soup made of pulse , which was poured out into a broad flat stone dish ."<｜end▁of▁sentence｜>
+<｜begin▁of▁sentence｜>{"entities": []}
+------------------------
+Sample 37738:
+Sentence (Input): "Forecasters say the heavy rains could trigger flash flooding and mudslides in the region , especially in mountainous parts of Nicaragua and Honduras ."
+True Entities (Gold Output): {"entities": [{"entity": "Nicaragua", "order": 0, "label": "geo"}, {"entity": "Honduras", "order": 0, "label": "geo"}]}
+Model Output: Sentence: "Forecasters say the heavy rains could trigger flash flooding and mudslides in the region , especially in mountainous parts of Nicaragua and Honduras ."<｜end▁of▁sentence｜>
+<｜begin▁of▁sentence｜>{"entities": [{"entity": "Nicaragua", "order": 0, "label": "geo"}, {"entity": "Honduras", "order": 0, "label": "geo"}]}
+------------------------
+Sample 148:
+Sentence (Input): "Pakistan 's Foreign Ministry spokeswoman Tasnim Aslam declined to say whether a new reactor is being constructed , but she said the presence of a nuclear weapons program and facilities at Khushab are well known ."
+True Entities (Gold Output): {"entities": [{"entity": "Pakistan", "order": 0, "label": "geo"}, {"entity": "Foreign Ministry", "order": 0, "label": "org"}, {"entity": "Tasnim Aslam", "order": 0, "label": "per"}, {"entity": "Khushab", "order": 0, "label": "geo"}]}
+Model Output: Sentence: "Pakistan 's Foreign Ministry spokeswoman Tasnim Aslam declined to say whether a new reactor is being constructed , but she said the presence of a nuclear weapons program and facilities at Khushab are well known ."<｜end▁of▁sentence｜>
+<｜begin▁of▁sentence｜>{"entities": [{"entity": "Pakistan", "order": 0, "label": "geo"}, {"entity": "Foreign Ministry", "order": 0, "label": "org"}, {"entity": "Tasnim Aslam", "order": 0, "label": "per"},
+------------------------
+Sample 36679:
+Sentence (Input): "The top aide to Pope Benedict sparked a furor Monday when he said that homosexuality and not the priestly vow of celibacy is the cause of widespread sex abuse of children by the Catholic clergy ."
+True Entities (Gold Output): {"entities": [{"entity": "Pope Benedict", "order": 0, "label": "per"}, {"entity": "Monday", "order": 0, "label": "tim"}, {"entity": "Catholic", "order": 0, "label": "geo"}]}
+Model Output: Sentence: "The top aide to Pope Benedict sparked a furor Monday when he said that homosexuality and not the priestly vow of celibacy is the cause of widespread sex abuse of children by the Catholic clergy ."<｜end▁of▁sentence｜>
+<｜begin▁of▁sentence｜>{"entities": [{"entity": "Pope Benedict", "order": 0, "label": "per"}, {"entity": "Monday", "order": 0, "label": "tim"}, {"entity": "Catholic", "order": 0, "label": "geo"}]}
+------------------------
+Sample 29312:
+Sentence (Input): "The lower house has fast tracked the measure , which was announced by President Dmitri Medvedev last week ."
+True Entities (Gold Output): {"entities": [{"entity": "President Dmitri Medvedev", "order": 0, "label": "per"}]}
+Model Output: Sentence: "The lower house has fast tracked the measure , which was announced by President Dmitri Medvedev last week ."<｜end▁of▁sentence｜>
+<｜begin▁of▁sentence｜>{"entities": [{"entity": "President Dmitri Medvedev", "order": 0, "label": "per"}]}
+------------------------
+Sample 7226:
+Sentence (Input): "The storm was just off Hachijo Island , 300 kilometers south of Tokyo , Saturday afternoon , and heading north ."
+True Entities (Gold Output): {"entities": [{"entity": "Hachijo Island", "order": 0, "label": "geo"}, {"entity": "Tokyo", "order": 0, "label": "geo"}, {"entity": "Saturday afternoon", "order": 0, "label": "tim"}]}
+Model Output: Sentence: "The storm was just off Hachijo Island , 300 kilometers south of Tokyo , Saturday afternoon , and heading north ."<｜end▁of▁sentence｜>
+<｜begin▁of▁sentence｜>{"entities": [{"entity": "Hachijo Island", "order": 0, "label": "geo"}, {"entity": "Tokyo", "order": 0, "label": "geo"}, {"entity": "Saturday afternoon", "order": 0, "label": "tim"}
+------------------------
+Sample 30365:
+Sentence (Input): "CNN does not have a permanent correspondent in Iran ."
+True Entities (Gold Output): {"entities": [{"entity": "CNN", "order": 0, "label": "org"}, {"entity": "Iran", "order": 0, "label": "geo"}]}
+Model Output: Sentence: "CNN does not have a permanent correspondent in Iran ."<｜end▁of▁sentence｜>
+<｜begin▁of▁sentence｜>{"entities": [{"entity": "CNN", "order": 0, "label": "org"}, {"entity": "Iran", "order": 0, "label": "geo"}]}
+------------------------
+Sample 38298:
+Sentence (Input): "The Republican-controlled Senate is expected to confirm Alito , perhaps by the end of this week ."
+True Entities (Gold Output): {"entities": [{"entity": "Senate", "order": 0, "label": "org"}, {"entity": "Alito", "order": 0, "label": "org"}, {"entity": "end of", "order": 0, "label": "tim"}]}
+Model Output: Sentence: "The Republican-controlled Senate is expected to confirm Alito , perhaps by the end of this week ."<｜end▁of▁sentence｜>
+<｜begin▁of▁sentence｜>{"entities": [{"entity": "Senate", "order": 0, "label": "org"}, {"entity": "Alito", "order": 0, "label": "geo"}, {"entity": "end of", "order": 0, "label": "tim"}]}
+------------------------
+Sample 22087:
+Sentence (Input): "Meanwhile , Israeli Prime Minister Ariel Sharon said today he will not rule out the possibility of allowing Palestinians living in disputed east Jerusalem to vote in the upcoming election ."
+True Entities (Gold Output): {"entities": [{"entity": "Israeli", "order": 0, "label": "gpe"}, {"entity": "Prime", "order": 0, "label": "per"}, {"entity": "Ariel Sharon", "order": 0, "label": "per"}, {"entity": "today", "order": 0, "label": "tim"}, {"entity": "Palestinians", "order": 0, "label": "gpe"}, {"entity": "east Jerusalem", "order": 0, "label": "geo"}]}
+Model Output: Sentence: "Meanwhile , Israeli Prime Minister Ariel Sharon said today he will not rule out the possibility of allowing Palestinians living in disputed east Jerusalem to vote in the upcoming election ."<｜end▁of▁sentence｜>
+<｜begin▁of▁sentence｜>{"entities": [{"entity": "Israeli", "order": 0, "label": "gpe"}, {"entity": "Prime", "order": 0, "label": "per"}, {"entity": "Ariel Sharon", "order": 0, "label": "per"}, {"entity
+------------------------
+Sample 14837:
+Sentence (Input): "Such disputes have become more common as Chinese developers turn residential and farm land into shopping malls , apartment buildings and other projects ."
+True Entities (Gold Output): {"entities": [{"entity": "Chinese", "order": 0, "label": "gpe"}]}
+Model Output: Sentence: "Such disputes have become more common as Chinese developers turn residential and farm land into shopping malls , apartment buildings and other projects ."<｜end▁of▁sentence｜>
+<｜begin▁of▁sentence｜>{"entities": [{"entity": "Chinese", "order": 0, "label": "gpe"}]}
+------------------------
+Sample 8046:
+Sentence (Input): "Dushevina , ranked 46th in the world , next meets Australian Open champion Amelie Mauresmo of France in the second round Wednesday ."
+True Entities (Gold Output): {"entities": [{"entity": "Dushevina", "order": 0, "label": "per"}, {"entity": "46th", "order": 0, "label": "tim"}, {"entity": "Australian Open", "order": 0, "label": "eve"}, {"entity": "Amelie Mauresmo", "order": 0, "label": "per"}, {"entity": "France", "order": 0, "label": "geo"}, {"entity": "Wednesday", "order": 0, "label": "tim"}]}
+Model Output: Sentence: "Dushevina , ranked 46th in the world , next meets Australian Open champion Amelie Mauresmo of France in the second round Wednesday ."<｜end▁of▁sentence｜>
+<｜begin▁of▁sentence｜>{"entities": [{"entity": "Dushevina", "order": 0, "label": "per"}, {"entity": "46th", "order": 0, "label": "tim"}, {"entity": "Australian", "order": 0, "label": "gpe
+------------------------
+Sample 11030:
+Sentence (Input): "Terrorist mastermind Abu Musab al-Zarqawi has apparently surfaced in an audiotape on the Internet , seeking to further divide Iraq 's Sunnis and Shi'ites 10 days before national elections ."
+True Entities (Gold Output): {"entities": [{"entity": "Abu Musab al-Zarqawi", "order": 0, "label": "per"}, {"entity": "Iraq", "order": 0, "label": "geo"}]}
+Model Output: Sentence: "Terrorist mastermind Abu Musab al-Zarqawi has apparently surfaced in an audiotape on the Internet , seeking to further divide Iraq 's Sunnis and Shi'ites 10 days before national elections ."<｜end▁of▁sentence｜>
+<｜begin▁of▁sentence｜>{"entities": [{"entity": "Abu Musab al-Zarqawi", "order": 0, "label": "per"}, {"entity": "Iraq", "order": 0, "label": "geo"}, {"entity": "Sunnis", "order": 0, "
+------------------------
+Sample 9404:
+Sentence (Input): "Afghan officials say that land mines or unexploded bombs still kill or disable hundreds of Afghans every year ."
+True Entities (Gold Output): {"entities": [{"entity": "Afghan", "order": 0, "label": "gpe"}, {"entity": "Afghans", "order": 0, "label": "gpe"}]}
+Model Output: Sentence: "Afghan officials say that land mines or unexploded bombs still kill or disable hundreds of Afghans every year ."<｜end▁of▁sentence｜>
+<｜begin▁of▁sentence｜>{"entities": [{"entity": "Afghan", "order": 0, "label": "gpe"}, {"entity": "Afghans", "order": 0, "label": "gpe"}]}
+------------------------
+Sample 45857:
+Sentence (Input): "Romanian President Traian Basescu says authorities are working at home and abroad to free three Romanian journalists who were apparently kidnapped in Iraq ."
+True Entities (Gold Output): {"entities": [{"entity": "Romanian", "order": 0, "label": "gpe"}, {"entity": "President Traian Basescu", "order": 0, "label": "per"}, {"entity": "Romanian", "order": 1, "label": "gpe"}, {"entity": "Iraq", "order": 0, "label": "geo"}]}
+Model Output: Sentence: "Romanian President Traian Basescu says authorities are working at home and abroad to free three Romanian journalists who were apparently kidnapped in Iraq ."<｜end▁of▁sentence｜>
+<｜begin▁of▁sentence｜>{"entities": [{"entity": "Romanian", "order": 0, "label": "gpe"}, {"entity": "President Traian Basescu", "order": 0, "label": "per"}, {"entity": "Romanian", "order": 1, "label":
+------------------------
+Sample 26104:
+Sentence (Input): "A Taliban spokesman , Yusuf Ahmadi said the Kandahar operation killed only four insurgents , and left many civilians dead ."
+True Entities (Gold Output): {"entities": [{"entity": "Taliban", "order": 0, "label": "org"}, {"entity": "Yusuf Ahmadi", "order": 0, "label": "per"}, {"entity": "Kandahar", "order": 0, "label": "geo"}]}
+Model Output: Sentence: "A Taliban spokesman , Yusuf Ahmadi said the Kandahar operation killed only four insurgents , and left many civilians dead ."<｜end▁of▁sentence｜>
+<｜begin▁of▁sentence｜>{"entities": [{"entity": "Taliban", "order": 0, "label": "org"}, {"entity": "Yusuf Ahmadi", "order": 0, "label": "per"}, {"entity": "Kandahar", "order": 0, "
+------------------------
+Sample 26604:
+Sentence (Input): "The French sports daily L'Equipe has named Swiss tennis star Roger Federer its \" Champion of Champions \" for 2005 ."
+True Entities (Gold Output): {"entities": [{"entity": "French", "order": 0, "label": "gpe"}, {"entity": "L'Equipe", "order": 0, "label": "geo"}, {"entity": "Swiss", "order": 0, "label": "gpe"}, {"entity": "Roger Federer", "order": 0, "label": "per"}, {"entity": "2005", "order": 0, "label": "tim"}]}
+Model Output: Sentence: "The French sports daily L'Equipe has named Swiss tennis star Roger Federer its \" Champion of Champions \" for 2005 ."<｜end▁of▁sentence｜>
+<｜begin▁of▁sentence｜>{"entities": [{"entity": "French", "order": 0, "label": "gpe"}, {"entity": "L'Equipe", "order": 0, "label": "org"}, {"entity": "Swiss", "order": 0, "label": "gpe
+------------------------
+Sample 9184:
+Sentence (Input): "Meanwhile , Israeli Prime Minister Ariel Sharon said today he will not rule out the possibility of allowing Palestinians living in disputed east Jerusalem to vote in the upcoming election ."
+True Entities (Gold Output): {"entities": [{"entity": "Israeli", "order": 0, "label": "gpe"}, {"entity": "Prime", "order": 0, "label": "per"}, {"entity": "Ariel Sharon", "order": 0, "label": "per"}, {"entity": "today", "order": 0, "label": "tim"}, {"entity": "Palestinians", "order": 0, "label": "gpe"}, {"entity": "east Jerusalem", "order": 0, "label": "geo"}]}
+Model Output: Sentence: "Meanwhile , Israeli Prime Minister Ariel Sharon said today he will not rule out the possibility of allowing Palestinians living in disputed east Jerusalem to vote in the upcoming election ."<｜end▁of▁sentence｜>
+<｜begin▁of▁sentence｜>{"entities": [{"entity": "Israeli", "order": 0, "label": "gpe"}, {"entity": "Prime", "order": 0, "label": "per"}, {"entity": "Ariel Sharon", "order": 0, "label": "per"}, {"entity
+------------------------
+Sample 6429:
+Sentence (Input): "Tourism is also a mainstay , accounting for about 70 % of GDP and 75 % of foreign currency earnings ."
+True Entities (Gold Output): {"entities": []}
+Model Output: Sentence: "Tourism is also a mainstay , accounting for about 70 % of GDP and 75 % of foreign currency earnings ."<｜end▁of▁sentence｜>
+<｜begin▁of▁sentence｜>{"entities": []}
+------------------------
+Sample 11451:
+Sentence (Input): "Azarov said Monday that such a system close to the Ukrainian border would be a target of attack and threaten to suck Ukraine into a conflict ."
+True Entities (Gold Output): {"entities": [{"entity": "Azarov", "order": 0, "label": "per"}, {"entity": "Monday", "order": 0, "label": "tim"}, {"entity": "Ukrainian", "order": 0, "label": "gpe"}, {"entity": "Ukraine", "order": 0, "label": "geo"}]}
+Model Output: Sentence: "Azarov said Monday that such a system close to the Ukrainian border would be a target of attack and threaten to suck Ukraine into a conflict ."<｜end▁of▁sentence｜>
+<｜begin▁of▁sentence｜>{"entities": [{"entity": "Azarov", "order": 0, "label": "per"}, {"entity": "Monday", "order": 0, "label": "tim"}, {"entity": "Ukrainian", "order": 0, "label": "gpe"},
+------------------------
+Sample 41022:
+Sentence (Input): "Former Haitian president Rene Preval has been declared the winner of the Caribbean nation 's presidential election ."
+True Entities (Gold Output): {"entities": [{"entity": "Haitian", "order": 0, "label": "gpe"}, {"entity": "Rene Preval", "order": 0, "label": "per"}, {"entity": "Caribbean", "order": 0, "label": "geo"}]}
+Model Output: Sentence: "Former Haitian president Rene Preval has been declared the winner of the Caribbean nation 's presidential election ."<｜end▁of▁sentence｜>
+<｜begin▁of▁sentence｜>{"entities": [{"entity": "Haitian", "order": 0, "label": "gpe"}, {"entity": "Rene Preval", "order": 0, "label": "per"}, {"entity": "Caribbean", "order": 0, "label": "
+------------------------
+Sample 27004:
+Sentence (Input): "And radical Shi'ite cleric Moqtada al-Sadr arrived in Jordan today for talks with King Abdullah and other officials in coming days ."
+True Entities (Gold Output): {"entities": [{"entity": "Moqtada al-Sadr", "order": 0, "label": "per"}, {"entity": "Jordan", "order": 0, "label": "gpe"}, {"entity": "today", "order": 0, "label": "tim"}, {"entity": "King Abdullah", "order": 0, "label": "per"}]}
+Model Output: Sentence: "And radical Shi'ite cleric Moqtada al-Sadr arrived in Jordan today for talks with King Abdullah and other officials in coming days ."<｜end▁of▁sentence｜>
+<｜begin▁of▁sentence｜>{"entities": [{"entity": "Moqtada al-Sadr", "order": 0, "label": "per"}, {"entity": "Jordan", "order": 0, "label": "gpe"}, {"entity": "today", "order": 0, "label": "tim
+------------------------
+Sample 44710:
+Sentence (Input): "Violence has been increasing in Afghanistan as NATO prepares to expand its peacekeeping force into the volatile south ."
+True Entities (Gold Output): {"entities": [{"entity": "Afghanistan", "order": 0, "label": "geo"}, {"entity": "NATO", "order": 0, "label": "org"}]}
+Model Output: Sentence: "Violence has been increasing in Afghanistan as NATO prepares to expand its peacekeeping force into the volatile south ."<｜end▁of▁sentence｜>
+<｜begin▁of▁sentence｜>{"entities": [{"entity": "Afghanistan", "order": 0, "label": "geo"}, {"entity": "NATO", "order": 0, "label": "org"}]}
+------------------------
+Sample 38157:
+Sentence (Input): "The 11th named storm of this year 's Atlantic hurricane season came ashore Thursday between Hallandale Beach and North Miami Beach , packing 130 kilometer-per-hour winds ."
+True Entities (Gold Output): {"entities": [{"entity": "Atlantic", "order": 0, "label": "geo"}, {"entity": "Thursday", "order": 0, "label": "tim"}, {"entity": "Hallandale Beach", "order": 0, "label": "geo"}, {"entity": "North Miami Beach", "order": 0, "label": "geo"}]}
+Model Output: Sentence: "The 11th named storm of this year 's Atlantic hurricane season came ashore Thursday between Hallandale Beach and North Miami Beach , packing 130 kilometer-per-hour winds ."<｜end▁of▁sentence｜>
+<｜begin▁of▁sentence｜>{"entities": [{"entity": "11th", "order": 0, "label": "tim"}, {"entity": "Atlantic", "order": 0, "label": "geo"}, {"entity": "Thursday", "order": 0, "label": "tim"}, {"entity":
+------------------------
+Sample 41625:
+Sentence (Input): "In Paris , French Prime Minister Jean-Pierre Raffarin announced the release to parliament Tuesday , a short while after the al-Jazeera television network first reported it ."
+True Entities (Gold Output): {"entities": [{"entity": "Paris", "order": 0, "label": "geo"}, {"entity": "French", "order": 0, "label": "gpe"}, {"entity": "Prime", "order": 0, "label": "per"}, {"entity": "Jean-Pierre Raffarin", "order": 0, "label": "per"}, {"entity": "Tuesday", "order": 0, "label": "tim"}]}
+Model Output: Sentence: "In Paris , French Prime Minister Jean-Pierre Raffarin announced the release to parliament Tuesday , a short while after the al-Jazeera television network first reported it ."<｜end▁of▁sentence｜>
+<｜begin▁of▁sentence｜>{"entities": [{"entity": "Paris", "order": 0, "label": "geo"}, {"entity": "French", "order": 0, "label": "gpe"}, {"entity": "Prime Minister Jean-Pierre Raffarin", "order": 0, "label":
+------------------------
+Sample 46494:
+Sentence (Input): "Hundreds of Islamist students in Egypt have marched at three of the country 's universities to call for democratic reforms ."
+True Entities (Gold Output): {"entities": [{"entity": "Egypt", "order": 0, "label": "geo"}]}
+Model Output: Sentence: "Hundreds of Islamist students in Egypt have marched at three of the country 's universities to call for democratic reforms ."<｜end▁of▁sentence｜>
+<｜begin▁of▁sentence｜>{"entities": [{"entity": "Islamist", "order": 0, "label": "org"}, {"entity": "Egypt", "order": 0, "label": "geo"}]}
+------------------------
+Sample 29207:
+Sentence (Input): "Agricultural production is limited - only 2 % of the land is arable - and most food has to be imported ."
+True Entities (Gold Output): {"entities": []}
+Model Output: Sentence: "Agricultural production is limited - only 2 % of the land is arable - and most food has to be imported ."<｜end▁of▁sentence｜>
+<｜begin▁of▁sentence｜>{"entities": []}
+------------------------
+Sample 25172:
+Sentence (Input): "German and French authorities have deployed about 25,000 police to maintain security around the two towns ."
+True Entities (Gold Output): {"entities": [{"entity": "German", "order": 0, "label": "gpe"}, {"entity": "French", "order": 0, "label": "gpe"}]}
+Model Output: Sentence: "German and French authorities have deployed about 25,000 police to maintain security around the two towns ."<｜end▁of▁sentence｜>
+<｜begin▁of▁sentence｜>{"entities": [{"entity": "German", "order": 0, "label": "gpe"}, {"entity": "French", "order": 0, "label": "gpe"}]}
+------------------------
+Sample 7361:
+Sentence (Input): "They chanted religious slogans , and carried signs , including one saying they were ready to die to defend traditional religion ."
+True Entities (Gold Output): {"entities": []}
+Model Output: Sentence: "They chanted religious slogans , and carried signs , including one saying they were ready to die to defend traditional religion ."<｜end▁of▁sentence｜>
+<｜begin▁of▁sentence｜>{"entities": []}
+------------------------
+Sample 14217:
+Sentence (Input): "Burma 's detained democracy leader Aung San Suu Kyi has appealed to the ruling military against her home confinement ."
+True Entities (Gold Output): {"entities": [{"entity": "Burma", "order": 0, "label": "geo"}, {"entity": "Aung San Suu Kyi", "order": 0, "label": "geo"}]}
+Model Output: Sentence: "Burma 's detained democracy leader Aung San Suu Kyi has appealed to the ruling military against her home confinement ."<｜end▁of▁sentence｜>
+<｜begin▁of▁sentence｜>{"entities": [{"entity": "Burma", "order": 0, "label": "geo"}, {"entity": "Aung San Suu Kyi", "order": 0, "label": "geo"}]}
+------------------------
+Sample 35558:
+Sentence (Input): "A Republican senator says U.S. cargo security measures now suffer from \" a massive blind spot . \""
+True Entities (Gold Output): {"entities": [{"entity": "U.S.", "order": 0, "label": "geo"}]}
+Model Output: Sentence: "A Republican senator says U.S. cargo security measures now suffer from \" a massive blind spot . \""<｜end▁of▁sentence｜>
+<｜begin▁of▁sentence｜>{"entities": [{"entity": "U.S.", "order": 0, "label": "geo"}]}
+------------------------
+Sample 20357:
+Sentence (Input): "Four Western aid workers , including an American , a Briton and two Canadians , were abducted Saturday in Baghdad ."
+True Entities (Gold Output): {"entities": [{"entity": "Western", "order": 0, "label": "org"}, {"entity": "American", "order": 0, "label": "gpe"}, {"entity": "Briton", "order": 0, "label": "gpe"}, {"entity": "Canadians", "order": 0, "label": "gpe"}, {"entity": "Saturday", "order": 0, "label": "tim"}, {"entity": "Baghdad", "order": 0, "label": "geo"}]}
+Model Output: Sentence: "Four Western aid workers , including an American , a Briton and two Canadians , were abducted Saturday in Baghdad ."<｜end▁of▁sentence｜>
+<｜begin▁of▁sentence｜>{"entities": [{"entity": "Western", "order": 0, "label": "org"}, {"entity": "American", "order": 0, "label": "gpe"}, {"entity": "Briton", "order": 0, "label": "gpe"}, {"entity
+------------------------
+Sample 5882:
+Sentence (Input): "The report released Monday said the depletion of ice caps could also contribute to global warming because the ice sheets reflect the sun 's heat away from the Earth 's surface ."
+True Entities (Gold Output): {"entities": [{"entity": "Monday", "order": 0, "label": "tim"}, {"entity": "Earth", "order": 0, "label": "geo"}]}
+Model Output: Sentence: "The report released Monday said the depletion of ice caps could also contribute to global warming because the ice sheets reflect the sun 's heat away from the Earth 's surface ."<｜end▁of▁sentence｜>
+<｜begin▁of▁sentence｜>{"entities": [{"entity": "Monday", "order": 0, "label": "tim"}, {"entity": "Earth", "order": 0, "label": "geo"}]}
+------------------------
+Sample 40728:
+Sentence (Input): "Former Ukrainian Prime Minister Yulija Tymoshenko says she is breaking with President Viktor Yushchenko following his decision to dismiss her government ."
+True Entities (Gold Output): {"entities": [{"entity": "Ukrainian", "order": 0, "label": "gpe"}, {"entity": "Prime Minister Yulija Tymoshenko", "order": 0, "label": "per"}, {"entity": "President Viktor Yushchenko", "order": 0, "label": "per"}]}
+Model Output: Sentence: "Former Ukrainian Prime Minister Yulija Tymoshenko says she is breaking with President Viktor Yushchenko following his decision to dismiss her government ."<｜end▁of▁sentence｜>
+<｜begin▁of▁sentence｜>{"entities": [{"entity": "Ukrainian", "order": 0, "label": "gpe"}, {"entity": "Prime Minister Yulija Tymoshenko", "order": 0, "label": "per"}, {"entity": "President Viktor Yushchenko",
+------------------------
+Sample 18875:
+Sentence (Input): "The girl was first stricken in January ."
+True Entities (Gold Output): {"entities": [{"entity": "January", "order": 0, "label": "tim"}]}
+Model Output: Sentence: "The girl was first stricken in January ."<｜end▁of▁sentence｜>
+<｜begin▁of▁sentence｜>{"entities": [{"entity": "January", "order": 0, "label": "tim"}]}
+------------------------
+Sample 14556:
+Sentence (Input): "A member of the main Nepali Congress party told reporters the parties will set up a team for talks with the rebels ."
+True Entities (Gold Output): {"entities": [{"entity": "Nepali Congress", "order": 0, "label": "org"}]}
+Model Output: Sentence: "A member of the main Nepali Congress party told reporters the parties will set up a team for talks with the rebels ."<｜end▁of▁sentence｜>
+<｜begin▁of▁sentence｜>{"entities": [{"entity": "Nepali Congress", "order": 0, "label": "org"}]}
+------------------------
+Sample 46228:
+Sentence (Input): "As president , Mr. Zardari is still immune from prosecution , but members of the opposition party are calling for his resignation ."
+True Entities (Gold Output): {"entities": [{"entity": "Mr.", "order": 0, "label": "per"}, {"entity": "Zardari", "order": 0, "label": "geo"}]}
+Model Output: Sentence: "As president , Mr. Zardari is still immune from prosecution , but members of the opposition party are calling for his resignation ."<｜end▁of▁sentence｜>
+<｜begin▁of▁sentence｜>{"entities": [{"entity": "Mr. Zardari", "order": 0, "label": "per"}]}
+------------------------
+Sample 30447:
+Sentence (Input): "Arson attacks in the same area on Sunday destroyed a home for teachers and damaged a school ."
+True Entities (Gold Output): {"entities": [{"entity": "Sunday", "order": 0, "label": "tim"}]}
+Model Output: Sentence: "Arson attacks in the same area on Sunday destroyed a home for teachers and damaged a school ."<｜end▁of▁sentence｜>
+<｜begin▁of▁sentence｜>{"entities": [{"entity": "Sunday", "order": 0, "label": "tim"}]}
+------------------------
+Sample 45743:
+Sentence (Input): "U.S. space researchers revealed the results of their first \" wet \" chemical analysis of Martian dirt Thursday and said it is not as acidic as expected , appearing to have the requirements and nutrients to support life ."
+True Entities (Gold Output): {"entities": [{"entity": "U.S.", "order": 0, "label": "geo"}, {"entity": "Martian", "order": 0, "label": "geo"}, {"entity": "Thursday", "order": 0, "label": "tim"}]}
+Model Output: Sentence: "U.S. space researchers revealed the results of their first \" wet \" chemical analysis of Martian dirt Thursday and said it is not as acidic as expected , appearing to have the requirements and nutrients to support life ."<｜end▁of▁sentence｜>
+<｜begin▁of▁sentence｜>{"entities": [{"entity": "U.S.", "order": 0, "label": "geo"}, {"entity": "Thursday", "order": 0, "label": "tim"}]}
+------------------------
+Sample 43255:
+Sentence (Input): "In the agreement , India and Saudi Arabia also pledged to cooperate in the fight against terrorism ."
+True Entities (Gold Output): {"entities": [{"entity": "India", "order": 0, "label": "geo"}, {"entity": "Saudi Arabia", "order": 0, "label": "geo"}]}
+Model Output: Sentence: "In the agreement , India and Saudi Arabia also pledged to cooperate in the fight against terrorism ."<｜end▁of▁sentence｜>
+<｜begin▁of▁sentence｜>{"entities": [{"entity": "India", "order": 0, "label": "org"}, {"entity": "Saudi Arabia", "order": 0, "label": "org"}]}
+------------------------
+Sample 30627:
+Sentence (Input): "The pro-Syrian Mr. Karami first resigned on February 28 , in the face of growing anti-Syrian protests sparked by the assassination of former Prime Minister Rafik Hariri ."
+True Entities (Gold Output): {"entities": [{"entity": "Mr. Karami", "order": 0, "label": "per"}, {"entity": "February 28", "order": 0, "label": "tim"}, {"entity": "Prime Minister Rafik Hariri", "order": 0, "label": "per"}]}
+Model Output: Sentence: "The pro-Syrian Mr. Karami first resigned on February 28 , in the face of growing anti-Syrian protests sparked by the assassination of former Prime Minister Rafik Hariri ."<｜end▁of▁sentence｜>
+<｜begin▁of▁sentence｜>{"entities": [{"entity": "Mr. Karami", "order": 0, "label": "per"}, {"entity": "February 28", "order": 0, "label": "tim"}, {"entity": "Prime Minister Rafik Hariri", "order": 0
+------------------------
+Sample 36271:
+Sentence (Input): "Britain says the soldiers were freed from a nearby house where they had been taken before the military action on the prison ."
+True Entities (Gold Output): {"entities": [{"entity": "Britain", "order": 0, "label": "geo"}]}
+Model Output: Sentence: "Britain says the soldiers were freed from a nearby house where they had been taken before the military action on the prison ."<｜end▁of▁sentence｜>
+<｜begin▁of▁sentence｜>{"entities": [{"entity": "Britain", "order": 0, "label": "geo"}]}
+------------------------
+Sample 3830:
+Sentence (Input): "They include a 2006 bombing of a Madrid airport that killed two people ."
+True Entities (Gold Output): {"entities": [{"entity": "2006", "order": 0, "label": "tim"}, {"entity": "Madrid", "order": 0, "label": "geo"}]}
+Model Output: Sentence: "They include a 2006 bombing of a Madrid airport that killed two people ."<｜end▁of▁sentence｜>
+<｜begin▁of▁sentence｜>{"entities": [{"entity": "2006", "order": 0, "label": "tim"}, {"entity": "Madrid", "order": 0, "label": "geo"}]}
+------------------------
+Sample 20916:
+Sentence (Input): "It added that his condition is stable and he is receiving full medical care ."
+True Entities (Gold Output): {"entities": []}
+Model Output: Sentence: "It added that his condition is stable and he is receiving full medical care ."<｜end▁of▁sentence｜>
+<｜begin▁of▁sentence｜>{"entities": []}
+------------------------
+Sample 34380:
+Sentence (Input): "The state-run Korean Central News Service Tuesday quotes an unnamed North Korean Foreign Ministry spokesman as saying the United States should seek cooperation with North Korea rather than pressing it to abandon its nuclear program ."
+True Entities (Gold Output): {"entities": [{"entity": "Korean", "order": 0, "label": "gpe"}, {"entity": "Central News Service", "order": 0, "label": "org"}, {"entity": "Tuesday", "order": 0, "label": "tim"}, {"entity": "Korean", "order": 1, "label": "gpe"}, {"entity": "Foreign Ministry", "order": 0, "label": "org"}, {"entity": "United States", "order": 0, "label": "geo"}, {"entity": "North Korea", "order": 0, "label": "geo"}]}
+Model Output: Sentence: "The state-run Korean Central News Service Tuesday quotes an unnamed North Korean Foreign Ministry spokesman as saying the United States should seek cooperation with North Korea rather than pressing it to abandon its nuclear program ."<｜end▁of▁sentence｜>
+<｜begin▁of▁sentence｜>{"entities": [{"entity": "Tuesday", "order": 0, "label": "tim"}, {"entity": "Korean", "order": 0, "label": "gpe"}, {"entity": "Central News Service", "order": 0, "label": "org"}, {"
+------------------------
+Sample 9267:
+Sentence (Input): "The United States is sending an FBI agent to Azerbaijan to help find those responsible for the killing of magazine editor Elmar Husseinov , whose work was critical of the Azeri government ."
+True Entities (Gold Output): {"entities": [{"entity": "United States", "order": 0, "label": "geo"}, {"entity": "FBI", "order": 0, "label": "org"}, {"entity": "Azerbaijan", "order": 0, "label": "geo"}, {"entity": "Elmar Husseinov", "order": 0, "label": "per"}, {"entity": "Azeri", "order": 0, "label": "gpe"}]}
+Model Output: Sentence: "The United States is sending an FBI agent to Azerbaijan to help find those responsible for the killing of magazine editor Elmar Husseinov , whose work was critical of the Azeri government ."<｜end▁of▁sentence｜>
+<｜begin▁of▁sentence｜>{"entities": [{"entity": "United States", "order": 0, "label": "geo"}, {"entity": "FBI", "order": 0, "label": "org"}, {"entity": "Azerbaijan", "order": 0, "label": "gpe"},
+------------------------
+Sample 5922:
+Sentence (Input): "The blast instantly killed the former prime minister ."
+True Entities (Gold Output): {"entities": [{"entity": "prime", "order": 0, "label": "per"}]}
+Model Output: Sentence: "The blast instantly killed the former prime minister ."<｜end▁of▁sentence｜>
+<｜begin▁of▁sentence｜>{"entities": [{"entity": "prime", "order": 0, "label": "per"}]}
+------------------------
+Sample 4514:
+Sentence (Input): "To the west of the capital , in Al Anbar province , two U.S. Marines were killed while conducting security operations ."
+True Entities (Gold Output): {"entities": [{"entity": "Al Anbar", "order": 0, "label": "org"}, {"entity": "U.S. Marines", "order": 0, "label": "org"}]}
+Model Output: Sentence: "To the west of the capital , in Al Anbar province , two U.S. Marines were killed while conducting security operations ."<｜end▁of▁sentence｜>
+<｜begin▁of▁sentence｜>{"entities": [{"entity": "Al Anbar", "order": 0, "label": "geo"}, {"entity": "U.S. Marines", "order": 0, "label": "geo"}]}
+------------------------
+Sample 1283:
+Sentence (Input): "Former President RAVALOMANANA worked aggressively to revive the economy following the 2002 political crisis , which triggered a 12 % drop in GDP that year ."
+True Entities (Gold Output): {"entities": [{"entity": "President RAVALOMANANA", "order": 0, "label": "per"}, {"entity": "2002", "order": 0, "label": "tim"}, {"entity": "that", "order": 0, "label": "tim"}]}
+Model Output: Sentence: "Former President RAVALOMANANA worked aggressively to revive the economy following the 2002 political crisis , which triggered a 12 % drop in GDP that year ."<｜end▁of▁sentence｜>
+<｜begin▁of▁sentence｜>{"entities": [{"entity": "President RAVALOMANANA", "order": 0, "label": "per"}, {"entity": "2002", "order": 0, "label": "tim"}]}
+------------------------
+Sample 30125:
+Sentence (Input): "Egypt has been trying to get the two groups to form a unity government , but tensions between the rival factions have been rising , with recent deadly clashes in the West Bank ."
+True Entities (Gold Output): {"entities": [{"entity": "Egypt", "order": 0, "label": "geo"}, {"entity": "West Bank", "order": 0, "label": "org"}]}
+Model Output: Sentence: "Egypt has been trying to get the two groups to form a unity government , but tensions between the rival factions have been rising , with recent deadly clashes in the West Bank ."<｜end▁of▁sentence｜>
+<｜begin▁of▁sentence｜>{"entities": [{"entity": "Egypt", "order": 0, "label": "org"}, {"entity": "West Bank", "order": 0, "label": "org"}]}
+------------------------
+Sample 13474:
+Sentence (Input): "A senior police official , Saud Aziz , says the four wanted in connection with the slaying of Agha Ziauddin in the town of Gilgit in January were picked up in the city of Rawalpindi ."
+True Entities (Gold Output): {"entities": [{"entity": "Saud Aziz", "order": 0, "label": "per"}, {"entity": "Agha Ziauddin", "order": 0, "label": "per"}, {"entity": "Gilgit", "order": 0, "label": "geo"}, {"entity": "January", "order": 0, "label": "tim"}, {"entity": "Rawalpindi", "order": 0, "label": "geo"}]}
+Model Output: Sentence: "A senior police official , Saud Aziz , says the four wanted in connection with the slaying of Agha Ziauddin in the town of Gilgit in January were picked up in the city of Rawalpindi ."<｜end▁of▁sentence｜>
+<｜begin▁of▁sentence｜>{"entities": [{"entity": "Saud Aziz", "order": 0, "label": "per"}, {"entity": "Agha Ziauddin", "order": 0, "label": "per"}, {"entity": "Gilgit", "order": 0, "
+------------------------
+Sample 33888:
+Sentence (Input): "Mr. Roberts appears to have more than enough votes to be confirmed in the Republican-controlled Senate ."
+True Entities (Gold Output): {"entities": [{"entity": "Mr. Roberts", "order": 0, "label": "per"}, {"entity": "Senate", "order": 0, "label": "org"}]}
+Model Output: Sentence: "Mr. Roberts appears to have more than enough votes to be confirmed in the Republican-controlled Senate ."<｜end▁of▁sentence｜>
+<｜begin▁of▁sentence｜>{"entities": [{"entity": "Mr. Roberts", "order": 0, "label": "per"}, {"entity": "Senate", "order": 0, "label": "org"}]}
+------------------------
+Sample 18987:
+Sentence (Input): "The governor was arrested prior to last year 's tsunami ."
+True Entities (Gold Output): {"entities": []}
+Model Output: Sentence: "The governor was arrested prior to last year 's tsunami ."<｜end▁of▁sentence｜>
+<｜begin▁of▁sentence｜>{"entities": []}
+------------------------
+Sample 43486:
+Sentence (Input): "Tonga has a small , open , South Pacific island economy ."
+True Entities (Gold Output): {"entities": [{"entity": "Tonga", "order": 0, "label": "org"}, {"entity": "South Pacific", "order": 0, "label": "geo"}]}
+Model Output: Sentence: "Tonga has a small , open , South Pacific island economy ."<｜end▁of▁sentence｜>
+<｜begin▁of▁sentence｜>{"entities": [{"entity": "Tonga", "order": 0, "label": "geo"}]}
+------------------------
+Sample 25917:
+Sentence (Input): "The protest in Pakistan began Monday morning when students marched to different universities in the city of Peshawar , urging people to join the demonstration ."
+True Entities (Gold Output): {"entities": [{"entity": "Pakistan", "order": 0, "label": "geo"}, {"entity": "Monday morning", "order": 0, "label": "tim"}, {"entity": "Peshawar", "order": 0, "label": "geo"}]}
+Model Output: Sentence: "The protest in Pakistan began Monday morning when students marched to different universities in the city of Peshawar , urging people to join the demonstration ."<｜end▁of▁sentence｜>
+<｜begin▁of▁sentence｜>{"entities": [{"entity": "Pakistan", "order": 0, "label": "geo"}, {"entity": "Monday morning", "order": 0, "label": "tim"}, {"entity": "Peshawar", "order": 0, "label": "geo"}]}
+------------------------
+Sample 38956:
+Sentence (Input): "He spoke during the swearing-in ceremony of John Danilovich , the corporation 's new chief executive officer ."
+True Entities (Gold Output): {"entities": [{"entity": "John Danilovich", "order": 0, "label": "geo"}]}
+Model Output: Sentence: "He spoke during the swearing-in ceremony of John Danilovich , the corporation 's new chief executive officer ."<｜end▁of▁sentence｜>
+<｜begin▁of▁sentence｜>{"entities": [{"entity": "John Danilovich", "order": 0, "label": "per"}]}
+------------------------
+Sample 16648:
+Sentence (Input): "Pakistan 's military carried out a major offensive against the Taliban in Lower Dir and neighboring Swat Valley last year ."
+True Entities (Gold Output): {"entities": [{"entity": "Pakistan", "order": 0, "label": "geo"}, {"entity": "Taliban", "order": 0, "label": "org"}, {"entity": "Lower Dir", "order": 0, "label": "geo"}, {"entity": "Swat Valley", "order": 0, "label": "per"}]}
+Model Output: Sentence: "Pakistan 's military carried out a major offensive against the Taliban in Lower Dir and neighboring Swat Valley last year ."<｜end▁of▁sentence｜>
+<｜begin▁of▁sentence｜>{"entities": [{"entity": "Pakistan", "order": 0, "label": "geo"}, {"entity": "Taliban", "order": 0, "label": "org"}, {"entity": "Lower Dir", "order": 0, "label": "geo"}, {"entity
+------------------------
+Sample 14402:
+Sentence (Input): "Thursday 's testimony came after the judge threatened to jail Mr. Jackson and revoke his bail when he arrived more than one hour late for court ."
+True Entities (Gold Output): {"entities": [{"entity": "Thursday", "order": 0, "label": "tim"}, {"entity": "Mr. Jackson", "order": 0, "label": "per"}]}
+Model Output: Sentence: "Thursday 's testimony came after the judge threatened to jail Mr. Jackson and revoke his bail when he arrived more than one hour late for court ."<｜end▁of▁sentence｜>
+<｜begin▁of▁sentence｜>{"entities": [{"entity": "Thursday", "order": 0, "label": "tim"}, {"entity": "Mr. Jackson", "order": 0, "label": "per"}]}
+------------------------
+Sample 40838:
+Sentence (Input): "The paper said the pachyderm is estimated to be 18 years old and is the fifth white elephant captured since 2001 ."
+True Entities (Gold Output): {"entities": [{"entity": "since 2001", "order": 0, "label": "tim"}]}
+Model Output: Sentence: "The paper said the pachyderm is estimated to be 18 years old and is the fifth white elephant captured since 2001 ."<｜end▁of▁sentence｜>
+<｜begin▁of▁sentence｜>{"entities": [{"entity": "2001", "order": 0, "label": "tim"}]}
+------------------------
+Sample 20605:
+Sentence (Input): "But the Bush administration has found a way around the restrictions ."
+True Entities (Gold Output): {"entities": [{"entity": "Bush", "order": 0, "label": "per"}]}
+Model Output: Sentence: "But the Bush administration has found a way around the restrictions ."<｜end▁of▁sentence｜>
+<｜begin▁of▁sentence｜>{"entities": [{"entity": "Bush", "order": 0, "label": "geo"}]}
+------------------------
+Sample 29200:
+Sentence (Input): "Rwanda held its first local elections in 1999 and its first post-genocide presidential and legislative elections in 2003 ."
+True Entities (Gold Output): {"entities": [{"entity": "Rwanda", "order": 0, "label": "gpe"}, {"entity": "1999", "order": 0, "label": "tim"}, {"entity": "2003", "order": 0, "label": "tim"}]}
+Model Output: Sentence: "Rwanda held its first local elections in 1999 and its first post-genocide presidential and legislative elections in 2003 ."<｜end▁of▁sentence｜>
+<｜begin▁of▁sentence｜>{"entities": [{"entity": "Rwanda", "order": 0, "label": "org"}, {"entity": "1999", "order": 0, "label": "tim"}, {"entity": "post-genocide", "order": 0, "label": "
+------------------------
+Sample 5:
+Sentence (Input): "The protest comes on the eve of the annual conference of Britain 's ruling Labor Party in the southern English seaside resort of Brighton ."
+True Entities (Gold Output): {"entities": [{"entity": "Britain", "order": 0, "label": "geo"}, {"entity": "Labor Party", "order": 0, "label": "org"}, {"entity": "English", "order": 0, "label": "gpe"}, {"entity": "Brighton", "order": 0, "label": "geo"}]}
+Model Output: Sentence: "The protest comes on the eve of the annual conference of Britain 's ruling Labor Party in the southern English seaside resort of Brighton ."<｜end▁of▁sentence｜>
+<｜begin▁of▁sentence｜>{"entities": [{"entity": "Britain", "order": 0, "label": "geo"}, {"entity": "Labor Party", "order": 0, "label": "org"}, {"entity": "English", "order": 0, "label": "gpe"}, {"entity":
+------------------------
+Sample 35969:
+Sentence (Input): "Worker remittances and external trade routes for the landlocked country have been jeopardized by continued unrest in neighboring Cote d'Ivoire ."
+True Entities (Gold Output): {"entities": [{"entity": "Cote d'Ivoire", "order": 0, "label": "per"}]}
+Model Output: Sentence: "Worker remittances and external trade routes for the landlocked country have been jeopardized by continued unrest in neighboring Cote d'Ivoire ."<｜end▁of▁sentence｜>
+<｜begin▁of▁sentence｜>{"entities": [{"entity": "Cote d'Ivoire", "order": 0, "label": "geo"}]}
+------------------------
+Sample 14301:
+Sentence (Input): "An Indonesian Health Ministry official said Saturday the deaths in West Java province raise the country 's toll from bird flu to 14 confirmed cases ."
+True Entities (Gold Output): {"entities": [{"entity": "Indonesian", "order": 0, "label": "gpe"}, {"entity": "Health Ministry", "order": 0, "label": "org"}, {"entity": "Saturday", "order": 0, "label": "tim"}, {"entity": "West Java", "order": 0, "label": "geo"}]}
+Model Output: Sentence: "An Indonesian Health Ministry official said Saturday the deaths in West Java province raise the country 's toll from bird flu to 14 confirmed cases ."<｜end▁of▁sentence｜>
+<｜begin▁of▁sentence｜>{"entities": [{"entity": "Indonesian", "order": 0, "label": "gpe"}, {"entity": "Health Ministry", "order": 0, "label": "org"}, {"entity": "Saturday", "order": 0, "label": "tim"}, {"
+------------------------
+Sample 22525:
+Sentence (Input): "Separately Tuesday , police in the town of L'Aquila seized clubs from five French protesters close to where the summit is being held ."
+True Entities (Gold Output): {"entities": [{"entity": "Tuesday", "order": 0, "label": "tim"}, {"entity": "L'Aquila", "order": 0, "label": "geo"}, {"entity": "French", "order": 0, "label": "gpe"}]}
+Model Output: Sentence: "Separately Tuesday , police in the town of L'Aquila seized clubs from five French protesters close to where the summit is being held ."<｜end▁of▁sentence｜>
+<｜begin▁of▁sentence｜>{"entities": [{"entity": "Tuesday", "order": 0, "label": "tim"}, {"entity": "L'Aquila", "order": 0, "label": "geo"}, {"entity": "French", "order": 0, "label": "gpe"}]}
+------------------------
+Sample 19500:
+Sentence (Input): "Previous inductees include Bob Dylan , Elton John , and Paul Simon ."
+True Entities (Gold Output): {"entities": [{"entity": "Bob Dylan", "order": 0, "label": "per"}, {"entity": "Elton John", "order": 0, "label": "per"}, {"entity": "Paul Simon", "order": 0, "label": "per"}]}
+Model Output: Sentence: "Previous inductees include Bob Dylan , Elton John , and Paul Simon ."<｜end▁of▁sentence｜>
+<｜begin▁of▁sentence｜>{"entities": [{"entity": "Bob Dylan", "order": 0, "label": "per"}, {"entity": "Elton John", "order": 0, "label": "per"}, {"entity": "Paul Simon", "order": 0, "label": "per"}]}
+------------------------
+Sample 26224:
+Sentence (Input): "President Bush is expected to nominate one of his closest friends , Karen Hughes , to lead a State Department effort to improve the reputation of the United States among Muslims in the Arab world ."
+True Entities (Gold Output): {"entities": [{"entity": "President Bush", "order": 0, "label": "per"}, {"entity": "Karen Hughes", "order": 0, "label": "per"}, {"entity": "State Department", "order": 0, "label": "org"}, {"entity": "United States", "order": 0, "label": "geo"}, {"entity": "Muslims", "order": 0, "label": "geo"}, {"entity": "Arab", "order": 0, "label": "gpe"}]}
+Model Output: Sentence: "President Bush is expected to nominate one of his closest friends , Karen Hughes , to lead a State Department effort to improve the reputation of the United States among Muslims in the Arab world ."<｜end▁of▁sentence｜>
+<｜begin▁of▁sentence｜>{"entities": [{"entity": "President Bush", "order": 0, "label": "per"}, {"entity": "Karen Hughes", "order": 0, "label": "per"}, {"entity": "State Department", "order": 0, "label": "org"}, {"entity
+------------------------
+Sample 48018:
+Sentence (Input): "Georgian President Mikhail Saakashvili has accused Russia of deliberately damaging key gas and electric lines that service the former Soviet republic ."
+True Entities (Gold Output): {"entities": [{"entity": "Georgian", "order": 0, "label": "gpe"}, {"entity": "President Mikhail Saakashvili", "order": 0, "label": "per"}, {"entity": "Russia", "order": 0, "label": "geo"}]}
+Model Output: Sentence: "Georgian President Mikhail Saakashvili has accused Russia of deliberately damaging key gas and electric lines that service the former Soviet republic ."<｜end▁of▁sentence｜>
+<｜begin▁of▁sentence｜>{"entities": [{"entity": "Georgian", "order": 0, "label": "gpe"}, {"entity": "President Mikhail Saakashvili", "order": 0, "label": "per"}, {"entity": "Russia", "order": 0, "label":
+------------------------
+Sample 23860:
+Sentence (Input): "Boucher is meeting with Foreign Minister Khurshid Kasuri , President Pervez Musharraf and other key members of government ."
+True Entities (Gold Output): {"entities": [{"entity": "Boucher", "order": 0, "label": "per"}, {"entity": "Minister Khurshid Kasuri", "order": 0, "label": "per"}, {"entity": "President Pervez Musharraf", "order": 0, "label": "per"}]}
+Model Output: Sentence: "Boucher is meeting with Foreign Minister Khurshid Kasuri , President Pervez Musharraf and other key members of government ."<｜end▁of▁sentence｜>
+<｜begin▁of▁sentence｜>{"entities": [{"entity": "Boucher", "order": 0, "label": "per"}, {"entity": "Minister Khurshid Kasuri", "order": 0, "label": "per"}, {"entity": "President Pervez Musharraf", "order":
+------------------------
+Sample 34162:
+Sentence (Input): "And the U.S. military says an American soldier was killed in a Baghdad operation Wednesday ."
+True Entities (Gold Output): {"entities": [{"entity": "U.S.", "order": 0, "label": "geo"}, {"entity": "American", "order": 0, "label": "gpe"}, {"entity": "Baghdad", "order": 0, "label": "geo"}, {"entity": "Wednesday", "order": 0, "label": "tim"}]}
+Model Output: Sentence: "And the U.S. military says an American soldier was killed in a Baghdad operation Wednesday ."<｜end▁of▁sentence｜>
+<｜begin▁of▁sentence｜>{"entities": [{"entity": "U.S.", "order": 0, "label": "geo"}, {"entity": "American", "order": 0, "label": "gpe"}, {"entity": "Baghdad", "order": 0, "label": "geo"}, {"
+------------------------
+Sample 21533:
+Sentence (Input): "Funerals were held Tuesday for 17 people killed by a drunken tractor driver in Yuanshi county , a rural part of China 's northern Hebei province ."
+True Entities (Gold Output): {"entities": [{"entity": "Tuesday", "order": 0, "label": "tim"}, {"entity": "Yuanshi", "order": 0, "label": "geo"}, {"entity": "China", "order": 0, "label": "geo"}, {"entity": "Hebei", "order": 0, "label": "geo"}]}
+Model Output: Sentence: "Funerals were held Tuesday for 17 people killed by a drunken tractor driver in Yuanshi county , a rural part of China 's northern Hebei province ."<｜end▁of▁sentence｜>
+<｜begin▁of▁sentence｜>{"entities": [{"entity": "Tuesday", "order": 0, "label": "tim"}, {"entity": "Yuanshi", "order": 0, "label": "geo"}, {"entity": "China", "order": 0, "label": "geo"}, {"entity":
+------------------------
+Sample 13478:
+Sentence (Input): "The name \" Latvia \" originates from the ancient Latgalians , one of four eastern Baltic tribes that formed the ethnic core of the Latvian people ( ca. 8th - 12th centuries A.D. ) ."
+True Entities (Gold Output): {"entities": [{"entity": "Latvia", "order": 0, "label": "art"}, {"entity": "Latgalians", "order": 0, "label": "org"}, {"entity": "Baltic", "order": 0, "label": "geo"}, {"entity": "Latvian", "order": 0, "label": "gpe"}, {"entity": "A.D.", "order": 0, "label": "tim"}]}
+Model Output: Sentence: "The name \" Latvia \" originates from the ancient Latgalians , one of four eastern Baltic tribes that formed the ethnic core of the Latvian people ( ca. 8th - 12th centuries A.D. ) ."<｜end▁of▁sentence｜>
+<｜begin▁of▁sentence｜>{"entities": [{"entity": "Latvia", "order": 0, "label": "geo"}, {"entity": "Latgalians", "order": 0, "label": "geo"}, {"entity": "12th century A.D.", "order": 0, "label
+------------------------
+Sample 41101:
+Sentence (Input): "An Iraqi election commission spokesman , Farid Ayar , who spoke to reporters Sunday did not give a reason for the election date change , which postpones by three days an earlier voting plan drawn up by the interim government in Baghdad ."
+True Entities (Gold Output): {"entities": [{"entity": "Iraqi", "order": 0, "label": "gpe"}, {"entity": "Farid Ayar", "order": 0, "label": "per"}, {"entity": "Sunday", "order": 0, "label": "tim"}, {"entity": "Baghdad", "order": 0, "label": "geo"}]}
+Model Output: Sentence: "An Iraqi election commission spokesman , Farid Ayar , who spoke to reporters Sunday did not give a reason for the election date change , which postpones by three days an earlier voting plan drawn up by the interim government in Baghdad ."<｜end▁of▁sentence｜>
+<｜begin▁of▁sentence｜>{"entities": [{"entity": "Iraqi", "order": 0, "label": "gpe"}, {"entity": "Farid Ayar", "order": 0, "label": "per"}, {"entity": "Sunday", "order": 0, "label": "tim"},
+------------------------
+Sample 10309:
+Sentence (Input): "Adult stem cell therapy has successfully treated leukemia and other cancers for years , in the form of bone marrow transplants ."
+True Entities (Gold Output): {"entities": []}
+Model Output: Sentence: "Adult stem cell therapy has successfully treated leukemia and other cancers for years , in the form of bone marrow transplants ."<｜end▁of▁sentence｜>
+<｜begin▁of▁sentence｜>{"entities": []}
+------------------------
+Sample 4460:
+Sentence (Input): "The Lioness came up , and bitterly lamented the death of her whelp ."
+True Entities (Gold Output): {"entities": []}
+Model Output: Sentence: "The Lioness came up , and bitterly lamented the death of her whelp ."<｜end▁of▁sentence｜>
+<｜begin▁of▁sentence｜>{"entities": []}
+------------------------
+Sample 33288:
+Sentence (Input): "Local officials believe the bomb was planted by Maoist rebels who had called for a boycott of Saturday 's state legislative elections ."
+True Entities (Gold Output): {"entities": [{"entity": "Maoist", "order": 0, "label": "org"}, {"entity": "Saturday", "order": 0, "label": "tim"}]}
+Model Output: Sentence: "Local officials believe the bomb was planted by Maoist rebels who had called for a boycott of Saturday 's state legislative elections ."<｜end▁of▁sentence｜>
+<｜begin▁of▁sentence｜>{"entities": [{"entity": "Saturday", "order": 0, "label": "tim"}]}
+------------------------
+Sample 28830:
+Sentence (Input): "Former Colombian hostage Ingrid Betancourt has met with Venezuelan President Hugo Chavez to discuss Venezuelan support for freeing other hostages held by rebels in Colombia ."
+True Entities (Gold Output): {"entities": [{"entity": "Colombian", "order": 0, "label": "gpe"}, {"entity": "Ingrid Betancourt", "order": 0, "label": "per"}, {"entity": "Venezuelan", "order": 0, "label": "gpe"}, {"entity": "President Hugo Chavez", "order": 0, "label": "per"}, {"entity": "Venezuelan", "order": 1, "label": "gpe"}, {"entity": "Colombia", "order": 0, "label": "geo"}]}
+Model Output: Sentence: "Former Colombian hostage Ingrid Betancourt has met with Venezuelan President Hugo Chavez to discuss Venezuelan support for freeing other hostages held by rebels in Colombia ."<｜end▁of▁sentence｜>
+<｜begin▁of▁sentence｜>{"entities": [{"entity": "Colombian", "order": 0, "label": "gpe"}, {"entity": "Ingrid Betancourt", "order": 0, "label": "per"}, {"entity": "Venezuelan", "order": 0, "
+------------------------
+Sample 37314:
+Sentence (Input): "India 's economy is growing at an unprecedented rate , prompting far-reaching changes that are rapidly transforming the country ."
+True Entities (Gold Output): {"entities": [{"entity": "India", "order": 0, "label": "geo"}]}
+Model Output: Sentence: "India 's economy is growing at an unprecedented rate , prompting far-reaching changes that are rapidly transforming the country ."<｜end▁of▁sentence｜>
+<｜begin▁of▁sentence｜>{"entities": [{"entity": "India", "order": 0, "label": "geo"}]}
+------------------------
+Sample 4741:
+Sentence (Input): "The G8 leaders will convene at a nearby luxury resort on Monday for a three-day summit ."
+True Entities (Gold Output): {"entities": [{"entity": "Monday", "order": 0, "label": "tim"}, {"entity": "three-day", "order": 0, "label": "tim"}]}
+Model Output: Sentence: "The G8 leaders will convene at a nearby luxury resort on Monday for a three-day summit ."<｜end▁of▁sentence｜>
+<｜begin▁of▁sentence｜>{"entities": [{"entity": "Monday", "order": 0, "label": "tim"}, {"entity": "three-day", "order": 0, "label": "tim"}]}
+------------------------
+Sample 40134:
+Sentence (Input): "Yemen has executed an Islamic militant convicted of killing three American medical workers in 2002 ."
+True Entities (Gold Output): {"entities": [{"entity": "Yemen", "order": 0, "label": "org"}, {"entity": "American", "order": 0, "label": "gpe"}, {"entity": "2002", "order": 0, "label": "tim"}]}
+Model Output: Sentence: "Yemen has executed an Islamic militant convicted of killing three American medical workers in 2002 ."<｜end▁of▁sentence｜>
+<｜begin▁of▁sentence｜>{"entities": [{"entity": "Yemen", "order": 0, "label": "org"}, {"entity": "American", "order": 0, "label": "gpe"}, {"entity": "2002", "order": 0, "label": "tim"}
+------------------------
+Sample 20039:
+Sentence (Input): "The WTO ruled in March the subsidies must be changed to comply with global trade rules ."
+True Entities (Gold Output): {"entities": [{"entity": "WTO", "order": 0, "label": "org"}, {"entity": "March", "order": 0, "label": "tim"}]}
+Model Output: Sentence: "The WTO ruled in March the subsidies must be changed to comply with global trade rules ."<｜end▁of▁sentence｜>
+<｜begin▁of▁sentence｜>{"entities": [{"entity": "WTO", "order": 0, "label": "org"}, {"entity": "March", "order": 0, "label": "tim"}]}
+------------------------
+Sample 41054:
+Sentence (Input): "Iranian Foreign Ministry spokesman Hamid Reza Asefi made that assertion Sunday at his weekly news conference in Tehran ."
+True Entities (Gold Output): {"entities": [{"entity": "Iranian", "order": 0, "label": "gpe"}, {"entity": "Foreign Ministry", "order": 0, "label": "org"}, {"entity": "Hamid Reza Asefi", "order": 0, "label": "per"}, {"entity": "Sunday", "order": 0, "label": "tim"}, {"entity": "Tehran", "order": 0, "label": "geo"}]}
+Model Output: Sentence: "Iranian Foreign Ministry spokesman Hamid Reza Asefi made that assertion Sunday at his weekly news conference in Tehran ."<｜end▁of▁sentence｜>
+<｜begin▁of▁sentence｜>{"entities": [{"entity": "Iranian", "order": 0, "label": "gpe"}, {"entity": "Foreign Ministry", "order": 0, "label": "org"}, {"entity": "Hamid Reza Asefi", "order": 0, "label
+------------------------
+Sample 28160:
+Sentence (Input): "Monday , Togo 's parliament ordered new presidential elections in 60 days , while allowing Mr. Gnassingbe to remain in office ."
+True Entities (Gold Output): {"entities": [{"entity": "Monday", "order": 0, "label": "tim"}, {"entity": "Togo", "order": 0, "label": "geo"}, {"entity": "Mr.", "order": 0, "label": "per"}, {"entity": "Gnassingbe", "order": 0, "label": "org"}]}
+Model Output: Sentence: "Monday , Togo 's parliament ordered new presidential elections in 60 days , while allowing Mr. Gnassingbe to remain in office ."<｜end▁of▁sentence｜>
+<｜begin▁of▁sentence｜>{"entities": [{"entity": "Monday", "order": 0, "label": "tim"}, {"entity": "Togo", "order": 0, "label": "geo"}, {"entity": "60", "order": 0, "label": "tim"}, {"entity":
+------------------------
+Sample 23517:
+Sentence (Input): "The bombing was the second in recent days ."
+True Entities (Gold Output): {"entities": [{"entity": "recent", "order": 0, "label": "tim"}]}
+Model Output: Sentence: "The bombing was the second in recent days ."<｜end▁of▁sentence｜>
+<｜begin▁of▁sentence｜>{"entities": []}
+------------------------
+Sample 13487:
+Sentence (Input): "In 2005 , the government passed a controversial hydrocarbons law that imposed significantly higher royalties and required foreign firms then operating under risk-sharing contracts to surrender all production to the state energy company in exchange for a predetermined service fee ."
+True Entities (Gold Output): {"entities": [{"entity": "2005", "order": 0, "label": "tim"}]}
+Model Output: Sentence: "In 2005 , the government passed a controversial hydrocarbons law that imposed significantly higher royalties and required foreign firms then operating under risk-sharing contracts to surrender all production to the state energy company in exchange for a predetermined service fee ."<｜end▁of▁sentence｜>
+<｜begin▁of▁sentence｜>{"entities": [{"entity": "2005", "order": 0, "label": "tim"}]}
+------------------------
+Sample 35965:
+Sentence (Input): "The government has continued an IMF-recommended structural adjustment program that has helped the economy grow , diversify , and attract foreign investment ."
+True Entities (Gold Output): {"entities": []}
+Model Output: Sentence: "The government has continued an IMF-recommended structural adjustment program that has helped the economy grow , diversify , and attract foreign investment ."<｜end▁of▁sentence｜>
+<｜begin▁of▁sentence｜>{"entities": [{"entity": "IMF-recommended", "order": 0, "label": "org"}]}
+------------------------
+Sample 5955:
+Sentence (Input): "Vanuatu is an archipelago of some 80 islands located about 2,200 kilometers off the northeast coast of Australia ."
+True Entities (Gold Output): {"entities": [{"entity": "Vanuatu", "order": 0, "label": "geo"}, {"entity": "Australia", "order": 0, "label": "geo"}]}
+Model Output: Sentence: "Vanuatu is an archipelago of some 80 islands located about 2,200 kilometers off the northeast coast of Australia ."<｜end▁of▁sentence｜>
+<｜begin▁of▁sentence｜>{"entities": [{"entity": "Vanuatu", "order": 0, "label": "geo"}, {"entity": "Australia", "order": 0, "label": "geo"}]}
+------------------------
+Sample 47018:
+Sentence (Input): "Video footage of the incident taken by his crew , show him waving a white flag and identifying himself as a journalist as he approached an Israeli armored vehicle in the dark , just before shots rang out ."
+True Entities (Gold Output): {"entities": [{"entity": "Israeli", "order": 0, "label": "gpe"}]}
+Model Output: Sentence: "Video footage of the incident taken by his crew , show him waving a white flag and identifying himself as a journalist as he approached an Israeli armored vehicle in the dark , just before shots rang out ."<｜end▁of▁sentence｜>
+<｜begin▁of▁sentence｜>{"entities": [{"entity": "Israeli", "order": 0, "label": "gpe"}]}
+------------------------
+Sample 9668:
+Sentence (Input): "New Delhi accused Pakistan 's spy agency of involvement in the attack , but Islamabad denied any involvement and demanded evidence ."
+True Entities (Gold Output): {"entities": [{"entity": "New Delhi", "order": 0, "label": "geo"}, {"entity": "Pakistan", "order": 0, "label": "geo"}, {"entity": "Islamabad", "order": 0, "label": "geo"}]}
+Model Output: Sentence: "New Delhi accused Pakistan 's spy agency of involvement in the attack , but Islamabad denied any involvement and demanded evidence ."<｜end▁of▁sentence｜>
+<｜begin▁of▁sentence｜>{"entities": [{"entity": "New Delhi", "order": 0, "label": "geo"}, {"entity": "Pakistan", "order": 0, "label": "geo"}, {"entity": "Islamabad", "order": 0, "label": "geo"}]}
+------------------------
+Sample 14030:
+Sentence (Input): "Ethiopia has denied the report ."
+True Entities (Gold Output): {"entities": [{"entity": "Ethiopia", "order": 0, "label": "geo"}]}
+Model Output: Sentence: "Ethiopia has denied the report ."<｜end▁of▁sentence｜>
+<｜begin▁of▁sentence｜>{"entities": [{"entity": "Ethiopia", "order": 0, "label": "org"}]}
+------------------------
+Sample 6433:
+Sentence (Input): "The Caymanians enjoy a standard of living roughly equal to that of Switzerland ."
+True Entities (Gold Output): {"entities": [{"entity": "Switzerland", "order": 0, "label": "geo"}]}
+Model Output: Sentence: "The Caymanians enjoy a standard of living roughly equal to that of Switzerland ."<｜end▁of▁sentence｜>
+<｜begin▁of▁sentence｜>{"entities": [{"entity": "Switzerland", "order": 0, "label": "geo"}]}
+------------------------
+Sample 14270:
+Sentence (Input): "Kenyan police say thieves tried to break into the home of Sarah Obama , the grandmother of U.S. presidential hopeful Barack Obama ."
+True Entities (Gold Output): {"entities": [{"entity": "Kenyan", "order": 0, "label": "gpe"}, {"entity": "Sarah Obama", "order": 0, "label": "per"}, {"entity": "U.S.", "order": 0, "label": "geo"}, {"entity": "Barack Obama", "order": 0, "label": "per"}]}
+Model Output: Sentence: "Kenyan police say thieves tried to break into the home of Sarah Obama , the grandmother of U.S. presidential hopeful Barack Obama ."<｜end▁of▁sentence｜>
+<｜begin▁of▁sentence｜>{"entities": [{"entity": "Kenyan", "order": 0, "label": "gpe"}, {"entity": "Sarah Obama", "order": 0, "label": "per"}, {"entity": "U.S.", "order": 0, "label": "geo"}, {"
+------------------------
+Sample 21223:
+Sentence (Input): "The former congressman won a surprise majority in a single round of voting on December 18 ."
+True Entities (Gold Output): {"entities": [{"entity": "December 18", "order": 0, "label": "tim"}]}
+Model Output: Sentence: "The former congressman won a surprise majority in a single round of voting on December 18 ."<｜end▁of▁sentence｜>
+<｜begin▁of▁sentence｜>{"entities": [{"entity": "December 18", "order": 0, "label": "tim"}]}
+------------------------
+Sample 17250:
+Sentence (Input): "Sudan 's Attorney General Mohamed Farid says Mr. Foreman should have submitted the report to the government before publishing it ."
+True Entities (Gold Output): {"entities": [{"entity": "Sudan", "order": 0, "label": "geo"}, {"entity": "General Mohamed Farid", "order": 0, "label": "per"}, {"entity": "Mr. Foreman", "order": 0, "label": "per"}]}
+Model Output: Sentence: "Sudan 's Attorney General Mohamed Farid says Mr. Foreman should have submitted the report to the government before publishing it ."<｜end▁of▁sentence｜>
+<｜begin▁of▁sentence｜>{"entities": [{"entity": "Sudan 's Attorney General Mohamed Farid", "order": 0, "label": "org"}, {"entity": "Mr. Foreman", "order": 0, "label": "per"}]}
+------------------------
+Sample 38855:
+Sentence (Input): "Critics accuse him of helping Mr. Chavez defeat a recall in August ."
+True Entities (Gold Output): {"entities": [{"entity": "Mr. Chavez", "order": 0, "label": "per"}, {"entity": "August", "order": 0, "label": "tim"}]}
+Model Output: Sentence: "Critics accuse him of helping Mr. Chavez defeat a recall in August ."<｜end▁of▁sentence｜>
+<｜begin▁of▁sentence｜>{"entities": [{"entity": "Mr. Chavez", "order": 0, "label": "per"}, {"entity": "August", "order": 0, "label": "tim"}]}
+------------------------
+Sample 3155:
+Sentence (Input): "A Sunni Muslim group , Jundollah , claimed responsibility for that attack ."
+True Entities (Gold Output): {"entities": [{"entity": "Sunni Muslim", "order": 0, "label": "per"}, {"entity": "Jundollah", "order": 0, "label": "org"}]}
+Model Output: Sentence: "A Sunni Muslim group , Jundollah , claimed responsibility for that attack ."<｜end▁of▁sentence｜>
+<｜begin▁of▁sentence｜>{"entities": [{"entity": "Sunni Muslim", "order": 0, "label": "per"}, {"entity": "Jundollah", "order": 0, "label": "org"}]}
+------------------------
+Sample 38804:
+Sentence (Input): "More than 165 people across the U.S. have become ill with salmonella poisoning since April ."
+True Entities (Gold Output): {"entities": [{"entity": "U.S.", "order": 0, "label": "geo"}, {"entity": "since April", "order": 0, "label": "tim"}]}
+Model Output: Sentence: "More than 165 people across the U.S. have become ill with salmonella poisoning since April ."<｜end▁of▁sentence｜>
+<｜begin▁of▁sentence｜>{"entities": [{"entity": "U.S.", "order": 0, "label": "geo"}, {"entity": "since April", "order": 0, "label": "tim"}]}
+------------------------
+Sample 2555:
+Sentence (Input): "When NASA first started sending up astronauts , they quickly discovered that ball-point pens would not work in zero gravity ."
+True Entities (Gold Output): {"entities": [{"entity": "NASA", "order": 0, "label": "org"}]}
+Model Output: Sentence: "When NASA first started sending up astronauts , they quickly discovered that ball-point pens would not work in zero gravity ."<｜end▁of▁sentence｜>
+<｜begin▁of▁sentence｜>{"entities": [{"entity": "NASA", "order": 0, "label": "org"}]}
+------------------------
+Sample 29452:
+Sentence (Input): "The titanosaurs were among the largest and heaviest prehistoric animals ever to roam the Earth , with extremely long necks and tails ."
+True Entities (Gold Output): {"entities": [{"entity": "Earth", "order": 0, "label": "geo"}]}
+Model Output: Sentence: "The titanosaurs were among the largest and heaviest prehistoric animals ever to roam the Earth , with extremely long necks and tails ."<｜end▁of▁sentence｜>
+<｜begin▁of▁sentence｜>{"entities": []}
+------------------------
+Sample 34453:
+Sentence (Input): "An ISAF statement says the unidentified sub-commander was involved in kidnappings , weapons purchases and spying on coalition forces ."
+True Entities (Gold Output): {"entities": [{"entity": "ISAF", "order": 0, "label": "org"}]}
+Model Output: Sentence: "An ISAF statement says the unidentified sub-commander was involved in kidnappings , weapons purchases and spying on coalition forces ."<｜end▁of▁sentence｜>
+<｜begin▁of▁sentence｜>{"entities": [{"entity": "ISAF", "order": 0, "label": "org"}]}
+------------------------
+Sample 6232:
+Sentence (Input): "But the commission says there is no risk of a gas shortage in the short term ."
+True Entities (Gold Output): {"entities": []}
+Model Output: Sentence: "But the commission says there is no risk of a gas shortage in the short term ."<｜end▁of▁sentence｜>
+<｜begin▁of▁sentence｜>{"entities": []}
+------------------------
+Sample 15303:
+Sentence (Input): "Beatrice Mtetwa told the court in the northern town of Norton Friday that prosecutors are seeking \" to prolong the accused 's agony . \""
+True Entities (Gold Output): {"entities": [{"entity": "Beatrice Mtetwa", "order": 0, "label": "per"}, {"entity": "Norton", "order": 0, "label": "geo"}, {"entity": "Friday", "order": 0, "label": "tim"}]}
+Model Output: Sentence: "Beatrice Mtetwa told the court in the northern town of Norton Friday that prosecutors are seeking \" to prolong the accused 's agony . \""<｜end▁of▁sentence｜>
+<｜begin▁of▁sentence｜>{"entities": [{"entity": "Beatrice Mtetwa", "order": 0, "label": "per"}, {"entity": "Norton Friday", "order": 0, "label": "tim"}, {"entity": "Friday", "order": 0, "label": "tim
+------------------------
+Sample 47173:
+Sentence (Input): "Experts blame falling consumer confidence on problems in the credit and stock markets that have hurt the investments that many people had hoped would pay for their retirements ."
+True Entities (Gold Output): {"entities": []}
+Model Output: Sentence: "Experts blame falling consumer confidence on problems in the credit and stock markets that have hurt the investments that many people had hoped would pay for their retirements ."<｜end▁of▁sentence｜>
+<｜begin▁of▁sentence｜>{"entities": []}
+------------------------
+Sample 6341:
+Sentence (Input): "United Nations Secretary-General Kofi Annan is expected to ask for manpower and equipment for a peacekeeping force for Sudan when he meets with President Bush later Monday ."
+True Entities (Gold Output): {"entities": [{"entity": "United Nations Secretary-General", "order": 0, "label": "org"}, {"entity": "Kofi Annan", "order": 0, "label": "per"}, {"entity": "Sudan", "order": 0, "label": "gpe"}, {"entity": "President", "order": 0, "label": "per"}, {"entity": "Bush later Monday", "order": 0, "label": "tim"}]}
+Model Output: Sentence: "United Nations Secretary-General Kofi Annan is expected to ask for manpower and equipment for a peacekeeping force for Sudan when he meets with President Bush later Monday ."<｜end▁of▁sentence｜>
+<｜begin▁of▁sentence｜>{"entities": [{"entity": "United Nations Secretary-General", "order": 0, "label": "org"}, {"entity": "Kofi Annan", "order": 0, "label": "per"}, {"entity": "Sudan", "order": 0, "label":
+------------------------
+Sample 18359:
+Sentence (Input): "About 500 people from across Europe were in a large exhibition hall in the Katowice area when the building 's snow-covered roof caved in ."
+True Entities (Gold Output): {"entities": [{"entity": "Europe", "order": 0, "label": "geo"}, {"entity": "Katowice", "order": 0, "label": "geo"}]}
+Model Output: Sentence: "About 500 people from across Europe were in a large exhibition hall in the Katowice area when the building 's snow-covered roof caved in ."<｜end▁of▁sentence｜>
+<｜begin▁of▁sentence｜>{"entities": [{"entity": "Europe", "order": 0, "label": "geo"}, {"entity": "Katowice", "order": 0, "label": "geo"}]}
+------------------------
+Sample 6891:
+Sentence (Input): "The White House does not comment about threats or the president 's security ."
+True Entities (Gold Output): {"entities": [{"entity": "White House", "order": 0, "label": "org"}]}
+Model Output: Sentence: "The White House does not comment about threats or the president 's security ."<｜end▁of▁sentence｜>
+<｜begin▁of▁sentence｜>{"entities": [{"entity": "White House", "order": 0, "label": "org"}]}
+------------------------
+Sample 43250:
+Sentence (Input): "India and Saudi Arabia have said they intend to form an energy partnership to increase the amount of crude oil supplied to India ."
+True Entities (Gold Output): {"entities": [{"entity": "India and Saudi Arabia", "order": 0, "label": "org"}, {"entity": "India", "order": 0, "label": "geo"}]}
+Model Output: Sentence: "India and Saudi Arabia have said they intend to form an energy partnership to increase the amount of crude oil supplied to India ."<｜end▁of▁sentence｜>
+<｜begin▁of▁sentence｜>{"entities": [{"entity": "India", "order": 0, "label": "org"}, {"entity": "Saudi Arabia", "order": 0, "label": "org"}, {"entity": "India", "order": 1, "label": "geo"}]}
+------------------------
+Sample 7845:
+Sentence (Input): "The protesters , who rallied late Thursday , also voiced support for a letter signed by dozens of Israeli rabbis this month that would forbid the rental of homes to non-Jews ."
+True Entities (Gold Output): {"entities": [{"entity": "Thursday", "order": 0, "label": "tim"}, {"entity": "Israeli", "order": 0, "label": "gpe"}]}
+Model Output: Sentence: "The protesters , who rallied late Thursday , also voiced support for a letter signed by dozens of Israeli rabbis this month that would forbid the rental of homes to non-Jews ."<｜end▁of▁sentence｜>
+<｜begin▁of▁sentence｜>{"entities": [{"entity": "Thursday", "order": 0, "label": "tim"}, {"entity": "Israeli", "order": 0, "label": "gpe"}]}
+------------------------
+Sample 37521:
+Sentence (Input): "China 's official news agency says 96 miners are missing following an explosion at a coal mine in the country 's northern province of Hebei ."
+True Entities (Gold Output): {"entities": [{"entity": "China", "order": 0, "label": "geo"}, {"entity": "Hebei", "order": 0, "label": "geo"}]}
+Model Output: Sentence: "China 's official news agency says 96 miners are missing following an explosion at a coal mine in the country 's northern province of Hebei ."<｜end▁of▁sentence｜>
+<｜begin▁of▁sentence｜>{"entities": [{"entity": "China", "order": 0, "label": "geo"}, {"entity": "Hebei", "order": 0, "label": "geo"}]}
+------------------------
+Sample 4730:
+Sentence (Input): "Saddam 's head defense lawyer Khalil al-Dulaimi said he would appeal the decision and asked for a halt in the court 's proceedings ."
+True Entities (Gold Output): {"entities": [{"entity": "Saddam", "order": 0, "label": "geo"}, {"entity": "Khalil al-Dulaimi", "order": 0, "label": "per"}]}
+Model Output: Sentence: "Saddam 's head defense lawyer Khalil al-Dulaimi said he would appeal the decision and asked for a halt in the court 's proceedings ."<｜end▁of▁sentence｜>
+<｜begin▁of▁sentence｜>{"entities": [{"entity": "Saddam", "order": 0, "label": "geo"}, {"entity": "Khalil al-Dulaimi", "order": 0, "label": "per"}]}
+------------------------
+Sample 17100:
+Sentence (Input): "The U.N. group fled , but a translator was later killed by the angry mob ."
+True Entities (Gold Output): {"entities": [{"entity": "U.N.", "order": 0, "label": "geo"}]}
+Model Output: Sentence: "The U.N. group fled , but a translator was later killed by the angry mob ."<｜end▁of▁sentence｜>
+<｜begin▁of▁sentence｜>{"entities": [{"entity": "U.N.", "order": 0, "label": "org"}]}
+------------------------
+Sample 3004:
+Sentence (Input): "Media reports say the tribunal may soon indict members of the Shi'ite militant group Hezbollah in the killing of Rafiq Hariri and 22 other people in a 2005 blast in downtown Beirut ."
+True Entities (Gold Output): {"entities": [{"entity": "Shi'ite militant group Hezbollah", "order": 0, "label": "org"}, {"entity": "Rafiq Hariri", "order": 0, "label": "per"}, {"entity": "2005", "order": 0, "label": "tim"}, {"entity": "Beirut", "order": 0, "label": "geo"}]}
+Model Output: Sentence: "Media reports say the tribunal may soon indict members of the Shi'ite militant group Hezbollah in the killing of Rafiq Hariri and 22 other people in a 2005 blast in downtown Beirut ."<｜end▁of▁sentence｜>
+<｜begin▁of▁sentence｜>{"entities": [{"entity": "Shi'ite militant group Hezbollah", "order": 0, "label": "org"}, {"entity": "Rafiq Hariri", "order": 0, "label": "per"}, {"entity": "2005", "order":
+------------------------
+Sample 29555:
+Sentence (Input): "The price of U.S. crude for November delivery settled up $ 1.48 at a record $ 87.61 per barrel ."
+True Entities (Gold Output): {"entities": [{"entity": "U.S.", "order": 0, "label": "geo"}, {"entity": "November", "order": 0, "label": "tim"}]}
+Model Output: Sentence: "The price of U.S. crude for November delivery settled up $ 1.48 at a record $ 87.61 per barrel ."<｜end▁of▁sentence｜>
+<｜begin▁of▁sentence｜>{"entities": [{"entity": "U.S.", "order": 0, "label": "geo"}, {"entity": "November", "order": 0, "label": "tim"}]}
+------------------------
+Sample 37629:
+Sentence (Input): "CIA Director Porter Goss sent out an e-mail message Monday , a few hours after two top CIA officials resigned ."
+True Entities (Gold Output): {"entities": [{"entity": "CIA Director Porter Goss", "order": 0, "label": "org"}, {"entity": "Monday", "order": 0, "label": "tim"}, {"entity": "CIA", "order": 0, "label": "org"}]}
+Model Output: Sentence: "CIA Director Porter Goss sent out an e-mail message Monday , a few hours after two top CIA officials resigned ."<｜end▁of▁sentence｜>
+<｜begin▁of▁sentence｜>{"entities": [{"entity": "CIA Director", "order": 0, "label": "org"}, {"entity": "Porter Goss", "order": 0, "label": "per"}, {"entity": "Monday", "order": 0, "label": "tim"},
+------------------------
+Sample 37645:
+Sentence (Input): "Another incident details the shooting death of an apparently unarmed Palestinian man , whose remains were then strapped to the hood of a jeep and driven back to base ."
+True Entities (Gold Output): {"entities": [{"entity": "Palestinian", "order": 0, "label": "gpe"}]}
+Model Output: Sentence: "Another incident details the shooting death of an apparently unarmed Palestinian man , whose remains were then strapped to the hood of a jeep and driven back to base ."<｜end▁of▁sentence｜>
+<｜begin▁of▁sentence｜>{"entities": [{"entity": "Palestinian", "order": 0, "label": "gpe"}]}
+------------------------
+Sample 14126:
+Sentence (Input): "Shi'ite leaders have not responded to the demands ."
+True Entities (Gold Output): {"entities": [{"entity": "Shi'ite", "order": 0, "label": "org"}]}
+Model Output: Sentence: "Shi'ite leaders have not responded to the demands ."<｜end▁of▁sentence｜>
+<｜begin▁of▁sentence｜>{"entities": [{"entity": "Shi'ite", "order": 0, "label": "org"}]}
+------------------------
+Sample 3254:
+Sentence (Input): "Outside Catalonia and the Separatist Basque region to the west , Juan Carlos remains extremely popular ."
+True Entities (Gold Output): {"entities": [{"entity": "Catalonia", "order": 0, "label": "gpe"}, {"entity": "Separatist Basque", "order": 0, "label": "org"}, {"entity": "Juan Carlos", "order": 0, "label": "per"}]}
+Model Output: Sentence: "Outside Catalonia and the Separatist Basque region to the west , Juan Carlos remains extremely popular ."<｜end▁of▁sentence｜>
+<｜begin▁of▁sentence｜>{"entities": [{"entity": "Catalonia", "order": 0, "label": "geo"}, {"entity": "Separatist Basque", "order": 0, "label": "org"}, {"entity": "Juan Carlos", "order": 0, "label": "
+------------------------
+Sample 25752:
+Sentence (Input): "Rio celebrates Carnival with parades featuring the sensual Brazilian dance known as the samba ."
+True Entities (Gold Output): {"entities": [{"entity": "Rio", "order": 0, "label": "org"}, {"entity": "Carnival", "order": 0, "label": "eve"}, {"entity": "Brazilian", "order": 0, "label": "gpe"}]}
+Model Output: Sentence: "Rio celebrates Carnival with parades featuring the sensual Brazilian dance known as the samba ."<｜end▁of▁sentence｜>
+<｜begin▁of▁sentence｜>{"entities": [{"entity": "Rio", "order": 0, "label": "geo"}, {"entity": "Brazilian", "order": 0, "label": "gpe"}]}
+------------------------
+Sample 7065:
+Sentence (Input): "When I asked why , she explained that it was necessary to compare the signature I had just signed on the receipt ."
+True Entities (Gold Output): {"entities": []}
+Model Output: Sentence: "When I asked why , she explained that it was necessary to compare the signature I had just signed on the receipt ."<｜end▁of▁sentence｜>
+<｜begin▁of▁sentence｜>{"entities": []}
+------------------------
+Sample 29923:
+Sentence (Input): "British Prime Minister Tony Blair , whose country holds the rotating EU presidency , wants leaders to reach consensus on how the block will deal with such issues as free trade ."
+True Entities (Gold Output): {"entities": [{"entity": "British", "order": 0, "label": "gpe"}, {"entity": "Prime", "order": 0, "label": "per"}, {"entity": "Tony Blair", "order": 0, "label": "per"}, {"entity": "EU", "order": 0, "label": "org"}]}
+Model Output: Sentence: "British Prime Minister Tony Blair , whose country holds the rotating EU presidency , wants leaders to reach consensus on how the block will deal with such issues as free trade ."<｜end▁of▁sentence｜>
+<｜begin▁of▁sentence｜>{"entities": [{"entity": "British", "order": 0, "label": "gpe"}, {"entity": "Prime Minister Tony Blair", "order": 0, "label": "per"}, {"entity": "EU", "order": 0, "label": "org"}]}
+------------------------
+Sample 39167:
+Sentence (Input): "The Cabinet Maliki unveiled Tuesday allocated two posts for women ."
+True Entities (Gold Output): {"entities": [{"entity": "Cabinet Maliki", "order": 0, "label": "org"}, {"entity": "Tuesday", "order": 0, "label": "tim"}]}
+Model Output: Sentence: "The Cabinet Maliki unveiled Tuesday allocated two posts for women ."<｜end▁of▁sentence｜>
+<｜begin▁of▁sentence｜>{"entities": [{"entity": "Cabinet Maliki", "order": 0, "label": "org"}, {"entity": "Tuesday", "order": 0, "label": "tim"}]}
+------------------------
+Sample 27635:
+Sentence (Input): "No one was injured in the July 21 attacks , and officials say the four would-be bombers are most likely hiding in Britain ."
+True Entities (Gold Output): {"entities": [{"entity": "July 21", "order": 0, "label": "tim"}, {"entity": "Britain", "order": 0, "label": "geo"}]}
+Model Output: Sentence: "No one was injured in the July 21 attacks , and officials say the four would-be bombers are most likely hiding in Britain ."<｜end▁of▁sentence｜>
+<｜begin▁of▁sentence｜>{"entities": [{"entity": "July 21", "order": 0, "label": "tim"}, {"entity": "Britain", "order": 0, "label": "geo"}]}
+------------------------
+Sample 25532:
+Sentence (Input): "Niamey 's 35,000 seat Stade GÃ©nÃ©ral Seyni KountchÃ© was full long before the mid-afternoon kick-off under a blistering sun ."
+True Entities (Gold Output): {"entities": [{"entity": "Niamey", "order": 0, "label": "geo"}, {"entity": "Stade GÃ©nÃ©ral Seyni KountchÃ©", "order": 0, "label": "art"}, {"entity": "mid-afternoon kick-off", "order": 0, "label": "tim"}]}
+Model Output: Sentence: "Niamey 's 35,000 seat Stade GÃ©nÃ©ral Seyni KountchÃ© was full long before the mid-afternoon kick-off under a blistering sun ."<｜end▁of▁sentence｜>
+<｜begin▁of▁sentence｜>{"entities": [{"entity": "Niamey", "order": 0, "label": "geo"}, {"entity": "Stade GÃ©nÃ©ral Seyni KountchÃ©", "order": 0, "label": "org"}, {"entity": "mid-after
+------------------------
+Sample 6683:
+Sentence (Input): "In a statement , Jolie said the couple wants their daughter to be \" very involved \" and to grow up with an understanding of the country of her birth ."
+True Entities (Gold Output): {"entities": [{"entity": "Jolie", "order": 0, "label": "per"}]}
+Model Output: Sentence: "In a statement , Jolie said the couple wants their daughter to be \" very involved \" and to grow up with an understanding of the country of her birth ."<｜end▁of▁sentence｜>
+<｜begin▁of▁sentence｜>{"entities": [{"entity": "Jolie", "order": 0, "label": "per"}]}
+------------------------
+Sample 14982:
+Sentence (Input): "The FBI is investigating possible civil rights violations ."
+True Entities (Gold Output): {"entities": [{"entity": "FBI", "order": 0, "label": "org"}]}
+Model Output: Sentence: "The FBI is investigating possible civil rights violations ."<｜end▁of▁sentence｜>
+<｜begin▁of▁sentence｜>{"entities": [{"entity": "FBI", "order": 0, "label": "org"}]}
+------------------------
+Sample 39961:
+Sentence (Input): "A U.S. State Department senior advisor , Robert Loftis , met Monday in Warsaw with Polish defense officials ."
+True Entities (Gold Output): {"entities": [{"entity": "U.S. State Department", "order": 0, "label": "org"}, {"entity": "Robert Loftis", "order": 0, "label": "per"}, {"entity": "Monday", "order": 0, "label": "tim"}, {"entity": "Warsaw", "order": 0, "label": "geo"}, {"entity": "Polish", "order": 0, "label": "gpe"}]}
+Model Output: Sentence: "A U.S. State Department senior advisor , Robert Loftis , met Monday in Warsaw with Polish defense officials ."<｜end▁of▁sentence｜>
+<｜begin▁of▁sentence｜>{"entities": [{"entity": "U.S. State Department", "order": 0, "label": "org"}, {"entity": "Robert Loftis", "order": 0, "label": "per"}, {"entity": "Monday", "order": 0, "label": "tim
+------------------------
+Sample 8761:
+Sentence (Input): "Mr. al-Yousifi lived in Sweden for 20 years , before returning to Iraq after Saddam Hussein 's ouster two years ago to lead Iraq 's Christian Democratic party ."
+True Entities (Gold Output): {"entities": [{"entity": "Mr.", "order": 0, "label": "per"}, {"entity": "al-Yousifi", "order": 0, "label": "geo"}, {"entity": "Sweden", "order": 0, "label": "geo"}, {"entity": "20", "order": 0, "label": "tim"}, {"entity": "Iraq", "order": 0, "label": "geo"}, {"entity": "Saddam Hussein", "order": 0, "label": "geo"}, {"entity": "two", "order": 0, "label": "tim"}, {"entity": "Iraq", "order": 1, "label": "geo"}]}
+Model Output: Sentence: "Mr. al-Yousifi lived in Sweden for 20 years , before returning to Iraq after Saddam Hussein 's ouster two years ago to lead Iraq 's Christian Democratic party ."<｜end▁of▁sentence｜>
+<｜begin▁of▁sentence｜>{"entities": [{"entity": "Mr.", "order": 0, "label": "per"}, {"entity": "al-Yousifi", "order": 0, "label": "geo"}, {"entity": "Sweden", "order": 0, "label": "geo"}, {"entity
+------------------------
+Sample 29847:
+Sentence (Input): "They are hospitalized and are reported in stable condition ."
+True Entities (Gold Output): {"entities": []}
+Model Output: Sentence: "They are hospitalized and are reported in stable condition ."<｜end▁of▁sentence｜>
+<｜begin▁of▁sentence｜>{"entities": []}
+------------------------
+Sample 29031:
+Sentence (Input): "EU officials are considering additional measures including visa bans on Iranian officials ."
+True Entities (Gold Output): {"entities": [{"entity": "EU", "order": 0, "label": "org"}, {"entity": "Iranian", "order": 0, "label": "gpe"}]}
+Model Output: Sentence: "EU officials are considering additional measures including visa bans on Iranian officials ."<｜end▁of▁sentence｜>
+<｜begin▁of▁sentence｜>{"entities": [{"entity": "EU", "order": 0, "label": "org"}, {"entity": "Iranian", "order": 0, "label": "gpe"}]}
+------------------------
+Sample 2373:
+Sentence (Input): "He said he was forced to resign over coverage the paper 's leadership deemed too shocking ."
+True Entities (Gold Output): {"entities": []}
+Model Output: Sentence: "He said he was forced to resign over coverage the paper 's leadership deemed too shocking ."<｜end▁of▁sentence｜>
+<｜begin▁of▁sentence｜>{"entities": []}
+------------------------
+Sample 47403:
+Sentence (Input): "Authorities say the explosives were bound for Palestinians in the Gaza Strip ."
+True Entities (Gold Output): {"entities": [{"entity": "Palestinians", "order": 0, "label": "gpe"}, {"entity": "Gaza Strip", "order": 0, "label": "geo"}]}
+Model Output: Sentence: "Authorities say the explosives were bound for Palestinians in the Gaza Strip ."<｜end▁of▁sentence｜>
+<｜begin▁of▁sentence｜>{"entities": [{"entity": "Palestinians", "order": 0, "label": "gpe"}, {"entity": "Gaza Strip", "order": 0, "label": "geo"}]}
+------------------------
+Sample 10215:
+Sentence (Input): "He said he will evaluate the results of the referendum before deciding how to proceed with his pro-socialist plans ."
+True Entities (Gold Output): {"entities": []}
+Model Output: Sentence: "He said he will evaluate the results of the referendum before deciding how to proceed with his pro-socialist plans ."<｜end▁of▁sentence｜>
+<｜begin▁of▁sentence｜>{"entities": []}
+------------------------
+Sample 30401:
+Sentence (Input): "In 2010 , new gas export pipelines that carry Turkmen gas to China and to northern Iran began operating , effectively ending the Russian monopoly on Turkmen gas exports ."
+True Entities (Gold Output): {"entities": [{"entity": "2010", "order": 0, "label": "tim"}, {"entity": "Turkmen", "order": 0, "label": "org"}, {"entity": "China", "order": 0, "label": "geo"}, {"entity": "Iran", "order": 0, "label": "geo"}, {"entity": "Russian", "order": 0, "label": "gpe"}, {"entity": "Turkmen", "order": 1, "label": "org"}]}
+Model Output: Sentence: "In 2010 , new gas export pipelines that carry Turkmen gas to China and to northern Iran began operating , effectively ending the Russian monopoly on Turkmen gas exports ."<｜end▁of▁sentence｜>
+<｜begin▁of▁sentence｜>{"entities": [{"entity": "2010", "order": 0, "label": "tim"}, {"entity": "Turkmen", "order": 0, "label": "gpe"}, {"entity": "China", "order": 0, "label": "geo
+------------------------
+Sample 5187:
+Sentence (Input): "One of the main issues under discussion is how to make Mercosur more responsive to the social concerns of the member countries ."
+True Entities (Gold Output): {"entities": [{"entity": "Mercosur", "order": 0, "label": "geo"}]}
+Model Output: Sentence: "One of the main issues under discussion is how to make Mercosur more responsive to the social concerns of the member countries ."<｜end▁of▁sentence｜>
+<｜begin▁of▁sentence｜>{"entities": [{"entity": "Mercosur", "order": 0, "label": "geo"}]}
+------------------------
+Sample 30571:
+Sentence (Input): "Somalia 's transitional government has announced plans to begin relocating to the capital Mogadishu from Kenya February 21 ."
+True Entities (Gold Output): {"entities": [{"entity": "Somalia", "order": 0, "label": "geo"}, {"entity": "Mogadishu", "order": 0, "label": "geo"}, {"entity": "Kenya", "order": 0, "label": "geo"}, {"entity": "February 21", "order": 0, "label": "tim"}]}
+Model Output: Sentence: "Somalia 's transitional government has announced plans to begin relocating to the capital Mogadishu from Kenya February 21 ."<｜end▁of▁sentence｜>
+<｜begin▁of▁sentence｜>{"entities": [{"entity": "Somalia", "order": 0, "label": "geo"}, {"entity": "Mogadishu", "order": 0, "label": "geo"}, {"entity": "February 21", "order": 0, "label":
+------------------------
+Sample 9932:
+Sentence (Input): "Tbilisi then accused Moscow of interfering in Georgia 's internal affairs - a charge Moscow rejects ."
+True Entities (Gold Output): {"entities": [{"entity": "Tbilisi", "order": 0, "label": "org"}, {"entity": "Moscow", "order": 0, "label": "geo"}, {"entity": "Georgia", "order": 0, "label": "geo"}, {"entity": "Moscow", "order": 1, "label": "geo"}]}
+Model Output: Sentence: "Tbilisi then accused Moscow of interfering in Georgia 's internal affairs - a charge Moscow rejects ."<｜end▁of▁sentence｜>
+<｜begin▁of▁sentence｜>{"entities": [{"entity": "Tbilisi", "order": 0, "label": "org"}, {"entity": "Moscow", "order": 0, "label": "geo"}, {"entity": "Georgia", "order": 0, "label": "geo"}]}
+------------------------
+Sample 34339:
+Sentence (Input): "Officials said Wednesday Mr. Abbas would only remain briefly at the hospital ."
+True Entities (Gold Output): {"entities": [{"entity": "Wednesday", "order": 0, "label": "tim"}, {"entity": "Mr. Abbas", "order": 0, "label": "per"}]}
+Model Output: Sentence: "Officials said Wednesday Mr. Abbas would only remain briefly at the hospital ."<｜end▁of▁sentence｜>
+<｜begin▁of▁sentence｜>{"entities": [{"entity": "Wednesday", "order": 0, "label": "tim"}, {"entity": "Mr. Abbas", "order": 0, "label": "per"}]}
+------------------------
+Sample 7271:
+Sentence (Input): "Venezuela is the world 's fifth largest oil exporter and a major supplier to the United States , although relations have been tense between the two countries ."
+True Entities (Gold Output): {"entities": [{"entity": "Venezuela", "order": 0, "label": "geo"}, {"entity": "United States", "order": 0, "label": "geo"}]}
+Model Output: Sentence: "Venezuela is the world 's fifth largest oil exporter and a major supplier to the United States , although relations have been tense between the two countries ."<｜end▁of▁sentence｜>
+<｜begin▁of▁sentence｜>{"entities": [{"entity": "Venezuela", "order": 0, "label": "geo"}, {"entity": "United States", "order": 0, "label": "geo"}]}
+------------------------
+Sample 30946:
+Sentence (Input): "The two leaders are expected to discuss Iran 's nuclear program and reform of the United Nations ."
+True Entities (Gold Output): {"entities": [{"entity": "Iran", "order": 0, "label": "geo"}, {"entity": "United Nations", "order": 0, "label": "org"}]}
+Model Output: Sentence: "The two leaders are expected to discuss Iran 's nuclear program and reform of the United Nations ."<｜end▁of▁sentence｜>
+<｜begin▁of▁sentence｜>{"entities": [{"entity": "Iran", "order": 0, "label": "geo"}, {"entity": "United Nations", "order": 0, "label": "org"}]}
+------------------------
+Sample 13859:
+Sentence (Input): "Iowa is traditionally the first state to hold political caucuses in which candidates from the same party compete against each other for their party 's presidential nomination ."
+True Entities (Gold Output): {"entities": [{"entity": "Iowa", "order": 0, "label": "geo"}]}
+Model Output: Sentence: "Iowa is traditionally the first state to hold political caucuses in which candidates from the same party compete against each other for their party 's presidential nomination ."<｜end▁of▁sentence｜>
+<｜begin▁of▁sentence｜>{"entities": [{"entity": "Iowa", "order": 0, "label": "geo"}]}
+------------------------
+Sample 30640:
+Sentence (Input): "Another 600 peacekeepers come from Malaysia , New Zealand , and Portugal ."
+True Entities (Gold Output): {"entities": [{"entity": "Malaysia", "order": 0, "label": "geo"}, {"entity": "New Zealand", "order": 0, "label": "geo"}, {"entity": "Portugal", "order": 0, "label": "geo"}]}
+Model Output: Sentence: "Another 600 peacekeepers come from Malaysia , New Zealand , and Portugal ."<｜end▁of▁sentence｜>
+<｜begin▁of▁sentence｜>{"entities": [{"entity": "Malaysia", "order": 0, "label": "geo"}, {"entity": "New Zealand", "order": 0, "label": "geo"}, {"entity": "Portugal", "order": 0, "label": "geo"}]}
+------------------------
+Sample 21017:
+Sentence (Input): "Prosecutors said Friday one suspect is charged with intention to kidnap and kill a member of the armed forces ."
+True Entities (Gold Output): {"entities": [{"entity": "Friday", "order": 0, "label": "tim"}]}
+Model Output: Sentence: "Prosecutors said Friday one suspect is charged with intention to kidnap and kill a member of the armed forces ."<｜end▁of▁sentence｜>
+<｜begin▁of▁sentence｜>{"entities": [{"entity": "Friday", "order": 0, "label": "tim"}]}
+------------------------
+Sample 5771:
+Sentence (Input): "Thirty-one-year-old Shilpa Shetty attracted headlines earlier this year after winning Britain 's \" Celebrity Big Brother \" reality TV contest ."
+True Entities (Gold Output): {"entities": [{"entity": "Shilpa Shetty", "order": 0, "label": "per"}, {"entity": "Britain", "order": 0, "label": "geo"}]}
+Model Output: Sentence: "Thirty-one-year-old Shilpa Shetty attracted headlines earlier this year after winning Britain 's \" Celebrity Big Brother \" reality TV contest ."<｜end▁of▁sentence｜>
+<｜begin▁of▁sentence｜>{"entities": [{"entity": "Shilpa Shetty", "order": 0, "label": "per"}, {"entity": "Britain", "order": 0, "label": "geo"}, {"entity": "\" Celebrity Big Brother \"", "order": 0, "label": "
+------------------------
+Sample 4856:
+Sentence (Input): "After the Taleban regime was ousted in late 2001 , many Pakistanis were jailed in Afghanistan , and some were sent to Guantanamo ."
+True Entities (Gold Output): {"entities": [{"entity": "Taleban", "order": 0, "label": "org"}, {"entity": "2001", "order": 0, "label": "tim"}, {"entity": "Pakistanis", "order": 0, "label": "gpe"}, {"entity": "Afghanistan", "order": 0, "label": "geo"}, {"entity": "Guantanamo", "order": 0, "label": "geo"}]}
+Model Output: Sentence: "After the Taleban regime was ousted in late 2001 , many Pakistanis were jailed in Afghanistan , and some were sent to Guantanamo ."<｜end▁of▁sentence｜>
+<｜begin▁of▁sentence｜>{"entities": [{"entity": "Taleban", "order": 0, "label": "org"}, {"entity": "2001", "order": 0, "label": "tim"}, {"entity": "Afghanistan", "order": 0, "label": "
+------------------------
+Sample 30486:
+Sentence (Input): "Iranian authorities have shut down two Kurdish language newspapers in northwestern Iran , a day after at least 11 people were killed in that region during a clash between Kurdish demonstrators and Iranian police ."
+True Entities (Gold Output): {"entities": [{"entity": "Iranian", "order": 0, "label": "gpe"}, {"entity": "northwestern Iran", "order": 0, "label": "geo"}, {"entity": "Iranian", "order": 1, "label": "gpe"}]}
+Model Output: Sentence: "Iranian authorities have shut down two Kurdish language newspapers in northwestern Iran , a day after at least 11 people were killed in that region during a clash between Kurdish demonstrators and Iranian police ."<｜end▁of▁sentence｜>
+<｜begin▁of▁sentence｜>{"entities": [{"entity": "Iranian", "order": 0, "label": "gpe"}, {"entity": "northwestern Iran", "order": 0, "label": "geo"}, {"entity": "Kurdish", "order": 0, "label": "geo
+------------------------
+Sample 43828:
+Sentence (Input): "Officials said the incident took place Saturday after security forces surrounded the man 's vehicle in the city 's Jamia district ."
+True Entities (Gold Output): {"entities": [{"entity": "Saturday", "order": 0, "label": "tim"}, {"entity": "Jamia", "order": 0, "label": "geo"}]}
+Model Output: Sentence: "Officials said the incident took place Saturday after security forces surrounded the man 's vehicle in the city 's Jamia district ."<｜end▁of▁sentence｜>
+<｜begin▁of▁sentence｜>{"entities": [{"entity": "Saturday", "order": 0, "label": "tim"}, {"entity": "Jamia", "order": 0, "label": "geo"}]}
+------------------------
+Sample 25150:
+Sentence (Input): "Sweden has raised its terror alert level from \" low \" to \" elevated \" because of intelligence information the security service said pointed to a \" shift \" in activities by groups targeting the country ."
+True Entities (Gold Output): {"entities": [{"entity": "Sweden", "order": 0, "label": "org"}]}
+Model Output: Sentence: "Sweden has raised its terror alert level from \" low \" to \" elevated \" because of intelligence information the security service said pointed to a \" shift \" in activities by groups targeting the country ."<｜end▁of▁sentence｜>
+<｜begin▁of▁sentence｜>{"entities": [{"entity": "Sweden", "order": 0, "label": "org"}]}
+------------------------
+Sample 45666:
+Sentence (Input): "More than 700 people , including 40 police officers , have been killed in Haiti since September ."
+True Entities (Gold Output): {"entities": [{"entity": "Haiti", "order": 0, "label": "geo"}, {"entity": "since September", "order": 0, "label": "tim"}]}
+Model Output: Sentence: "More than 700 people , including 40 police officers , have been killed in Haiti since September ."<｜end▁of▁sentence｜>
+<｜begin▁of▁sentence｜>{"entities": [{"entity": "Haiti", "order": 0, "label": "geo"}, {"entity": "since September", "order": 0, "label": "tim"}]}
+------------------------
+Sample 46961:
+Sentence (Input): "Late Saturday , the U.S. military said 141 insurgents had been killed and 200 suspects captured in the area since August 26 ."
+True Entities (Gold Output): {"entities": [{"entity": "Saturday", "order": 0, "label": "tim"}, {"entity": "U.S.", "order": 0, "label": "geo"}, {"entity": "since August 26", "order": 0, "label": "tim"}]}
+Model Output: Sentence: "Late Saturday , the U.S. military said 141 insurgents had been killed and 200 suspects captured in the area since August 26 ."<｜end▁of▁sentence｜>
+<｜begin▁of▁sentence｜>{"entities": [{"entity": "Saturday", "order": 0, "label": "tim"}, {"entity": "U.S.", "order": 0, "label": "geo"}, {"entity": "August 26", "order": 0, "label": "tim"}]}
+------------------------
+Sample 11731:
+Sentence (Input): "Torsello and his interpreter disappeared between October 12 and 14 ."
+True Entities (Gold Output): {"entities": [{"entity": "Torsello", "order": 0, "label": "per"}, {"entity": "between October 12 and 14", "order": 0, "label": "tim"}]}
+Model Output: Sentence: "Torsello and his interpreter disappeared between October 12 and 14 ."<｜end▁of▁sentence｜>
+<｜begin▁of▁sentence｜>{"entities": [{"entity": "Torsello", "order": 0, "label": "per"}, {"entity": "October 12", "order": 0, "label": "tim"}, {"entity": "14", "order": 0, "label": "tim
+------------------------
+Sample 30276:
+Sentence (Input): "House-to-house searches were continuing in the residential Umm al-Haiman district , south of Kuwait City for several other suspects who fled ."
+True Entities (Gold Output): {"entities": [{"entity": "Umm al-Haiman", "order": 0, "label": "org"}, {"entity": "Kuwait City", "order": 0, "label": "geo"}]}
+Model Output: Sentence: "House-to-house searches were continuing in the residential Umm al-Haiman district , south of Kuwait City for several other suspects who fled ."<｜end▁of▁sentence｜>
+<｜begin▁of▁sentence｜>{"entities": [{"entity": "Umm al-Haiman", "order": 0, "label": "geo"}, {"entity": "Kuwait City", "order": 0, "label": "geo"}]}
+------------------------
+Sample 38764:
+Sentence (Input): "Sweden has been the hardest-hit Western nation , with more than 3,500 of its citizens unaccounted for and at least 59 known dead ."
+True Entities (Gold Output): {"entities": [{"entity": "Sweden", "order": 0, "label": "org"}, {"entity": "Western", "order": 0, "label": "org"}]}
+Model Output: Sentence: "Sweden has been the hardest-hit Western nation , with more than 3,500 of its citizens unaccounted for and at least 59 known dead ."<｜end▁of▁sentence｜>
+<｜begin▁of▁sentence｜>{"entities": [{"entity": "Sweden", "order": 0, "label": "org"}, {"entity": "Western", "order": 0, "label": "org"}]}
+------------------------
+Sample 36602:
+Sentence (Input): "The proposal also includes eliminating presidential term limits ."
+True Entities (Gold Output): {"entities": []}
+Model Output: Sentence: "The proposal also includes eliminating presidential term limits ."<｜end▁of▁sentence｜>
+<｜begin▁of▁sentence｜>{"entities": []}
+------------------------
+Sample 17417:
+Sentence (Input): "To the west of the capital , in Al Anbar province , two U.S. Marines were killed while conducting security operations ."
+True Entities (Gold Output): {"entities": [{"entity": "Al Anbar", "order": 0, "label": "org"}, {"entity": "U.S. Marines", "order": 0, "label": "org"}]}
+Model Output: Sentence: "To the west of the capital , in Al Anbar province , two U.S. Marines were killed while conducting security operations ."<｜end▁of▁sentence｜>
+<｜begin▁of▁sentence｜>{"entities": [{"entity": "Al Anbar", "order": 0, "label": "geo"}, {"entity": "U.S. Marines", "order": 0, "label": "geo"}]}
+------------------------
+Sample 23614:
+Sentence (Input): "He inveighed against the injustice of Providence , which would for the sake of one criminal perchance sailing in the ship allow so many innocent persons to perish ."
+True Entities (Gold Output): {"entities": [{"entity": "Providence", "order": 0, "label": "geo"}]}
+Model Output: Sentence: "He inveighed against the injustice of Providence , which would for the sake of one criminal perchance sailing in the ship allow so many innocent persons to perish ."<｜end▁of▁sentence｜>
+<｜begin▁of▁sentence｜>{"entities": [{"entity": "Providence", "order": 0, "label": "geo"}]}
+------------------------
+Sample 8593:
+Sentence (Input): "In other developments , Israel has agreed to release $ 54 million of Palestinian tax revenues it withheld after the militant group Hamas won Palestinian legislative elections last month ."
+True Entities (Gold Output): {"entities": [{"entity": "Israel", "order": 0, "label": "geo"}, {"entity": "Palestinian", "order": 0, "label": "gpe"}, {"entity": "Hamas", "order": 0, "label": "org"}, {"entity": "Palestinian", "order": 1, "label": "gpe"}]}
+Model Output: Sentence: "In other developments , Israel has agreed to release $ 54 million of Palestinian tax revenues it withheld after the militant group Hamas won Palestinian legislative elections last month ."<｜end▁of▁sentence｜>
+<｜begin▁of▁sentence｜>{"entities": [{"entity": "Israel", "order": 0, "label": "geo"}, {"entity": "Palestinian", "order": 0, "label": "gpe"}, {"entity": "Hamas", "order": 0, "label": "org"}, {"entity
+------------------------
