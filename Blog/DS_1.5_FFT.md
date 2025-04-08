@@ -249,6 +249,66 @@ Model Output: Sentence: "Iraqi police say insurgents have carried out at least f
   - F1-score: 0.8422
 
 下一步：将 `max_length` 加到 512 做最后一次尝试，然后更换模型。
+### v4 实验：最终版本
+
+WandB报告：[FFT_DS_1-5B_Final](https://wandb.ai/jerrylikespython-bnu-hkbu-united-international-college/llm_finetuning/reports/FFT_DS_1-5B_Final--VmlldzoxMjE4NzY4Ng)
+
+本版本删除了 `max_new_tokens` 限制，并将 `max_length` 提升至 512。
+
+#### 测试集前1000条中部分示例：
+
+Sample 466:
+```
+Sentence (Input): "Philip Alston said he is deeply concerned by the October 25 incident ."
+True Entities (Gold Output): {"entities": [{"entity": "Philip Alston", "order": 0, "label": "per"}, {"entity": "October 25", "order": 0, "label": "tim"}]}
+Model Output: Sentence: "Philip Alston said he is deeply concerned by the October 25 incident ."<｜end▁of▁sentence｜>
+<｜begin▁of▁sentence｜>{"entities": [{"entity": "Philip Alston", "order": 0, "label": "per"}, {"entity": "October 25", "order": 0, "label": "tim"}]}
+```
+
+Sample 45466:
+```
+Sentence (Input): "Dutch GDP contracted 3.9 % in 2009 , while exports declined nearly 25 % due to a sharp contraction in world demand ."
+True Entities (Gold Output): {"entities": [{"entity": "Dutch", "order": 0, "label": "gpe"}, {"entity": "2009", "order": 0, "label": "tim"}]}
+Model Output: Sentence: "Dutch GDP contracted 3.9 % in 2009 , while exports declined nearly 25 % due to a sharp contraction in world demand ."<｜end▁of▁sentence｜>
+<｜begin▁of▁sentence｜>{"entities": [{"entity": "Dutch", "order": 0, "label": "gpe"}, {"entity": "2009", "order": 0, "label": "tim"}]}
+```
+
+Sample 47661:
+```
+Sentence (Input): "But the job market 's problems may be easing , as the number of people signing up for first time jobless aid declined by 53,000 to a total of 6,10,000 ."
+True Entities (Gold Output): {"entities": []}
+Model Output: Sentence: "But the job market 's problems may be easing , as the number of people signing up for first time jobless aid declined by 53,000 to a total of 6,10,000 ."<｜end▁of▁sentence｜>
+<｜begin▁of▁sentence｜>{"entities": []}
+```
+
+Sample 32954:
+```
+Sentence (Input): "Iraqi police say insurgents have carried out at least four more car bomb attacks in Baghdad and the northern city of Mosul , killing nine people and wounding nearly 30 others ."
+True Entities (Gold Output): {"entities": [{"entity": "Iraqi", "order": 0, "label": "gpe"}, {"entity": "Baghdad", "order": 0, "label": "geo"}, {"entity": "Mosul", "order": 0, "label": "geo"}]}
+Model Output: Sentence: "Iraqi police say insurgents have carried out at least four more car bomb attacks in Baghdad and the northern city of Mosul , killing nine people and wounding nearly 30 others ."<｜end▁of▁sentence｜>
+<｜begin▁of▁sentence｜>{"entities": [{"entity": "Iraqi", "order": 0, "label": "gpe"}, {"entity": "Baghdad", "order": 0, "label": "geo"}, {"entity": "Mosul", "order": 0, "label": "geo"}]}
+```
+
+#### 输出效果
+模型输出非常稳定，使用正则表达式可直接提取JSON格式并进行比对。
+
+#### 评估结果（1000条测试）：
+
+**Sentence-level evaluation:**
+- Evaluated sentences: 1000
+- Correct sentences: 749
+- Precision: 0.7490
+
+**Entity-level evaluation:**
+- Gold entities: 2328
+- True Positives (TP): 2004
+- False Positives (FP): 306
+- False Negatives (FN): 324
+- Accuracy: 0.8675
+- Recall: 0.8608
+- F1-score: 0.8642
+
+> 本次为 1.5B 最终版本，输出稳定，JSON格式100%成功解析，实体级别F1分数优秀，已完成初步任务目标。
 ### 遇到的额外问题与解决方法
 
 #### 问题1：Visual Studio中提示“no module named XXX”但库已安装
