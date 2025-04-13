@@ -1,0 +1,111 @@
+Iceland	gpe
+Prime Minister Geir Haarde	per
+International Monetary Fund	org
+2010	tim
+World Health Organization	org
+Tuesday	tim
+China	gpe
+India	gpe
+WHO	org
+AIDS	nat
+tuberculosis	nat
+malaria	nat
+WHO	org
+2030	tim
+U.S.	gpe
+Iraqi	gpe
+American Civil Liberties Union	org
+Tuesday	tim
+Pentagon	org
+Defense Intelligence Agency	org
+DIA	org
+DIA	org
+U.S.	gpe
+ACLU	org
+Pentagon	org
+U.S.	gpe
+Freedom of Information Act	art
+Georgian	gpe
+Prime Minister Zurab Zhvania	per
+Ukraine	gpe
+Ukrainian	gpe
+Mr. Zhvania	per
+United States	gpe
+Wednesday	tim
+Voice of America	org
+Sunday	tim
+United States	gpe
+Georgia	gpe
+Mr. Zhvania	per
+National Security Advisor Condoleezza Rice	per
+Ms. Rice	per
+Washington	gpe
+Georgia	gpe
+Abkhazia	gpe
+Georgia	gpe
+1990s	tim
+Mr. Zhvania	per
+Thursday	tim
+South Korean	gpe
+Seoul	geo
+Friday	tim
+Japanese	gpe
+Prime Minister Junichiro Koizumi	per
+Mr. Koizumi	per
+Japanese	gpe
+Japanese	gpe
+Ambassador Toshiyuki Takano	per
+South Korea	gpe
+Tokyo	gpe
+Japan	gpe
+Venezuela	gpe
+Iran	geo
+Defense Minister General Raul Baduel	per
+Monday	tim
+Caracas	geo
+Venezuela	gpe
+Venezuela	gpe
+U.S.	gpe
+United States	gpe
+Iran	gpe
+Wednesday	tim
+Tehran	geo
+Kamal Kharrazi	per
+Iran	gpe
+Britain	gpe
+France	gpe
+Germany	gpe
+Iran	gpe
+Iran	gpe
+Atomic Energy Organization	org
+Gholamreza Aghazadeh	per
+President Bush	per
+Gulf Coast	geo
+Louisiana	gpe
+Hurricane Katrina	nat
+Monday	tim
+Saturday	tim
+Louisiana	gpe
+Louisiana	gpe
+Mississippi	gpe
+Gulf of Mexico	geo
+Atlantic	geo
+Katrina	nat
+Hurricane Katrina	nat
+Florida	gpe
+Thursday	tim
+Israel	gpe
+Palestinian	gpe
+Jericho	geo
+Israel	gpe
+Palestinians	gpe
+Israeli-Palestinian	gpe
+Palestinians	gpe
+Israeli	gpe
+Cairo	geo
+Palestinian	gpe
+Thursday	tim
+Israeli	gpe
+Gaza Strip	geo
+Israeli	gpe
+Palestinian	gpe

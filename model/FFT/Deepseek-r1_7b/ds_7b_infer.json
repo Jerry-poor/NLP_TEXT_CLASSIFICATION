@@ -1,0 +1,12 @@
+{
+    "tensor_parallel": {
+      "tp_size": 1
+    },
+    "enable_cuda_graph": false,
+    "triangular_masking": true,
+    "return_tuple": true,
+    "max_tokens": 2048,
+    "dtype": "fp16",
+    "replace_with_kernel_inject": true
+  }
+  
