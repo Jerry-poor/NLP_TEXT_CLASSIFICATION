@@ -1,0 +1,46 @@
+base_model: "Llama-4-Scout-17B-16E-Instruct"
+tokenizer_type: AutoTokenizer           # 可选，若你的模型需要强制指定
+trust_remote_code: true
+
+# —— Quantization —— 
+load_in_4bit: true
+bnb_4bit_quant_type: "nf4"
+bnb_4bit_compute_dtype: "bfloat16"
+bnb_4bit_use_double_quant: true
+
+# —— Adapter 类型 —— 
+adapter: qlora
+
+# —— LoRA 参数 —— 
+lora_r: 8
+lora_alpha: 32
+lora_dropout: 0.05
+lora_target_modules:
+  - "q_proj"
+  - "v_proj"
+lora_bias: "none"
+lora_task_type: "CAUSAL_LM"
+
+# —— 训练超参 —— 
+num_epochs: 20
+micro_batch_size: 2
+gradient_accumulation_steps: 8
+learning_rate: 2e-5
+weight_decay: 0.01
+fp16: true
+seed: 42
+
+# —— 分布式 / DeepSpeed —— 
+deepspeed: "./Llama4_17b.json"
+
+# —— Trainer —— 
+trainer: TRLTrainer
+
+# —— 数据 —— 
+# 若你用脚本直接传入 Dataset，则可忽略 datasets 块
+max_seq_length: 256
+dataset_prepared_path: null
+
+# —— 输出与日志 —— 
+output_dir: "./results_axolotl"
+logging_steps: 50
