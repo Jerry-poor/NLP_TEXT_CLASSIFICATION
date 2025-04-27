@@ -1,23 +1,68 @@
-NLP_TEXT_CLASSIFICATION
+# NLP_TEXT_CLASSIFICATION
 
-选择语言 / Choose Language:
+## 选择语言 / Choose Language
 
 - [中文 README](README_zh.md)
 
-    [文件说明]:
+## 文件说明
 
-    sm.py为使用spacy的en_core_web_sm管道进行训练微调并验证的python代码文件
+本项目的模型文件主要分为三类：
 
-    dataset文件夹内的文件为处理后的数据集，格式为n行两列，"sentence"列中为String类型的句子，"entities"列中为一个嵌套数组，格式为[["实体一",(起始位置，终止位置),"实体一标签"],["实体二",(起始位置，终止位置),"实体二标签"],...]
+### 1. LLM API 调用
 
-    dataset/deepseek-r1内为调用deepseek-r1的文件，出于隐私考虑,api.py被忽略跟踪没有上传。
+- 支持调用 DeepSeek、ChatGPT、Gemini 等模型。
+- 实验分为 zero-shot 和 few-shot 推理。
 
-    trf.py为使用spacy的en_core_web_trf管道进行训练微调并验证的python代码文件，继承了sm.py的格式
+### 2. 其他模型
 
-    trf1.py为使用spacy的en_core_web_trf管道进行训练微调并验证的python代码文件，重构了格式（由于使用trf.py训练精度过低，所以代码进行了重写）
+- 包括使用 spaCy 预训练管道（sm 系列）和 NuNER 模型。
+- 注意：由于使用 position 特征时模型拟合效果不佳，后续更换了算法。
+- `sm0.py` 为最新版本，输出格式如下：
 
-    error_result为临时文件，可能是trf.py的预测错误内容
+  ```
+  [[entity0, order, label], [entity1, order, label], ...]
+  ```
 
-    other_model内为NuNER模型
+- spaCy 管道说明：
+  - `sm` 系列：可直接切换文本处理模型（如 md、lg）。
+  - `trf` 系列：由于版本兼容问题导致实验中止（对象生命周期异常）。
 
-- [English README](README_en.md)
+### 3. LLM 微调模型
+
+- 使用模型：
+  - DeepSeek-R1-Distill-Qwen 1.5B / 7B
+  - Llama4-17B
+- 已完成全量微调实验。DeepSeek-R1 Distill 1.5B 版本在测试中取得最高分数，超越原 NuNER SOTA 表现。
+
+## LoRA 微调实验（进行中）
+
+- 微调模型：Llama4-17B
+- 框架：Axolotl
+- 微调方式：INT4量化 LoRA 微调
+
+## 资源结构说明
+
+- `experiment_log/`：包含历史实验日志（详细实验数据将在论文发表后公开）。
+- `model/`：存放所有模型代码。
+- `model/FFT/`：存放微调后的模型及推理脚本。
+
+## 已发布模型
+
+- DeepSeek-R1 1.5B FFT v4 微调模型已打包上传。
+- 支持 Windows 终端推理，测试硬件为单张 2080Ti，无推理压力。
+
+- [Google Drive - 模型下载](https://drive.google.com/file/d/1-L8KtT2USiZtG6eS2rXyOU3rveRQAl-u/view?usp=drive_link)
+- [requirements.txt - 环境依赖文件](https://drive.google.com/file/d/1HCBd9aUkgMHEabdsu6Y93Nn7DEhndFkV/view?usp=drive_link)
+
+## 抓取类别（实体标签）
+
+| 标签 | 含义 |
+|-----|-----|
+| per | Person（人名） |
+| org | Organization（组织机构） |
+| gpe | Geopolitical Entity（政治实体） |
+| geo | Geographical Entity（地理实体） |
+| tim | Time indicator（时间标志） |
+| art | Artifact（人工制品） |
+| eve | Event（事件） |
+| nat | Natural Phenomenon（自然现象） |
