@@ -32,12 +32,13 @@ This project aims to develop and optimize algorithms for text classification.
 ## ❀ 超越 SOTA / Surpassing SOTA
 
 - **中文**：  
-  DeepSeek 微调模型在本实验数据集上，**超越了 SOTA 模型 NuNER 及 spaCy 三种预训练管道的微调效果**。
+  本实验中，我们对 **DeepSeek** 模型进行了微调，在实验数据集上全面超越了现有 SOTA 模型，包括 **NuNER**、**spaCy**（`en_core_web_sm` / `md` / `lg`）以及基于 **CoNLL-2003** 数据集微调的 **ELECTRA**。  
+  此外，我们的 **v5 版本**在公开数据集 [abhinavwalia95](https://huggingface.co/datasets/abhinavwalia95) 上也取得了当前最佳（SOTA）性能，进一步验证了模型的泛化能力和实际应用价值。
 
 - **English**：  
-  The fine-tuned DeepSeek models surpassed the performance of the SOTA model NuNER and the three spaCy pretrained pipelines on the experimental dataset.
+  In this study, we fine-tuned the **DeepSeek** model, which outperformed existing state-of-the-art models — including **NuNER**, **spaCy** (`en_core_web_sm` / `md` / `lg`), and **ELECTRA** fine-tuned on **CoNLL-2003** — on our experimental dataset.  
+  Furthermore, our **v5 version** achieved **state-of-the-art performance** on the public benchmark dataset [abhinavwalia95](https://huggingface.co/datasets/abhinavwalia95), demonstrating strong generalization and practical effectiveness.
 
----
 
 ## 📌 更多详细信息 / More Details
 
