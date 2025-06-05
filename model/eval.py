@@ -15,6 +15,7 @@ def evaluate_model(nlp, texts, labels, path, model_name):
     token_pred_total = 0
     token_true_total = 0
     true_sentences = []
+    true_entities_list = []
     for doc_text, true_label in zip(texts, labels):
         sentence_total += 1
         doc = nlp(doc_text)
@@ -27,6 +28,7 @@ def evaluate_model(nlp, texts, labels, path, model_name):
         if set(pred_entities) == set(true_entities):
             sentence_correct += 1
             true_sentences.append(doc_text)
+            true_entities_list.append(true_entities)
         matched_true = set()
         for pred in pred_entities:
             if pred in true_entities:
@@ -54,7 +56,7 @@ def evaluate_model(nlp, texts, labels, path, model_name):
         token_true_total += sum(1 for lab in true_token_labels if lab != "O")
     sentence_precision = sentence_correct / sentence_total if sentence_total > 0 else 0
     sentence_recall = sentence_correct / sentence_total if sentence_total > 0 else 0
-    sentence_f1 = sentence_precision
+    sentence_f1 = 2 * sentence_precision * sentence_recall / (sentence_precision + sentence_recall) if (sentence_precision + sentence_recall) > 0 else 0
     entity_precision = entity_tp / (entity_tp + entity_fp) if (entity_tp + entity_fp) > 0 else 0
     entity_recall = entity_tp / (entity_tp + entity_fn) if (entity_tp + entity_fn) > 0 else 0
     entity_f1 = 2 * entity_precision * entity_recall / (entity_precision + entity_recall) if (entity_precision + entity_recall) > 0 else 0
