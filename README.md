@@ -3,7 +3,7 @@
 📌 **项目 / Project**: 文本分类算法 / Text Classification Algorithm  
 本项目旨在开发和优化文本分类相关的算法。  
 This project aims to develop and optimize algorithms for text classification.
-
+⚠本项目已经停止更新和维护，在https://github.com/Jerry-poor/NLP_Research.git开启了POS模型二周目
 ---
 
 ## 📚 选择语言 / Choose Language
