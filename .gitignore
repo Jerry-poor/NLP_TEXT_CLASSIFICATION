@@ -1,4 +1,4 @@
-api.json
+﻿api.json
 dataset/dataset2/
 fine_tuned_model/
 /dataset/deepseek-r1/api.json
@@ -10,3 +10,64 @@ dataset/dataset1/train.spacy
 **fine_tuned_model/
 other_model/results
 **/optimizer.pt
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+*.so
+*.egg-info/
+.venv/
+venv/
+env/
+.env
+.env.*
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.cache/
+coverage/
+htmlcov/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Datasets (raw and processed)
+dataset/dataset0/*.csv
+dataset/dataset0/*.spacy
+dataset/dataset0/sm_model/
+dataset/dataset1/*.csv
+dataset/dataset1/*.conllu
+
+# Model artifacts and outputs
+model/**/__pycache__/
+model/**/runs/
+model/**/logs/
+model/**/output/
+model/**/checkpoints*/
+model/**/checkpoint*/
+model/**/wandb/
+model/**/lightning_logs/
+model/**/preprocessed_dataset.csv
+model/**/entity_label.csv
+model/**/classification_results/
+model/**/result/
+model/**/results/
+model/API/.env
+model/API/**/.env
+model/API/datasets/
+model/API/deepseek-chat/*.csv
+
+# Experiment logs and exports
+experiment_log/**/log*_img/
+experiment_log/**/log*.docx
+experiment_log/**/log*.txt
+
+# Tools / temp
+bfg.jar
+*.tmp
+*.bak

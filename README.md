@@ -1,46 +1,23 @@
-# NLP_TEXT_CLASSIFICATION
+﻿# NLP_TEXT_CLASSIFICATION
 
-📌 **项目 / Project**: 文本分类算法 / Text Classification Algorithm  
-本项目旨在开发和优化文本分类相关的算法。  
-This project aims to develop and optimize algorithms for text classification.
-⚠本项目已经停止更新和维护，在https://github.com/Jerry-poor/NLP_Research.git开启了POS模型二周目
----
+⚠️ 项目已停止更新和维护，POS 模型二周目见 https://github.com/Jerry-poor/NLP_Research
 
-## 📚 选择语言 / Choose Language
-
+## 选择语言 / Choose Language
 - [中文 README](./Readme/README_zh.md)
 - [English README](./Readme/README_en.md)
 
----
+## 概览 / Overview
+- Text classification & NER experiments across LLM API calls, spaCy baselines, and fine-tuning (DeepSeek-R1, Llama variants, LoRA).
+- 大型数据集与模型检查点不随仓库分发，来源见 `dataset/dataset_url.txt`；已配置 `.gitignore` 与 Git LFS 以避免误提交。
+- API 与推理侧包含 DeepSeek 的 zero/few-shot 流程与置信度输出（见 `model/API/Deepseek`、`model/API/deepseek-chat`）。
 
-## ⭐ 全量微调实验已有结果 / Fine-tuning Experiment Results
+## 目录结构 / Layout
+- `dataset/`: 下载链接与处理脚本；CSV/CONLLU/`.spacy` 等大文件已忽略。
+- `model/API/`: DeepSeek / ChatGPT / Gemini 等 API 分类器及实验配置、结果脚本。
+- `model/FFT/`: DeepSeek-R1 1.5B/7B 微调脚本与配置；检查点与预处理数据不在仓库。
+- `model/LoRA/`, `model/AzureFT/`, `model/ELECTRA/`, `model/NuNER/`, `model/Spacy/`: 其他基线与实验。
+- `experiment_log/`: 历史实验日志（docx/txt 已忽略）；`Blog/` 含实验笔记。
 
-- 🔧 **中文**：  
-  - DeepSeek-R1 1.5B 微调后，在 v5 版本上实体级别达到了 **F1-score 87**，v4 版本为 **F1-score 86**。
-  - DeepSeek-R1 7B 微调后达到 **F1-score 86**。
-  - v5 版本中已固定训练随机数种子，禁用了 cuDNN 的 benchmark，并启用了 cuDNN 的 deterministic，确保在非 bit 级别的可复现性。
-  - 如果本次模型为最终版本（final version），源码将在论文发表后公开。目前 v4 版本的全部源码已公开。如果后续有新模型微调结果超过 v5，将公开 v5 版本源码。
-
-- 🔧 **English**：  
-  - After fine-tuning, DeepSeek-R1 1.5B achieved **F1-score 87** on v5 and **F1-score 86** on v4.
-  - DeepSeek-R1 7B fine-tuned model achieved **F1-score 86**.
-  - In v5, random seeds were fixed, cuDNN benchmark was disabled, and cuDNN deterministic mode was enabled to ensure reproducibility (except for bit-level differences).
-  - If this model is confirmed as the final version, the source code will be released after the paper publication. All source code of v4 is already publicly available. If future fine-tuning surpasses v5, v5 source code will also be released.
-
----
-
-## ❀ 超越 SOTA / Surpassing SOTA
-
-- **中文**：  
-  本实验中，我们对 **DeepSeek** 模型进行了微调，在实验数据集上全面超越了现有 SOTA 模型，包括 **NuNER**、**spaCy**（`en_core_web_sm` / `md` / `lg`）以及基于 **CoNLL-2003** 数据集微调的 **ELECTRA**。  
-  此外，我们的 **v5 版本**在公开数据集 [abhinavwalia95](https://huggingface.co/datasets/abhinavwalia95) 上也取得了当前最佳（SOTA）性能，进一步验证了模型的泛化能力和实际应用价值。
-
-- **English**：  
-  In this study, we fine-tuned the **DeepSeek** model, which outperformed existing state-of-the-art models — including **NuNER**, **spaCy** (`en_core_web_sm` / `md` / `lg`), and **ELECTRA** fine-tuned on **CoNLL-2003** — on our experimental dataset.  
-  Furthermore, our **v5 version** achieved **state-of-the-art performance** on the public benchmark dataset [abhinavwalia95](https://huggingface.co/datasets/abhinavwalia95), demonstrating strong generalization and practical effectiveness.
-
-
-## 📌 更多详细信息 / More Details
-
-- **中文**：[知乎文章 - Zhuanlan.zhihu.com](https://zhuanlan.zhihu.com/p/1892251638514828147)
-- **English**：[Zhihu Article (Chinese)](https://zhuanlan.zhihu.com/p/1892251638514828147)
+## 使用提示 / Notes
+- 按 `dataset/dataset_url.txt` 下载原始数据，使用对应处理脚本重新生成 spaCy 二进制或预处理 CSV。
+- 保持密钥在 `.env`（已忽略）；生成的结果文件、检查点、大型 CSV / spaCy 文件请勿提交，必要时使用 Git LFS。

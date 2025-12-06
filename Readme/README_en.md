@@ -8,6 +8,10 @@
 
 This project contains three main types of model files:
 
+### Data & checkpoints
+- Raw/processed datasets and spaCy binaries are not stored in the repo. Download sources are listed in `dataset/dataset_url.txt`.
+- Large artifacts (CSV, CONLLU, `.spacy`, checkpoints) are ignored or tracked via Git LFS to keep the repo lightweight.
+
 ### 1. LLM API Calls
 
 - Supports calling models such as DeepSeek, ChatGPT, and Gemini.
