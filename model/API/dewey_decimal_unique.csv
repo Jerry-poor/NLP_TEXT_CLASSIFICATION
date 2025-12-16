@@ -1,0 +1,979 @@
+﻿ddc_number,level1,level2,level3
+000,"Computer science, information, and general works",General works,"Computer science, knowledge, and systems"
+001,"Computer science, information, and general works",General works,Knowledge
+002,"Computer science, information, and general works",General works,"The book (writing, libraries, and book-related topics)"
+003,"Computer science, information, and general works",General works,Systems
+004,"Computer science, information, and general works",General works,Data processing and computer science
+005,"Computer science, information, and general works",General works,"Computer programming, programs, and data"
+006,"Computer science, information, and general works",General works,"Special computer methods (e.g. AI, multimedia, VR)"
+007,"Computer science, information, and general works",General works,009
+010,"Computer science, information, and general works",Bibliography,Bibliographies
+011,"Computer science, information, and general works",Bibliography,Bibliographies
+012,"Computer science, information, and general works",Bibliography,Bibliographies of individuals
+013,"Computer science, information, and general works",Bibliography,
+014,"Computer science, information, and general works",Bibliography,Bibliographies of anonymous and pseudonymous works
+015,"Computer science, information, and general works",Bibliography,Bibliographies of works from specific places
+016,"Computer science, information, and general works",Bibliography,Bibliographies of works on specific subjects
+017,"Computer science, information, and general works",Bibliography,General subject catalogs
+018,"Computer science, information, and general works",Bibliography,"Catalogs arranged by author, date, etc."
+019,"Computer science, information, and general works",Bibliography,Dictionary catalogs
+020,"Computer science, information, and general works",Library and information sciences,Library and information sciences
+021,"Computer science, information, and general works",Library and information sciences,"Library relationships (with archives, information centers, etc.)"
+022,"Computer science, information, and general works",Library and information sciences,Administration of physical plant
+023,"Computer science, information, and general works",Library and information sciences,Personnel management
+024,"Computer science, information, and general works",Library and information sciences,
+025,"Computer science, information, and general works",Library and information sciences,Library operations
+026,"Computer science, information, and general works",Library and information sciences,Libraries for specific subjects
+027,"Computer science, information, and general works",Library and information sciences,General libraries
+028,"Computer science, information, and general works",Library and information sciences,Reading and use of other information media
+029,"Computer science, information, and general works",Library and information sciences,
+030,"Computer science, information, and general works",Encyclopedias and books of facts,Encyclopedias and books of facts
+031,"Computer science, information, and general works",Encyclopedias and books of facts,Encyclopedias in American English
+032,"Computer science, information, and general works",Encyclopedias and books of facts,Encyclopedias in English
+033,"Computer science, information, and general works",Encyclopedias and books of facts,Encyclopedias in other Germanic languages
+034,"Computer science, information, and general works",Encyclopedias and books of facts,"Encyclopedias in French, Occitan, and Catalan"
+035,"Computer science, information, and general works",Encyclopedias and books of facts,"Encyclopedias in Italian, Romanian, and related languages"
+036,"Computer science, information, and general works",Encyclopedias and books of facts,Encyclopedias in Spanish and Portuguese
+037,"Computer science, information, and general works",Encyclopedias and books of facts,Encyclopedias in Slavic languages
+038,"Computer science, information, and general works",Encyclopedias and books of facts,Encyclopedias in Scandinavian languages
+039,"Computer science, information, and general works",Encyclopedias and books of facts,Encyclopedias in other languages
+040,"Computer science, information, and general works",Unassigned,Unassigned — formerly Biographies
+050,"Computer science, information, and general works","Magazines, journals and serials","Magazines, journals and serials"
+051,"Computer science, information, and general works","Magazines, journals and serials",Serials in American English
+052,"Computer science, information, and general works","Magazines, journals and serials",Serials in English
+053,"Computer science, information, and general works","Magazines, journals and serials",Serials in other Germanic languages
+054,"Computer science, information, and general works","Magazines, journals and serials","Serials in French, Occitan, and Catalan"
+055,"Computer science, information, and general works","Magazines, journals and serials","Serials in Italian, Romanian, and related languages"
+056,"Computer science, information, and general works","Magazines, journals and serials",Serials in Spanish and Portuguese
+057,"Computer science, information, and general works","Magazines, journals and serials",Serials in Slavic languages
+058,"Computer science, information, and general works","Magazines, journals and serials",Serials in Scandinavian languages
+059,"Computer science, information, and general works","Magazines, journals and serials",Serials in other languages
+060,"Computer science, information, and general works","Associations, organizations and museums","Associations, organizations and museums"
+061,"Computer science, information, and general works","Associations, organizations and museums",Organizations in North America
+062,"Computer science, information, and general works","Associations, organizations and museums",Organizations in British Isles; in England
+063,"Computer science, information, and general works","Associations, organizations and museums",Organizations in central Europe; in Germany
+064,"Computer science, information, and general works","Associations, organizations and museums",Organizations in France and Monaco
+065,"Computer science, information, and general works","Associations, organizations and museums",Organizations in Italy and adjacent islands
+066,"Computer science, information, and general works","Associations, organizations and museums",Organizations in Iberian Peninsula and adjacent islands
+067,"Computer science, information, and general works","Associations, organizations and museums",Organizations in eastern Europe; in Russia
+068,"Computer science, information, and general works","Associations, organizations and museums",Organizations in other geographic areas
+069,"Computer science, information, and general works","Associations, organizations and museums",Museum science
+070,"Computer science, information, and general works","News media, journalism, and publishing","News media, journalism, and publishing"
+071,"Computer science, information, and general works","News media, journalism, and publishing",Newspapers in North America
+072,"Computer science, information, and general works","News media, journalism, and publishing",Newspapers in British Isles; in England
+073,"Computer science, information, and general works","News media, journalism, and publishing",Newspapers in central Europe; in Germany
+074,"Computer science, information, and general works","News media, journalism, and publishing",Newspapers in France and Monaco
+075,"Computer science, information, and general works","News media, journalism, and publishing",Newspapers in Italy and adjacent islands
+076,"Computer science, information, and general works","News media, journalism, and publishing",Newspapers in Iberian peninsula and adjacent islands
+077,"Computer science, information, and general works","News media, journalism, and publishing",Newspapers in eastern Europe; in Russia
+078,"Computer science, information, and general works","News media, journalism, and publishing",Newspapers in Scandinavia
+079,"Computer science, information, and general works","News media, journalism, and publishing",Newspapers in other geographic areas
+080,"Computer science, information, and general works",Quotations,Quotations
+081,"Computer science, information, and general works",Quotations,Collections in American English
+082,"Computer science, information, and general works",Quotations,Collections in English
+083,"Computer science, information, and general works",Quotations,Collections in other Germanic languages
+084,"Computer science, information, and general works",Quotations,"Collections in French, Occitan, Catalan"
+085,"Computer science, information, and general works",Quotations,"Collections in Italian, Romanian, and related languages"
+086,"Computer science, information, and general works",Quotations,Collections in Spanish and Portuguese
+087,"Computer science, information, and general works",Quotations,Collections in Slavic languages
+088,"Computer science, information, and general works",Quotations,Collections in Scandinavian languages
+089,"Computer science, information, and general works",Quotations,Collections in other languages
+090,"Computer science, information, and general works",Manuscripts and rare books,Manuscripts and rare books
+091,"Computer science, information, and general works",Manuscripts and rare books,Manuscripts
+092,"Computer science, information, and general works",Manuscripts and rare books,Block books
+093,"Computer science, information, and general works",Manuscripts and rare books,Incunabula
+094,"Computer science, information, and general works",Manuscripts and rare books,Printed books
+095,"Computer science, information, and general works",Manuscripts and rare books,Books notable for bindings
+096,"Computer science, information, and general works",Manuscripts and rare books,Books notable for illustrations
+097,"Computer science, information, and general works",Manuscripts and rare books,Books notable for ownership or origin
+098,"Computer science, information, and general works",Manuscripts and rare books,"Prohibited works, forgeries, and hoaxes"
+099,"Computer science, information, and general works",Manuscripts and rare books,Books notable for format
+100,Philosophy and psychology,Philosophy,Philosophy
+101,Philosophy and psychology,Philosophy,Theory of philosophy
+102,Philosophy and psychology,Philosophy,Miscellany
+103,Philosophy and psychology,Philosophy,Dictionaries and encyclopedias
+104,Philosophy and psychology,Philosophy,No longer used — formerly Essays
+105,Philosophy and psychology,Philosophy,Serial publications
+106,Philosophy and psychology,Philosophy,Organizations and management
+107,Philosophy and psychology,Philosophy,"Education, research, related topics of philosophy"
+108,Philosophy and psychology,Philosophy,Groups of people
+109,Philosophy and psychology,Philosophy,History and collected biography
+110,Philosophy and psychology,Metaphysics,Metaphysics
+111,Philosophy and psychology,Metaphysics,Ontology
+112,Philosophy and psychology,Metaphysics,No longer used — formerly Methodology
+113,Philosophy and psychology,Metaphysics,Cosmology (Philosophy of nature)
+114,Philosophy and psychology,Metaphysics,Space
+115,Philosophy and psychology,Metaphysics,Time
+116,Philosophy and psychology,Metaphysics,Change
+117,Philosophy and psychology,Metaphysics,Structure
+118,Philosophy and psychology,Metaphysics,Force and energy
+119,Philosophy and psychology,Metaphysics,Number and quantity
+120,Philosophy and psychology,Epistemology,Epistemology
+121,Philosophy and psychology,Epistemology,Epistemology (theory of knowledge)
+122,Philosophy and psychology,Epistemology,Causation
+123,Philosophy and psychology,Epistemology,Determinism and indeterminism
+124,Philosophy and psychology,Epistemology,Teleology
+125,Philosophy and psychology,Epistemology,No longer used — formerly Infinity
+126,Philosophy and psychology,Epistemology,The self
+127,Philosophy and psychology,Epistemology,The unconscious and the subconscious
+128,Philosophy and psychology,Epistemology,Humankind
+129,Philosophy and psychology,Epistemology,Origin and destiny of individual souls
+130,Philosophy and psychology,Parapsychology and occultism,Parapsychology and occultism
+131,Philosophy and psychology,Parapsychology and occultism,"Parapsychological and occult methods for achieving well-being, happiness, success"
+132,Philosophy and psychology,Parapsychology and occultism,No longer used — formerly Mental derangements
+133,Philosophy and psychology,Parapsychology and occultism,Specific topics in parapsychology and occultism
+134,Philosophy and psychology,Parapsychology and occultism,No longer used — formerly Mesmerism and clairvoyance
+135,Philosophy and psychology,Parapsychology and occultism,Dreams and mysteries
+136,Philosophy and psychology,Parapsychology and occultism,No longer used — formerly Mental characteristics
+137,Philosophy and psychology,Parapsychology and occultism,Divinatory graphology
+138,Philosophy and psychology,Parapsychology and occultism,Physiognomy
+139,Philosophy and psychology,Parapsychology and occultism,Phrenology
+140,Philosophy and psychology,Philosophical schools of thought,Philosophical schools of thought
+141,Philosophy and psychology,Philosophical schools of thought,Idealism and related systems and doctrines
+142,Philosophy and psychology,Philosophical schools of thought,Critical philosophy
+143,Philosophy and psychology,Philosophical schools of thought,Bergsonism and intuitionism
+144,Philosophy and psychology,Philosophical schools of thought,Humanism and related systems and doctrines
+145,Philosophy and psychology,Philosophical schools of thought,Sensationalism
+146,Philosophy and psychology,Philosophical schools of thought,Naturalism and related systems and doctrines
+147,Philosophy and psychology,Philosophical schools of thought,Pantheism and related systems and doctrines
+148,Philosophy and psychology,Philosophical schools of thought,"Dogmatism, eclecticism, liberalism, syncretism, and traditionalism"
+149,Philosophy and psychology,Philosophical schools of thought,Other philosophical systems and doctrines
+150,Philosophy and psychology,Psychology,Psychology
+151,Philosophy and psychology,Psychology,No longer used — formerly Intellect
+152,Philosophy and psychology,Psychology,"Sensory perception, movement, emotions, and physiological drives"
+153,Philosophy and psychology,Psychology,Conscious mental processes and intelligence
+154,Philosophy and psychology,Psychology,Subconscious and altered states and processes
+155,Philosophy and psychology,Psychology,Differential and developmental psychology
+156,Philosophy and psychology,Psychology,Comparative psychology
+157,Philosophy and psychology,Psychology,No longer used — formerly Emotions
+158,Philosophy and psychology,Psychology,Applied psychology
+159,Philosophy and psychology,Psychology,No longer used — formerly Will
+160,Philosophy and psychology,Philosophical logic,Philosophical logic
+161,Philosophy and psychology,Philosophical logic,Induction
+162,Philosophy and psychology,Philosophical logic,Deduction
+163,Philosophy and psychology,Philosophical logic,164 Not assigned or no longer used
+165,Philosophy and psychology,Philosophical logic,Fallacies and sources of error
+166,Philosophy and psychology,Philosophical logic,Syllogisms
+167,Philosophy and psychology,Philosophical logic,Hypotheses
+168,Philosophy and psychology,Philosophical logic,Argument and persuasion
+169,Philosophy and psychology,Philosophical logic,Analogy
+170,Philosophy and psychology,Ethics,Ethics
+171,Philosophy and psychology,Ethics,Ethical systems
+172,Philosophy and psychology,Ethics,Political ethics
+173,Philosophy and psychology,Ethics,Ethics of family relationships
+174,Philosophy and psychology,Ethics,Occupational ethics
+175,Philosophy and psychology,Ethics,"Ethics of recreation, leisure, public performances, communication"
+176,Philosophy and psychology,Ethics,Ethics of sex and reproduction
+177,Philosophy and psychology,Ethics,Ethics of social relations
+178,Philosophy and psychology,Ethics,Ethics of consumption
+179,Philosophy and psychology,Ethics,Other ethical norms
+180,Philosophy and psychology,"Ancient, medieval, and Eastern philosophy","Ancient, medieval, and Eastern philosophy"
+181,Philosophy and psychology,"Ancient, medieval, and Eastern philosophy",Eastern philosophy
+182,Philosophy and psychology,"Ancient, medieval, and Eastern philosophy",Pre-Socratic Greek philosophies
+183,Philosophy and psychology,"Ancient, medieval, and Eastern philosophy","Sophistic, Socratic, related Greek philosophies"
+184,Philosophy and psychology,"Ancient, medieval, and Eastern philosophy",Platonic philosophy
+185,Philosophy and psychology,"Ancient, medieval, and Eastern philosophy",Aristotelian philosophy
+186,Philosophy and psychology,"Ancient, medieval, and Eastern philosophy",Skeptic and Neoplatonic philosophies
+187,Philosophy and psychology,"Ancient, medieval, and Eastern philosophy",Epicurean philosophy
+188,Philosophy and psychology,"Ancient, medieval, and Eastern philosophy",Stoic philosophy
+189,Philosophy and psychology,"Ancient, medieval, and Eastern philosophy",Medieval Western philosophy
+190,Philosophy and psychology,Modern Western philosophy,"Modern Western philosophy (19th-century, 20th-century)"
+191,Philosophy and psychology,Modern Western philosophy,Philosophy of the United States and Canada
+192,Philosophy and psychology,Modern Western philosophy,Philosophy of the British Isles
+193,Philosophy and psychology,Modern Western philosophy,Philosophy of Germany and Austria
+194,Philosophy and psychology,Modern Western philosophy,Philosophy of France
+195,Philosophy and psychology,Modern Western philosophy,Philosophy of Italy
+196,Philosophy and psychology,Modern Western philosophy,Philosophy of Spain and Portugal
+197,Philosophy and psychology,Modern Western philosophy,Philosophy of Russia
+198,Philosophy and psychology,Modern Western philosophy,Philosophy of Scandinavia and Finland
+199,Philosophy and psychology,Modern Western philosophy,Philosophy in other geographic areas
+200,Religion,Religion,Religion
+201,Religion,Religion,"Religious mythology, general classes of religion, interreligious relations and attitudes, social theology"
+202,Religion,Religion,Doctrines
+203,Religion,Religion,Public worship and other practices
+204,Religion,Religion,"Religious experience, life, practice"
+205,Religion,Religion,Religious ethics
+206,Religion,Religion,Leaders and organization
+207,Religion,Religion,Missions and religious education
+208,Religion,Religion,Sources
+209,Religion,Religion,Sects and reform movements
+210,Religion,Philosophy and theory of religion,Philosophy and theory of religion
+211,Religion,Philosophy and theory of religion,Concepts of God
+212,Religion,Philosophy and theory of religion,"Existence, ways of knowing God, attributes of God"
+213,Religion,Philosophy and theory of religion,Creation
+214,Religion,Philosophy and theory of religion,Theodicy
+215,Religion,Philosophy and theory of religion,Science and religion
+216,Religion,Philosophy and theory of religion,No longer used—formerly Evil
+217,Religion,Philosophy and theory of religion,No longer used—formerly Prayer
+218,Religion,Philosophy and theory of religion,Humankind
+219,Religion,Philosophy and theory of religion,No longer used—formerly Analogies
+220,Religion,Bible,The Bible
+221,Religion,Bible,Old Testament (Tanakh)
+222,Religion,Bible,Historical books of Old Testament
+223,Religion,Bible,Poetic books of Old Testament
+224,Religion,Bible,Prophetic books of Old Testament
+225,Religion,Bible,New Testament
+226,Religion,Bible,Gospels and Acts
+227,Religion,Bible,Epistles
+228,Religion,Bible,Revelation (Apocalypse)
+229,Religion,Bible,"Apocrypha, pseudepigrapha, and inter-testamental works"
+230,Religion,Christianity,Christianity
+231,Religion,Christianity,God
+232,Religion,Christianity,Jesus Christ and his family
+233,Religion,Christianity,Humankind
+234,Religion,Christianity,Salvation and grace
+235,Religion,Christianity,Spiritual beings
+236,Religion,Christianity,Eschatology
+237,Religion,Christianity,No longer used—formerly Future state
+238,Religion,Christianity,"Creeds, confessions of faith, covenants, and catechisms"
+239,Religion,Christianity,Apologetics and polemics
+240,Religion,Christian moral and devotional theology,Christian practice and observance
+241,Religion,Christian moral and devotional theology,Christian ethics
+242,Religion,Christian moral and devotional theology,Devotional literature
+243,Religion,Christian moral and devotional theology,Evangelistic writings for individuals and families
+244,Religion,Christian moral and devotional theology,No longer used—formerly Religious fiction
+245,Religion,Christian moral and devotional theology,No longer used—formerly Hymnology
+246,Religion,Christian moral and devotional theology,Use of art in Christianity
+247,Religion,Christian moral and devotional theology,Church furnishings and related articles
+248,Religion,Christian moral and devotional theology,"Christian experience, practice, life"
+249,Religion,Christian moral and devotional theology,Christian observances in family life
+250,Religion,Christian orders and local church,Christian orders and local church
+251,Religion,Christian orders and local church,Preaching (Homiletics)
+252,Religion,Christian orders and local church,Texts of sermons
+253,Religion,Christian orders and local church,Pastoral office and work (Pastoral theology)
+254,Religion,Christian orders and local church,Parish administration
+255,Religion,Christian orders and local church,Religious congregations and orders
+256,Religion,Christian orders and local church,No longer used — formerly Religious societies
+257,Religion,Christian orders and local church,"No longer used — formerly Parochial schools, libraries, etc."
+258,Religion,Christian orders and local church,No longer used — formerly Parochial medicine
+259,Religion,Christian orders and local church,"Pastoral care of families, of specific groups of people"
+260,Religion,Social and ecclesiastical theology,Social and ecclesiastical theology
+261,Religion,Social and ecclesiastical theology,Social theology and interreligious relations and attitudes
+262,Religion,Social and ecclesiastical theology,Ecclesiology
+263,Religion,Social and ecclesiastical theology,"Days, times, places of religious observance"
+264,Religion,Social and ecclesiastical theology,Public worship
+265,Religion,Social and ecclesiastical theology,"Sacraments, other rites and acts"
+266,Religion,Social and ecclesiastical theology,Missions
+267,Religion,Social and ecclesiastical theology,Associations for religious work
+268,Religion,Social and ecclesiastical theology,Religious education
+269,Religion,Social and ecclesiastical theology,Spiritual renewal
+270,Religion,History of Christianity,History of Christianity
+271,Religion,History of Christianity,Religious congregations and orders in church history
+272,Religion,History of Christianity,Persecutions in church history
+273,Religion,History of Christianity,Doctrinal controversies and heresies in general church history
+274,Religion,History of Christianity,Christianity in Europe
+275,Religion,History of Christianity,Christianity in Asia
+276,Religion,History of Christianity,Christianity in Africa
+277,Religion,History of Christianity,Christianity in North America
+278,Religion,History of Christianity,Christianity in South America
+279,Religion,History of Christianity,History of Christianity in other areas
+280,Religion,Christian denominations,Christian denominations
+281,Religion,Christian denominations,Early church and Eastern churches
+282,Religion,Christian denominations,Roman Catholic Church
+283,Religion,Christian denominations,Anglican churches
+284,Religion,Christian denominations,"Protestant denominations of continental origin (Lutheran, Continental Reformed)"
+285,Religion,Christian denominations,"Presbyterian churches, Reformed churches centered in America, Congregational churches"
+286,Religion,Christian denominations,"Baptist, Restoration Movement, Adventist churches"
+287,Religion,Christian denominations,Methodist churches; churches related to Methodism
+288,Religion,Christian denominations,No longer used — formerly Unitarian
+289,Religion,Christian denominations,Other denominations and sects
+290,Religion,Other religions,Other religions
+291,Religion,Other religions,No longer used — formerly Comparative religion
+292,Religion,Other religions,Classical religion (Greek and Roman religion)
+293,Religion,Other religions,Germanic religion
+294,Religion,Other religions,Religions of Indic origin
+295,Religion,Other religions,"Zoroastrianism (Mazdaism, Parseeism)"
+296,Religion,Other religions,Judaism
+297,Religion,Other religions,"Islam, Bábism, and Baháʼí Faith"
+298,Religion,Other religions,No longer used — formerly Mormonism
+299,Religion,Other religions,Religions not provided for elsewhere
+300,Social sciences,Social sciences,"Social sciences, sociology, and anthropology"
+301,Social sciences,Social sciences,Sociology and anthropology
+302,Social sciences,Social sciences,Social interaction
+303,Social sciences,Social sciences,Social processes
+304,Social sciences,Social sciences,Factors affecting social behavior
+305,Social sciences,Social sciences,Groups of people
+306,Social sciences,Social sciences,Culture and institutions
+307,Social sciences,Social sciences,Communities
+308,Social sciences,Social sciences,No longer used — formerly Polygraphy
+309,Social sciences,Social sciences,No longer used — formerly History of sociology
+310,Social sciences,Statistics,Statistics
+311,Social sciences,Statistics,No longer used — formerly Theory and methods
+312,Social sciences,Statistics,No longer used — formerly Population
+313,Social sciences,Statistics,No longer used — formerly Special topics
+314,Social sciences,Statistics,General statistics of Europe
+315,Social sciences,Statistics,General statistics of Asia
+316,Social sciences,Statistics,General statistics of Africa
+317,Social sciences,Statistics,General statistics of North America
+318,Social sciences,Statistics,General statistics of South America
+319,Social sciences,Statistics,"General statistics of Australasia, Pacific Ocean islands, Atlantic Ocean islands, Arctic islands, Antarctica"
+320,Social sciences,Political science,Political science
+321,Social sciences,Political science,Systems of governments and states
+322,Social sciences,Political science,Relation of state to organized groups and their members
+323,Social sciences,Political science,Civil and political rights
+324,Social sciences,Political science,Political process
+325,Social sciences,Political science,International migration and colonization
+326,Social sciences,Political science,Slavery and emancipation
+327,Social sciences,Political science,International relations
+328,Social sciences,Political science,The legislative process
+329,Social sciences,Political science,No longer used— formerly Political parties
+330,Social sciences,Economics,Economics
+331,Social sciences,Economics,Labor economics
+332,Social sciences,Economics,Financial economics
+333,Social sciences,Economics,Economics of land and energy
+334,Social sciences,Economics,Cooperatives
+335,Social sciences,Economics,Socialism and related systems
+336,Social sciences,Economics,Public finance
+337,Social sciences,Economics,International economics
+338,Social sciences,Economics,Production
+339,Social sciences,Economics,Macroeconomics and related topics
+340,Social sciences,Law,Law
+341,Social sciences,Law,Law of nations
+342,Social sciences,Law,Constitutional and administrative law
+343,Social sciences,Law,"Military, defense, public property, public finance, tax, commerce (trade), industrial law"
+344,Social sciences,Law,"Labor, social service, education, cultural law"
+345,Social sciences,Law,Criminal law
+346,Social sciences,Law,Private law
+347,Social sciences,Law,Procedure and courts
+348,Social sciences,Law,"Laws, regulations, cases"
+349,Social sciences,Law,"Law of specific jurisdictions, areas, socioeconomic regions, regional intergovernmental organizations"
+350,Social sciences,Public administration,Public administration and military science
+351,Social sciences,Public administration,Public administration
+352,Social sciences,Public administration,General considerations of public administration
+353,Social sciences,Public administration,Specific fields of public administration
+354,Social sciences,Public administration,Public administration of economy and environment
+355,Social sciences,Public administration,Military science
+356,Social sciences,Public administration,Foot forces and warfare
+357,Social sciences,Public administration,Mounted forces and warfare
+358,Social sciences,Public administration,Air and other specialized forces and warfare; engineering and related services
+359,Social sciences,Public administration,Sea forces and warfare
+360,Social sciences,Social problems and services,Social problems and social services
+361,Social sciences,Social problems and services,Social problems and services
+362,Social sciences,Social problems and services,Social problems of and services to groups of people
+363,Social sciences,Social problems and services,Other social problems and services
+364,Social sciences,Social problems and services,Criminology
+365,Social sciences,Social problems and services,Penal and related institutions
+366,Social sciences,Social problems and services,Secret associations and societies
+367,Social sciences,Social problems and services,General clubs
+368,Social sciences,Social problems and services,Insurance
+369,Social sciences,Social problems and services,Associations
+370,Social sciences,Education,Education
+371,Social sciences,Education,"Schools and their activities, special education"
+372,Social sciences,Education,Primary education (elementary education)
+373,Social sciences,Education,Secondary education
+374,Social sciences,Education,Adult education
+375,Social sciences,Education,Curriculum
+376,Social sciences,Education,No longer used — formerly Education of women
+377,Social sciences,Education,No longer used — formerly Ethical education
+378,Social sciences,Education,Higher education (tertiary education)
+379,Social sciences,Education,Public policy issues in education
+380,Social sciences,"Commerce, communications, and transport","Commerce, communications and transportation"
+381,Social sciences,"Commerce, communications, and transport",Commerce (trade)
+382,Social sciences,"Commerce, communications, and transport",International commerce (foreign trade)
+383,Social sciences,"Commerce, communications, and transport",Postal communication
+384,Social sciences,"Commerce, communications, and transport",Communications
+385,Social sciences,"Commerce, communications, and transport",Railroad transportation
+386,Social sciences,"Commerce, communications, and transport",Inland waterway and ferry transportation
+387,Social sciences,"Commerce, communications, and transport","Water, air, space transportation"
+388,Social sciences,"Commerce, communications, and transport",Transportation
+389,Social sciences,"Commerce, communications, and transport",Metrology and standardization
+390,Social sciences,"Customs, etiquette, and folklore","Customs, etiquette and folklore"
+391,Social sciences,"Customs, etiquette, and folklore",Costume and personal appearance
+392,Social sciences,"Customs, etiquette, and folklore",Customs of life cycle and domestic life
+393,Social sciences,"Customs, etiquette, and folklore",Death customs
+394,Social sciences,"Customs, etiquette, and folklore",General customs
+395,Social sciences,"Customs, etiquette, and folklore",Etiquette (manners)
+396,Social sciences,"Customs, etiquette, and folklore",No longer used — formerly Women's position and treatment
+397,Social sciences,"Customs, etiquette, and folklore",No longer used — formerly Outcast studies
+398,Social sciences,"Customs, etiquette, and folklore",Folklore
+399,Social sciences,"Customs, etiquette, and folklore",Customs of war and diplomacy
+400,Language,Language,Language
+401,Language,Language,"Philosophy and theory, international languages"
+402,Language,Language,Miscellany
+403,Language,Language,"Dictionaries, encyclopedias, concordances"
+404,Language,Language,Special topics of language
+405,Language,Language,Serial publications
+406,Language,Language,Organizations and management
+407,Language,Language,"Education, research, related topics"
+408,Language,Language,Groups of people
+409,Language,Language,Geographic treatment and biography
+410,Language,Linguistics,Linguistics
+411,Language,Linguistics,Writing systems of standard forms of languages
+412,Language,Linguistics,Etymology of standard forms of languages
+413,Language,Linguistics,Dictionaries of standard forms of languages
+414,Language,Linguistics,Phonology and phonetics of standard forms of languages
+415,Language,Linguistics,Grammar of standard forms of languages
+416,Language,Linguistics,No longer used — formerly Prosody
+417,Language,Linguistics,Dialectology and historical linguistics
+418,Language,Linguistics,Standard usage (Prescriptive linguistics)
+419,Language,Linguistics,Sign languages
+420,Language,English and Old English languages,English and Old English languages
+421,Language,English and Old English languages,"Writing system, phonology, phonetics of standard English"
+422,Language,English and Old English languages,Etymology of standard English
+423,Language,English and Old English languages,Dictionaries of standard English
+424,Language,English and Old English languages,No longer used — formerly English thesauruses
+425,Language,English and Old English languages,Grammar of standard English
+426,Language,English and Old English languages,No longer used — formerly English prosodies
+427,Language,English and Old English languages,"Historical and geographical variations, modern nongeographic variations of English"
+428,Language,English and Old English languages,Standard English usage (Prescriptive linguistics)
+429,Language,English and Old English languages,Old English (Anglo-Saxon)
+430,Language,German and related languages,German and related languages
+431,Language,German and related languages,"Writing systems, phonology, phonetics of standard German"
+432,Language,German and related languages,Etymology of standard German
+433,Language,German and related languages,Dictionaries of standard German
+434,Language,German and related languages,Not assigned or no longer used
+435,Language,German and related languages,Grammar of standard German
+436,Language,German and related languages,Not assigned or no longer used
+437,Language,German and related languages,"Historical and geographic variations, modern nongeographic variations of German"
+438,Language,German and related languages,Standard German usage (Prescriptive linguistics)
+439,Language,German and related languages,Other Germanic languages
+440,Language,French and related languages,French and related languages
+441,Language,French and related languages,"Writing systems, phonology, phonetics of standard French"
+442,Language,French and related languages,Etymology of standard French
+443,Language,French and related languages,Dictionaries of standard French
+444,Language,French and related languages,Not assigned or no longer used
+445,Language,French and related languages,Grammar of standard French
+446,Language,French and related languages,Not assigned or no longer used
+447,Language,French and related languages,"Historical and geographic variations, modern nongeographic variations of French"
+448,Language,French and related languages,Standard French usage (Prescriptive linguistics)
+449,Language,French and related languages,"Occitan Catalan, Franco-Provençal"
+450,Language,"Italian, Romanian, and related languages","Italian, Romanian and related languages"
+451,Language,"Italian, Romanian, and related languages","Writing systems, phonology, phonetics of standard Italian"
+452,Language,"Italian, Romanian, and related languages",Etymology of standard Italian
+453,Language,"Italian, Romanian, and related languages",Dictionaries of standard Italian
+454,Language,"Italian, Romanian, and related languages",Not assigned or no longer used
+455,Language,"Italian, Romanian, and related languages",Grammar of standard Italian
+456,Language,"Italian, Romanian, and related languages",Not assigned or no longer used
+457,Language,"Italian, Romanian, and related languages","Historical and geographic variations, modern nongeographic variations of Italian"
+458,Language,"Italian, Romanian, and related languages",Standard Italian usage (Prescriptive linguistics)
+459,Language,"Italian, Romanian, and related languages","Romanian, Rhaetian, Sardinian, Corsican"
+460,Language,"Spanish, Portuguese, and Galician","Spanish, Portuguese, Galician"
+461,Language,"Spanish, Portuguese, and Galician","Writing systems, phonology, phonetics of standard Spanish"
+462,Language,"Spanish, Portuguese, and Galician",Etymology of standard Spanish
+463,Language,"Spanish, Portuguese, and Galician",Dictionaries of standard Spanish
+464,Language,"Spanish, Portuguese, and Galician",Not assigned or no longer used
+465,Language,"Spanish, Portuguese, and Galician",Grammar of standard Spanish
+466,Language,"Spanish, Portuguese, and Galician",Not assigned or no longer used
+467,Language,"Spanish, Portuguese, and Galician","Historical and geographic variations, modern nongeographic variations of Spanish"
+468,Language,"Spanish, Portuguese, and Galician",Standard Spanish usage (Prescriptive linguistics)
+469,Language,"Spanish, Portuguese, and Galician",Portuguese
+470,Language,Latin and Italic languages,Latin and Italic languages
+471,Language,Latin and Italic languages,"Writing systems, phonology, phonetics of classical Latin"
+472,Language,Latin and Italic languages,Etymology of classical Latin
+473,Language,Latin and Italic languages,Dictionaries of classical Latin
+474,Language,Latin and Italic languages,Not assigned or no longer used
+475,Language,Latin and Italic languages,Grammar of classical Latin
+476,Language,Latin and Italic languages,Not assigned or no longer used
+477,Language,Latin and Italic languages,"Old, postclassical, vulgar Latin"
+478,Language,Latin and Italic languages,Classical Latin usage (Prescriptive linguistics)
+479,Language,Latin and Italic languages,Other Italic languages
+480,Language,Classical and modern Greek languages,Classical and modern Greek languages
+481,Language,Classical and modern Greek languages,"Writing systems, phonology, phonetics of classical Greek"
+482,Language,Classical and modern Greek languages,Etymology of classical Greek
+483,Language,Classical and modern Greek languages,Dictionaries of classical Greek
+484,Language,Classical and modern Greek languages,Not assigned or no longer used
+485,Language,Classical and modern Greek languages,Grammar of classical Greek
+486,Language,Classical and modern Greek languages,Not assigned or no longer used
+487,Language,Classical and modern Greek languages,Preclassical and postclassical Greek
+488,Language,Classical and modern Greek languages,Classical Greek usage (Prescriptive linguistics)
+489,Language,Classical and modern Greek languages,Other Hellenic languages
+490,Language,Other languages,Other languages
+491,Language,Other languages,East Indo-European and Celtic languages
+492,Language,Other languages,Afro-Asiatic languages
+493,Language,Other languages,Non-Semitic Afro-Asiatic languages
+494,Language,Other languages,"Altaic, Uralic, Hyperborean, Dravidian languages, miscellaneous languages of South Asia"
+495,Language,Other languages,Languages of East Asia and Southeast Asia
+496,Language,Other languages,African languages
+497,Language,Other languages,North American native languages
+498,Language,Other languages,South American native languages
+499,Language,Other languages,"Non-Austronesian languages of Oceania, Austronesian languages, miscellaneous languages"
+500,Science,Science,Science
+501,Science,Science,Philosophy and theory
+502,Science,Science,Miscellany
+503,Science,Science,"Dictionaries, encyclopedias, concordances"
+504,Science,Science,Not assigned or no longer used
+505,Science,Science,Serial publications
+506,Science,Science,Organizations and management
+507,Science,Science,"Education, research, related topics"
+508,Science,Science,Natural history
+509,Science,Science,"History, geographic treatment, biography"
+510,Science,Mathematics,Mathematics
+511,Science,Mathematics,General principles of mathematics
+512,Science,Mathematics,Algebra
+513,Science,Mathematics,Arithmetic
+514,Science,Mathematics,Topology
+515,Science,Mathematics,Analysis
+516,Science,Mathematics,Geometry
+517,Science,Mathematics,Not assigned or no longer used
+518,Science,Mathematics,Numerical analysis
+519,Science,Mathematics,Probabilities and applied mathematics
+520,Science,Astronomy,Astronomy
+521,Science,Astronomy,Celestial mechanics
+522,Science,Astronomy,"Techniques, procedures, apparatus, equipment, materials"
+523,Science,Astronomy,Specific celestial bodies and phenomena
+524,Science,Astronomy,Not assigned or no longer used
+525,Science,Astronomy,Earth (Astronomical geography)
+526,Science,Astronomy,Mathematical geography
+527,Science,Astronomy,Celestial navigation
+528,Science,Astronomy,Ephemerides
+529,Science,Astronomy,Chronology
+530,Science,Physics,Physics
+531,Science,Physics,Classical mechanics
+532,Science,Physics,Fluid mechanics
+533,Science,Physics,Pneumatics (Gas mechanics)
+534,Science,Physics,Sound and related vibrations
+535,Science,Physics,Light and related radiation
+536,Science,Physics,Heat
+537,Science,Physics,Electricity and electronics
+538,Science,Physics,Magnetism
+539,Science,Physics,Modern physics
+540,Science,Chemistry,Chemistry
+541,Science,Chemistry,Physical chemistry
+542,Science,Chemistry,"Techniques, procedures, apparatus, equipment, materials"
+543,Science,Chemistry,Analytical chemistry
+544,Science,Chemistry,No longer used — formerly Qualitative analysis
+545,Science,Chemistry,No longer used — formerly Quantitative analysis
+546,Science,Chemistry,Inorganic chemistry
+547,Science,Chemistry,Organic chemistry
+548,Science,Chemistry,Crystallography
+549,Science,Chemistry,Mineralogy
+550,Science,Earth sciences and geology,Earth sciences and geology
+551,Science,Earth sciences and geology,"Geology, hydrology, meteorology"
+552,Science,Earth sciences and geology,Petrology
+553,Science,Earth sciences and geology,Economic geology
+554,Science,Earth sciences and geology,Earth sciences of Europe
+555,Science,Earth sciences and geology,Earth sciences of Asia
+556,Science,Earth sciences and geology,Earth sciences of Africa
+557,Science,Earth sciences and geology,Earth sciences of North America
+558,Science,Earth sciences and geology,Earth sciences of South America
+559,Science,Earth sciences and geology,"Earth sciences of Australasia, Pacific Ocean islands, Atlantic Ocean islands, Arctic islands, Antarctica, extraterrestrial worlds"
+560,Science,Fossils and prehistoric life,Fossils and prehistoric life
+561,Science,Fossils and prehistoric life,"Paleobotany, fossil microorganisms"
+562,Science,Fossils and prehistoric life,Fossil invertebrates
+563,Science,Fossils and prehistoric life,Miscellaneous fossil marine and seashore invertebrates
+564,Science,Fossils and prehistoric life,Fossil Mollusca and Molluscoidea
+565,Science,Fossils and prehistoric life,Fossil Arthropoda
+566,Science,Fossils and prehistoric life,Fossil Chordata
+567,Science,Fossils and prehistoric life,Fossil cold-blooded vertebrates
+568,Science,Fossils and prehistoric life,Fossil Aves (birds)
+569,Science,Fossils and prehistoric life,Fossil Mammalia
+570,Science,Life sciences and biology,Biology
+571,Science,Life sciences and biology,Physiology and related subjects
+572,Science,Life sciences and biology,Biochemistry
+573,Science,Life sciences and biology,"Specific physiological systems in animals, regional histology and physiology in animals"
+574,Science,Life sciences and biology,Not assigned or no longer used
+575,Science,Life sciences and biology,Specific parts of and physiological systems in plants
+576,Science,Life sciences and biology,Genetics and evolution
+577,Science,Life sciences and biology,Ecology
+578,Science,Life sciences and biology,Natural history of organisms and related subjects
+579,Science,Life sciences and biology,"Natural history of microorganisms, fungi, algae"
+580,Science,Plants (Botany),Plants
+581,Science,Plants (Botany),Specific topics in natural history of plants
+582,Science,Plants (Botany),Plants noted for specific vegetative characteristics and flowers
+583,Science,Plants (Botany),Magnoliopsida (Dicotyledones)
+584,Science,Plants (Botany),Liliopsida (Monocotyledones)
+585,Science,Plants (Botany),Pinophyta (Gymnosperms)
+586,Science,Plants (Botany),Cryptogamia (seedless plants)
+587,Science,Plants (Botany),Pteridophyta
+588,Science,Plants (Botany),Bryophyta
+589,Science,Plants (Botany),No longer used—formerly Forestry
+590,Science,Animals (Zoology),Animals (Zoology)
+591,Science,Animals (Zoology),Specific topics in natural history of animals
+592,Science,Animals (Zoology),Invertebrates
+593,Science,Animals (Zoology),Miscellaneous marine and seashore invertebrates
+594,Science,Animals (Zoology),Mollusca and Molluscoidea
+595,Science,Animals (Zoology),Arthropoda
+596,Science,Animals (Zoology),Chordata
+597,Science,Animals (Zoology),Cold-blooded vertebrates
+598,Science,Animals (Zoology),Aves (birds)
+599,Science,Animals (Zoology),Mammalia (mammals)
+600,Technology,Technology,Technology
+601,Technology,Technology,Philosophy and theory
+602,Technology,Technology,Miscellany
+603,Technology,Technology,"Dictionaries, encyclopedias, concordances"
+604,Technology,Technology,"Technical drawing, hazardous materials technology; groups of people"
+605,Technology,Technology,Serial publications
+606,Technology,Technology,Organizations
+607,Technology,Technology,"Education, research, related topics"
+608,Technology,Technology,Patents
+609,Technology,Technology,"History, geographic treatment, biography"
+610,Technology,Medicine and health,Medicine and health
+611,Technology,Medicine and health,"Human anatomy, cytology, histology"
+612,Technology,Medicine and health,Human physiology
+613,Technology,Medicine and health,Personal health and safety
+614,Technology,Medicine and health,"Forensic medicine; incidence of injuries, wounds, disease; public preventive medicine"
+615,Technology,Medicine and health,Pharmacology and therapeutics
+616,Technology,Medicine and health,Diseases
+617,Technology,Medicine and health,"Surgery, regional medicine, dentistry, ophthalmology, otology, audiology"
+618,Technology,Medicine and health,"Gynecology, obstetrics, pediatrics, geriatrics"
+619,Technology,Medicine and health,No longer used—formerly Experimental medicine
+620,Technology,Engineering,Engineering
+621,Technology,Engineering,Applied physics
+622,Technology,Engineering,Mining and related operations
+623,Technology,Engineering,Military and nautical engineering
+624,Technology,Engineering,Civil engineering
+625,Technology,Engineering,"Engineering of railroads, roads"
+626,Technology,Engineering,Not assigned or no longer used
+627,Technology,Engineering,Hydraulic engineering
+628,Technology,Engineering,Sanitary engineering
+629,Technology,Engineering,Other branches of engineering
+630,Technology,Agriculture,Agriculture
+631,Technology,Agriculture,"Specific techniques; apparatus, equipment, materials"
+632,Technology,Agriculture,"Plant injuries, diseases, pests"
+633,Technology,Agriculture,Field and plantation crops
+634,Technology,Agriculture,"Orchards, fruits, forestry"
+635,Technology,Agriculture,Garden crops (horticulture)
+636,Technology,Agriculture,Animal husbandry
+637,Technology,Agriculture,Processing dairy and related products
+638,Technology,Agriculture,Insect culture
+639,Technology,Agriculture,"Hunting, fishing, conservation, related technologies"
+640,Technology,Home and family management,Home and family management
+641,Technology,Home and family management,Food and drink
+642,Technology,Home and family management,Meals and table service
+643,Technology,Home and family management,Housing and household equipment
+644,Technology,Home and family management,Household utilities
+645,Technology,Home and family management,Household furnishings
+646,Technology,Home and family management,"Sewing, clothing, management of personal and family life"
+647,Technology,Home and family management,Management of public households (institutional housekeeping)
+648,Technology,Home and family management,Housekeeping
+649,Technology,Home and family management,Child rearing; home care of people with disabilities and illnesses
+650,Technology,Management and public relations,Management and public relations
+651,Technology,Management and public relations,Office services
+652,Technology,Management and public relations,Processes of written communication
+653,Technology,Management and public relations,Shorthand
+654,Technology,Management and public relations,656 Not assigned or no longer used
+657,Technology,Management and public relations,Accounting
+658,Technology,Management and public relations,General management
+659,Technology,Management and public relations,Advertising and public relations
+660,Technology,Chemical engineering,Chemical engineering
+661,Technology,Chemical engineering,Technology of industrial chemicals
+662,Technology,Chemical engineering,"Technology of explosives, fuels, related products"
+663,Technology,Chemical engineering,Beverage technology
+664,Technology,Chemical engineering,Food technology
+665,Technology,Chemical engineering,"Technology of industrial oils, fats, waxes, gases"
+666,Technology,Chemical engineering,Ceramic and allied technologies
+667,Technology,Chemical engineering,"Cleaning, color, coating, related technologies"
+668,Technology,Chemical engineering,Technology of other organic products
+669,Technology,Chemical engineering,Metallurgy
+670,Technology,Manufacturing,Manufacturing
+671,Technology,Manufacturing,Metalworking processes and primary metal products
+672,Technology,Manufacturing,"Iron, steel, other iron alloys"
+673,Technology,Manufacturing,Nonferrous metals
+674,Technology,Manufacturing,"Lumber processing, wood products, cork"
+675,Technology,Manufacturing,Leather processing and fur processing
+676,Technology,Manufacturing,Pulp and paper technology
+677,Technology,Manufacturing,Textiles
+678,Technology,Manufacturing,Elastomers and elastomer products
+679,Technology,Manufacturing,Other products of specific kinds of materials
+680,Technology,Manufacture for specific uses,Manufacture for specific uses
+681,Technology,Manufacture for specific uses,Precision instruments and other devices
+682,Technology,Manufacture for specific uses,Small forge work (blacksmithing)
+683,Technology,Manufacture for specific uses,Hardware and household appliances
+684,Technology,Manufacture for specific uses,Furnishings and home workshops
+685,Technology,Manufacture for specific uses,"Leather and fur goods, and related products"
+686,Technology,Manufacture for specific uses,Printing and related activities
+687,Technology,Manufacture for specific uses,Clothing and accessories
+688,Technology,Manufacture for specific uses,"Other final products, and packaging technology"
+689,Technology,Manufacture for specific uses,Not assigned or no longer used
+690,Technology,Building and construction,Construction of buildings
+691,Technology,Building and construction,Building materials
+692,Technology,Building and construction,Auxiliary construction practices
+693,Technology,Building and construction,Construction in specific types of materials and for specific purposes
+694,Technology,Building and construction,Wood construction
+695,Technology,Building and construction,Roof covering
+696,Technology,Building and construction,Utilities
+697,Technology,Building and construction,"Heating, ventilating, air-conditioning engineering"
+698,Technology,Building and construction,Detail finishing
+699,Technology,Building and construction,Not assigned or no longer used
+700,Arts and recreation,Arts and recreation,Arts
+701,Arts and recreation,Arts and recreation,Philosophy and theory of fine arts and decorative arts
+702,Arts and recreation,Arts and recreation,Miscellany of fine and decorative arts
+703,Arts and recreation,Arts and recreation,"Dictionaries, encyclopedias, concordances of fine and decorative arts"
+704,Arts and recreation,Arts and recreation,Special topics in fine and decorative arts
+705,Arts and recreation,Arts and recreation,Serial publications of fine and decorative arts
+706,Arts and recreation,Arts and recreation,Organizations and management of fine and decorative arts
+707,Arts and recreation,Arts and recreation,"Education, research, related topics of fine and decorative arts"
+708,Arts and recreation,Arts and recreation,"Galleries, museums, private collections of fine and decorative arts"
+709,Arts and recreation,Arts and recreation,"History, geographic treatment, biography"
+710,Arts and recreation,Civic and landscape art,Area planning and landscape architecture
+711,Arts and recreation,Civic and landscape art,Area planning (civic art)
+712,Arts and recreation,Civic and landscape art,Landscape architecture (Landscape design)
+713,Arts and recreation,Civic and landscape art,Landscape architecture of trafficways
+714,Arts and recreation,Civic and landscape art,Water features in landscape architecture
+715,Arts and recreation,Civic and landscape art,Woody plants in landscape architecture
+716,Arts and recreation,Civic and landscape art,Herbaceous plants in landscape architecture
+717,Arts and recreation,Civic and landscape art,Structures in landscape architecture
+718,Arts and recreation,Civic and landscape art,Landscape design of cemeteries
+719,Arts and recreation,Civic and landscape art,Natural landscapes
+720,Arts and recreation,Architecture,Architecture
+721,Arts and recreation,Architecture,Architectural materials and structural elements
+722,Arts and recreation,Architecture,Architecture from earliest times to c. 300
+723,Arts and recreation,Architecture,Architecture from c. 300 to 1399
+724,Arts and recreation,Architecture,Architecture from 1400
+725,Arts and recreation,Architecture,Public structures
+726,Arts and recreation,Architecture,Buildings for religious and related purposes
+727,Arts and recreation,Architecture,Buildings for educational and research purposes
+728,Arts and recreation,Architecture,Residential and related buildings
+729,Arts and recreation,Architecture,Design and decoration of structures and accessories
+730,Arts and recreation,"Sculpture, ceramics, and metalwork","Sculpture, ceramics and metalwork"
+731,Arts and recreation,"Sculpture, ceramics, and metalwork","Processes, forms, subjects of sculpture"
+732,Arts and recreation,"Sculpture, ceramics, and metalwork","Sculpture from earliest times to c. 500, sculpture of non-literate peoples"
+733,Arts and recreation,"Sculpture, ceramics, and metalwork","Greek, Etruscan, Roman sculpture"
+734,Arts and recreation,"Sculpture, ceramics, and metalwork",Sculpture from ca 500 to 1399
+735,Arts and recreation,"Sculpture, ceramics, and metalwork",Sculpture from 1400
+736,Arts and recreation,"Sculpture, ceramics, and metalwork",Carving and carvings
+737,Arts and recreation,"Sculpture, ceramics, and metalwork",Numismatics and sigillography
+738,Arts and recreation,"Sculpture, ceramics, and metalwork",Ceramic arts
+739,Arts and recreation,"Sculpture, ceramics, and metalwork",Art metalwork
+740,Arts and recreation,Drawing and decorative arts,Graphic arts and decorative arts
+741,Arts and recreation,Drawing and decorative arts,Drawing and drawings
+742,Arts and recreation,Drawing and decorative arts,Perspective in drawing
+743,Arts and recreation,Drawing and decorative arts,Drawing and drawings by subject
+744,Arts and recreation,Drawing and decorative arts,Communication design and visual design (proposed)
+745,Arts and recreation,Drawing and decorative arts,Decorative arts
+746,Arts and recreation,Drawing and decorative arts,Textile arts
+747,Arts and recreation,Drawing and decorative arts,Interior decoration
+748,Arts and recreation,Drawing and decorative arts,Glass
+749,Arts and recreation,Drawing and decorative arts,Furniture and accessories
+750,Arts and recreation,Painting,Painting
+751,Arts and recreation,Painting,"Techniques, procedures, apparatus, equipment, materials, forms"
+752,Arts and recreation,Painting,Color
+753,Arts and recreation,Painting,"Symbolism, allegory, mythology, legend"
+754,Arts and recreation,Painting,Genre paintings
+755,Arts and recreation,Painting,Religion
+756,Arts and recreation,Painting,Not assigned or no longer used
+757,Arts and recreation,Painting,Human figures
+758,Arts and recreation,Painting,"Nature, architectural subjects and cityscapes, other specific subjects"
+759,Arts and recreation,Painting,"History, geographic treatment, biography"
+760,Arts and recreation,Printmaking and prints,Printmaking and prints
+761,Arts and recreation,Printmaking and prints,Relief processes (block printing)
+762,Arts and recreation,Printmaking and prints,Not assigned or no longer used
+763,Arts and recreation,Printmaking and prints,Lithographic processes (planographic processes)
+764,Arts and recreation,Printmaking and prints,Chromolithography and serigraphy
+765,Arts and recreation,Printmaking and prints,Metal engraving
+766,Arts and recreation,Printmaking and prints,"Mezzotinting, aquatinting, and related processes"
+767,Arts and recreation,Printmaking and prints,Etching and drypoint
+768,Arts and recreation,Printmaking and prints,Not assigned or no longer used
+769,Arts and recreation,Printmaking and prints,Prints
+770,Arts and recreation,"Photography, computer art, film, video","Photography, computer art, film, video"
+771,Arts and recreation,"Photography, computer art, film, video","Techniques, procedures, apparatus, equipment, materials"
+772,Arts and recreation,"Photography, computer art, film, video",Metallic salt processes
+773,Arts and recreation,"Photography, computer art, film, video",Pigment processes of printing
+774,Arts and recreation,"Photography, computer art, film, video",No longer used—formerly Holography
+775,Arts and recreation,"Photography, computer art, film, video",No longer used—formerly Digital photography
+776,Arts and recreation,"Photography, computer art, film, video",Computer art (digital art)
+777,Arts and recreation,"Photography, computer art, film, video",Cinematography and videography
+778,Arts and recreation,"Photography, computer art, film, video",Specific fields and special kinds of photography
+779,Arts and recreation,"Photography, computer art, film, video",Photographic images
+780,Arts and recreation,Music,Music
+781,Arts and recreation,Music,General principles and musical forms
+782,Arts and recreation,Music,Vocal music
+783,Arts and recreation,Music,Music for single voices
+784,Arts and recreation,Music,Instruments and Instrumental ensembles and their music
+785,Arts and recreation,Music,Ensembles with only one instrument per part
+786,Arts and recreation,Music,"Keyboard, mechanical, electrophonic, percussion instruments"
+787,Arts and recreation,Music,Stringed instruments (chordophones)
+788,Arts and recreation,Music,Wind instruments (aerophones)
+789,Arts and recreation,Music,Not assigned or no longer used
+790,Arts and recreation,"Sports, games, and entertainment","Sports, games and entertainment"
+791,Arts and recreation,"Sports, games, and entertainment",Public performances
+792,Arts and recreation,"Sports, games, and entertainment",Stage presentations
+793,Arts and recreation,"Sports, games, and entertainment",Indoor games and amusements
+794,Arts and recreation,"Sports, games, and entertainment",Indoor games of skill
+795,Arts and recreation,"Sports, games, and entertainment",Games of chance
+796,Arts and recreation,"Sports, games, and entertainment",Athletic and outdoor sports and games
+797,Arts and recreation,"Sports, games, and entertainment",Aquatic sports and air sports
+798,Arts and recreation,"Sports, games, and entertainment",Equestrian sports and animal racing
+799,Arts and recreation,"Sports, games, and entertainment","Fishing, hunting, shooting"
+800,Literature,Literature,"Literature, rhetoric and criticism"
+801,Literature,Literature,Philosophy and theory
+802,Literature,Literature,Miscellany
+803,Literature,Literature,"Dictionaries, encyclopedias, concordances"
+804,Literature,Literature,Not assigned or no longer used
+805,Literature,Literature,Serial publications
+806,Literature,Literature,Organizations and management
+807,Literature,Literature,"Education, research, related topics"
+808,Literature,Literature,Rhetoric and collections of literary texts from more than two literatures
+809,Literature,Literature,"History, description, critical appraisal of more than two literatures"
+810,Literature,American literature in English,American literature in English
+811,Literature,American literature in English,American poetry in English
+812,Literature,American literature in English,American drama in English
+813,Literature,American literature in English,American fiction in English
+814,Literature,American literature in English,American essays in English
+815,Literature,American literature in English,American speeches in English
+816,Literature,American literature in English,American letters in English
+817,Literature,American literature in English,American humor and satire in English
+818,Literature,American literature in English,American miscellaneous writings in English
+819,Literature,American literature in English,No longer used—formerly Puzzle activities
+820,Literature,English and Old English literatures,English and Old English literatures
+821,Literature,English and Old English literatures,English poetry
+822,Literature,English and Old English literatures,English drama
+823,Literature,English and Old English literatures,English fiction
+824,Literature,English and Old English literatures,English essays
+825,Literature,English and Old English literatures,English speeches
+826,Literature,English and Old English literatures,English letters
+827,Literature,English and Old English literatures,English humor and satire
+828,Literature,English and Old English literatures,English miscellaneous writings
+829,Literature,English and Old English literatures,Old English (Anglo-Saxon) literature
+830,Literature,German and related literatures,German and related literatures
+831,Literature,German and related literatures,German poetry
+832,Literature,German and related literatures,German drama
+833,Literature,German and related literatures,German fiction
+834,Literature,German and related literatures,German essays
+835,Literature,German and related literatures,German speeches
+836,Literature,German and related literatures,German letters
+837,Literature,German and related literatures,German humor and satire
+838,Literature,German and related literatures,German miscellaneous writings
+839,Literature,German and related literatures,Other Germanic literatures
+840,Literature,French and related literatures,French and related literatures
+841,Literature,French and related literatures,French poetry
+842,Literature,French and related literatures,French drama
+843,Literature,French and related literatures,French fiction
+844,Literature,French and related literatures,French essays
+845,Literature,French and related literatures,French speeches
+846,Literature,French and related literatures,French letters
+847,Literature,French and related literatures,French humor and satire
+848,Literature,French and related literatures,French miscellaneous writings
+849,Literature,French and related literatures,"Occitan, Catalan, Franco-Provençal literatures"
+850,Literature,"Italian, Romanian, and related literatures","Italian, Romanian and related literatures"
+851,Literature,"Italian, Romanian, and related literatures",Italian poetry
+852,Literature,"Italian, Romanian, and related literatures",Italian drama
+853,Literature,"Italian, Romanian, and related literatures",Italian fiction
+854,Literature,"Italian, Romanian, and related literatures",Italian essays
+855,Literature,"Italian, Romanian, and related literatures",Italian speeches
+856,Literature,"Italian, Romanian, and related literatures",Italian letters
+857,Literature,"Italian, Romanian, and related literatures",Italian humor and satire
+858,Literature,"Italian, Romanian, and related literatures",Italian miscellaneous writings
+859,Literature,"Italian, Romanian, and related literatures","Literatures of Romanian, Rhaetian, Sardinian, Corsican languages"
+860,Literature,"Spanish, Portuguese, and Galician literatures","Spanish, Portuguese, Galician literatures"
+861,Literature,"Spanish, Portuguese, and Galician literatures",Spanish poetry
+862,Literature,"Spanish, Portuguese, and Galician literatures",Spanish drama
+863,Literature,"Spanish, Portuguese, and Galician literatures",Spanish fiction
+864,Literature,"Spanish, Portuguese, and Galician literatures",Spanish essays
+865,Literature,"Spanish, Portuguese, and Galician literatures",Spanish speeches
+866,Literature,"Spanish, Portuguese, and Galician literatures",Spanish letters
+867,Literature,"Spanish, Portuguese, and Galician literatures",Spanish humor and satire
+868,Literature,"Spanish, Portuguese, and Galician literatures",Spanish miscellaneous writings
+869,Literature,"Spanish, Portuguese, and Galician literatures",Literatures of Portuguese and Galician languages
+870,Literature,Latin and Italic literatures,Latin and Italic literatures
+871,Literature,Latin and Italic literatures,Latin poetry
+872,Literature,Latin and Italic literatures,Latin dramatic poetry and drama
+873,Literature,Latin and Italic literatures,Latin epic poetry and fiction
+874,Literature,Latin and Italic literatures,Latin lyric poetry
+875,Literature,Latin and Italic literatures,Latin speeches
+876,Literature,Latin and Italic literatures,Latin letters
+877,Literature,Latin and Italic literatures,Latin humor and satire
+878,Literature,Latin and Italic literatures,Latin miscellaneous writings
+879,Literature,Latin and Italic literatures,Literatures of other Italic languages
+880,Literature,Classical and modern Greek literatures,Classical and modern Greek literatures
+881,Literature,Classical and modern Greek literatures,Classical Greek poetry
+882,Literature,Classical and modern Greek literatures,Classical Greek drama
+883,Literature,Classical and modern Greek literatures,Classical Greek epic poetry and fiction
+884,Literature,Classical and modern Greek literatures,Classical Greek lyric poetry
+885,Literature,Classical and modern Greek literatures,Classical Greek speeches
+886,Literature,Classical and modern Greek literatures,Classical Greek letters
+887,Literature,Classical and modern Greek literatures,Classical Greek humor and satire
+888,Literature,Classical and modern Greek literatures,Classical Greek miscellaneous writings
+889,Literature,Classical and modern Greek literatures,Modern Greek literature
+890,Literature,Other literatures,Other literatures
+891,Literature,Other literatures,East Indo-European and Celtic literatures
+892,Literature,Other literatures,Afro-Asiatic literatures
+893,Literature,Other literatures,Non-Semitic Afro-Asiatic literatures
+894,Literature,Other literatures,"Literatures of Altaic, Uralic, Hyperborean, Dravidian languages; literatures of miscellaneous languages of South Asia"
+895,Literature,Other literatures,Literatures of East and Southeast Asia
+896,Literature,Other literatures,African literatures
+897,Literature,Other literatures,Literatures of North American native languages
+898,Literature,Other literatures,Literatures of South American native languages
+899,Literature,Other literatures,"Literatures of non-Austronesian languages of Oceania, of Austronesian languages, of miscellaneous languages"
+900,History and geography,History and geography,History
+901,History and geography,History and geography,Philosophy and theory of history
+902,History and geography,History and geography,Miscellany of history
+903,History and geography,History and geography,"Dictionaries, encyclopedias, concordances of history"
+904,History and geography,History and geography,Collected accounts of events
+905,History and geography,History and geography,Serial publications of history
+906,History and geography,History and geography,Organizations and management of history
+907,History and geography,History and geography,"Education, research, related topics of history"
+908,History and geography,History and geography,History with respect to groups of people
+909,History and geography,History and geography,World history
+910,History and geography,Geography and travel,Geography and travel
+911,History and geography,Geography and travel,Historical geography
+912,History and geography,Geography and travel,Graphic representations of surface of Earth and of extraterrestrial worlds
+913,History and geography,Geography and travel,Geography of and travel in the ancient world
+914,History and geography,Geography and travel,Geography of and travel in Europe
+915,History and geography,Geography and travel,Geography of and travel in Asia
+916,History and geography,Geography and travel,Geography of and travel in Africa
+917,History and geography,Geography and travel,Geography of and travel in North America
+918,History and geography,Geography and travel,Geography of and travel in South America
+919,History and geography,Geography and travel,"Geography of and travel in Australasia, Pacific Ocean islands, Atlantic Ocean islands, Arctic islands, Antarctica, and on extraterrestrial worlds"
+920,History and geography,Biography and genealogy,Biography and genealogy
+921,History and geography,Biography and genealogy,"928 This range is reserved as an optional location for biographies, which are shelved alphabetically by subject's last name."
+929,History and geography,Biography and genealogy,"Genealogy, names, insignia"
+930,History and geography,History of ancient world (to c. 499),History of ancient world (to c. 499)
+931,History and geography,History of ancient world (to c. 499),China to 420
+932,History and geography,History of ancient world (to c. 499),Egypt to 640
+933,History and geography,History of ancient world (to c. 499),Palestine to 70
+934,History and geography,History of ancient world (to c. 499),South Asia to 647
+935,History and geography,History of ancient world (to c. 499),Mesopotamia and Iranian Plateau to 637
+936,History and geography,History of ancient world (to c. 499),Europe north and west of Italian Peninsula to c. 499
+937,History and geography,History of ancient world (to c. 499),Italy and adjacent territories to 476
+938,History and geography,History of ancient world (to c. 499),Greece to 323
+939,History and geography,History of ancient world (to c. 499),Other parts of ancient world
+940,History and geography,History of Europe,History of Europe
+941,History and geography,History of Europe,British Isles
+942,History and geography,History of Europe,England and Wales
+943,History and geography,History of Europe,Germany and neighboring central European countries
+944,History and geography,History of Europe,France and Monaco
+945,History and geography,History of Europe,"Italy, San Marino, Vatican City, Malta"
+946,History and geography,History of Europe,"Spain, Andorra, Gibraltar, Portugal"
+947,History and geography,History of Europe,Russia and neighboring east European countries
+948,History and geography,History of Europe,Scandinavia
+949,History and geography,History of Europe,Other parts of Europe
+950,History and geography,History of Asia,History of Asia
+951,History and geography,History of Asia,China and adjacent areas
+952,History and geography,History of Asia,Japan
+953,History and geography,History of Asia,Arabian Peninsula and adjacent areas
+954,History and geography,History of Asia,India and neighboring south Asian countries
+955,History and geography,History of Asia,Iran
+956,History and geography,History of Asia,Middle East (near East)
+957,History and geography,History of Asia,Siberia (Asiatic Russia)
+958,History and geography,History of Asia,Central Asia
+959,History and geography,History of Asia,Southeast Asia
+960,History and geography,History of Africa,History of Africa
+961,History and geography,History of Africa,Tunisia and Libya
+962,History and geography,History of Africa,"Egypt, Sudan, South Sudan"
+963,History and geography,History of Africa,Ethiopia and Eritrea
+964,History and geography,History of Africa,"Morocco, Ceuta, Melilla, Western Sahara, Canary Islands"
+965,History and geography,History of Africa,Algeria
+966,History and geography,History of Africa,West Africa and offshore islands
+967,History and geography,History of Africa,Central Africa and offshore islands
+968,History and geography,History of Africa,South Africa and southern Africa
+969,History and geography,History of Africa,South Indian Ocean islands
+970,History and geography,History of North America,History of North America
+971,History and geography,History of North America,Canada
+972,History and geography,History of North America,"Mexico, Central America, West Indies, Bermuda"
+973,History and geography,History of North America,United States
+974,History and geography,History of North America,Northeastern United States (New England and Middle Atlantic states)
+975,History and geography,History of North America,Southeastern United States (South Atlantic states)
+976,History and geography,History of North America,South central United States
+977,History and geography,History of North America,North central United States
+978,History and geography,History of North America,Western United States
+979,History and geography,History of North America,Great Basin and Pacific Slope region of United States
+980,History and geography,History of South America,History of South America
+981,History and geography,History of South America,Brazil
+982,History and geography,History of South America,Argentina
+983,History and geography,History of South America,Chile
+984,History and geography,History of South America,Bolivia
+985,History and geography,History of South America,Peru
+986,History and geography,History of South America,Colombia and Ecuador
+987,History and geography,History of South America,Venezuela
+988,History and geography,History of South America,Guiana
+989,History and geography,History of South America,Paraguay and Uruguay
+990,History and geography,History of other areas,History of other areas
+991,History and geography,History of other areas,992 Not assigned or no longer used
+993,History and geography,History of other areas,New Zealand
+994,History and geography,History of other areas,Australia
+995,History and geography,History of other areas,New Guinea and neighboring countries of Melanesia
+996,History and geography,History of other areas,Polynesia and other Pacific Ocean islands
+997,History and geography,History of other areas,Atlantic Ocean islands
+998,History and geography,History of other areas,Arctic islands and Antarctica
+999,History and geography,History of other areas,Extraterrestrial worlds

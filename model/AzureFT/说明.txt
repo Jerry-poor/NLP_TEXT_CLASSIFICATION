@@ -1,1 +1,0 @@
-本次代码全部参考https://learn.microsoft.com/en-us/azure/ai-services/openai/tutorials/fine-tune?tabs=command-line的内容

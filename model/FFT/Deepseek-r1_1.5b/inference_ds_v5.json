@@ -1,0 +1,9 @@
+{
+    "mp_size": 1,
+    "inference": {
+      "dtype": "float32",
+      "replace_method": "auto",
+      "replace_with_kernel_inject": true
+    }
+  }
+  

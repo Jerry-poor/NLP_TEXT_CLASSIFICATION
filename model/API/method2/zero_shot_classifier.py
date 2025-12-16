@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""Zero/One/Few-shot classifiers for method2: model returns per-class scores; confidence from softmax."""
+"""Zero/One/Few-shot classifiers for method2: use model logprobs to derive per-class confidence."""
 
 import os
 import sys
@@ -24,24 +24,18 @@ from llm_classifier_utils import (  # type: ignore
 
 
 def create_zero_shot_prompt(title: str, abstract: str) -> str:
-    """Prompt asking for raw scores per DDC category; we will softmax locally."""
+    """Prompt that forces the model to pick exactly one DDC code; logprobs used for confidence."""
     ddc_categories = get_ddc_categories()
-    categories_list = "\n".join([f'- code: {code}, name: "{name}"' for code, name in ddc_categories.items()])
+    categories_list = "\n".join([f"{code}: {name}" for code, name in ddc_categories.items()])
+    prompt = f"""You are a text classifier. Choose the single best Dewey Decimal Classification (DDC) first-level code from the list.
 
-    prompt = f"""You are a text classifier. For each Dewey Decimal Classification (DDC) first-level category below, produce an UNNORMALIZED score (any real number; do NOT convert to percent or probability). We will apply softmax ourselves.
-
-Categories:
+Available codes:
 {categories_list}
 
 Text title: {title}
 Text abstract: {abstract}
 
-Return JSON array, e.g.:
-[
-  {{"code": "500", "name": "Science", "score": 3.2}},
-  ...
-]
-Include ALL 10 categories in the response, exactly one entry per category code."""
+Answer with ONLY one code from the list (e.g., 500). No explanations."""
     return prompt
 
 
@@ -93,18 +87,34 @@ def _classify_dataset_with_builder(
         idx, row = idx_row
         prompt = prompt_builder(row)
         client = get_client(provider, model=model)
-        label, _ = client.classify_text_with_logprobs(prompt, max_tokens=512)
+        label, _, prob_dist = client.classify_text_with_logprobs(
+            prompt, max_tokens=4, candidate_codes=list(ddc_categories.keys())
+        )
 
-        raw_scores = parse_scores(label) or {}
-        for code in ddc_categories.keys():
-            raw_scores.setdefault(code, 0.0)
-        probs = softmax_from_scores(raw_scores) if raw_scores else {}
+        probs: Dict[str, float] = {}
+        if prob_dist:
+            # Use raw token probabilities for candidates; fill missing with 0
+            probs = {code: prob_dist.get(code, 0.0) for code in ddc_categories.keys()}
+        else:
+            raw_scores = parse_scores(label) or {}
+            if raw_scores:
+                for code in ddc_categories.keys():
+                    raw_scores.setdefault(code, 0.0)
+                probs = softmax_from_scores(raw_scores)
 
         best_code = max(probs, key=probs.get) if probs else None
+        if not best_code:
+            cleaned_label = label.strip().strip('"').strip("'")
+            if cleaned_label in ddc_categories:
+                best_code = cleaned_label
         best_name = ddc_categories.get(best_code, "") if best_code else ""
 
-        sorted_probs = sorted(probs.items(), key=lambda x: x[1], reverse=True)
-        predicted_categories = [(ddc_categories.get(code, code), p) for code, p in sorted_probs]
+        sorted_probs = sorted(probs.items(), key=lambda x: x[1], reverse=True) if probs else []
+        predicted_categories = (
+            [(ddc_categories.get(code, code), p) for code, p in sorted_probs]
+            if sorted_probs
+            else ([(best_name or label, None)] if best_code else [])
+        )
 
         result = {
             "index": idx,
@@ -178,22 +188,20 @@ def zero_shot_classify_dataset(
 
 def create_one_shot_prompt(example: Dict[str, str], title: str, abstract: str) -> str:
     ddc_categories = get_ddc_categories()
-    categories_list = "\n".join([f'- code: {code}, name: "{name}"' for code, name in ddc_categories.items()])
-    prompt = f"""You are a text classifier. Given one labeled example, assign scores to EACH DDC first-level category below (unnormalized).
+    categories_list = "\n".join([f"{code}: {name}" for code, name in ddc_categories.items()])
+    prompt = f"""You are a text classifier. Using the reference example, choose the single best DDC first-level code from the list.
 
 Reference example:
 Title: {example['title']}
 Abstract: {example['abstract']}
 True category: {example['category']} (code: {example['code']})
 
-Categories:
+Available codes:
 {categories_list}
 
-Now score ALL 10 categories for the following text:
+Now classify the following text and answer with ONLY one code from the list (e.g., 500):
 Title: {title}
-Abstract: {abstract}
-
-Return JSON array with ALL categories and a numeric "score" field per item."""
+Abstract: {abstract}"""
     return prompt
 
 
@@ -212,23 +220,23 @@ def one_shot_classify_dataset(
 
 def create_few_shot_prompt(examples: List[Dict[str, str]], title: str, abstract: str) -> str:
     ddc_categories = get_ddc_categories()
-    categories_list = "\n".join([f'- code: {code}, name: "{name}"' for code, name in ddc_categories.items()])
+    categories_list = "\n".join([f"{code}: {name}" for code, name in ddc_categories.items()])
     examples_text = ""
     for i, ex in enumerate(examples, 1):
-        examples_text += f"\nExample {i}:\nTitle: {ex['title']}\nAbstract: {ex['abstract']}\nCategory: {ex['category']} (code: {ex['code']})\n"
-    prompt = f"""You are a text classifier. Given several labeled examples, assign scores to EACH DDC first-level category below (unnormalized).
+        examples_text += (
+            f"\nExample {i}:\nTitle: {ex['title']}\nAbstract: {ex['abstract']}\nCategory: {ex['category']} (code: {ex['code']})\n"
+        )
+    prompt = f"""You are a text classifier. Given several labeled examples, choose the single best DDC first-level code from the list.
 
 Support examples:
 {examples_text}
 
-Categories:
+Available codes:
 {categories_list}
 
-Now score ALL 10 categories for the following text:
+Now classify the following text and answer with ONLY one code from the list (e.g., 500):
 Title: {title}
-Abstract: {abstract}
-
-Return JSON array with ALL categories and a numeric "score" field per item."""
+Abstract: {abstract}"""
     return prompt
 
 

@@ -59,8 +59,11 @@ model/**/result/
 model/**/results/
 model/API/.env
 model/API/**/.env
+!model/API/.env.example
 model/API/datasets/
 model/API/deepseek-chat/*.csv
+datasets/
+
 
 # Experiment logs and exports
 experiment_log/**/log*_img/
