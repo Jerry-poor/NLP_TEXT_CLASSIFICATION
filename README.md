@@ -1,6 +1,4 @@
 
-
-```markdown
 # Efficient LLM Fine-Tuning & Reasoning Framework for NLP Tasks
 
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
@@ -8,12 +6,17 @@
 [![Model](https://img.shields.io/badge/Model-DeepSeek%20%7C%20Qwen-green)](https://github.com/deepseek-ai/DeepSeek-LLM)
 [![Task](https://img.shields.io/badge/Task-NER%20%7C%20Text_Classification-orange)]()
 
-> **Project Abstract**: This repository implements a high-performance framework for adapting Large Language Models (LLMs) to specific NLP tasks. By performing **Full Fine-Tuning (FFT)** and **Int8 Quantization** on **DeepSeek-R1-Distill (1.5B/7B)** models, this project achieves **SOTA performance (F1: 87.1%)** on Named Entity Recognition, surpassing traditional baselines (SpaCy) and recent research models (NuNER) while maintaining inference efficiency on consumer-grade hardware.
+> **Project Abstract**: This repository implements a high-performance framework for adapting Large Language Models (LLMs) to specific NLP tasks. By performing **Full Fine-Tuning (FFT)** and **Int8 Quantization** on **DeepSeek-R1-Distill (1.5B/7B)** models, this project achieves **SOTA performance (F1: 87.1%)** on Named Entity Recognition, surpassing traditional baselines (SpaCy), discriminative models (ELECTRA), and recent research models (NuNER) while maintaining inference efficiency on consumer-grade hardware.
 
 
 
 ## 🌐 Language
 - [中文 README](README_zh.md) (Chinese Version)
+
+## 📚 Technical Implementation Blogs (Recommended)
+> I have documented the complete thought process and implementation details in my technical blogs. **Highly recommended** for understanding the `DeepSeek` fine-tuning pipeline.
+> * **[DeepSeek R1 Distillation 1.5B Fine-tuning Practice (SOTA)](https://zhuanlan.zhihu.com/p/1892251638514828147)**
+> * **[Fine-tuning 7B Model for NER: From Zero to One](https://zhuanlan.zhihu.com/p/1895169190219974297)**
 
 ---
 
@@ -23,19 +26,17 @@
 Leveraging generative reasoning to extract complex entities.
 
 #### **Methodology:**
-* **LLM Full Fine-Tuning (FFT)**: successfully adapted **DeepSeek-R1-Distill-Qwen** (1.5B & 7B) using supervised fine-tuning techniques.
-* **Baselines**: Benchmarked against **SpaCy** (sm/md/lg pipelines), **ELECTRA**, and **NuNER** (Research SOTA).
-* **Ablation Studies (Analysis of Approaches)**:
-    * *SpaCy `trf`*: Investigated transformer-based pipelines but encountered version compatibility bottlenecks.
-    * *Logprobs Constraints*: Explored constrained decoding via token log-probabilities; found API precision limitations affected stability.
+* **LLM Full Fine-Tuning (FFT)**: Successfully adapted **DeepSeek-R1-Distill-Qwen** (1.5B & 7B) using supervised fine-tuning techniques.
+* **Baselines**: Benchmarked against **SpaCy** (sm/md/lg pipelines), **ELECTRA** (Transformer Encoder), and **NuNER** (Research SOTA).
+* **Design Decisions & Constraints**:
+    * *SpaCy `trf`*: Investigated transformer-based pipelines but excluded them due to version compatibility bottlenecks affecting reproducibility.
+    * *Logprobs Constraints*: Explored constrained decoding via token log-probabilities; discarded as current API limitations prevent precise granular probability retrieval.
 * **Quantization (Ongoing)**: Experimenting with **QLoRA** and **Axolotl** on Llama-4-17B (INT4) to test extreme model compression.
 
 #### **🏆 Experimental Results (Benchmark)**
 
-#### **🏆 Experimental Results (Benchmark)**
-
 **Key Findings:**
-1.  **Dominating Performance**: My fine-tuned **DeepSeek-R1-Distill (1.5B)** achieved an **Entity-Level F1 of 87.1%**, significantly outperforming the NuNER baseline (**Token-Level F1 ~79%**).
+1.  **Dominating Performance**: My fine-tuned **DeepSeek-R1-Distill (1.5B)** achieved an **Entity-Level F1 of 87.1%**, significantly outperforming the NuNER baseline (**Token-Level F1 ~79%**) and ELECTRA-Base (**F1 80.0%**).
     > *Note*: Achieving 87% on strict Entity-Level evaluation (Hard Mode) vs 79% on Token-Level (Easy Mode) demonstrates the superior structural understanding of the fine-tuned generative model.
 2.  **Small vs Large**: The 1.5B model (Deterministic FFT) outperformed the larger **DeepSeek-7B** quantized model (86.1%), proving that rigorous fine-tuning yields better ROI than simple scaling.
 3.  **Efficiency**: Achieved SOTA performance on consumer-grade hardware (RTX 2080Ti) with minimal inference latency.
@@ -45,23 +46,24 @@ Leveraging generative reasoning to extract complex entities.
 | **DeepSeek-R1 (v5)** | **1.5B** | **0.8715** | **0.8707** | **0.8711** | **Entity (Strict)** | **Best Performance**, Deterministic |
 | DeepSeek-R1 | 7B | 0.8638 | 0.8585 | 0.8611 | Entity (Strict) | Int8 Quantized Inference |
 | SpaCy (model: lg) | - | 0.8529 | 0.8518 | 0.8524 | Entity (Strict) | Industrial Baseline |
-| **NuNER** | - | - | - | **~0.7900** | **Token (Loose)** | Research Baseline (SOTA Claim) |
+| **ELECTRA-Base** | - | 0.7778 | 0.8235 | 0.8000 | Entity (Strict) | Encoder-only Baseline |
+| **NuNER** | - | 0.7778 | 0.8235 | 0.8000 | **Token (Loose)** | Research Baseline (20 epoch) |
 | SpaCy (model: md) | - | 0.8512 | 0.8454 | 0.8483 | Entity (Strict) | Standard Baseline |
 
 > **Evaluation Protocol**:
-> * **Entity Level (Strict)**: Requires exact match of both boundary and entity type (used for DeepSeek & SpaCy).
+> * **Entity Level (Strict)**: Requires exact match of both boundary and entity type (used for DeepSeek, SpaCy, ELECTRA).
 > * **Token Level (Loose)**: Calculates metrics character-by-character or token-by-token (used for NuNER baseline).
-> * **Result Interpretation**: DeepSeek-R1's superiority is even more significant than the numbers suggest, as it excels on a much stricter evaluation metric.
-
-> **Evaluation Protocol**:
-> * Metrics calculated at the **Entity Level** (strict matching).
-> * **Sentence Level Accuracy** for DeepSeek 1.5B reached **76.2%**.
-> * *Note*: The NuNER baseline performed within the expected range (~79%) but fell short of the specialized fine-tuned DeepSeek models, highlighting the benefits of generative extraction.
+> * **Result Interpretation**: DeepSeek-R1's superiority is even more significant than the numbers suggest, as it excels on a much stricter evaluation metric compared to NuNER.
 
 ### 2. Text Classification - *Novel Confidence Pipeline*
 * **Method 1 (Implemented)**: Developed a pipeline using LLM-generated confidence scores, highly effective for **Zero-shot** and **Few-shot** scenarios.
 * **Method 2 (Implementation Constraints)**: Investigated external control via Logprobs; identified current API limitations for granular probability retrieval.
 * *Location*: `model/API/method1`
+
+## 📈 Text Classification Results (Detailed)
+> **[Click here to view the full API Classification Report](result/Text-Classifiaciton_API.md)**
+
+For detailed implementation and raw result files, please navigate to the **[`model/API`](model/API)** directory.
 
 ### 3. POS (Part-of-Speech Tagging)
 * *Status*: Migrated to standalone research repo: [NLP_Research](https://github.com/Jerry-poor/NLP_Research.git).
@@ -103,7 +105,7 @@ I provide pre-trained weights and quantized models to facilitate reproducibility
 │   ├── FFT/                  # Full Fine-Tuning implementations
 │   │   ├── Deepseek-r1_1.5b/ # SOTA model scripts
 │   │   └── Deepseek-r1_7b/   # Quantized model scripts
-│   └── Baselines/            # SpaCy & NuNER benchmarking scripts
+│   └── Baselines/            # SpaCy, ELECTRA & NuNER benchmarking scripts
 └── axolotl_config.yaml       # Configuration for LoRA experiments
 
 ```
@@ -117,12 +119,3 @@ I provide pre-trained weights and quantized models to facilitate reproducibility
 | **GPE** | Geopolitical Entity | **EVE** | Events |
 | **GEO** | Geographical Entity | **NAT** | Natural Phenomena |
 
----
-
-###📚 Technical Blogs (Chinese)For detailed implementation notes, please refer to my technical blogs:
-
-* [DeepSeek Distillation Fine-tuning Practice (1.5B)](https://zhuanlan.zhihu.com/p/1892251638514828147)
-* [Fine-tuning DeepSeek-r1:7b for NER](https://zhuanlan.zhihu.com/p/1895169190219974297)
-
-
-```

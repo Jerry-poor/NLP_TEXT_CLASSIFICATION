@@ -10,6 +10,13 @@
 ## 🌐 语言
 - [English README](../README.md) (英文版 - Main)
 
+## 📚 技术实现博客 (推荐阅读)
+> 我在技术博客中记录了完整的思考过程和实现细节。**强烈推荐** 阅读以深入理解 `DeepSeek` 微调全流程。
+> * **[使用LLM进行NER任务：Deepseek蒸馏小模型微调实战 (SOTA)](https://zhuanlan.zhihu.com/p/1892251638514828147)**
+> * **[微调 Deepseek-r1:7b 模型进行 NER 任务：从 0 到 1](https://zhuanlan.zhihu.com/p/1895169190219974297)**
+
+---
+
 ---
 
 ## 🔬 研究方向与方法论
@@ -39,7 +46,7 @@
 | DeepSeek-R1 | 7B | 0.8638 | 0.8585 | 0.8611 | 实体级 (严格) | Int8 量化推理 |
 | SpaCy (model: lg) | - | 0.8529 | 0.8518 | 0.8524 | 实体级 (严格) | 工业界基线 |
 | **ELECTRA-Base** | - | 0.7778 | 0.8235 | 0.8000 | 实体级 (严格) | Encoder-only 基线 |
-| **NuNER** | - | - | - | **~0.7900** | **Token 级 (宽松)** | 学术界基线 (SOTA) |
+| **NuNER** | - | 0.7778 | 0.8235 | 0.8000 | **Token 级 (宽松)** | 学术界基线 (20 epoch) |
 | SpaCy (model: md) | - | 0.8512 | 0.8454 | 0.8483 | 实体级 (严格) | 标准基线 |
 
 > **评估协议**:
@@ -49,8 +56,13 @@
 
 ### 2. 文本分类 - *新型置信度管线*
 * **Method 1 (已实现)**: 开发了基于 LLM 生成置信度分数的管线，在 **Zero-shot** 和 **Few-shot** 场景下非常有效。
-* **Method 2 (消融)**: 调研了通过 Logprobs 进行外部控制；确认了当前 API 在细粒度概率获取上的限制。
+* **Method 2 (服务商不支持)**: 调研了通过 Logprobs 进行外部控制；确认了当前 API 在细粒度概率获取上的限制。
 * *位置*: `model/API/method1`
+
+## 📈 文本分类实验结果 (详细版)
+> **[点击此处查看完整的 API 分类实验报告](result/Text-Classifiaciton_API.md)**
+
+如需查看详细实现代码和原始结果文件，请访问 **[`model/API`](model/API)** 目录。
 
 ### 3. POS (词性标注)
 * *状态*: 已迁移至独立研究仓库: [NLP_Research](https://github.com/Jerry-poor/NLP_Research.git)。
@@ -108,11 +120,6 @@
 
 ---
 
-### 📚 技术博客 (中文)
-关于详细的实现笔记，请参考我的技术博客:
-
-* [使用LLM进行NER任务：Deepseek蒸馏小模型微调实战 (1.5B)](https://zhuanlan.zhihu.com/p/1892251638514828147)
-* [微调 Deepseek-r1:7b 模型进行 NER 任务](https://zhuanlan.zhihu.com/p/1895169190219974297)
 
 ---
 
