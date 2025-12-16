@@ -75,3 +75,4 @@ bfg.jar
 *.tmp
 *.bak
 dry_run_output.txt
+temp_inspect_resume.py
