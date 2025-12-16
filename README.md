@@ -1,6 +1,7 @@
 ﻿# NLP_TEXT_CLASSIFICATION
-
-⚠️ 项目已停止更新和维护，POS 模型二周目见 https://github.com/Jerry-poor/NLP_Research
+ 
+NER 模型权重已经量化，可以使用ollama直接运行
+POS 模型见 https://github.com/Jerry-poor/NLP_Research(此模型只是进行了微调，没有进行对比测评)
 
 ## 选择语言 / Choose Language
 - [中文 README](./Readme/README_zh.md)
