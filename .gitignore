@@ -76,3 +76,13 @@ bfg.jar
 *.bak
 dry_run_output.txt
 temp_inspect_resume.py
+
+!model/API/result/
+!model/API/result/**/*.csv
+
+# Large files exclusion
+model/API/datasets/
+model/LoRA/GPT-oss-20b/dataset/
+*.zip
+*.7z
+node_modules/

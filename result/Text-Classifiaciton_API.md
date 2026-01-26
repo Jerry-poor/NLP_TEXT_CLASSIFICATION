@@ -1,98 +1,57 @@
+# Text Classification API Performance Report
 
- Lib DeepSeek-Chat
-# Level-1 One-shot Summary
-- Samples: 500
-- Top-1: 75.80% (379/500)
-- Top-3: 94.20% (471/500)
-- Top-5: 98.00% (490/500)
-# Level-2 One-shot Summary
-- Samples: 500
-- Top-1: 61.80% (309/500)
-- Top-3: 77.20% (386/500)
-- Top-5: 80.40% (402/500)
-# Level-3 Few-shot Summary
-- Samples: 500
-- Top-1: 38.20% (191/500)
-- Top-3: 59.60% (298/500)
-- Top-5: 68.00% (340/500)
+> **Generated on**: 2026-01-26
+> **Source**: `model/API/result/model_comparison_summary_v2.csv`
+> **Note**: **Hit Rate** refers to the **Hierarchical Hit Rate** (probability of correctly predicting all levels for a single sample).
 
- Lib model gpt-5.2-2025-12-11
-# Level-1 One-shot Summary
-- Samples: 500
-- Top-1: 66.60% (333/500)
-- Top-3: 94.80% (474/500)
-- Top-5: 96.40% (482/500)
-# Level-2 One-shot Summary
-- Samples: 500
-- Top-1: 66.20% (331/500)
-- Top-3: 77.80% (389/500)
-- Top-5: 79.80% (399/500)
-# Level-3 One-shot Summary
-- Samples: 500
-- Top-1: 41.20% (206/500)
-- Top-3: 60.40% (302/500)
-- Top-5: 63.80% (319/500)
+## 1. Dataset: Lib (Library Science) - 3 Levels
+*Hierarchy*: Level 1 -> Level 2 -> Level 3
 
+| Model | Level 1 Acc | Level 2 Acc | Level 3 Acc | **Hit Rate** |
+| :--- | :--- | :--- | :--- | :--- |
+| **Qwen3-235B** | 58.60% | 64.80% | 47.00% | **17.85%** |
+| **GPT-5.2** | 58.00% | 66.40% | 49.80% | **19.18%** |
+| **DeepSeek-Chat** | 62.20% | 61.80% | 45.20% | **17.37%** |
 
-model gpt-5.2-2025-12-11
-# AG_news Level-1 Summary
-- Samples: 500
-- Top-1: 60.60% (303/500)
-- Top-3: 89.80% (449/500)
-- Top-5: 90.00% (450/500)
-# AG_news Level-2 Summary
-- Samples: 500
-- Top-1: 60.40% (302/500)
-- Top-3: 83.20% (416/500)
-- Top-5: 88.40% (442/500)
-# AG_news Level-3 Summary
-- Samples: 499
-- Top-1: 50.90% (254/499)
-- Top-3: 77.96% (389/499)
-- Top-5: 80.76% (403/499)
+### Detailed Metrics (Latencies in ms)
+| Model | L1 Top-3 | L1 Latency | L2 Top-3 | L2 Latency | L3 Top-3 | L3 Latency |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| Qwen3-235B | 88.60% | 11079 | 84.20% | 10742 | 69.20% | 10534 |
+| GPT-5.2 | 90.40% | 10471 | 85.80% | 11444 | 74.00% | 10587 |
+| DeepSeek-Chat | 91.40% | 11705 | 83.60% | 13186 | 68.60% | 11686 |
 
-model gpt-5.1-2025-11-13
-# AG_news Level-1 Summary
-- Samples: 500
-- Top-1: 60.60% (303/500)
-- Top-3: 87.80% (439/500)
-- Top-5: 88.80% (444/500)
-# AG_news Level-2 Summary
-- Samples: 500
-- Top-1: 60.20% (301/500)
-- Top-3: 83.80% (419/500)
-- Top-5: 86.40% (432/500)
-# AG_news Level-3 Summary
-- Samples: 494
-- Top-1: 59.72% (295/494)
-- Top-3: 81.58% (403/494)
-- Top-5: 83.20% (411/494)
-deepseek-chat(The model list returned by the API does not contain timestamps or explicit version identifiers; therefore, it is assumed to correspond to the latest v3.2 release.)
-# AG_news Level-1 Summary
-- Samples: 500
-- Top-1: 76.60% (383/500)
-- Top-3: 92.00% (460/500)
-- Top-5: 98.20% (491/500)
-# AG_news Level-2 Summary
-- Samples: 500
-- Top-1: 60.00% (300/500)
-- Top-3: 85.80% (429/500)
-- Top-5: 92.20% (461/500)
-# AG_news Level-3 Summary
-- Samples: 500
-- Top-1: 63.20% (316/500)
-- Top-3: 82.60% (413/500)
-- Top-5: 86.40% (432/500)
+---
 
-dataset: WOS
-model: deepseek-chat
-# WOS DDC Level-1 Summary
-- Samples: 500
-- Top-1: 34.20% (171/500)
-- Top-3: 88.00% (440/500)
-- Top-5: 94.40% (472/500)
-# WOS DDC Level-2 Summary
-- Samples: 500
-- Top-1: 65.80% (329/500)
-- Top-3: 93.00% (465/500)
-- Top-5: 98.20% (491/500)
+## 2. Dataset: AG News - 3 Levels
+*Hierarchy*: Generated DDC-like structure
+
+| Model | Level 1 Acc | Level 2 Acc | Level 3 Acc | **Hit Rate** |
+| :--- | :--- | :--- | :--- | :--- |
+| **Qwen3-235B** | 61.20% | 61.40% | 47.40% | **17.81%** |
+| **GPT-5.2** | 63.80% | 61.40% | 52.00% | **20.37%** |
+| **DeepSeek-Chat** | 64.00% | 55.20% | 48.20% | **17.03%** |
+
+### Detailed Metrics
+| Model | L1 Top-3 | L1 Latency | L2 Top-3 | L2 Latency | L3 Top-3 | L3 Latency |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| Qwen3-235B | 87.80% | 11568 | 86.00% | 11208 | 60.00% | 10972 |
+| GPT-5.2 | 89.00% | 10636 | 88.40% | 10426 | 74.60% | 10565 |
+| DeepSeek-Chat | 90.40% | 14059 | 85.80% | 12460 | 62.20% | 12633 |
+
+---
+
+## 3. Dataset: WOS (Web of Science) - 2 Levels
+*Hierarchy*: Level 1 -> Level 2
+
+| Model | Level 1 Acc | Level 2 Acc | **Hit Rate** |
+| :--- | :--- | :--- | :--- |
+| **Qwen3-235B** | 44.80% | 76.60% | **34.32%** |
+| **GPT-5.2** | 40.20% | 78.60% | **31.60%** |
+| **DeepSeek-Chat** | 45.40% | 71.20% | **32.32%** |
+
+### Detailed Metrics
+| Model | L1 Top-3 | L1 Latency | L2 Top-3 | L2 Latency |
+| :--- | :--- | :--- | :--- | :--- |
+| Qwen3-235B | 88.00% | 11797 | 92.00% | 18483 |
+| GPT-5.2 | 86.20% | 10347 | 96.00% | 10311 |
+| DeepSeek-Chat | 93.20% | 12066 | 94.00% | 12397 |

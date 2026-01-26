@@ -61,6 +61,32 @@ Leveraging generative reasoning to extract complex entities.
 * *Location*: `model/API/method1`
 
 ## 📈 Text Classification Results (Detailed)
+
+> **Note**: The **Hit Rate** reported below is the **Hierarchical Hit Rate**, which requires the model to correctly predict all levels of the hierarchy for a sample to be considered a hit.
+
+### Model Comparison Summary
+
+#### 1. Dataset: Lib (3 Levels)
+| Model | Level 1 Acc | Level 2 Acc | Level 3 Acc | **Hit Rate (Hierarchical)** |
+| :--- | :--- | :--- | :--- | :--- |
+| **Qwen3-235B** | 58.6% | 64.8% | 47.0% | **17.85%** |
+| **GPT-5.2** | 58.0% | 66.4% | 49.8% | **19.18%** |
+| **DeepSeek-Chat** | 62.2% | 61.8% | 45.2% | **17.37%** |
+
+#### 2. Dataset: AG News (3 Levels)
+| Model | Level 1 Acc | Level 2 Acc | Level 3 Acc | **Hit Rate (Hierarchical)** |
+| :--- | :--- | :--- | :--- | :--- |
+| **Qwen3-235B** | 61.2% | 61.4% | 47.4% | **17.81%** |
+| **GPT-5.2** | 63.8% | 61.4% | 52.0% | **20.37%** |
+| **DeepSeek-Chat** | 64.0% | 55.2% | 48.2% | **17.03%** |
+
+#### 3. Dataset: WOS (2 Levels)
+| Model | Level 1 Acc | Level 2 Acc | **Hit Rate (Hierarchical)** |
+| :--- | :--- | :--- | :--- |
+| **Qwen3-235B** | 44.8% | 76.6% | **34.32%** |
+| **GPT-5.2** | 40.2% | 78.6% | **31.60%** |
+| **DeepSeek-Chat** | 45.4% | 71.2% | **32.32%** |
+
 > **[Click here to view the full API Classification Report](result/Text-Classifiaciton_API.md)**
 
 For detailed implementation and raw result files, please navigate to the **[`model/API`](model/API)** directory.
